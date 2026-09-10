@@ -1,0 +1,2 @@
+{"report_id":"DEMO-001","source_language":"en","original_text":"Synthetic source text used only to exercise the pipeline.","translated_text":"","classification":{"branch":"Demo","subcategory_id":"D.1","subcategory":"Synthetic example","event_type":"Acute"}}
+{"report_id":"DEMO-002","source_language":"fr","original_text":"Exemple synthétique utilisé uniquement pour tester le pipeline.","translated_text":"Synthetic example used only to test the pipeline.","classification":{"branch":"Demo","subcategory_id":"D.1","subcategory":"Synthetic example","event_type":"Acute"}}

@@ -1,0 +1,18 @@
+inference:
+  checkpoint: checkpoints/predicted_phtkg.pt
+  fixed_checkpoint: true
+  retrain: false
+
+similarity:
+  enabled: true
+
+clustering:
+  min_pattern_size: 5
+  kmeans_n_init: 20
+  coarse_k_points: 18
+  local_refinement: true
+
+warning:
+  retroactive_events: >
+    Events earlier than the checkpoint horizon are fixed-checkpoint inference
+    only and do not retroactively update the trained model.

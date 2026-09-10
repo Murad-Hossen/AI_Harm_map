@@ -1,0 +1,10 @@
+seed: 42
+
+model:
+  type: typed_distmult_event_decomposition
+  embedding_dim: 64
+
+evaluation:
+  temporal_split: chronological
+  negative_sampling: role_valid
+  primary_metric: auc

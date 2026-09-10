@@ -1,0 +1,39 @@
+seed: 42
+
+extraction:
+  run_qwen: false
+  run_nli: false
+  model: Qwen/Qwen2.5-3B-Instruct
+  batch_size: 4
+  max_input_tokens: 7000
+  max_new_tokens: 700
+  use_sdpa: true
+  resume: true
+
+phtkg_fallback:
+  embedding_dim: 64
+  layers: 2
+  epochs: 120
+  learning_rate: 0.001
+  weight_decay: 0.0003
+  dropout: 0.10
+  label_smoothing: 0.0
+  negatives: 6
+  validation_fraction: 0.15
+  test_fraction: 0.15
+  patience: 25
+  extrapolation_weight: 0.10
+  extrapolation_warmup_epochs: 30
+  ranking_margin: 0.25
+  ranking_weight: 0.65
+  grad_clip: 1.5
+  hard_negative_pool_multiplier: 1
+  lr_scheduler_patience: 6
+
+auto_tune:
+  enabled: true
+  trials: 30
+  epochs: 100
+  patience: 12
+  seed_offset: 7000
+  std_penalty: 0.15

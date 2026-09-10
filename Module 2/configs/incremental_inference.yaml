@@ -1,0 +1,28 @@
+seed: 42
+
+extraction:
+  model: Qwen/Qwen2.5-3B-Instruct
+  batch_size: 4
+  max_context_tokens: 7000
+  first_output_ceiling: 500
+  retry_output_ceiling: 750
+  snapshot_every_new: 25
+
+class_fit:
+  enabled: true
+  verify_batch_size: 16
+  verify_max_input_tokens: 1800
+  verify_max_new_tokens: 120
+  accepted_statuses:
+    - fit
+  can_reclassify: false
+
+inference:
+  retrain_checkpoint: false
+  top_k_similar: 5
+
+clustering:
+  min_pattern_size: 5
+  coarse_k_points: 18
+  kmeans_n_init: 20
+  frequency_trend_threshold: 0.15

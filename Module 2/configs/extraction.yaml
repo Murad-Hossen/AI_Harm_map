@@ -1,0 +1,15 @@
+model:
+  name: Qwen/Qwen2.5-3B-Instruct
+
+extraction:
+  batch_size: 4
+  max_context_tokens: 7000
+  first_pass_max_new_tokens: 500
+  retry_max_new_tokens: 750
+  do_sample: false
+  use_cache: true
+
+checkpoint:
+  append_only: true
+  durable_write: true
+  snapshot_every: 25

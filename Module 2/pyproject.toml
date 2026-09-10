@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynamic-ai-harm-map"
+version = "0.1.0"
+description = "Research code for an evidence-grounded Dynamic AI Harm Map and PHTKG."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "openpyxl>=3.1",
+    "PyYAML>=6.0",
+    "json-repair>=0.30",
+    "neo4j>=5.20",
+    "transformers>=4.45",
+    "accelerate>=0.30",
+    "sentencepiece>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+notebook = ["jupyter>=1.0", "ipykernel>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

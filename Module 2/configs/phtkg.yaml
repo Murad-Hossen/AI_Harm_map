@@ -1,0 +1,25 @@
+seed: 42
+
+model:
+  embedding_dim: 64
+  layers: null
+  dropout: null
+
+training:
+  learning_rate: null
+  weight_decay: null
+  epochs: null
+  patience: null
+  negatives: null
+  label_smoothing: null
+  grad_clip: null
+
+temporal_split:
+  chronological: true
+  validation_fraction: 0.15
+  test_fraction: 0.15
+  undated_events: train_only
+
+notes:
+  - "Fill null values from the final frozen PHTKG configuration/checkpoint."
+  - "Do not retune during final paper-result reproduction."
