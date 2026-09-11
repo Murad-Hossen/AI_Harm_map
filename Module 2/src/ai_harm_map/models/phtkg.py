@@ -1,7 +1,5 @@
-from __future__ import annotations
-
-from dataclasses import dataclass
 import math
+from dataclasses import dataclass
 
 import torch
 import torch.nn as nn
@@ -20,7 +18,7 @@ class PHTKGConfig:
 class PHTKG(nn.Module):
     """Provenance-aware temporal hypergraph architecture."""
 
-    def __init__(self, total_nodes: int, config: PHTKGConfig | None = None):
+    def __init__(self, total_nodes, config=None):
         super().__init__()
         cfg = config or PHTKGConfig()
 
@@ -56,9 +54,7 @@ class PHTKG(nn.Module):
             nn.Linear(2 * d, d), nn.GELU(), nn.Linear(d, 1)
         )
 
-    def encode_time(
-        self, year_normalized: float, device: torch.device
-    ) -> torch.Tensor:
+    def encode_time(self, year_normalized, device):
         year = torch.tensor([[year_normalized]], dtype=torch.float32, device=device)
         vector = (
             year * self.time_linear_weight
@@ -69,14 +65,14 @@ class PHTKG(nn.Module):
 
     def forward(
         self,
-        global_ids: torch.Tensor,
-        years: torch.Tensor,
-        known: torch.Tensor,
-        provenance: torch.Tensor,
-        time_mean: torch.Tensor,
-        time_known: torch.Tensor,
-        entity_state_init: torch.Tensor | None = None,
-    ) -> dict[str, torch.Tensor]:
+        global_ids,
+        years,
+        known,
+        provenance,
+        time_mean,
+        time_known,
+        entity_state_init=None,
+    ):
         event_count = global_ids.shape[0]
         entity_state = (
             self.entity_embeddings.weight
@@ -154,12 +150,7 @@ class PHTKG(nn.Module):
             "entity_state": entity_state,
         }
 
-    def predict_recurrence(
-        self,
-        entity_ids: torch.Tensor,
-        entity_state: torch.Tensor,
-        target_year_normalized: float,
-    ) -> torch.Tensor:
+    def predict_recurrence(self, entity_ids, entity_state, target_year_normalized):
         time_query = self.encode_time(target_year_normalized, entity_state.device)
         time_query = time_query.unsqueeze(0).expand(len(entity_ids), -1)
         logits = self.next_year_head(

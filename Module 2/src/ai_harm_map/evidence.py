@@ -1,18 +1,13 @@
-from __future__ import annotations
-
 from copy import deepcopy
-from typing import Any
 
 from .constants import MISSING_TEXT
 
 
-def _clean(value: Any) -> str:
+def _clean(value):
     return "" if value is None else str(value).strip()
 
 
-def attach_full_source_evidence(
-    event: dict[str, Any], report: dict[str, Any]
-) -> dict[str, Any]:
+def attach_full_source_evidence(event, report):
     """Attach evidence mechanically from the source report."""
     out = deepcopy(event)
 
@@ -28,12 +23,10 @@ def attach_full_source_evidence(
         out["translated_evidence_span"] = translated_text or MISSING_TEXT
 
     out["original_text"] = original_text
-    out["translated_text"] = (
-        original_text if source_language == "en" else translated_text
-    )
+    out["translated_text"] = original_text if source_language == "en" else translated_text
     return out
 
 
-def evidence_matches_source(event: dict[str, Any], report: dict[str, Any]) -> bool:
+def evidence_matches_source(event, report):
     expected = _clean(report.get("original_text")) or MISSING_TEXT
     return event.get("original_evidence_span") == expected

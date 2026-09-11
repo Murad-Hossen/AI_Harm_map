@@ -1,0 +1,30 @@
+seed: 42
+
+extraction:
+  run_qwen: false
+  model: Qwen/Qwen2.5-3B-Instruct
+  batch_size: 4
+  max_input_tokens: 7000
+  max_new_tokens: 700
+  use_sdpa: true
+
+taxonomy:
+  enabled: true
+  path: data/taxonomy/AI_Harm_Map_Taxonomy_Schema_vSHARED.xlsx
+  sheet: Taxonomy & Schema
+  # Set a local/Hugging Face verifier model to run LLM class-fit verification.
+  # Keep null to perform deterministic taxonomy matching only.
+  model: null
+
+phtkg:
+  embedding_dim: 64
+  layers: 2
+  dropout: 0.10
+  epochs: 120
+  learning_rate: 0.001
+  weight_decay: 0.0003
+  negatives: 6
+  validation_fraction: 0.15
+  test_fraction: 0.15
+  patience: 25
+  grad_clip: 1.5

@@ -17,8 +17,6 @@ canonicalized only for graph identity, and the complete source record is also
 stored in raw_json.
 """
 
-from __future__ import annotations
-
 import json
 import logging
 import math
@@ -27,9 +25,8 @@ import unicodedata
 from dataclasses import dataclass
 from getpass import getpass
 from pathlib import Path
-from typing import Any
 
-from neo4j import Driver, GraphDatabase
+from neo4j import GraphDatabase
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 logger = logging.getLogger("ai_harm_neo4j")
@@ -58,7 +55,7 @@ MISSING_VALUES = {
 }
 
 
-def clean_text(value: Any) -> str:
+def clean_text(value):
     if value is None:
         return ""
 
@@ -74,12 +71,12 @@ def clean_text(value: Any) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def is_meaningful(value: Any) -> bool:
+def is_meaningful(value):
     text = clean_text(value)
     return bool(text and text.casefold() not in MISSING_VALUES)
 
 
-def identity_key(value: Any) -> str:
+def identity_key(value):
     text = clean_text(value).casefold().replace("&", " and ")
     text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
     return re.sub(r"\s+", " ", text).strip()
@@ -159,7 +156,7 @@ COUNTRY_ALIASES = {
 }
 
 
-def compile_aliases(aliases: dict[str, str]) -> dict[str, str]:
+def compile_aliases(aliases):
     return {identity_key(alias): canonical for alias, canonical in aliases.items()}
 
 
@@ -167,14 +164,14 @@ ORGANIZATION_ALIASES = compile_aliases(ORGANIZATION_ALIASES_RAW)
 AI_SYSTEM_ALIASES = compile_aliases(AI_SYSTEM_ALIASES_RAW)
 
 
-def canonicalize(value: Any, aliases: dict[str, str]) -> str:
+def canonicalize(value, aliases):
     raw = clean_text(value)
     if not is_meaningful(raw):
         return ""
     return aliases.get(identity_key(raw), raw)
 
 
-def normalize_location(value: Any) -> str:
+def normalize_location(value):
     text = clean_text(value)
     if not is_meaningful(text):
         return ""
@@ -193,9 +190,7 @@ def normalize_location(value: Any) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def entity(
-    raw_value: Any, *, canonical_value: str | None = None
-) -> dict[str, str] | None:
+def entity(raw_value, *, canonical_value=None):
     raw = clean_text(raw_value)
     if not is_meaningful(raw):
         return None
@@ -207,19 +202,19 @@ def entity(
     return {"key": identity_key(canonical), "name": canonical, "raw": raw}
 
 
-def organization_entity(value: Any) -> dict[str, str] | None:
+def organization_entity(value):
     return entity(value, canonical_value=canonicalize(value, ORGANIZATION_ALIASES))
 
 
-def ai_system_entity(value: Any) -> dict[str, str] | None:
+def ai_system_entity(value):
     return entity(value, canonical_value=canonicalize(value, AI_SYSTEM_ALIASES))
 
 
-def location_entity(value: Any) -> dict[str, str] | None:
+def location_entity(value):
     return entity(value, canonical_value=normalize_location(value))
 
 
-def safe_float(value: Any) -> float | None:
+def safe_float(value):
     try:
         number = float(value)
         return number if math.isfinite(number) else None
@@ -227,7 +222,7 @@ def safe_float(value: Any) -> float | None:
         return None
 
 
-def numeric_vector(value: Any) -> list[float] | None:
+def numeric_vector(value):
     if not isinstance(value, list):
         return None
 
@@ -241,7 +236,7 @@ def numeric_vector(value: Any) -> list[float] | None:
     return values
 
 
-def load_events(path: Path) -> list[dict[str, Any]]:
+def load_events(path):
     if not path.exists():
         raise FileNotFoundError(path)
 
@@ -270,7 +265,7 @@ def load_events(path: Path) -> list[dict[str, Any]]:
     return events
 
 
-def neo4j_safe_value(value: Any) -> Any:
+def neo4j_safe_value(value):
     if value is None:
         return None
 
@@ -299,7 +294,7 @@ def neo4j_safe_value(value: Any) -> Any:
     return str(value)
 
 
-def event_properties(event: dict[str, Any]) -> dict[str, Any]:
+def event_properties(event):
     props = {key: neo4j_safe_value(value) for key, value in event.items()}
     props["raw_json"] = json.dumps(event, ensure_ascii=False)
 
@@ -337,7 +332,7 @@ def event_properties(event: dict[str, Any]) -> dict[str, Any]:
     return {key: value for key, value in props.items() if value is not None}
 
 
-def harm_categories(event: dict[str, Any]) -> list[dict[str, Any]]:
+def harm_categories(event):
     categories = event.get("harm_category")
 
     if isinstance(categories, dict):
@@ -372,7 +367,7 @@ def harm_categories(event: dict[str, Any]) -> list[dict[str, Any]]:
     return result
 
 
-def prepare_event(event: dict[str, Any]) -> dict[str, Any]:
+def prepare_event(event):
     report_id = clean_text(event.get("report_id"))
     if not report_id:
         raise ValueError("Encountered event without report_id.")
@@ -524,26 +519,26 @@ SET r.similarity = row.similarity,
 
 
 class Neo4jImporter:
-    def __init__(self, config: Config) -> None:
+    def __init__(self, config):
         self.config = config
-        self.driver: Driver = GraphDatabase.driver(
+        self.driver = GraphDatabase.driver(
             config.neo4j_uri,
             auth=(config.neo4j_user, config.neo4j_password),
         )
 
-    def close(self) -> None:
+    def close(self):
         self.driver.close()
 
-    def verify_connection(self) -> None:
+    def verify_connection(self):
         self.driver.verify_connectivity()
         logger.info("Connected to Neo4j.")
 
-    def create_schema(self) -> None:
+    def create_schema(self):
         for query in CONSTRAINTS:
             self.driver.execute_query(query, database_=self.config.neo4j_database)
         logger.info("Schema constraints ready.")
 
-    def import_events(self, events: list[dict[str, Any]]) -> None:
+    def import_events(self, events):
         rows = [prepare_event(event) for event in events]
         total = len(rows)
 
@@ -556,7 +551,7 @@ class Neo4jImporter:
             )
             logger.info("Events imported: %d/%d", min(start + len(batch), total), total)
 
-    def import_similarities(self, events: list[dict[str, Any]]) -> None:
+    def import_similarities(self, events):
         valid_ids = {clean_text(event.get("report_id")) for event in events}
         rows = []
 
@@ -593,7 +588,7 @@ class Neo4jImporter:
 
         logger.info("Similarity edges imported: %d", len(rows))
 
-    def verify_import(self, expected_events: int) -> None:
+    def verify_import(self, expected_events):
         records, _, _ = self.driver.execute_query(
             "MATCH (e:Event) RETURN count(e) AS count",
             database_=self.config.neo4j_database,
@@ -637,7 +632,7 @@ class Neo4jImporter:
             logger.info("  %-30s %d", record["type"], record["count"])
 
 
-def validate_report_ids(events: list[dict[str, Any]]) -> None:
+def validate_report_ids(events):
     report_ids = [clean_text(event.get("report_id")) for event in events]
 
     missing = [index for index, report_id in enumerate(report_ids) if not report_id]
@@ -657,7 +652,7 @@ def validate_report_ids(events: list[dict[str, Any]]) -> None:
         )
 
 
-def main() -> None:
+def main():
     json_path = Path("/content/predicted_events_FULL_EVIDENCE_PRETTY.json")
 
     config = Config(

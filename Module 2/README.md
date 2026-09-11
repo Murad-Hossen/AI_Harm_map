@@ -1,179 +1,82 @@
-# Dynamic AI Harm Map
+# Dynamic AI Harm Map — PHTKG Research Repository
 
-Anonymous research code and reproducibility package for a **Dynamic AI Harm Map**:
-an evidence-grounded, temporally evolving representation of documented AI harms.
+Research implementation of an evidence-grounded, temporal, provenance-aware hypergraph model for AI-harm events.
 
-The repository separates four concerns that were intertwined during development:
-
-1. grounded event extraction and evidence preservation;
-2. taxonomy/class-fit verification;
-3. temporal graph learning with a Pairwise KG baseline and PHTKG;
-4. downstream storage and map-ready export.
-
-## Method overview
+## Canonical pipeline
 
 ```text
-AI-harm reports
-      |
-      v
-Grounded event extraction
-      |
-      v
-Exact source-evidence attachment
-      |
-      v
-Taxonomy / class-fit verification
-      |
-      v
-Structured AI-harm events
-      |
-      +-----------------------+
-      |                       |
-      v                       v
-Pairwise temporal KG        PHTKG
-(baseline)                  (proposed)
-                              |
-                              v
-                   learned event representations
-                   temporal recurrence estimates
-                   similar-event structure
-                   latent pattern analysis
-                              |
-                    +---------+---------+
-                    |                   |
-                    v                   v
-              enriched JSON          Neo4j
-                    |            graph-oriented storage
-                    v
-           Dynamic AI Harm Map
+multilingual reports
+      ↓
+single-pass Qwen event extraction
+      ↓
+original report retained as source evidence
+      ↓
+upstream classification copied verbatim
+      ↓
+strict taxonomy class-fit verification
+      ↓
+role-aware temporal provenance-aware hypergraph
+      ↓
+PHTKG training on observed vs controlled corrupted hyperedges
+      ↓
+learned event/entity representations + evaluation
 ```
 
-**Neo4j is an optional persistent graph-storage/query layer. The Dynamic AI Harm
-Map is generated from the enriched JSON representation and does not depend on
-Neo4j.**
+The extraction model does **not** freely classify the harm category. The supplied upstream classification is preserved, matched to the authoritative taxonomy spreadsheet, and verified for fit against the grounded event and original report.
 
-## Repository layout
+## Code map
 
-```text
-configs/        Experiment and inference configuration
-data/           Taxonomy, samples, and release placeholders
-docs/           Architecture, schema, reproducibility, and anonymity notes
-notebooks/      Cleaned snapshots of the current experimental pipeline
-scripts/        Command-line entry points
-src/            Reusable Python implementation
-tests/          Integrity and model-shape tests
-tools/          Checkpoint recovery and dataset validation utilities
-```
+### Extraction
+- `src/ai_harm_map/extraction/prompts.py` — canonical extraction prompt.
+- `src/ai_harm_map/extraction/qwen_extractor.py` — batched deterministic Qwen extraction.
+- `src/ai_harm_map/extraction/schema.py` — output normalization.
 
-## Installation
+### Evidence
+- `src/ai_harm_map/evidence.py` — mechanically copies `original_text` as `original_evidence_span`; translated text is retained separately.
 
-Python 3.10+ is recommended.
+### Taxonomy verification
+- `src/ai_harm_map/taxonomy/loader.py` — loads and matches the authoritative taxonomy Excel.
+- `src/ai_harm_map/taxonomy/prompts.py` — strict class-fit verifier prompt.
+- `src/ai_harm_map/taxonomy/verifier.py` — verifies the already-supplied class; it is not a free classifier.
+
+### PHTKG
+- `src/ai_harm_map/models/phtkg.py` — trainable PHTKG architecture with role embeddings, attention, temporal encoding/decay, provenance message/gating, GRU updates and compatibility scoring.
+- `src/ai_harm_map/training/graph.py` — chronological splits and train-only temporal statistics.
+- `src/ai_harm_map/training/corruption.py` — controlled same-role hyperedge corruption.
+- `src/ai_harm_map/training/train.py` — training loop and paired observed-vs-corrupted evaluation.
+
+### Integration
+- `src/ai_harm_map/pipeline/full_pipeline.py` — the single interconnected entry point.
+- `scripts/run_full_pipeline.py` — command-line wrapper.
+- `scripts/train_phtkg.py` — train PHTKG from structured events.
+
+### Experiment interface
+- `notebooks/01_full_model_training_evaluation.ipynb` — the canonical research notebook: single-pass extraction, taxonomy class-fit verification, Pairwise-KG baseline, PHTKG training with Auto-PHTKG validation-only tuning, component-wise verification diagnostics (attention, role geometry, temporal decay, provenance gate, GRUs, multi-hop passing), learned-representation clustering, and recurrence analysis. Outputs and author-identifying metadata are stripped for review; `src/ai_harm_map/` holds the reusable subset of this logic as an importable package for `scripts/run_full_pipeline.py`.
+- `notebooks/02_incremental_inference.ipynb` — incremental inference workflow.
+
+## Run
+
+Install the package in editable mode:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
 pip install -e .
-pip install -r requirements-dev.txt
 ```
 
-On Windows:
+Run the interconnected pipeline:
 
-```powershell
-.venv\Scripts\activate
+```bash
+python scripts/run_full_pipeline.py \
+  --config configs/full_pipeline.yaml \
+  --input data/samples/sample_reports.jsonl \
+  --output results/full_pipeline_demo
 ```
 
-Install the PyTorch build appropriate for the target CUDA runtime before
-reproducing GPU experiments.
-
-## Core event roles
-
-PHTKG jointly models seven event roles:
-
-```text
-organization
-ai_system
-affected_group
-action
-harm_category
-consequence
-location
-```
-
-Each event also carries temporal and provenance information.
+For LLM extraction, set `extraction.run_qwen: true` and provide the required model. For LLM taxonomy verification, set `taxonomy.model` to the chosen local/Hugging Face verifier model. The default configuration keeps those expensive stages disabled so the repository can be inspected and tested without model downloads.
 
 ## Evidence policy
 
-Evidence is attached mechanically from the source record rather than generated
-or shortened by the extraction model:
+The original report is the evidence. The extractor produces a structured interpretation; it does not manufacture evidence spans. `original_evidence_span` is copied mechanically from `original_text`.
 
-- `original_evidence_span` is the complete source `original_text`;
-- for English sources, `translated_evidence_span` is the same source text;
-- for non-English sources, the supplied full `translated_text` is used when available;
-- missing supplied translations remain explicitly missing.
+## Reproducibility
 
-See `src/ai_harm_map/evidence.py`.
-
-## Models
-
-### Pairwise temporal KG baseline
-
-The baseline scores typed pairwise role interactions using a DistMult-style
-event decomposition.
-
-### PHTKG
-
-The provenance-aware hypergraph temporal knowledge graph keeps the complete
-multi-role incident joint. It combines role embeddings, continuous/periodic time
-encoding, provenance conditioning, role-aware attention, recurrent event/entity
-updates, temporal decay, an event scorer, and a recurrence head.
-
-Reusable architecture definitions are in:
-
-```text
-src/ai_harm_map/models/pairwise.py
-src/ai_harm_map/models/phtkg.py
-```
-
-The current full experimental implementation is retained in:
-
-```text
-notebooks/01_training_and_evaluation.ipynb
-```
-
-## Taxonomy
-
-The authoritative taxonomy workbook is stored at:
-
-```text
-data/taxonomy/AI_Harm_Map_Taxonomy_Schema_vSHARED.xlsx
-```
-
-The extraction stage copies supplied classifications. Taxonomy class fit is
-verified separately.
-
-## Neo4j
-
-Import an enriched event file with:
-
-```bash
-python scripts/export_neo4j.py \
-  --input path/to/enriched_events.jsonl \
-  --uri neo4j+s://YOUR_INSTANCE \
-  --user neo4j
-```
-
-Raw extracted values remain on Event nodes while selected graph identities may
-be canonicalized.
-`
-
-
-## Canonical files for this repository version
-
-The current paper implementation is represented by the two notebooks in
-`notebooks/`:
-
-```text
-01_full_model_training_evaluation.ipynb
-02_incremental_inference.ipynb
-```
-
+The final paper configuration should be frozen in YAML before reporting results. Do not tune on the test split. Use chronological train/validation/test separation and keep test-only statistics out of model selection.

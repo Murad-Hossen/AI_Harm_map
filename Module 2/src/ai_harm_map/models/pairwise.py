@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import torch
 import torch.nn as nn
 
@@ -7,13 +5,13 @@ import torch.nn as nn
 class PairwiseBaseline(nn.Module):
     """Typed DistMult scorer over all role pairs in an event."""
 
-    def __init__(self, total_nodes: int, n_roles: int, embedding_dim: int = 64):
+    def __init__(self, total_nodes, n_roles, embedding_dim=64):
         super().__init__()
         self.entity = nn.Embedding(total_nodes, embedding_dim)
         self.relation = nn.Embedding(n_roles * n_roles, embedding_dim)
         self.n_roles = n_roles
 
-    def forward(self, global_ids: torch.Tensor) -> torch.Tensor:
+    def forward(self, global_ids):
         h = self.entity(global_ids)
         batch_size, n_roles, dim = h.shape
 

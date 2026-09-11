@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import argparse
 import shutil
 from datetime import datetime
@@ -12,44 +10,22 @@ from ai_harm_map.io import (
 )
 
 
-def main() -> None:
+def main():
     parser = argparse.ArgumentParser(
-        description=(
-            "Recover predicted_events.jsonl "
-            "from overlapping snapshots."
-        )
+        description="Recover predicted_events.jsonl from overlapping snapshots."
     )
-    parser.add_argument(
-        "--checkpoint",
-        required=True,
-        type=Path,
-    )
-    parser.add_argument(
-        "--snapshots",
-        required=True,
-        type=Path,
-    )
+    parser.add_argument("--checkpoint", required=True, type=Path)
+    parser.add_argument("--snapshots", required=True, type=Path)
     args = parser.parse_args()
 
     snapshot_files = sorted(
-        args.snapshots.glob(
-            "predicted_events_combined_*.jsonl"
-        ),
-        key=lambda path: (
-            path.stat().st_mtime,
-            path.name,
-        ),
+        args.snapshots.glob("predicted_events_combined_*.jsonl"),
+        key=lambda path: (path.stat().st_mtime, path.name),
     )
 
-    sources = snapshot_files + (
-        [args.checkpoint]
-        if args.checkpoint.exists()
-        else []
-    )
+    sources = snapshot_files + ([args.checkpoint] if args.checkpoint.exists() else [])
     if not sources:
-        raise SystemExit(
-            "No checkpoint or snapshot files found."
-        )
+        raise SystemExit("No checkpoint or snapshot files found.")
 
     combined = []
     for path in sources:
@@ -57,30 +33,18 @@ def main() -> None:
         print(f"{path.name}: {len(rows)} rows")
         combined.extend(rows)
 
-    recovered = unique_by_report_id(
-        combined,
-        latest_wins=True,
-    )
+    recovered = unique_by_report_id(combined, latest_wins=True)
 
     if args.checkpoint.exists():
-        timestamp = datetime.now().strftime(
-            "%Y%m%d_%H%M%S"
-        )
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         backup = args.checkpoint.with_name(
-            f"{args.checkpoint.stem}"
-            f"_before_recovery_{timestamp}"
-            f"{args.checkpoint.suffix}"
+            f"{args.checkpoint.stem}_before_recovery_{timestamp}{args.checkpoint.suffix}"
         )
         shutil.copy2(args.checkpoint, backup)
         print(f"backup: {backup}")
 
-    write_jsonl_atomic(
-        args.checkpoint,
-        recovered,
-    )
-    print(
-        f"recovered unique events: {len(recovered)}"
-    )
+    write_jsonl_atomic(args.checkpoint, recovered)
+    print(f"recovered unique events: {len(recovered)}")
     print(f"checkpoint: {args.checkpoint}")
 
 

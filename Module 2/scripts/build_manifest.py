@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import argparse
 import json
 from datetime import datetime, timezone
@@ -8,7 +6,7 @@ from pathlib import Path
 from ai_harm_map.io import load_json_or_jsonl, sha256_file
 
 
-def main() -> None:
+def main():
     parser = argparse.ArgumentParser(description="Build a frozen dataset manifest.")
     parser.add_argument("--events", required=True, type=Path)
     parser.add_argument("--taxonomy", required=True, type=Path)

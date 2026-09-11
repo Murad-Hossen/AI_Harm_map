@@ -1,14 +1,11 @@
-from __future__ import annotations
-
 import copy
-from typing import Any
 
 
-def _missing(value: Any) -> bool:
+def _missing(value):
     return value is None or value == "" or value == []
 
 
-def supplied_classification(report: dict[str, Any]) -> tuple[Any, str | None]:
+def supplied_classification(report):
     """Copy upstream classification exactly; no model taxonomy prediction."""
     raw = report.get("classifications")
     source_field = "classifications"

@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import argparse
 import os
 from getpass import getpass
@@ -13,10 +11,8 @@ from ai_harm_map.storage.neo4j_importer import (
 )
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Import enriched AI-harm events into Neo4j."
-    )
+def main():
+    parser = argparse.ArgumentParser(description="Import enriched AI-harm events into Neo4j.")
     parser.add_argument("--input", required=True, type=Path, help="JSON or JSONL event file")
     parser.add_argument("--uri", default=os.getenv("NEO4J_URI"))
     parser.add_argument("--user", default=os.getenv("NEO4J_USER", "neo4j"))

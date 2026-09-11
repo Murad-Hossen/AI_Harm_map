@@ -4,10 +4,9 @@ import hashlib
 import json
 import os
 from pathlib import Path
-from typing import Any, Iterable
 
 
-def load_json_or_jsonl(path: str | Path) -> list[dict[str, Any]]:
+def load_json_or_jsonl(path):
     path = Path(path)
     raw = path.read_text(encoding="utf-8").strip()
     if not raw:
@@ -25,7 +24,7 @@ def load_json_or_jsonl(path: str | Path) -> list[dict[str, Any]]:
     return rows
 
 
-def append_jsonl_durable(path: str | Path, row: dict[str, Any]) -> None:
+def append_jsonl_durable(path, row):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -38,7 +37,7 @@ def append_jsonl_durable(path: str | Path, row: dict[str, Any]) -> None:
             pass
 
 
-def write_jsonl_atomic(path: str | Path, rows: Iterable[dict[str, Any]]) -> None:
+def write_jsonl_atomic(path, rows):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(path.suffix + ".tmp")
@@ -55,7 +54,7 @@ def write_jsonl_atomic(path: str | Path, rows: Iterable[dict[str, Any]]) -> None
     temp.replace(path)
 
 
-def sha256_file(path: str | Path) -> str:
+def sha256_file(path):
     digest = hashlib.sha256()
     with Path(path).open("rb") as handle:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
@@ -63,11 +62,9 @@ def sha256_file(path: str | Path) -> str:
     return digest.hexdigest()
 
 
-def unique_by_report_id(
-    rows: Iterable[dict[str, Any]], *, latest_wins: bool = True
-) -> list[dict[str, Any]]:
-    order: list[str] = []
-    by_id: dict[str, dict[str, Any]] = {}
+def unique_by_report_id(rows, *, latest_wins=True):
+    order = []
+    by_id = {}
 
     for row in rows:
         report_id = str(row.get("report_id") or "").strip()

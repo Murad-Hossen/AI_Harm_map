@@ -4,7 +4,6 @@ These two notebooks correspond to the current working implementation supplied
 for the paper repository.
 
 - `01_full_model_training_evaluation.ipynb` — full extraction/evaluation,
-  supplied-class fit verification,
   Pairwise temporal KG baseline, PHTKG training, tuning, diagnostics, checkpoint
   export, learned representations, recurrence, and pattern analysis.
 - `02_incremental_inference.ipynb` — append-only extraction of unseen reports,
