@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Harm Map · Explore documented harms</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="geography.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to map and reports</a>
+  <header class="masthead">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">◉</span><div><h1>AI Harm Map</h1><p>Explore the geography of documented harms</p></div></div>
+    <div class="header-meta"><span class="prototype-badge">2021–2026</span><span>Explore reports and sources</span></div>
+  </header>
+  <main class="workspace" id="main-content">
+    <aside class="filters" aria-label="Filter reports">
+      <div class="section-heading"><h2>Explore reports</h2><button class="text-button" id="reset">Reset</button></div>
+      <label for="search">Search reports</label>
+      <input id="search" type="search" placeholder="Title, description or category…">
+      <label for="country">Country</label><select id="country"><option value="">All countries</option></select>
+      <div id="taxonomy-home"><section id="taxonomy-panel" aria-label="Harm categories">
+        <div class="section-heading category-heading"><h3>Harm taxonomy</h3><span class="eyebrow">REPORTS</span></div>
+        <div id="categories" class="categories" role="region" aria-label="Scrollable harm categories" tabindex="0"></div>
+        <p class="fine-print">A report can have several harm categories. Category counts may overlap.</p>
+      </section></div>
+      <div class="coverage-note"><span class="eyebrow">ABOUT THIS VIEW</span><p>Explore documented reports from 2021 to 2026.</p><p>Counts describe this collection of reports, not the prevalence or severity of harm.</p></div>
+    </aside>
+    <section class="central" aria-label="Geography and time">
+      <div class="map-stats" aria-live="polite"><div><strong id="visible-count">—</strong><span>matching reports</span></div><div><strong id="country-count">—</strong><span>countries</span></div><div><strong>2021–2026</strong><span>coverage period</span></div></div>
+      <div class="map-heading"><div><span class="eyebrow">GEOGRAPHIC DISTRIBUTION</span><h2 id="map-title">A world of documented harms</h2></div><button id="world-view" class="world-button">↗ World view</button></div>
+      <div class="map-wrap">
+        <div id="map" aria-label="Borderless world map with country-level report groups"></div>
+        <div id="map-error" role="status" hidden>The map library could not load. Connect to the internet and reload. Report filters and the timeline remain available.</div>
+      </div>
+      <div id="map-legend" class="map-legend"></div>
+      <section class="timeline" aria-label="Report timeline">
+        <div class="timeline-heading"><div><span class="eyebrow">DOCUMENTED OVER TIME</span><h2 id="period-label">Jan 2021 — Dec 2026</h2></div></div>
+        <div class="range-presets" role="group" aria-label="Quick date ranges"><button data-years="1" aria-pressed="false">1Y</button><button data-years="3" aria-pressed="false">3Y</button><button data-years="5" aria-pressed="false">5Y</button><button data-years="all" aria-pressed="true">All</button><span>Ranges end at your selected end month.</span></div>
+        <div class="range-labels"><label for="start">Start <output id="start-label" for="start">Jan 2021</output></label><label for="end">End <output id="end-label" for="end">Dec 2026</output></label></div>
+        <div class="date-range" id="date-range" role="group" aria-label="Select start and end months">
+          <div class="date-range-track" aria-hidden="true"><div class="date-range-fill"></div></div>
+          <input type="range" id="start" min="24252" max="24323" value="24252" step="1" aria-describedby="range-help">
+          <input type="range" id="end" min="24252" max="24323" value="24323" step="1" aria-describedby="range-help">
+        </div>
+        <p id="range-help" class="sr-only">Drag either handle or use the arrow keys to adjust its month. Start cannot move after end. When both handles select the same month, the start handle sits above the end handle.</p>
+        <details class="timeline-settings"><summary>More time options</summary><div class="timeline-options"><label for="resolution">Chart interval<select id="resolution"><option value="year">Yearly</option><option value="month">Monthly</option></select></label><label for="time-mode">Window<select id="time-mode"><option value="period">During this period</option><option value="cumulative">Up to this date</option></select></label><label class="checkbox-label"><input type="checkbox" id="undated">Include undated reports <span id="undated-count"></span></label><button id="play" class="play-button" aria-pressed="false">▶ Play</button></div></details>
+        <div id="histogram" class="histogram" aria-label="Reports by period"></div>
+        <p class="fine-print" id="date-note"></p>
+      </section>
+    </section>
+    <aside class="inspector" aria-label="Reports and sources">
+      <h2 class="inspector-heading" id="reports-heading">Reports & sources</h2>
+      <section id="reports-panel" class="inspector-panel" aria-labelledby="reports-heading" tabindex="0"><div id="report-content"></div></section>
+    </aside>
+  </main>
+  <div class="mobile-filter-bar"><button id="open-filters" class="primary-button" aria-haspopup="dialog" aria-controls="filter-sheet">Filter by category</button></div>
+  <dialog id="filter-sheet" aria-labelledby="filter-sheet-title"><div class="sheet-header"><h2 id="filter-sheet-title">Filter by category</h2><button id="close-filters" aria-label="Close category filters">✕</button></div><div id="sheet-content"></div><div class="sheet-footer"><button id="apply-filters" class="primary-button">Show matching reports</button></div></dialog>
+  <noscript>This map needs JavaScript enabled to display reports and filters.</noscript>
+</body>
+</html>
