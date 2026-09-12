@@ -18,7 +18,7 @@ def to_tensors(rows,device):
 
 def real_signatures(graph):return {tuple(r["global_ids"]) for split in ("train","validation","test") for r in graph[split]}
 
-def evaluate(model,graph,rows,device,draws=3):
+def evaluate(model,graph,rows,device,draws=3,copies=1):
     if not rows:return {"count":0,"paired_auc":float("nan")}
     ids,years,known,prov=to_tensors(rows,device); tm=torch.tensor(graph["time_mean"],device=device); tk=torch.tensor(graph["time_known"],device=device)
     model.eval(); wins=[]
@@ -26,10 +26,11 @@ def evaluate(model,graph,rows,device,draws=3):
         pos=model(ids,years,known,prov,tm,tk)["score"]
         sig=real_signatures(graph)
         for d in range(draws):
-            neg_ids=corrupt_same_role(ids,graph["vocab"],graph["offsets"],1,seed=1000+d,real_signatures=sig)
+            neg_ids=corrupt_same_role(ids,graph["vocab"],graph["offsets"],copies,seed=1000+d,real_signatures=sig)
             if len(neg_ids)==0:continue
-            neg=model(neg_ids,years[:len(neg_ids)] if len(neg_ids)<=len(years) else years.repeat((len(neg_ids)+len(years)-1)//len(years))[:len(neg_ids)],known[:len(neg_ids)] if len(neg_ids)<=len(known) else known.repeat((len(neg_ids)+len(known)-1)//len(known))[:len(neg_ids)],prov[:len(neg_ids)] if len(neg_ids)<=len(prov) else prov.repeat((len(neg_ids)+len(prov)-1)//len(prov))[:len(neg_ids)],tm,tk)["score"]
-            n=min(len(pos),len(neg)); wins.append(float((pos[:n]>neg[:n]).float().mean().item()))
+            neg=model(neg_ids,years.repeat_interleave(copies),known.repeat_interleave(copies),prov.repeat_interleave(copies),tm,tk)["score"]
+            pos_expanded=pos.repeat_interleave(copies)
+            wins.append(float((pos_expanded>neg).float().mean().item()))
     return {"count":len(rows),"paired_auc":float(np.mean(wins)) if wins else float("nan"),"paired_auc_std":float(np.std(wins)) if wins else float("nan")}
 
 def train_phtkg(events,config=None,device=None,seed=42):
@@ -48,7 +49,7 @@ def train_phtkg(events,config=None,device=None,seed=42):
             state=out["entity_state"].detach()
             neg_ids=corrupt_same_role(ids,graph["vocab"],graph["offsets"],negatives,seed=seed+epoch,real_signatures=sig)
             if len(neg_ids):
-                neg=model(neg_ids,years.repeat((len(neg_ids)+len(years)-1)//len(years))[:len(neg_ids)],known.repeat((len(neg_ids)+len(known)-1)//len(known))[:len(neg_ids)],prov.repeat((len(neg_ids)+len(prov)-1)//len(prov))[:len(neg_ids)],tm,tk,entity_state_init=state)["score"]
+                neg=model(neg_ids,years.repeat_interleave(negatives),known.repeat_interleave(negatives),prov.repeat_interleave(negatives),tm,tk,entity_state_init=state)["score"]
                 loss=observed_vs_corrupted_loss(out["score"],neg)
                 opt.zero_grad(); loss.backward(); torch.nn.utils.clip_grad_norm_(model.parameters(),clip); opt.step(); total+=float(loss.item())
         val=evaluate(model,graph,graph["validation"],device)
