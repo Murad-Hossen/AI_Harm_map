@@ -1,0 +1,3719 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Over the past year, ICE agents have scanned the faces of protesters, photographed their license plates, and collected samples of their DNA. But the agency hasn’t said how or where it’s storing that information. As President Donald Trump’s administration boosts its arsenal of surveillance technologies—and a growing number of Trump’s critics report unsettling experiences after […]. Over the past year, ICE agents have scanned the faces of protesters, photographed their license plates , and collected samples of their DNA But the agency hasn’t said how or where it’s storing that information. As President Donald Trump’s administration boosts its arsenal of surveillance technologies —and a growing number of Trump’s critics report unsettling experiences after encounters with ICE—many Americans fear they’re being tracked for exercising their First Amendment rights.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/dhs-ice-surveillance-database-protest-public-records-spokane-hsi/",
+    "publication_date": "2026-07-27",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "ai generat*",
+      "exploit*",
+      "surveil*",
+      "victim*",
+      "violat*",
+      "wrongdoing",
+      "alleged",
+      "lawsuit*",
+      "protest",
+      "protests",
+      "protesters",
+      "retaliat*",
+      "chilling effect*",
+      "war crime*",
+      "arrest*",
+      "watchlist*",
+      "immigration enforcement"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "If you live near a military base, there’s a chance you’ll soon find that a privately owned data center has moved into your area. A year ago, President Donald Trump issued an executive order directing the Department of Defense to lease land to private developers for this purpose. “You can’t fight it,” Trump said this […]. A year ago, President Donald Trump issued an executive order directing the Department of Defense to lease land to private developers for this purpose. “ You can’t fight it ,” Trump said this week of data centers, which have grown wildly unpopular Amid concerns about massive electricity use and pollution, data center buildout on military bases is happening at hyperspeed.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/data-centers-us-military-bases-public-lands/",
+    "publication_date": "2026-07-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "hyperscale*",
+      "AI data cent*",
+      "xAI",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "backlash",
+      "death*",
+      "pollut*",
+      "mine*",
+      "munition*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. The Trump administration is quietly considering a rule change that could make it easier for polluters to build facilities—including certain gas plants and diesel generators that power data centers—with little to no notice to the public. On Wednesday, the Environmental Protection Agency held a public hearing […]. On Wednesday, the Environmental Protection Agency held a public hearing on a proposed rule change that would hand the power to states to decide how the public participates in the permitting process for certain new sources of air pollution The proposed rollback comes as data centers face greater pushback across the US, with many communities using the permitting process to try to slow down development Any changes could have major consequences for how ordinary people are…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/trumps-epa-wants-fewer-people-asking-questions-about-data-center-pollution/",
+    "publication_date": "2026-07-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "AI data cent*",
+      "xAI",
+      "regulator*",
+      "emission*",
+      "pollut*",
+      "diesel generator*",
+      "fossil fuel*",
+      "public hearing*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "The incident sounded straight out of a science fiction movie: OpenAI’s super-advanced tool hacked another AI company’s systems in an attempt to pass its own developers’ cybersecurity test. Just replace the AI tech with a newly engineered virus and you have an entire existing subgenre. “We consider this incident to be an unprecedented cyber incident, […]. “We consider this incident to be an unprecedented cyber incident, involving state-of-the-art cyber capabilities,” OpenAI wrote in a Tuesday blog post explaining the incident. The tech giant said their tool, designed to execute tasks without any human assistance, independently breached Hugging Face, another startup that hosts a voluminous number of publicly available AI models, while it was testing internally how good it was at “advanced exploitation using complex attack paths” within a supposedly enclosed lab environment called a…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/open-ai-hacking-scandal-hugging-face/",
+    "publication_date": "2026-07-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai model*",
+      "openai",
+      "anthropic",
+      "Hugging Face",
+      "harm*",
+      "regulator*",
+      "exploit*",
+      "violat*",
+      "breach*",
+      "allegation*",
+      "hacked",
+      "hacking",
+      "copyright*",
+      "made up"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "A group of 26 current and former Meta employees filed a lawsuit Monday evening accusing the tech company of using AI software to target employees with disabilities and those who took medical or family leave in its mass layoffs in May. Those layoffs were part of Meta’s plans to cut 10 percent of its staff, […]. Those layoffs were part of Meta’s plans to cut 10 percent of its staff, or roughly 8,000 workers , and close about 6,000 open positions, in an effort to prioritize AI initiatives. Meta, the parent company of Facebook, Instagram, and WhatsApp, also reassigned 7,000 employees to work on AI. “Meta did not assemble the termination list through the considered judgment of managers who knew the work,” the workers alleged in their lawsuit Instead, the suit contends that the firm used “a constellation of internal artificial-intelligence systems” to create a performance-ranking system.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/meta-lawsuit-ai-layoffs-medical-leave-disability-tech-termination/",
+    "publication_date": "2026-07-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai model*",
+      "ai tool*",
+      "discriminat*",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "layoff*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "This story was originally published by Inside Climate News and is reproduced here as part of the Climate Desk collaboration. In brief remarks to reporters Monday at the White House, President Donald Trump noted that he was shocked to learn how much energy developing artificial intelligence requires and said his administration is now approving plans for energy facilities to power […]. In brief remarks to reporters Monday at the White House, President Donald Trump noted that he was shocked to learn how much energy developing artificial intelligence requires and said his administration is now approving plans for energy facilities to power data centers in “a matter of weeks.”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/donald-trump-epa-lee-zeldin-fast-track-private-gas-fired-power-plants-ai-data-centers/",
+    "publication_date": "2026-07-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "openai",
+      "AI data cent*",
+      "supercomputer*",
+      "accountab*",
+      "damag*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "protests",
+      "smog",
+      "gigawatt*",
+      "fossil fuel*",
+      "moratorium",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "The federal government intervened Monday in a Clean Air Act lawsuit in which people in Memphis, Tennessee, and Southaven, Mississippi, are suing Elon Musk’s xAI over the health risks posed by the company’s unpermitted gas turbines. The Department of Justice didn’t intervene on behalf of the people breathing dirty air, though: instead, it submitted an […]. The Department of Justice didn’t intervene on behalf of the people breathing dirty air, though: instead, it submitted an unprecedented motion backing xAI. The suit, filed by NAACP lawyers, contends that xAI should owe over $100,000 a day in civil penalties for violating the Clean Air Act.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/06/grok-doj-justice-naacp-clean-air-act-gas-turbine-pollution-national-security-ai/",
+    "publication_date": "2026-06-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "chatbot*",
+      "xAI",
+      "Grok",
+      "violat*",
+      "lawsuit*",
+      "penalt*",
+      "pollut*",
+      "gas turbine*",
+      "air quality",
+      "smog",
+      "fossil fuel*",
+      "munition*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. The Trump administration is coming to the defense of Elon Musk in a lawsuit over claims that his artificial intelligence company, xAI, is polluting residential neighborhoods in north Mississippi. The Department of Justice (DOJ) told a federal court late on Monday to throw out […]. The Department of Justice (DOJ) told a federal court late on Monday to throw out the case. The lawsuit was filed by the NAACP in April over allegations that xAI and its subsidiary MZX Tech set up dozens of methane-gas turbines to power its data center in Southaven, Mississippi, without air permits.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/06/trump-departement-justice-elon-musk-xai-grok-naacp-data-center-pollution-lawsuit-mississippi/",
+    "publication_date": "2026-06-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "data cent*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai model*",
+      "chatgpt",
+      "anthropic",
+      "xAI",
+      "Grok",
+      "harm*",
+      "accountab*",
+      "violat*",
+      "controvers*",
+      "backlash",
+      "allegation*",
+      "lawsuit*",
+      "nonconsensual*",
+      "pollut*",
+      "protests",
+      "gas turbine*",
+      "particulate*",
+      "asthma",
+      "respiratory",
+      "subsid*",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "This story was originally published by WIRED and is reproduced here as part of the Climate Desk collaboration. SpaceX, Elon Musk’s behemoth company that launches rockets and runs data centers, went public on Friday with a target valuation above $1.75 trillion. The move will make Musk, already the richest man in the world, vastly wealthier. A public offering will allow SpaceX to raise even more […]. The move will make Musk, already the richest man in the world , vastly wealthier A public offering will allow SpaceX to raise even more money to fund its AI ambitions , including building more data centers, faster. But even as Musk and other SpaceX investors see a huge windfall, the community hosting xAI data centers already in operation are demanding accountability from the company’s use of polluting gas turbines and a water-treatment facility put on pause earlier this year.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/06/xai-data-center-neighbors-angry-spacex-ipo-gas-turbines-colossus-pm2-5-elon-musk-trillionaire-pollution-asthma/",
+    "publication_date": "2026-06-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "anthropic",
+      "xAI",
+      "harm*",
+      "regulator*",
+      "water use",
+      "exploit*",
+      "accountab*",
+      "damag*",
+      "outcry",
+      "lawsuit*",
+      "class action*",
+      "marginaliz*",
+      "death*",
+      "died",
+      "pollut*",
+      "environmental justice",
+      "gas turbine*",
+      "particulate*",
+      "PM2.5",
+      "asthma"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. A record-shattering drought has racked much of the United States. But the artificial intelligence industry is pushing ahead regardless, with the majority of planned data centers set to be built in drought-ridden locations, a Guardian analysis has found. About two-thirds of upcoming data centers, […]. About two-thirds of upcoming data centers, which typically require a large amount of water to operate, are set to be built in places that have been among the driest in the country over the past year. Of 809 planned data centers, 517 are in locations that have been in drought conditions throughout the past year, according to data from Cleanview and the federal government, which grades drought across four levels of severity.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/06/data-centers-site-location-drought-stricken-areas-water-usage/",
+    "publication_date": "2026-06-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatgpt",
+      "semiconductor*",
+      "water use",
+      "controvers*",
+      "backlash",
+      "accus*",
+      "lawsuit*",
+      "death*",
+      "wounded",
+      "drought*",
+      "emission*",
+      "protest",
+      "protesters",
+      "energy bill*",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax break*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "Utah political consultant Gabi Finlayson was driving out of a canyon last week when she got the news that she had been accused of being a Chinese government operative. She was driving to a speaking engagement in central Utah with her colleague, Jackie Morgan. When their car climbed out of the canyon and back into […]. When their car climbed out of the canyon and back into cell service, their phones were going off. “Jackie and I each had like five text messages saying, you know, are you okay, did you see this, it’s gonna get worse before it gets better, but just hang in there.” They weren’t sure what happened, Finlayson said, until someone sent them the video.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/kevin-oleary-mr-wonderful-data-center-utah-chinese-ccp-spy-ai/",
+    "publication_date": "2026-05-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "hyperscale*",
+      "controvers*",
+      "backlash",
+      "accus*",
+      "drought*",
+      "emission*",
+      "greenhouse gas*",
+      "protest",
+      "protests",
+      "water rights"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "This week, Meta laid off 8,000 employees—10 percent of the company’s staff—and reassigned another 7,000 to train AI models. Fear of the layoffs had been building around the company for weeks, compounded by the way that Meta has taken a sharp turn from a company built by coders to a company that has staked its […]. Fear of the layoffs had been building around the company for weeks, compounded by the way that Meta has taken a sharp turn from a company built by coders to a company that has staked its future on AI. So when a Meta software engineer named David Frenk posted a farewell parody video to the tune of “American Pie” in an internal message board, staff thought it perfectly captured how the culture of the company has fundamentally shifted.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/meta-video-ai-training-layoffs-video-exclusive-mci-bosworth-frenk/",
+    "publication_date": "2026-05-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai agent*",
+      "ai model*",
+      "abus*",
+      "layoff*",
+      "deactivat*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. As the United States prepares for hurricane season and a summer of record-breaking heat, experts fear the Trump administration’s cuts to climate and weather data programming could make the federal government’s weather forecasts less reliable when they are needed most. The National […]. The National Oceanic and Atmospheric Administration (NOAA) late last year launched a suite of artificial intelligence-powered global weather forecast models which it said would improve “speed, efficiency, and accuracy.”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/trump-cuts-noaa-weather-data-incomplete-forecasts-reliability-extreme-weather-climate-change/",
+    "publication_date": "2026-05-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai power*",
+      "misinformation",
+      "death*",
+      "underperform*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "A popular social media conspiracy theory about a recent cluster of hantavirus cases claims that the word “hanta” means “scam,” “fraud,” or “nonsense” in “Hebrew slang.” That’s more or less where the theory ends and dark suggestion takes over. One is meant to conclude that the supposed Hebrew origins of the word mean that the […]. One is meant to conclude that the supposed Hebrew origins of the word mean that the hantavirus—a well-documented illness with outbreaks that go back several decades—is somehow a scam, perpetrated by either the Israeli government or some other undefined group of Jewish people. None of this is true.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/hantavirus-hebrew/",
+    "publication_date": "2026-05-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "fraud*",
+      "violat*",
+      "false claim*",
+      "misleading",
+      "scam*",
+      "died",
+      "hate speech",
+      "antisemit*",
+      "false information",
+      "conspiracy theor*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "A new Gallup poll has found that most Americans would really prefer not to live next door to a data center. For the first time, the polling organization asked people what they think of data centers, the massive computer-warehouses required to operate (among other things) large AI models. Data centers need significant space, energy and […]. Data centers need significant space, energy and water to operate, and they don’t provide many jobs relative to the investment they require. And they’re often unpleasant neighbors: their cooling systems can be noisy , and many include onsite gas turbines that belch black smoke into the air.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/ai-data-center-gallup-opposition-american/",
+    "publication_date": "2026-05-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "ai model*",
+      "hyperscale*",
+      "protesters",
+      "gas turbine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "This story was originally published by WIRED and is reproduced here as part of the Climate Desk collaboration. A major oil company is seeking a state tax break in Texas worth hundreds of millions of dollars to build a massive power plant. The energy won’t be going to residential customers, though. Instead, the gas plant will be used to power a […]. Instead, the gas plant will be used to power a data center whose eventual tenant could be Microsoft. Chevron subsidiary Energy Forge One has filed an application with the State Comptroller’s board to obtain a tax abatement for a power plant it’s building in West Texas.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/chevron-energy-forge-one-texas-tax-break-power-plant-microsoft-data-center/",
+    "publication_date": "2026-05-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "guardrail*",
+      "greenhouse gas*",
+      "air quality",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax abatement*",
+      "tax break*",
+      "tax incentive*",
+      "subsid*",
+      "counsel*",
+      "restructur*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "The seventh American killed in President Donald Trump’s ill-defined war on Iran was from Kentucky. Army Sergeant Benjamin N. Pennington, 26, died a week after he was injured during Iran’s March 1 missile attack on a US air base in Saudi Arabia. When his body arrived at Dover Air Force Base, Trump was not there. Two […]. When his body arrived at Dover Air Force Base, Trump was not there Two days later, the president did go to Kentucky for a rally; during the nearly two-hour event, he never mentioned the local hero. Instead, he was there to attack a fellow Republican—a Republican who also happened to be one of the fiercest critics of the war.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/thomas-massie-has-always-been-a-pain-in-the-ass/",
+    "publication_date": "2026-05-12",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "injur*",
+      "surveil*",
+      "damag*",
+      "victim*",
+      "abus*",
+      "scandal*",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "banned",
+      "sexis*",
+      "suicid*",
+      "death*",
+      "died",
+      "kill*",
+      "crash*",
+      "defam*",
+      "blackout*",
+      "protesters",
+      "antisemit*",
+      "made up",
+      "conspiracy theor*",
+      "sycophan*",
+      "run over",
+      "utility bill*",
+      "respiratory",
+      "mine*",
+      "arrest*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "Kevin O’Leary is best known as “Mr. Wonderful” on Shark Tank, or maybe as the bad guy from Marty Supreme. On Shark Tank, he invests in—or crushes the spirits of—small business owners. He describes himself as an “investor, chef, sommelier, collector, photographer, and musician.” But he might soon be able to add “AI infrastructure kingpin” […]. Wonderful” on Shark Tank , or maybe as the bad guy from Marty Supreme On Shark Tank , he invests in—or crushes the spirits of—small business owners. But he might soon be able to add “AI infrastructure kingpin” to that list of titles, as he pushes forward with a massive data center project in northern Utah.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/mr-wonderful-utah-stratos-data-center-shark-tank/",
+    "publication_date": "2026-05-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "openai",
+      "hyperscale*",
+      "water use",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "noise pollution",
+      "protest",
+      "protests",
+      "protesters",
+      "tax break*",
+      "water rights"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "On April 14, I created a free account on ChatGPT and asked for some help. It resisted me at first, but after some pushing the responses turned shocking. During a conversation lasting about 20 minutes, OpenAI’s chatbot gave me extensive advice on weapons and tactics as I simulated planning a mass shooting. ChatGPT delivered these […]. ChatGPT delivered these responses with lots of encouragement—and it kept going even after I talked of emulating the Uvalde mass shooter’s choice of weapon, asked about livestreaming with a body camera and using hollow-point bullets, and focused on defending against return gunfire from police.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2026/05/openai-chatgpt-mass-shooting-guardrails-fail/",
+    "publication_date": "2026-05-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "guardrail*",
+      "harm*",
+      "victim*",
+      "misus*",
+      "violat*",
+      "wrongdoing",
+      "allegedly",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "banned",
+      "distress*",
+      "suicid*",
+      "vulnerable",
+      "died",
+      "kill*",
+      "copyright*",
+      "bombing*",
+      "delusion*",
+      "chat log*",
+      "journalist*",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "Victims of the Tumbler Ridge mass shooting and their families sued OpenAI and its CEO, Sam Altman, in US district court in San Francisco on Wednesday, claiming various negligence, product liability, and other violations. The civil complaints are the latest in a wave of litigation against OpenAI alleging that its globally popular chatbot, ChatGPT, helped […]. The civil complaints are the latest in a wave of litigation against OpenAI alleging that its globally popular chatbot, ChatGPT, helped people commit lethal violence. The complaints were filed by families of multiple victims wounded and killed at Tumbler Ridge Secondary School in British Columbia, Canada, where a suicidal 18-year-old opened fire on February 10.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/criminal-justice/2026/04/lawsuit-openai-chatgpt-tumbler-ridge-mass-shooting-victims/",
+    "publication_date": "2026-04-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "harm*",
+      "injur*",
+      "trauma*",
+      "victim*",
+      "misus*",
+      "violat*",
+      "negligen*",
+      "wrongdoing",
+      "allegedly",
+      "allegation*",
+      "lawsuit*",
+      "litigat*",
+      "complaint*",
+      "banned",
+      "liab*",
+      "suicid*",
+      "death*",
+      "died",
+      "kill*",
+      "collision*",
+      "wounded",
+      "stalk*",
+      "copyright*",
+      "unlicensed",
+      "bombing*",
+      "delusion*",
+      "deactivat*",
+      "chat log*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "This story was originally published by Slate and is reproduced here as part of the Climate Desk collaboration. Quiet fell over the room, which was neither full nor very loud to begin with, and the 2026 Florida Citrus Show began. “It should be a great day,” began the event’s first speaker. “Rain should hold off today, even though we […]. “Rain should hold off today, even though we definitely need more rain.” No one laughed. There was no need to say that things were bad. Everyone knew it. The mood wasn’t sour—citrus farmers could handle sour. It was something else. Postapocalyptic. Florida is in the midst of its worst drought in 25 years, but the dry spell actually ranked far down on the list of challenges these bedraggled growers were facing.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/04/florida-orange-juice-industy-decline-death/",
+    "publication_date": "2026-04-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "hyperscale*",
+      "Runway",
+      "regulator*",
+      "mining",
+      "trauma*",
+      "damag*",
+      "vulnerable",
+      "kill*",
+      "drought*",
+      "retaliat*",
+      "public hearing*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "The AI infrastructure reckoning has until recently stayed local, its battles fought in the relatively puny arenas of town council and zoning commission meetings. But the pushback to hyperscale data centers has now stepped onto a larger stage: this week, Maine’s legislature passed the nation’s first state-level hyperscale data center moratorium, freezing construction approvals for […]. The AI infrastructure reckoning has until recently stayed local, its battles fought in the relatively puny arenas of town council and zoning commission meetings But the pushback to hyperscale data centers has now stepped onto a larger stage: this week, Maine’s legislature passed the nation’s first state-level hyperscale data center moratorium, freezing construction approvals for data centers requiring more than 20 megawatts of power—the level of massive computing facilities required to train and deploy AI…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/04/maine-ai-data-center-moratorium-ban-energy-grid/",
+    "publication_date": "2026-04-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "ai model*",
+      "hyperscale*",
+      "xAI",
+      "regulator*",
+      "accountab*",
+      "violat*",
+      "allegedly",
+      "pollut*",
+      "ratepayer*",
+      "electricity bill*",
+      "megawatt*",
+      "tax break*",
+      "zoning",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Grist and is reproduced here as part of the Climate Desk collaboration. Minnesota’s Boundary Waters comprise a vast stretch of wilderness bordering Canada, with over a million acres of untouched forest and thousands of lakes and streams. Accessible largely by canoe, it is an ecological gem and one of the most popular spots […]. Accessible largely by canoe, it is an ecological gem and one of the most popular spots in the country for outdoor recreation. On Thursday, Senate Republicans voted 50-49 to open the area up to mining— passing a resolution that repeals a 20-year moratorium using a little-known law called the Congressional Review Act (CRA).",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/senate-republicans-vote-minnesota-boundary-waters-mining-pristine-wilderness-congressional-review-act/",
+    "publication_date": "2026-04-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "artificial intelligen*",
+      "chip*",
+      "harm*",
+      "regulator*",
+      "mining",
+      "exploit*",
+      "subsid*",
+      "moratorium",
+      "mine*",
+      "miner*",
+      "nickel",
+      "tailings",
+      "smelter*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.3",
+        "subcategory": "Resource extraction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "Two years ago, we devoted an entire issue to the rise of the American oligarchy. Since then, our oligarchic system has become more entrenched and pervasive, revolving around a small crew of tech titans whose quest for wealth and power—in all of its forms—is destabilizing our democracy and reshaping our society. In the May + […]. Two years ago, we devoted an entire issue to the rise of the American oligarchy Since then, our oligarchic system has become more entrenched and pervasive, revolving around a small crew of tech titans whose quest for wealth and power—in all of its forms—is destabilizing our democracy and reshaping our society.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/american-oligarchy-hyperscale-data-centers-meta-openai-oracle-x-musk-altman-zuckerberg-bezos/",
+    "publication_date": "2026-04-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "data cent*",
+      "autonomous weapon*",
+      "AGI",
+      "chatbot*",
+      "agentic*",
+      "ai system*",
+      "ai model*",
+      "server farm*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "chip*",
+      "semiconductor*",
+      "GPU*",
+      "Nvidia",
+      "hyperscale*",
+      "AI data cent*",
+      "supercomputer*",
+      "guardrail*",
+      "Lavender",
+      "xAI",
+      "Grok",
+      "Claude",
+      "regulator*",
+      "non-consensual",
+      "displac*",
+      "community opposition",
+      "mining",
+      "exploit*",
+      "surveil*",
+      "infring*",
+      "damag*",
+      "abus*",
+      "controvers*",
+      "backlash",
+      "alleged",
+      "banned",
+      "racis*",
+      "anxiet*",
+      "suicid*",
+      "death*",
+      "kill*",
+      "crash*",
+      "stalk*",
+      "non consensual*",
+      "sexual exploitation",
+      "emission*",
+      "pollut*",
+      "protesters",
+      "copyright*",
+      "hallucinat*",
+      "sycophan*",
+      "accent*",
+      "ratepayer*",
+      "gas turbine*",
+      "asthma",
+      "gigawatt*",
+      "power demand",
+      "transmission line*",
+      "fossil fuel*",
+      "coal plant*",
+      "climate target*",
+      "tax break*",
+      "subsid*",
+      "farmland",
+      "mine*",
+      "miner*",
+      "lithium",
+      "rare earth*",
+      "detention"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "Editor’s note: This story was first published online on April 10, 2026. In June 2025, a safety team at OpenAI grew alarmed. The company’s automated review system had flagged extensive activity by a ChatGPT user describing scenarios that involved gun violence. A group of staffers debated whether law enforcement should be notified, but company leaders […]. A group of staffers debated whether law enforcement should be notified, but company leaders decided the case did not meet OpenAI’s threshold of “credible and imminent” risk of physical harm. Instead, capping a sequence of actions first reported by the Wall Street Journal and later confirmed by OpenAI , the company banned the account for misuse and moved on.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2026/04/chatgpt-tumbler-ridge-fsu-openai-chatbots-mass-shootings/",
+    "publication_date": "2026-04-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "guardrail*",
+      "Claude",
+      "Gemini",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "injur*",
+      "harass*",
+      "exploit*",
+      "trauma*",
+      "surveil*",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "alleged",
+      "allegedly",
+      "allegation*",
+      "lawsuit*",
+      "banned",
+      "liab*",
+      "wrongful*",
+      "marginaliz*",
+      "distress*",
+      "self harm*",
+      "suicid*",
+      "vulnerable",
+      "death*",
+      "kill*",
+      "casualt*",
+      "hospitaliz*",
+      "wounded",
+      "stalk*",
+      "copyright*",
+      "sycophan*",
+      "delusion*",
+      "psychosis",
+      "chat log*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "In the past 24 hours, I’ve checked Google Maps for directions, logged a sunset run on Strava, booked a yoga class with ClassPass, swiped into the New York City subway using a card linked to a digital profile, and sent and received hundreds of emails, texts, Slack messages, and phone calls. Meanwhile, my iPhone passively […]. Meanwhile, my iPhone passively logged each of my 13,444 steps, while my face and gait were recorded by countless discreet cameras—both those installed by the city and by my neighbors. Then, of course, there are the Google searches, the Instagram likes, the re-posts on X and Bluesky. If somebody—a police officer, a prosecutor, an FBI agent—were to get ahold of all this data, they’d be able to sketch out a pretty complete picture of my daily life.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/how-your-data-is-powering-trumps-surveillance-state/",
+    "publication_date": "2026-04-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "predictive polic*",
+      "artificial intelligen*",
+      "license plate reader*",
+      "bias*",
+      "surveil*",
+      "misus*",
+      "vulnerable",
+      "protest",
+      "wiretap*",
+      "immigration enforcement",
+      "deportation",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "Last August, citizens of the Muscogee (Creek) Nation began hearing whispers of an AI data center coming to their reservation. Kenzie Roberts and Jordan Harmon, both Muscogee citizens, were immediately worried. It “didn’t seem like something that should align with our values as Indigenous people,” Roberts said. The center would be located on Looped Square […]. The center would be located on Looped Square Ranch, a 5,570-acre plot of land where the tribe runs its food sovereignty initiative, a program that allows the Muscogee Nation to directly serve its citizens’ food needs. At the ranch, the tribe hosts youth agricultural activities like 4H; citizens can visit for hunting, fishing, trapping, and gathering; and the nation runs a fully functioning cattle ranch and meat processing center.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/data-centers-indian-country/",
+    "publication_date": "2026-04-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "generative ai",
+      "hyperscale*",
+      "AI data cent*",
+      "harm*",
+      "regulator*",
+      "displac*",
+      "mining",
+      "exploit*",
+      "controvers*",
+      "litigat*",
+      "pollut*",
+      "protests",
+      "protesters",
+      "rezoning",
+      "moratorium",
+      "sacred site*",
+      "water rights",
+      "mine*",
+      "lithium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "This article first appeared on The War Horse, an award-winning nonprofit news organization educating the public on military service, and The Border Chronicle, which produces independent, investigative journalism on the US-Mexico border. On a warm, winter Sunday, the Playas de Tijuana in Mexico is filled with families picnicking. The beach here presses right up against […]. The beach here presses right up against the border wall with the United States. Music blares, teenagers film TikTok videos next to the 30-foot high fence, which is covered in painted murals on the Mexican side—butterflies, faces, human hands reaching out.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/trump-says-the-border-is-sealed-the-reality-is-messier/",
+    "publication_date": "2026-03-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "unmanned aerial*",
+      "license plate reader*",
+      "Palantir",
+      "surveil*",
+      "kill*",
+      "protesters",
+      "strike*",
+      "mine*",
+      "arrest*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and Spotlight PA is reproduced here as part of the Climate Desk collaboration. “I don’t like to see anyone upset,” said Nick Farris of Provident Real Estate Advisors. He was sitting in the front of a crowd of roughly 150 inside Valley View High School’s auditorium in Archbald, a town of about […]. He was sitting in the front of a crowd of roughly 150 inside Valley View High School’s auditorium in Archbald, a town of about 7,500, huddled between two mountain ranges in Pennsylvania’s Lackawanna Valley. Farris was there to represent the developer for Project Scott, one of many data center campuses coming to town.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/archbald-pennsylvania-ai-boon-data-centers-opposition-consequences/",
+    "publication_date": "2026-03-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AGI",
+      "large language model*",
+      "language model*",
+      "driverless",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "guardrail*",
+      "fire control",
+      "harm*",
+      "water use",
+      "displac*",
+      "evict*",
+      "mining",
+      "victim*",
+      "outcry",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "vulnerable",
+      "kill*",
+      "pollut*",
+      "contaminat*",
+      "electricity price*",
+      "ratepayer*",
+      "electricity bill*",
+      "backup generator*",
+      "particulate*",
+      "transmission line*",
+      "fossil fuel*",
+      "tax break*",
+      "subsid*",
+      "zoning",
+      "moratorium",
+      "public hearing*",
+      "mine*",
+      "counsel*",
+      "hiring freeze*",
+      "rate cut*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "This story was originally published by Bulletin of the Atomic Scientists and is reproduced here as part of the Climate Desk collaboration. It sounds like a bad joke, but last week a press release dropped into my inbox: “Leading Scientists Challenge Foundation of Climate Change Assessments, Revealing Fatal Flaws in Ocean Heat Content (OHC) Measurements.” The article this email was […]. The article this email was promoting claims to upend the generally accepted consensus among climate scientists that greenhouse gas emissions are trapping more heat on the planet, and most of that heat is ending up in the oceans. It’s thanks to the Argo program—a fleet of nearly 4,000 robotic ocean floats that collect data on temperature and other ocean properties, like salinity—that scientists have been able to measure and track long-term ocean warming , but the paper casts doubt on those measurements. “…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/climate-change-denial-science-journals-paper-misinformation-ai/",
+    "publication_date": "2026-03-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai tool*",
+      "ai generat*",
+      "chatgpt",
+      "Grok",
+      "Claude",
+      "Gemini",
+      "harm*",
+      "discriminat*",
+      "misinformation",
+      "disinformation",
+      "prejudic*",
+      "emission*",
+      "greenhouse gas*",
+      "copyright*",
+      "hallucinat*",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "The Trump administration is scrambling to cover its tracks amid legislative pressure and a First Amendment lawsuit over its alleged “domestic terrorist” database, new legal filings and emails reviewed by Mother Jones reveal. A federal class action lawsuit filed last month against the Department of Homeland Security (DHS) alleges that Immigration and Customs Enforcement (ICE) […]. A federal class action lawsuit filed last month against the Department of Homeland Security (DHS) alleges that Immigration and Customs Enforcement (ICE) agents unlawfully targeted and intimidated Maine residents who were observing immigration operations.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/dhs-ice-domestic-terrorism-database-lawsuit-first-amendment/",
+    "publication_date": "2026-03-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "ai power*",
+      "regulator*",
+      "discriminat*",
+      "harass*",
+      "surveil*",
+      "violat*",
+      "alleged",
+      "lawsuit*",
+      "litigat*",
+      "class action*",
+      "complaint*",
+      "protesters",
+      "protestors",
+      "mass surveillance",
+      "watchlist*",
+      "immigration enforcement"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "This story was co-published with The 74, a nonprofit, independent news organization focused on education in America. Sign up for their early learning Substack. In a video that has been played almost 50,000 times since it was posted five months ago, two cartoon children sing along as they guide viewers through the experience of riding in a car amid […]. Sign up for their early learning Substack In a video that has been played almost 50,000 times since it was posted five months ago, two cartoon children sing along as they guide viewers through the experience of riding in a car amid a vividly colored, utopian backdrop.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2026/03/this-is-your-kids-brain-on-ai-slop/",
+    "publication_date": "2026-03-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "anthropic",
+      "harm*",
+      "misinformation",
+      "accountab*",
+      "violat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "Tennessee teenagers are suing Elon Musk’s company xAI over allegations that its artificial intelligence tool Grok undressed photos of them as minors—the latest challenge against the wealthiest living person’s chatbot. The three plaintiffs, two of whom are currently minors, are seeking damages after AI-generated images of them spread across Discord and Telegram and were eventually […]. Tennessee teenagers are suing Elon Musk’s company xAI over allegations that its artificial intelligence tool Grok undressed photos of them as minors—the latest challenge against the wealthiest living person’s chatbot The three plaintiffs, two of whom are currently minors, are seeking damages after AI-generated images of them spread across Discord and Telegram and were eventually used as bartering tools for users to obtain other child sexual abuse material, according to the complaint detailed in new…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/tennessee-teens-sue-elon-musks-xai-over-child-sexual-abuse-images/",
+    "publication_date": "2026-03-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "regulator*",
+      "damag*",
+      "abus*",
+      "violat*",
+      "backlash",
+      "allegation*",
+      "lawsuit*",
+      "complaint*",
+      "nonconsensual*",
+      "intimate imag*",
+      "CSAM",
+      "child sexual abuse material",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "A US aircraft carrier destroyed by Iranian missiles. American bombs leveling a nuclear power plant. The Burj Khalifa engulfed in fire. None of it happened, but that didn’t stop people from spreading fake videos online. In the days since Trump’s weekend strikes on Iran, AI-generated videos realistically depicting entirely fabricated events have been spreading like […]. In the days since Trump’s weekend strikes on Iran, AI-generated videos realistically depicting entirely fabricated events have been spreading like wildfire on X and other social media platforms. For years, X (formerly Twitter) was one of the most valuable tools for real-time information during breaking news events.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/ai-war-video-deepfake-x-israel-uae-iran/",
+    "publication_date": "2026-03-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai tool*",
+      "ai generat*",
+      "Grok",
+      "harm*",
+      "misidentif*",
+      "degrading",
+      "fabricated",
+      "misleading",
+      "protests",
+      "strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "Less than a day after President Donald Trump falsely suggested that Ilhan Omar had staged an attack on herself, the images started to circulate. In AI-generated fake photos that soon flooded both X and Facebook, the Minnesota representative is depicted posing next to the man who invaded a town hall meeting and sprayed apple cider […]. In AI-generated fake photos that soon flooded both X and Facebook, the Minnesota representative is depicted posing next to the man who invaded a town hall meeting and sprayed apple cider vinegar on her from a syringe. In the AI-generated images, Omar and the man are both smiling; in some, the congresswoman is foisting a wad of cash, presumably to suggest that she bribed her attacker.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/artificial-intelligence-memes-disinformation/",
+    "publication_date": "2026-03-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "Grok",
+      "harm*",
+      "disinformation",
+      "harass*",
+      "lawsuit*",
+      "fake news",
+      "propaganda",
+      "manipulat*",
+      "death*",
+      "protesters",
+      "demean*",
+      "conspiracy theor*",
+      "outsourc*",
+      "arrest*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "On Saturday, the United States and Israeli governments unleashed stealth bombers, drones, and missiles on Iran, citing a rationale of preventing Iran from developing and deploying catastrophic nuclear weapons. “They’ve rejected every opportunity to renounce their nuclear ambitions, and we can’t take it anymore,” President Donald Trump would later say in an 6-minute address to […]. “They’ve rejected every opportunity to renounce their nuclear ambitions, and we can’t take it anymore,” President Donald Trump would later say in an 6-minute address to the nation. But in their quest to prevent Iran from developing an advanced weapon, the US and Israel were also deploying one of their own: artificial intelligence.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/artificial-intelligence-quitters/",
+    "publication_date": "2026-03-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai system*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "guardrail*",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "Claude",
+      "harm*",
+      "non-consensual",
+      "surveil*",
+      "scandal*",
+      "outcry",
+      "manipulat*",
+      "non consensual*",
+      "strike*",
+      "mass surveillance",
+      "bioweapon*",
+      "pedestrian"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "When agents came to his workplace armed with guns, gas canisters, and artificial intelligence, Abdikafi Abdurahman Abdullahi, known as Kafi, fought back with quick wit and street smarts. The Somali American engineer-turned-Uber driver is one of the few people willing to speak publicly about being subjected to the Department of Homeland Security’s new facial recognition […]. The Somali American engineer-turned-Uber driver is one of the few people willing to speak publicly about being subjected to the Department of Homeland Security’s new facial recognition tool, Mobile Fortify, offering a preview of what routine facial recognition could look like on American streets.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/mobile-fortify-face-scan-dhs-kristi-noem-database-technology/",
+    "publication_date": "2026-03-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "face recognition",
+      "guardrail*",
+      "license plate reader*",
+      "social media monitoring",
+      "Palantir",
+      "Clearview AI",
+      "misidentif*",
+      "surveil*",
+      "lawsuit*",
+      "class action*",
+      "death*",
+      "kill*",
+      "protest",
+      "protesters",
+      "retaliat*",
+      "error rate*",
+      "accent*",
+      "location data",
+      "arrest*",
+      "journalist*",
+      "checkpoint*",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "Leaked documents reveal that Meta, the parent company of Facebook, WhatsApp, and Instagram, has blocked its AI chatbot from discussing topics including abortion with minors—a blanket policy that contrasts sharply with the firm’s handling of child sexual exploitation claims, and that may also inadvertently affect its content for adults. Internal Meta documents obtained by Mother […]. Internal Meta documents obtained by Mother Jones , containing a comprehensive list of policy guidelines for Meta’s chatbot interactions with users under the age of 18, shed light on how the company is training its chatbots to respond to children’s questions on issues ranging from sexual health to suicide and self-harm, eating disorders, and other mental health issues.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/meta-abortion-ai-chatbot-leak-teen-info-ban/",
+    "publication_date": "2026-02-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "exploit*",
+      "censor*",
+      "abus*",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "depression",
+      "self harm*",
+      "suicid*",
+      "sexual exploitation",
+      "bully*",
+      "chilling effect*",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R039",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. This coverage is made possible through a partnership between Grist and BPR, a public radio station serving western North Carolina. The Tennessee Valley Authority’s quarterly meeting in Hopkinsville, Kentucky, opened with a triumphant video homage to its work during Winter Storm Fern. Yet again, energy […]. Yet again, energy had come through to defeat extreme cold. The montage credited this to the utility’s “coal workhorses,” then noted that nuclear provided “uninterrupted power” and “hydro responded instantly.”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/02/tva-how-trumps-appointees-derailed-a-clean-energy-future-at-the-nations-largest-public-utility/",
+    "publication_date": "2026-02-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "artificial intelligen*",
+      "xAI",
+      "mining",
+      "death*",
+      "kill*",
+      "pollut*",
+      "ratepayer*",
+      "particulate*",
+      "power demand",
+      "fossil fuel*",
+      "coal plant*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R040",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. Tech companies are conflating traditional artificial intelligence with generative AI when claiming the energy-hungry technology could help avert climate breakdown, according to a report. Most claims that AI can help avert climate breakdown refer to machine learning and not the energy-hungry chatbots and image generation […]. Tech companies are conflating traditional artificial intelligence with generative AI when claiming the energy-hungry technology could help avert climate breakdown, according to a report Most claims that AI can help avert climate breakdown refer to machine learning and not the energy-hungry chatbots and image generation tools driving the sector’s explosive growth of gas-guzzling datacentres, the analysis of 154 statements found.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/02/tech-silicon-valley-ai-claims-help-fix-climate-crisis-greenwashing/",
+    "publication_date": "2026-02-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "predictive model*",
+      "chatgpt",
+      "Hugging Face",
+      "Gemini",
+      "harm*",
+      "disinformation",
+      "emission*",
+      "carbon footprint*",
+      "greenhouse gas*",
+      "pollut*",
+      "energy consumption",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R041",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist in partnership with WABE, Atlanta’s NPR station, and is reproduced here as part of the Climate Desk collaboration. As more and more data centers crop up throughout Georgia and the Southeast, a recent study finds they may need less energy than the industry and utilities have been predicting. That could have substantial implications for […]. That could have substantial implications for energy bills and the planet. Data centers—especially the biggest ones, known as hyperscalers, used for high-powered computing like generative AI—use a lot of energy. And major utilities like Georgia Power have started expanding power plants and building other infrastructure to fuel them.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/utilities-overestimating-ai-boom-data-centers-fossil-fuel-energy-usage-bills/",
+    "publication_date": "2026-02-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "generative ai",
+      "hyperscale*",
+      "emission*",
+      "ratepayer*",
+      "energy bill*",
+      "gas turbine*",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax break*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R042",
+    "source_language": "en",
+    "original_text": "In the summer of 1956, Martin Luther King, Jr. took the stage at the NAACP’s 47th annual convention in San Francisco. Speaking at the precipice of the Civil Rights Movement, King cautioned that “the guardians of the status quo are always on hand with their oxygen tents to keep the old order alive.” Over the […]. Over the next decade, Black Americans’ struggle for racial justice would lead to major victories from the workplace to the ballot box. But today, as King warned, the “old order” clings on, and the civil rights gains fought for in the ’60s are under siege Since last January, the Trump administration has dismantled diversity, equity, and inclusion programs and shuttered civil rights offices across the federal government; rejected the legal framework used to protect marginalized groups’ access to jobs, housing, and education.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/naacp-derrick-johnson-abolish-ice-campaign/",
+    "publication_date": "2026-02-12",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "xAI",
+      "discriminat*",
+      "harass*",
+      "accountab*",
+      "violat*",
+      "lawsuit*",
+      "marginaliz*",
+      "kill*",
+      "pollut*",
+      "electricity bill*",
+      "gas turbine*",
+      "racial profiling"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R043",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. The US Department of Health and Human Services (HHS) is developing a generative artificial intelligence tool to find patterns across data reported to a national vaccine monitoring database and to generate hypotheses on the negative effects of vaccines, according to an inventory released last week of […]. The US Department of Health and Human Services (HHS) is developing a generative artificial intelligence tool to find patterns across data reported to a national vaccine monitoring database and to generate hypotheses on the negative effects of vaccines, according to an inventory released last week of all use cases the agency had for AI in 2025.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/health-department-rfk-jr-ai-unverified-vaccine-injury-claims-database-vaers/",
+    "publication_date": "2026-02-05",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai model*",
+      "ai tool*",
+      "natural language process*",
+      "injur*",
+      "misus*",
+      "death*",
+      "hallucinat*",
+      "adverse event*",
+      "respiratory",
+      "mine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R044",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. With community opposition growing, data center backers are going on a full-scale public relations blitz. Around Christmas in Virginia, which boasts the highest concentration of data centers in the country, one advertisement seemed to air nonstop. “Virginia’s data centers are…investing billions in […]. “Virginia’s data centers are…investing billions in clean energy,” a voiceover intoned over sweeping shots of shiny solar panels. “Creating good-paying jobs”—cue men in yellow safety vests and hard hats—“and building a better energy future.”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/data-centers-public-opposition-industry-advertising-rebranding-jobs-lower-energy-bills/",
+    "publication_date": "2026-01-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "hyperscale*",
+      "AI data cent*",
+      "regulator*",
+      "community opposition",
+      "damag*",
+      "backlash",
+      "pollut*",
+      "electricity price*",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R045",
+    "source_language": "en",
+    "original_text": "There’s a picture of myself that I had saved on my desktop for years; I suppose we could call it a caricature. A little more than a decade ago, someone on a Nazi messageboard pulled a photo of me from social media, then updated it with some antisemitic flair: a little cartoon rat sitting on […]. A little more than a decade ago, someone on a Nazi messageboard pulled a photo of me from social media, then updated it with some antisemitic flair: a little cartoon rat sitting on my shoulder, a yellow Judenstern pinned on its tiny body. Referencing what Jews were forced to wear during the Holocaust is meant to be a humiliation; the goal isn’t hard to figure out, given that the whole star patch thing is near-medieval in both its imagery and its aims.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/grok-ncii-elon-musk/",
+    "publication_date": "2026-01-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai tool*",
+      "ai assist*",
+      "Grok",
+      "harm*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "scandal*",
+      "disproportionat*",
+      "hacked",
+      "manipulat*",
+      "kill*",
+      "stalk*",
+      "nonconsensual*",
+      "intimate imag*",
+      "revenge porn*",
+      "antisemit*",
+      "false information",
+      "gender based violence",
+      "counsel*",
+      "human rights defender*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R046",
+    "source_language": "en",
+    "original_text": "In much of the world, Grok and its parent company both appear to be in serious trouble. After Grok, X’s AI chatbot, has been used to generate sexualized and violent images of women and children, the social media company has faced a wave of backlash and censure, with new nationwide bans on accessing Grok in […]. After Grok, X’s AI chatbot, has been used to generate sexualized and violent images of women and children, the social media company has faced a wave of backlash and censure, with new nationwide bans on accessing Grok in place and other consequences on the way. On Monday, the EU threatened to fine X under its broad Digital Services Act if it didn’t act “quickly” to fix Grok, in the words of one regulator.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/elon-musk-twitter-grok-ai/",
+    "publication_date": "2026-01-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "guardrail*",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "abus*",
+      "violat*",
+      "backlash",
+      "accus*",
+      "banned",
+      "nonconsensual*",
+      "intimate imag*",
+      "made up",
+      "child sexual abuse material"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R047",
+    "source_language": "en",
+    "original_text": "Grok, the AI chatbot launched by Elon Musk after his takeover of X, unhesitatingly fulfilled a user’s request on Wednesday to generate an image of Renée Nicole Good in a bikini—the woman who was shot and killed by an ICE agent that morning in Minneapolis, as noted by CNN correspondent Hadas Gold and confirmed by […]. Grok, the AI chatbot launched by Elon Musk after his takeover of X, unhesitatingly fulfilled a user’s request on Wednesday to generate an image of Renée Nicole Good in a bikini—the woman who was shot and killed by an ICE agent that morning in Minneapolis, as noted by CNN correspondent Hadas Gold and confirmed by the chatbot itself. “I just saw someone request Grok on X put the image of the woman shot by ICE in MN, slumped over in her car, in a bikini.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/grok-x-musk-deepfake-renee-good-ice/",
+    "publication_date": "2026-01-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "chatbot*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "kill*",
+      "malfunction*",
+      "nonconsensual*",
+      "intimate imag*",
+      "CSAM",
+      "child sexual abuse material"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R048",
+    "source_language": "en",
+    "original_text": "In the summer of 2019, a group of Dutch scientists conducted an experiment to collect “digital confessions.” At a music festival near Amsterdam, the researchers asked attendees to share a secret anonymously by chatting online with either a priest or a relatively basic chatbot, assigned at random. To their surprise, some of the nearly 300 […]. To their surprise, some of the nearly 300 participants offered deeply personal confessions, including of infidelity and experiences with sexual abuse. While what they shared with the priests (in reality, incognito scientists) and the chatbots was “equally intimate,” participants reported feeling more “trust” in the humans, but less fear of judgment with the chatbots.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/12/chatgpt-trust-ai-chatbots/",
+    "publication_date": "2025-12-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "Grok",
+      "Perplexity",
+      "harm*",
+      "bias*",
+      "abus*",
+      "violat*",
+      "lawsuit*",
+      "kill*",
+      "copyright*",
+      "conspiracy theor*",
+      "sycophan*",
+      "delusion*",
+      "mental health support",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R049",
+    "source_language": "en",
+    "original_text": "I began this morning, as I do every morning, by reading my daughter a book. Today it was Arthur Dorros’ Abuela, illustrated by Elisa Kleven. Abuela is a sweet story about a girl who imagines that she and her grandmother leap into the sky and soar around New York City. Dorros does an elegant job […]. Dorros does an elegant job weaving Spanish words and phrases throughout the text, often allowing readers to glean their meaning rather than translating them directly. When Rosalba, the bilingual granddaughter, discovers she can fly, she calls to her grandmother, “ Ven, Abuela Come, Abuela.” Her Spanish-speaking grandmother replies simply, “ Sí, quiero volar .”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/11/ai-childrens-books/",
+    "publication_date": "2025-11-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "disproportionat*",
+      "manipulat*",
+      "vulnerable",
+      "strike*",
+      "copyright*",
+      "journalist*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R050",
+    "source_language": "en",
+    "original_text": "Late last week, the X social media platform rolled out a new “location indicator” tool, plans for which had first been announced in October. Suddenly, it became much easier to get information on where in the world the site’s users are actually posting from, theoretically helping to illuminate inauthentic behavior, including attempted foreign influence. “It […]. “It is clear that information operations and coordinated inauthentic behavior will not cease.” As the tool started to reveal accounts’ information, the effect was like watching the Scooby Doo kids pull one disguise after another from the villain of the week.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/11/twitters-foreign-influence-problem-is-nothing-new/",
+    "publication_date": "2025-11-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "ai generat*",
+      "chip*",
+      "misinformation",
+      "disinformation",
+      "complaint*",
+      "information operation*",
+      "hacking",
+      "manipulat*",
+      "hate speech",
+      "location data"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R051",
+    "source_language": "en",
+    "original_text": "This story was originally published by WIRED and is reproduced here as part of the Climate Desk collaboration. On Election Day, Peter Hubbard was one of two Democratic candidates who took a decisive—and surprising—victory in Georgia. Hubbard was elected to the Georgia Public Service Commission (PSC), the body that regulates the state’s electric utility. It’s the first time Democrats have […]. It’s the first time Democrats have won statewide seats in statewide elections in Georgia in nearly two decades. Residents have complained for years about a series of rate hikes from the PSC. But during Hubbard’s campaigning, he noticed another topic coming up again and again with his future constituents.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/11/report-growing-public-resistance-data-centers-ai-power-bills-water-land-use/",
+    "publication_date": "2025-11-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "community opposition",
+      "alleged",
+      "utility bill*",
+      "electricity bill*",
+      "energy bill*",
+      "tax break*",
+      "zoning",
+      "moratorium",
+      "nondisclosure agreement*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R052",
+    "source_language": "en",
+    "original_text": "In the 1970s, when researchers asked children to draw a scientist, 99 percent of them drew a man. As this experiment was repeated over 50 years, the number of women drawn increased, and within the past decade, more than half of girls will draw a woman when asked what a scientist looks like. Today, Google […]. In the 1970s, when researchers asked children to draw a scientist, 99 percent of them drew a man As this experiment was repeated over 50 years, the number of women drawn increased, and within the past decade, more than half of girls will draw a woman when asked what a scientist looks like. Today, Google search results tend to agree with these children’s drawings.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2025/10/nature-study-berkeley-haas-online-internet-images-gender-bias-workforce-false-reality-women/",
+    "publication_date": "2025-10-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai model*",
+      "chatgpt",
+      "guardrail*",
+      "bias*",
+      "racis*",
+      "sexis*",
+      "stereotyp*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R053",
+    "source_language": "en",
+    "original_text": "This story was originally published by Guardian and is reproduced here as part of the Climate Desk collaboration. The White House will open 13.1 million acres of public land to coal mining while providing $625 million for coal-fired power plants, the Trump administration has announced. The efforts came as part of a suite of initiatives from the Department of the […]. This story was originally published by Guardian and is reproduced here as part of the Climate Desk collaboration The White House will open 13.1 million acres of public land to coal mining while providing $625 million for coal-fired power plants, the Trump administration has announced.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/10/trump-administration-625-million-public-lands-revive-coal-industry/",
+    "publication_date": "2025-10-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "displac*",
+      "mining",
+      "death*",
+      "emission*",
+      "pollut*",
+      "electricity bill*",
+      "asthma",
+      "wastewater",
+      "fossil fuel*",
+      "coal plant*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R054",
+    "source_language": "en",
+    "original_text": "The company’s biometric tech always sounded like it was ripped from the plot of a dystopian thriller, but recently, the iris-scanning system developed by the Massachusetts-based BI² Technologies has become part of the nation’s deportation dragnet. How BI² landed an ICE contract worth as much as $10 million is in part a tale of the […]. How BI² landed an ICE contract worth as much as $10 million is in part a tale of the Trump administration’s increasing reliance on controversial surveillance and biometric technology in its immigration crackdown. But it’s also the story of how a lobbying shop with deep ties to Trumpworld helped land a lucrative deal for a company that for years had struggled to break into federal contracting.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/trump-ice-contracts-ballard-partners-lobbying-bi2-technologies-palantir-biometrics/",
+    "publication_date": "2025-09-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "Palantir",
+      "surveil*",
+      "victim*",
+      "controvers*",
+      "fatalities",
+      "mine*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R055",
+    "source_language": "en",
+    "original_text": "This story was originally published by Canary Media and is reproduced here as part of the Climate Desk collaboration. Since 2021, the Sierra Club has been grading US utilities on their commitment to a clean-energy transition. While most utilities have not earned high marks on the group’s annual scorecards, as a whole they had been showing some progress. That’s over now. […]. This story was originally published by Canary Media and is reproduced here as part of the Climate Desk collaboration Since 2021, the Sierra Club has been grading US utilities on their commitment to a clean-energy transition. That’s over now. The latest edition of the Sierra Club’s “The Dirty Truth” report finds that the country’s biggest electric utilities are collectively doing worse on climate goals than when the organization started tracking their progress five years ago.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/utilities-sierra-club-report-card-climate-gas-coal-clean-energy/",
+    "publication_date": "2025-09-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "openai",
+      "anthropic",
+      "harm*",
+      "regulator*",
+      "pollut*",
+      "gigawatt*",
+      "power demand",
+      "fossil fuel*",
+      "coal plant*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R056",
+    "source_language": "en",
+    "original_text": "This story was originally published by the High Country News in partnership with the Puente News Collaborative and is reproduced here as part of the Climate Desk collaboration. Sunland Park, New Mexico, is not a notably online community. Retirees have settled in mobile homes around the small border town, just over the state line from El Paso. Some don’t own […]. This story was originally published by the High Country News in partnership with the Puente News Collaborative and is reproduced here as part of the Climate Desk collaboration Sunland Park, New Mexico, is not a notably online community. Some don’t own computers—they make their way to the air-conditioned public library when they need to look something up.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/data-center-construction-ai-water-local-resistance/",
+    "publication_date": "2025-09-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "water use",
+      "violat*",
+      "backlash",
+      "outcry",
+      "pollut*",
+      "contaminat*",
+      "noise pollution",
+      "protests",
+      "wastewater",
+      "tax break*",
+      "property value*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R057",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. The Trump administration, citing an ongoing “energy emergency,” has once again saddled a community already overburdened by pollution with a dirty, obsolete power plant it doesn’t want or need. The decision has confounded residents and environmental justice advocates, who called the […]. This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration The Trump administration, citing an ongoing “energy emergency,” has once again saddled a community already overburdened by pollution with a dirty, obsolete power plant it doesn’t want or need.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/eddystone-gas-plant-trump-stay-open-order-data-centers-energy-emergency/",
+    "publication_date": "2025-09-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "misidentif*",
+      "abus*",
+      "violat*",
+      "pollut*",
+      "blackout*",
+      "environmental justice",
+      "ratepayer*",
+      "air quality",
+      "asthma",
+      "megawatt*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R058",
+    "source_language": "en",
+    "original_text": "In April 2024, the American police tech firm Axon, which leads the market for police body cameras, released a tool it billed as “revolutionary”: Draft One, an AI-powered software package that would turn body camera footage and audio into intelligible police reports. Once best known for developing the Taser, Axon has transformed into a $50 […]. Once best known for developing the Taser, Axon has transformed into a $50 billion military and law enforcement tech giant, providing more than 5,000 police departments across the country with a suite of cloud-based products to manage evidence collection and storage. Draft One, the AI tool, connects with the company’s body cameras and evidence storage service to write police reports with little human intervention.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia/",
+    "publication_date": "2025-08-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "ai power*",
+      "ai driven",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "fine tun*",
+      "bias*",
+      "discriminat*",
+      "surveil*",
+      "accountab*",
+      "alleged",
+      "accus*",
+      "defect*",
+      "hallucinat*",
+      "deactivat*",
+      "rubber stamp*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R059",
+    "source_language": "en",
+    "original_text": "In March, Immigration and Customs Enforcement (ICE) arrested a woman they accused of drug trafficking and entering the country illegally. Standing in a parking lot, they photographed her, weeping, eyes half-closed in anguish, her arms cuffed behind her back. And then—in a cruel innovation specific to the Trump administration—the White House’s official Twitter account used […]. And then—in a cruel innovation specific to the Trump administration—the White House’s official Twitter account used an AI tool to make a cartoon illustration of her crying and handcuffed, in the style of the beloved Japanese animation studio Studio Ghibli.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/08/trump-administration-propaganda/",
+    "publication_date": "2025-08-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "disinformation",
+      "victim*",
+      "scandal*",
+      "accus*",
+      "dehumaniz*",
+      "propaganda",
+      "anxiet*",
+      "manipulat*",
+      "slur*",
+      "demean*",
+      "xenophob*",
+      "counsel*",
+      "arrest*",
+      "detention",
+      "deportation",
+      "repurpos*",
+      "in the style of"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R060",
+    "source_language": "en",
+    "original_text": "In 2023, Peter Thiel, the billionaire tech titan and investor, issued a proclamation: He would not make political donations in 2024 to any candidate, including Donald Trump, whom he had backed in 2016. Now, after sitting out the 2024 election cycle, Thiel is back in the game. He has quietly donated more than $850,000 this […]. He has quietly donated more than $850,000 this year to finance Republican incumbents attempting to retain their party’s control of the House in next year’s midterm elections. That renewed largesse comes as the stock price of Palantir, the company Thiel founded and still owns much of, soars , with the firm raking in profits from contracts awarded by the Trump administration.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/peter-thiel-republican-donations-palantir-federal-contracts-house-control-trump/",
+    "publication_date": "2025-07-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "Palantir",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "pedestrian",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R061",
+    "source_language": "en",
+    "original_text": "This story was originally published by Popular Information, a substack publication to which you can subscribe here. This past Thursday, the Wall Street Journal published a bombshell report about President Trump’s relationship with convicted child sex abuser Jeffrey Epstein. According to the Journal, the materials collected as part of the Department of Justice’s investigation into Epstein included a 2003 birthday message […]. This story was originally published by Popular Information , a substack publication to which you can subscribe here This past Thursday, the Wall Street Journal published a bombshell report about President Trump’s relationship with convicted child sex abuser Jeffrey Epstein.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/wall-street-journal-donald-trump-jeffrey-epstein-birthday-letter-lawsuit/",
+    "publication_date": "2025-07-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai tool*",
+      "xAI",
+      "Grok",
+      "abus*",
+      "controvers*",
+      "alleged"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R062",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. AI is “not my thing,” President Donald Trump admitted during a speech in Pittsburgh on Tuesday. However, the president said during his remarks at the Energy and Innovation Summit, his advisers had told him just how important energy was to the future of […]. However, the president said during his remarks at the Energy and Innovation Summit, his advisers had told him just how important energy was to the future of AI. “You need double the electric of what we have right now, and maybe even more than that,” Trump said, recalling a conversation with “David”—most likely White House AI czar David Sacks, a panelist at the summit.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/fossil-fuel-polluters-lifeline-ai-data-centers-power-demand-donald-trump-pittsburgh-summit/",
+    "publication_date": "2025-07-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "openai",
+      "anthropic",
+      "AI data cent*",
+      "emission*",
+      "pollut*",
+      "fossil fuel*",
+      "tax incentive*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R063",
+    "source_language": "en",
+    "original_text": "On Tuesday, Grok, the AI-chatbot created by Elon Musk’s xAI, began generating vile, bigoted and antisemitic responses to X users’ questions, referring to itself as “MechaHitler,” praising Hitler and “the white man,” and, as a weird side-quest, making intensely critical remarks in both Turkish and English about Turkish President Recep Tayyip Erdogan as well as […]. On Tuesday, Grok, the AI-chatbot created by Elon Musk’s xAI, began generating vile, bigoted and antisemitic responses to X users’ questions, referring to itself as “MechaHitler,” praising Hitler and “the white man,” and, as a weird side-quest, making intensely critical remarks in both Turkish and English about Turkish President Recep Tayyip Erdogan as well as Mustafa Kemal Ataturk, the founder of modern Turkey.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/grok-ai-antisemitism/",
+    "publication_date": "2025-07-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "chatgpt",
+      "xAI",
+      "Grok",
+      "bias*",
+      "censor*",
+      "propaganda",
+      "scam*",
+      "hate speech",
+      "antisemit*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R064",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. Republicans are pushing to pass a major spending bill that includes provisions to prevent states from enacting regulations on artificial intelligence. Such untamed growth in AI will take a heavy toll upon the world’s dangerously overheating climate, experts have […]. Such untamed growth in AI will take a heavy toll upon the world’s dangerously overheating climate, experts have warned. About 1 billion tons of planet-heating carbon dioxide are set to be emitted in the US just from AI over the next decade if no restraints are placed on the industry’s enormous electricity consumption, according to estimates by researchers at Harvard University and provided to the Guardian This 10-year timeframe, a period of time in which Republicans want a “pause” of state-level regulations…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/big-beautiful-bill-ban-state-ai-regulations-environmental-energy-climate/",
+    "publication_date": "2025-07-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatgpt",
+      "hyperscale*",
+      "guardrail*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "fossil fuel*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R065",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. Last Tuesday, President Donald Trump held a press conference to announce the signing of executive orders intended to shape American energy policy in favor of one particular source: coal, the most carbon-intense fossil fuel. “I call it beautiful, clean coal,” President Trump said while […]. This story was originally published b y Wired a nd is reproduced here as part of the Climate Desk collaboration Last Tuesday, President Donald Trump held a press conference to announce the signing of executive orders intended to shape American energy policy in favor of one particular source: coal, the most carbon-intense fossil fuel.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/04/donald-trump-wants-to-save-the-coal-industry-hes-too-late/",
+    "publication_date": "2025-04-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "generative ai",
+      "regulator*",
+      "liab*",
+      "scam*",
+      "death*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "fossil fuel*",
+      "coal plant*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R066",
+    "source_language": "en",
+    "original_text": "The judge demanded that White House Press Secretary Karoline Leavitt remove her cross necklace, but soon he was humiliated. A man tried to yell at Vice President JD Vance in a cafe, but soon, he too was brought low. Barron Trump triumphed in a debate over a “liberal student” who bore a striking resemblance to […]. Barron Trump triumphed in a debate over a “liberal student” who bore a striking resemblance to the actress Emma Watson. On YouTube, videos featuring these bizarre and overwrought tales are proliferating, claiming Trump-world figures bested their antagonists during micro-interactions: at restaurants, on the street, in little-known court cases, and on late-night talk shows.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/04/ai-slop-donald-trump-youtube/",
+    "publication_date": "2025-04-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "fined",
+      "misinformation",
+      "censor*",
+      "violat*",
+      "misleading"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R067",
+    "source_language": "en",
+    "original_text": "One evening in March 2017, Hoan Ton-That, an Australian coder building a powerful facial recognition system, emailed his American business partners with a plan to deploy their fledgling technology. “Border patrol pitch,” the subject line read. He hoped to persuade the federal government to integrate their product with border surveillance cameras so that their newly […]. He hoped to persuade the federal government to integrate their product with border surveillance cameras so that their newly formed company, later named Clearview AI, could use “face detection” on immigrants entering the United States. An immigrant to the United States himself, Ton-That grew up in Melbourne and Canberra and claimed to be descended from Vietnamese royalty.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/04/clearview-ai-immigration-ice-fbi-surveillance-facial-recognition-hoan-ton-that-hal-lambert-trump/",
+    "publication_date": "2025-04-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "tenant screening",
+      "guardrail*",
+      "Clearview AI",
+      "harm*",
+      "fined",
+      "bias*",
+      "misinformation",
+      "fraud*",
+      "harass*",
+      "surveil*",
+      "without consent",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "controvers*",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "class action*",
+      "liab*",
+      "racis*",
+      "wrongful*",
+      "false claim*",
+      "propaganda",
+      "election interference",
+      "died",
+      "kill*",
+      "protest",
+      "protests",
+      "protesters",
+      "protestors",
+      "data protection",
+      "mass surveillance",
+      "chilling effect*",
+      "without permission",
+      "islamophob*",
+      "xenophob*",
+      "conspiracy theor*",
+      "mine*",
+      "wrongful arrest*",
+      "arrest*",
+      "journalist*",
+      "immigration enforcement",
+      "deportation",
+      "scrap*",
+      "no transparency"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R068",
+    "source_language": "en",
+    "original_text": "President Donald Trump has a new hobbyhorse: That his predecessor, President Joe Biden, didn’t legally grant pardons to people Trump wants to harass because the pardons were signed with an autopen, a device for replicating a signature, rather than by hand. Trump has identified some signature requirement as the one rule presidents must obey. “The […]. “The ‘Pardons’ that Sleepy Joe Biden gave to the Unselect Committee of Political Thugs, and many others, are hereby declared VOID, VACANT, AND OF NO FURTHER FORCE OR EFFECT, because of the fact that they were done by Autopen,” he ranted on Truth Social just after midnight on Monday.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/03/autopen-donald-trump/",
+    "publication_date": "2025-03-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "chatbot*",
+      "injur*",
+      "harass*",
+      "wrongful*",
+      "outsourc*",
+      "deportation",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R069",
+    "source_language": "en",
+    "original_text": "This story was originally published on the author’s substack, Field Notes with Alexander C Kaufman, to which you can subscribe here. Artificial intelligence is driving up demand for electricity—the only question is how much, and what provides the power. Over the next three years, the Lawrence Berkeley National Laboratory estimates, AI’s thirst for power will double or triple. Last […]. This story was originally published on the author’s substack, Field Notes with Alexander C Kaufman , to which you can subscribe here Artificial intelligence is driving up demand for electricity—the only question is how much, and what provides the power.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/02/new-duke-study-power-curtailment-ai-data-centers-nuclear-gas-plants/",
+    "publication_date": "2025-02-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "openai",
+      "deepseek",
+      "regulator*",
+      "gas turbine*",
+      "gigawatt*",
+      "power demand",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R070",
+    "source_language": "en",
+    "original_text": "On Thursday, the Washington Post reported that Elon Musk’s DOGE fed sensitive data into artificial intelligence software as a way to help decide which of the Department of Education’s programs were wasteful, to try and slash its budget. President Donald Trump is expected to soon release an executive order that would reduce education spending as […]. President Donald Trump is expected to soon release an executive order that would reduce education spending as much as possible while recognizing that he cannot get rid of the department itself. That can only be done by an act of Congress—Rep. Thomas Massie (R-KY) recently reintroduced such a bill in the House.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/02/ai-artifical-intelligence-determine-cuts-department-education-disabled-students-disabiility-rights/",
+    "publication_date": "2025-02-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai model*",
+      "ai driven",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "disproportionat*",
+      "ableis*",
+      "sensitive data"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R071",
+    "source_language": "en",
+    "original_text": "This story was originally published by High Country News and is reproduced here as part of the Climate Desk collaboration. On January 14, President Joe Biden issued an executive order directing the departments of Defense and Energy to make land available for private entities to construct gigawatt-scale “frontier” AI data centers. He also instructed the Interior Department to identify sites […]. This story was originally published b y High Country News a nd is reproduced here as part of the Climate Desk collaboration On January 14, President Joe Biden issued an executive order directing the departments of Defense and Energy to make land available for private entities to construct gigawatt-scale “frontier” AI data centers.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/02/joe-biden-executive-order-ai-frontier-data-centers-public-land-giveaway-trump-interior-energy-oligarchy/",
+    "publication_date": "2025-02-03",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "harm*",
+      "mining",
+      "exploit*",
+      "emission*",
+      "gigawatt*",
+      "transmission line*",
+      "mine*",
+      "miner*",
+      "lithium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R072",
+    "source_language": "en",
+    "original_text": "“So where’s my German friends?” Donald Trump asked a fawning Mar-a-Lago crowd on Election Day, before flashing a grin and a thumbs up for a photo with a group of young men. The German friends in question: Fabrice Ambrosini, a former politician forced to resign after a video surfaced of him doing a Hitler salute; […]. The German friends in question: Fabrice Ambrosini, a former politician forced to resign after a video surfaced of him doing a Hitler salute; Leonard Jäger, a far-right influencer who has promoted the Reichsbürger movement, an extremist group behind a failed coup attempt in 2022; and Phillipp-Anders Rau, a candidate for Alternative für Deutschland (AfD), Germany’s far-right party.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/12/donald-trump-elon-musk-alternative-fur-deutschlandafd-german-elections/",
+    "publication_date": "2024-12-21",
+    "country": "Germany",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "ai generat*",
+      "fraud*",
+      "censor*",
+      "victim*",
+      "allegation*",
+      "complaint*",
+      "banned",
+      "racis*",
+      "protests",
+      "conspiracy theor*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R073",
+    "source_language": "en",
+    "original_text": "Over the past few months, Elon Musk has seemingly done everything in his power to get former President Donald Trump reelected. On Monday, he debuted another effort: X added a purported “Election Integrity Community”—a feed where users of the site can add instances “of voter fraud or irregularities you see while voting in the 2024 […]. On Monday, he debuted another effort: X added a purported “ Election Integrity Community ”—a feed where users of the site can add instances “of voter fraud or irregularities you see while voting in the 2024 election.” America PAC—the political action committee Musk founded and reportedly sent $75 million—is behind the move.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/10/elon-musk-voter-fraud-group-x-misinformation/",
+    "publication_date": "2024-10-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "Grok",
+      "harm*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "allegation*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R074",
+    "source_language": "en",
+    "original_text": "On Saturday, Elon Musk furthered an ongoing effort in support of Donald Trump: He went onstage to sow misinformation about the integrity of American elections. At the former president’s campaign rally in Butler, Pennsylvania—in the same location where Trump narrowly survived an assassination attempt in July—Musk awkwardly took to the stage in a Black MAGA […]. At the former president’s campaign rally in Butler, Pennsylvania—in the same location where Trump narrowly survived an assassination attempt in July—Musk awkwardly took to the stage in a Black MAGA hat and a t-shirt that said “OCCUPY MARS,” jumping up and down on his way to the podium.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/10/elon-musk-trump-rally-butler-voting-disinformation/",
+    "publication_date": "2024-10-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai power*",
+      "Grok",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "false claim*",
+      "misleading",
+      "vulnerable",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R075",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. For five years, reactor one at Three Mile Island nuclear power station in Pennsylvania has lain dormant. Now, thanks to a deal with Microsoft, the reactor will start running again in 2028—this time to exclusively supply the tech firm with oodles of low-carbon electricity. […]. This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration For five years, reactor one at Three Mile Island nuclear power station in Pennsylvania has lain dormant. It’s all part of an ongoing flirtation between Big Tech and nuclear power.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/09/ai-microsoft-nuclear-comeback-three-mile-island/",
+    "publication_date": "2024-09-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "ai model*",
+      "ai tool*",
+      "ai power*",
+      "openai",
+      "Hugging Face",
+      "emission*",
+      "energy consumption",
+      "megawatt*",
+      "gigawatt*",
+      "power demand"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R076",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. Earlier this year, the e-commerce corporation Amazon secured approval to open two new data centers in Santiago, Chile. The $400 million venture is the company’s first foray into locating its data facilities, which guzzle massive amounts of electricity and water in order to power cloud […]. This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration Earlier this year , the e-commerce corporation Amazon secured approval to open two new data centers in Santiago, Chile.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/amazon-water-positive-claim-criticism-data-centers-power-plants/",
+    "publication_date": "2024-08-31",
+    "country": "Chile",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatgpt",
+      "controvers*",
+      "water consumption",
+      "emission*",
+      "pollut*",
+      "power demand",
+      "fossil fuel*",
+      "farmland"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R077",
+    "source_language": "en",
+    "original_text": "A heavily publicized Twitter conversation between Elon Musk and Donald Trump on Monday night began with an immediate bed-shitting technical crash. When things finally kicked off 42 minutes later with a much smaller audience, Musk blamed a Distributed Denial-of-Service (DDoS) attack, which did not appear to be true, as the rest of his site continued […]. When things finally kicked off 42 minutes later with a much smaller audience, Musk blamed a Distributed Denial-of-Service (DDoS) attack, which did not appear to be true, as the rest of his site continued to function as normal. In the time the platform struggled to serve video of the event, however, a deepfake on YouTube purporting to show a livestream of a gray-looking Musk addressing a factory audience attracted 200,000 viewers to a channel running a crypto scam.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/elon-musk-donald-trump-twitter-space/",
+    "publication_date": "2024-08-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "disinformation",
+      "accus*",
+      "scam*",
+      "crash*",
+      "layoff*",
+      "slur*",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R078",
+    "source_language": "en",
+    "original_text": "Elon Musk is not just the Trump-supporting owner of the social media platform X, formerly known as Twitter. It turns out he is also one of the platform’s biggest peddlers of election-related disinformation, according to a new report published Thursday by the Center for Countering Digital Hate. The report from CCDH, a nonprofit organization focused […]. The report from CCDH, a nonprofit organization focused on protecting civil liberties and holding social media companies accountable, found that 50 false or misleading posts shared by Musk on X between January 1 and July 31 of this year racked up a staggering 1.2 billion views.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/election-disinformation-elon-musk-x-trump-harris/",
+    "publication_date": "2024-08-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai power*",
+      "Grok",
+      "harm*",
+      "disinformation",
+      "fraud*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "degrading",
+      "false claim*",
+      "misleading",
+      "propaganda",
+      "manipulated media",
+      "manipulat*",
+      "vulnerable",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R079",
+    "source_language": "en",
+    "original_text": "For our September+October issue, we investigated the Border Patrol’s sharp growth, its troubling record on civil liberties, its culture of impunity, and its role in shaping the current political moment—one that echoes the anti-immigrant fever that led to the agency’s creation a century ago. Read the whole package here. It was dawn and we were in Sunland Park, New Mexico, a few […]. Read the whole package here It was dawn and we were in Sunland Park, New Mexico, a few hundred feet from the border, watching the US government surveillance towers that watch all of us. They were positioned atop a bald hillside, taking in a constant stream of images from all angles.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/border-patrol-wall-automated-surveillance-artificial-intelligence-security-expo/",
+    "publication_date": "2024-08-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "artificial intelligen*",
+      "ai tool*",
+      "Anduril",
+      "surveil*",
+      "accountab*",
+      "impunity",
+      "death*",
+      "extrajudicial",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R080",
+    "source_language": "en",
+    "original_text": "Elon Musk has said he wants X, formerly known as Twitter, to be the “public square” of the internet, an essential place for discourse and democracy. But there’s a major problem: Disinformation is running rampant on X in the lead-up to the November election, including content targeting Democratic presidential candidate Kamala Harris. As Mother Jones […]. As Mother Jones reported on Sunday, that content includes deepfakes shared by Musk himself and by an account that reposts Donald Trump’s feed from Truth Social. Musk, who has owned X since fall 2022, has endorsed Trump for president. Leading election officials have grown concerned about potential harm from X. On Monday, five secretaries of state—those from Minnesota, Pennsylvania, Michigan, Washington, and New Mexico—sent Musk a letter demanding he “immediately implement changes” to Grok, the AI-powered search assistant available to…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/elon-musk-x-kamala-harris-election-disinformation-deepfake-grok/",
+    "publication_date": "2024-08-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai system*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "Grok",
+      "harm*",
+      "disinformation",
+      "violat*",
+      "wrongful*",
+      "degrading",
+      "manipulated media",
+      "manipulat*",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R081",
+    "source_language": "en",
+    "original_text": "This story was originally published by Inside Climate News and is reproduced here as part of the Climate Desk collaboration. Cheryl Shadden cannot sleep. The 61-year-old nurse, who works at hospitals giving patients anesthesia, says she is kept up at night by the nonstop mechanical whir of fans spinning to cool tens of thousands of computers. Shadden lives in […]. Shadden lives in Granbury, Texas, about 40 miles southwest of Fort Worth, with her seven dogs, six horses, six cats and a parrot. In 2022, after 23 years in the area, Shadden got a new neighbor: a 300-megawatt Bitcoin facility, referred to as a “mine,” where computers run around the clock to help maintain a global network of transactions in the cryptocurrency.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/07/texas-bitcoin-mines-data-centers-power-grid-demand/",
+    "publication_date": "2024-07-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "data cent*",
+      "artificial intelligen*",
+      "power purchase agreement*",
+      "mining",
+      "manipulat*",
+      "crash*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "noise pollution",
+      "blackout*",
+      "ratepayer*",
+      "utility bill*",
+      "megawatt*",
+      "power demand",
+      "public hearing*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R082",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. The artificial intelligence boom has driven Big Tech share prices to fresh highs, but at the cost of the sector’s climate aspirations. Google admitted on Tuesday that the technology is threatening its environmental targets after revealing that data centers, a key piece of AI […]. Google admitted on Tuesday that the technology is threatening its environmental targets after revealing that data centers, a key piece of AI infrastructure, had helped increase its greenhouse gas emissions by 48 percent since 2019.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2024/07/ai-data-centers-energy-use-tech-climate-goals-net-zero/",
+    "publication_date": "2024-07-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "data cent*",
+      "AI infrastructure",
+      "AGI",
+      "GPT*",
+      "artificial intelligen*",
+      "ai system*",
+      "ai model*",
+      "training run*",
+      "model training",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "deepmind",
+      "AI data cent*",
+      "Claude",
+      "Gemini",
+      "water use",
+      "emission*",
+      "greenhouse gas*",
+      "energy consumption",
+      "power demand",
+      "fossil fuel*",
+      "climate target*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R083",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. Big Tech’s appetite for energy is just about visible from the east coast of Scotland. Some 12 miles out to sea sits a wind farm, where each of the 60 giant turbines has blades roughly the length of an American football […]. Some 12 miles out to sea sits a wind farm, where each of the 60 giant turbines has blades roughly the length of an American football field. The utility companies behind the Moray West project had promised the site would be capable of generating enough electricity to power 1.3 million homes once completed.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/06/big-tech-ai-energy-electricity-use-growing-power-grid-restraints/",
+    "publication_date": "2024-06-17",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "data cent*",
+      "AI infrastructure",
+      "artificial intelligen*",
+      "server farm*",
+      "openai",
+      "chip*",
+      "power purchase agreement*",
+      "backlash",
+      "emission*",
+      "strike*",
+      "diesel generator*",
+      "megawatt*",
+      "gigawatt*",
+      "power demand",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R084",
+    "source_language": "en",
+    "original_text": "Not long ago, I noticed a new term trending in social media wellness circles: “certified hormone specialist.” I could have investigated it the old-fashioned way: googling, calling up an expert or two, digging into the scientific literature. I’m accustomed to researching suspicious certifications for my podcast, Conspirituality, which covers how health misinformation metastasizes online. Instead, I […]. Instead, I tried something new. I asked a couple chatbots: What training does someone need to specialize in female hormones? The bots pointed me toward an “advanced 12-month self-paced continuing education program in hormone health” run by Ashe Milkovic, a Reiki practitioner and homeopath.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/05/chatbots-chatgpt-health-misinformation/",
+    "publication_date": "2024-05-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai generat*",
+      "chatgpt",
+      "Scale AI",
+      "misinformation",
+      "disinformation",
+      "accus*",
+      "fabricated",
+      "propaganda",
+      "hallucinat*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R085",
+    "source_language": "en",
+    "original_text": "After gunmen on the outskirts of Moscow opened fire at a popular concert hall Friday night, in the deadliest attack that Russia’s capital has seen in more than a decade, claims and counterclaims are now mounting about who is responsible for the violence, and a deepfake video is already adding to the swirl of disinformation. […]. In the hours after the attack at Crocus City Hall, which killed at least 133 people , the Islamic State claimed responsibility. US security officials blamed the Islamic State in Khorasan, a branch that works in Pakistan, Afghanistan, and Iran. But some Russian lawmakers quickly pointed a finger at Ukraine, and Russia’s NTV television channel soon aired a deepfake video that fueled those suspicions.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/03/deepfake-video-terror-moscow-putin-ukraine-claims/",
+    "publication_date": "2024-03-23",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "disinformation",
+      "allegation*",
+      "accus*",
+      "kill*",
+      "arrest*",
+      "detained",
+      "who is responsible"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R086",
+    "source_language": "en",
+    "original_text": "This story was originally published by Yale E360 and is reproduced here as part of the Climate Desk collaboration. Two months after its release in November 2022, OpenAI’s ChatGPT had 100 million active users, and suddenly tech corporations were racing to offer the public more “generative AI” Pundits compared the new technology’s impact to the Internet, or electrification, or the […]. Two months after its release in November 2022, OpenAI’s ChatGPT had 100 million active users, and suddenly tech corporations were racing to offer the public more “generative AI” Pundits compared the new technology’s impact to the Internet, or electrification, or the Industrial Revolution—or the discovery of fire Time will sort hype from reality, but one consequence of the explosion of artificial intelligence is clear: this technology’s environmental footprint is large and growing.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2024/02/ai-artificial-intelligence-carbon-footprint-climate-change-data-centers-electricity-consumption/",
+    "publication_date": "2024-02-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "GPT*",
+      "artificial intelligen*",
+      "foundation model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "GPU*",
+      "hyperscale*",
+      "regulator*",
+      "water use",
+      "mining",
+      "lawsuit*",
+      "water consumption",
+      "drought*",
+      "emission*",
+      "carbon footprint*",
+      "greenhouse gas*",
+      "energy consumption",
+      "protests"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R087",
+    "source_language": "en",
+    "original_text": "When the US targeted Russia’s oligarchs after the invasion of Ukraine, the trail of assets kept leading to our own backyard. Not only had our nation become a haven for shady foreign money, but we were also incubating a familiar class of yacht-owning, industry-dominating, resource-extracting billionaires. In the January + February 2024 issue of our magazine, we […]. In the January + February 2024 issue of our magazine, we investigate the rise of American Oligarchy—and what it means for the rest of us. You can read all the pieces here For the last 18 months one of the most opulent and unnecessary vessels ever constructed has been floating in a narrow channel next to a jungle gym and a fleet of industrial cranes at the Port of San Diego.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/01/american-oligarchy-introduction-essay-russia-ukraine-capitalism/",
+    "publication_date": "2024-01-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "chatbot*",
+      "self driving",
+      "server farm*",
+      "openai",
+      "mining",
+      "exploit*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "wrongdoing",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "complaint*",
+      "sanction*",
+      "money launder*",
+      "manipulat*",
+      "died",
+      "precarious*",
+      "copyright*",
+      "tax break*",
+      "shell compan*",
+      "mine*",
+      "nickel",
+      "journalist*",
+      "fair use",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R088",
+    "source_language": "en",
+    "original_text": "The New York Times is suing OpenAI and Microsoft for copyright infringement—a major development in the ongoing, nationwide legal struggle between content creators and artificial intelligence firms. The paper warns AI firms face “billions of dollars” in damages. While previous lawsuits claiming intellectual property violations by AI companies have come from artists and writers, the Times […]. While previous lawsuits claiming intellectual property violations by AI companies have come from artists and writers, the Times is the first American news organization to sue the companies, alleging that OpenAI and Microsoft used millions of their articles to train digital chatbots that now compete with the publication.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2023/12/new-york-times-artificial-intelligence-lawsuit/",
+    "publication_date": "2023-12-27",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "openai",
+      "infring*",
+      "accountab*",
+      "damag*",
+      "violat*",
+      "lawsuit*",
+      "complaint*",
+      "copyright*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R089",
+    "source_language": "en",
+    "original_text": "By now you’ve seen the scenes of young and middle-aged Americans wearing cargo shorts and Patagonia Baggies Brimmers in front of movie studios holding ironic picket signs, such as “Chat GPT doesn’t have childhood trauma!” As the battle grinds into its 12th week, with no end in sight—and the actors’ union now part of the […]. As the battle grinds into its 12th week, with no end in sight—and the actors’ union now part of the strike too—it’s easy to think that a fight between a bunch of “rich Hollywood writers” and the big studios and networks may mean nothing to you, but it’s quite the opposite. This is the labor fight of our generation.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2023/07/im-a-striking-tv-writer-heres-why-were-doing-this/",
+    "publication_date": "2023-07-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "GPT*",
+      "artificial intelligen*",
+      "exploit*",
+      "trauma*",
+      "underpaid",
+      "strike*",
+      "plagiaris*",
+      "scrap*",
+      "residual*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R090",
+    "source_language": "en",
+    "original_text": "Thousands of Reddit communities went dark this week to protest the webforum giant’s money-making plans. Ahead of an expected IPO later this year, the company’s CEO announced it would start charging for access to its application programming interface. APIs are a common feature of web platforms, essentially letting anyone peer more deeply under the hood. They […]. They are often harnessed by ancillary apps that provide users other ways or spaces to interact with a platform’s offerings. Reddit executives’ defense of the move sounds reasonable, especially now: Companies like OpenAI and Google are reportedly inhaling value from Reddit, putting the content it hosts in their artificial intelligence training data sets without compensating the company.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/06/reddit-blackout/",
+    "publication_date": "2023-06-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "training data",
+      "artificial intelligen*",
+      "openai",
+      "mining",
+      "abus*",
+      "backlash",
+      "died",
+      "protest"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R091",
+    "source_language": "en",
+    "original_text": "Today President Biden announced his reelection bid. In response, the GOP announced its further descent into the uncanny valley, with a big assist from artificial intelligence. Presumably designed as a rebuke of Biden’s own relatively somber campaign video, the Republican offering—titled “Beat Biden”—foretells the dystopian future heralded by the incumbent’s imagined second win. It’s an […]. Today President Biden announced his reelection bid In response, the GOP announced its further descent into the uncanny valley, with a big assist from artificial intelligence. It’s an all-but-unlivable hellscape of war, financial ruin, and crime.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/04/gop-video-biden-warning-artificial-intelligence-guide/",
+    "publication_date": "2023-04-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai generat*",
+      "midjourney",
+      "racis*",
+      "degrading",
+      "distress*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R092",
+    "source_language": "en",
+    "original_text": "“You’re in!” the email said. “Welcome to the new Bing!” Last Sunday, I joined a small wave of users granted early access to Microsoft’s new chatbot backed search engine, put forward as an “AI-powered copilot for the web.” Given that “multiple millions” across 169 countries were stuck on the waitlist, I felt like Charlie waving […]. “You’re in!” the email said. “Welcome to the new Bing!” Given that “ multiple millions ” across 169 countries were stuck on the waitlist, I felt like Charlie waving a Golden Ticket. Little did I know that I, like Roald Dahl’s beloved character, would too be led by a mercurial and untrustworthy host into a world of pure imagination.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/02/bing-ai-chatbot-falsehoods-fact-checking-microsoft/",
+    "publication_date": "2023-02-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "chatbot*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "abus*",
+      "made up",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R093",
+    "source_language": "en",
+    "original_text": "Whether you call it “tattleware,” “bossware,” or “surveillance capitalism,” Sen. Bob Casey (D-Pa.) has had enough of exploitative workplace monitoring technologies. Late last week, Casey and a handful of other Senate Democrats introduced the Stop Spying Bosses Act, which would help protect workers from intrusive employer surveillance both on and off the clock. The legislation would require “timely and […]. The legislation would require “timely and public” disclosures by companies about the data they’re collecting on employees, prohibit businesses from using surveillance practices that obstruct union organizing or monitor workers while they’re off the clock, and create a new division of the Department of Labor to regulate workplace surveillance.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/02/workplace-surveillance-stop-spying-bosses-act/",
+    "publication_date": "2023-02-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "bossware",
+      "emotion recognition",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "unioniz*",
+      "spying",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R094",
+    "source_language": "en",
+    "original_text": "Facing mounting bipartisan pressure, the Internal Revenue Service announced yesterday that it’s walking back plans to deploy facial recognition software to identify taxpayers. In November, the IRS signed an $86 million contract with identity verification startup ID.me, announcing that it would require taxpayers to provide personal, identifying materials, including selfies, to access their tax records. […]. Privacy and civil rights advocates responded immediately, forming a coalition of close to 20 groups —from the National Lawyers Guild to the Council on American-Islamic Relations—that criticized the “destructive results of facial recognition technology…from police using it to track Black Lives Matter protesters, to wrongful arrests , to manipulative marketing .”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/mojo-wire/2022/02/what-did-the-irs-want-with-your-selfies/",
+    "publication_date": "2022-02-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "wrongful*",
+      "manipulat*",
+      "protesters",
+      "wrongful arrest*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R095",
+    "source_language": "en",
+    "original_text": "Have you ever fallen down a YouTube rabbit hole (of course, you have) and watched the latest Lil Nas X video, then took a look at the most recent instance of police abuse of Black folks caught on camera? And then did you say to yourself, “Seems like it’s time to watch primates hanging out with Jane […]. And then did you say to yourself, “Seems like it’s time to watch primates hanging out with Jane Goodall”? Of course, you didn’t! Those associations are blatantly wrong and offensive (not to mention ridiculous). But for more than a year, after Facebook users watched a video showing encounters between Black men and white civilians and cops, they received an automated prompt asking if they wanted to “keep seeing videos about Primates.”",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/mojo-wire/2021/09/facebooks-ai-seems-to-have-a-racism-problem/",
+    "publication_date": "2021-09-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "artificial intelligen*",
+      "bias*",
+      "abus*",
+      "penalt*",
+      "racis*",
+      "sexis*",
+      "disproportionat*",
+      "kill*",
+      "protests",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R096",
+    "source_language": "en",
+    "original_text": "Joyce Jones’ Facebook page is almost an archetype of what the social network is supposed to look like: Pictures of her kids, her kids’ friends, her sports teams, her kids’ friends’ sports teams. Videos of her husband’s sermons at New Mount Moriah Baptist Church. Memes celebrating achievement and solidarity, holiday greetings, public health messages. It’s […]. It’s what Mark Zuckerberg extols when he talks about how his company is all about “bringing people together.” So when Jones decided to run for mayor in her Alabama town last year, it seemed obvious that she’d try to bring people together on Facebook. Her bid to be Montevallo’s first Black mayor, challenging a 12-year City Council incumbent, drew an enthusiastic, diverse crew of volunteers.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2021/08/why-facebook-wont-stop-pushing-propaganda/",
+    "publication_date": "2021-08-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "artificial intelligen*",
+      "automated decision*",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "exploit*",
+      "censor*",
+      "accountab*",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "complaint*",
+      "sanction*",
+      "banned",
+      "liab*",
+      "racis*",
+      "disproportionat*",
+      "false claim*",
+      "misleading",
+      "propaganda",
+      "manipulat*",
+      "protests",
+      "strike*",
+      "made up",
+      "conspiracy theor*",
+      "delusion*",
+      "crushed"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R097",
+    "source_language": "en",
+    "original_text": "In 2016, Facebook was caught flatfooted. Throughout that year’s election, Americans using the platform confronted a range of misinformation as Russian state-sponsored trolls, Eastern European teenagers, and others manipulated the company’s weak moderation practices. Since then, the company has claimed that it takes disinformation seriously. But a new report from Avaaz, a global nonprofit activist […]. But a new report from Avaaz, a global nonprofit activist group, suggests that Facebook still has a lot of work to do to meaningfully tamp misinformation. While Facebook appears to have made significant strides in stopping foreign governments from using its platform to interfere in U.S. elections, Avaaz’s analysis suggests the company is having a hard time replicating that success when it comes to disinformation designed inside the United States.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2021/03/facebook-misinformation-avaaz/",
+    "publication_date": "2021-03-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "harm*",
+      "discriminat*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "accus*",
+      "liab*",
+      "false claim*",
+      "misleading",
+      "manipulat*",
+      "false information",
+      "conspiracy theor*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R098",
+    "source_language": "en",
+    "original_text": "Every evening last summer, after I’d shut down my work laptop, my 3-year-old daughter and I would approach our Google Home smart speaker and yell, “Hey Google, can you play ‘Aankh Marey’ from the movie Simmba?” We’d hold our breaths and wait for a response. The digital assistant would then repeat the name of the […]. The digital assistant would then repeat the name of the Bollywood song we’d requested in its default standard American accent. We’d rejoice and dance when the assistant played the right number, which happened about half the time. My daughter was going to a Bollywood dance class and we’d finally found a use for the device that my husband had won at a tech conference.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2021/02/digital-assistants-accents-english-race-google-siri-alexa/",
+    "publication_date": "2021-02-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "speech recognition",
+      "voice recognition",
+      "harm*",
+      "bias*",
+      "stereotyp*",
+      "marginaliz*",
+      "accent*",
+      "dialect*",
+      "private conversation*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R099",
+    "source_language": "en",
+    "original_text": "In 2018, the federal government started scanning people’s faces as they drove into and out of the country at the Anzalduas International Bridge, which connects the Rio Grande Valley of Texas to Mexico. Customs and Border Protection said collecting these biometric images would enhance security and make identifying travelers more efficient. But less than a […]. But less than a year later, a data breach compromised 100,000 facial images and 105,000 license plate images. Nineteen facial images from the breach were posted to the dark web. Now, CBP wants to expand facial surveillance beyond Anzalduas and other sites that were part of a pilot program, even as the program saw potential security vulnerabilities in at least four airports, according to a report from the Department of Homeland Security inspector general.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2021/01/the-government-wants-to-scan-your-face-when-you-enter-the-us-it-hasnt-gone-well-so-far/",
+    "publication_date": "2021-01-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "bias*",
+      "exploit*",
+      "surveil*",
+      "breach*",
+      "disproportionat*",
+      "ransomware",
+      "protests",
+      "data breach*",
+      "data leak*",
+      "false positive*",
+      "error rate*",
+      "moratorium",
+      "subcontract*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Artificial intelligence is a tool and it is vital for us to harness its benefits and regulate its drawbacks — and we need to act fast This week a titillating video went viral on social media featuring former health ombud Professor Malegapuru Makgoba claiming to have found a cure for diabetes. Absolutely fantastic — if only it was true.",
+    "translated_text": null,
+    "source_url": "https://mg.co.za/thought-leader/opinion/2024-11-22-deepfakes-journalism-media-and-democracy-in-the-age-of-ai/",
+    "publication_date": "2024-11-22",
+    "country": "South Africa",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai system*",
+      "ai generat*",
+      "bias*",
+      "misinformation",
+      "disinformation",
+      "fake news",
+      "made up",
+      "conspiracy theor*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Companies must focus on reducing their carbon footprint and run their data centres on renewable energy Artificial intelligence (AI) is highly dependent on computing power, and the complexity of machine learning or deep learning models requires substantial computational resources.",
+    "translated_text": null,
+    "source_url": "https://mg.co.za/thought-leader/opinion/2024-11-08-artificial-intelligence-costs-the-earth/",
+    "publication_date": "2024-11-08",
+    "country": "South Africa",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "training data",
+      "data cent*",
+      "artificial intelligen*",
+      "deep learning",
+      "neural net*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "deepmind",
+      "GPU*",
+      "emission*",
+      "carbon footprint*",
+      "greenhouse gas*",
+      "energy consumption",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "The issue lies in management-by-algorithm — the technologically ‘objective’ use of people analytics, big data and AI to manage the workforce T he character of labour markets and the future of work differ significantly across countries.",
+    "translated_text": null,
+    "source_url": "https://mg.co.za/thought-leader/opinion/2024-05-01-workers-and-the-rise-of-the-algorithmic-boss/",
+    "publication_date": "2024-05-01",
+    "country": "South Africa",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "algorithmic management",
+      "artificial intelligen*",
+      "ai system*",
+      "ai driven",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "discriminat*",
+      "fraud*",
+      "displac*",
+      "job loss*",
+      "breach*",
+      "liab*",
+      "disproportionat*",
+      "anxiet*",
+      "working condition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "As you read this, the future is being coded in Silicon Valley. The algorithms that will one day govern our lives are being built. But who is building them, and who are they being built for? The way Timnit Gebru sees it, the foundations of the future are being built now.",
+    "translated_text": null,
+    "source_url": "https://mg.co.za/africa/2022-06-09-timnit-gebru-and-the-fight-to-make-artificial-intelligence-work-for-africa/",
+    "publication_date": "2021-06-09",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "facial recognition",
+      "content moderat*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "self driving",
+      "openai",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "displac*",
+      "exploit*",
+      "victim*",
+      "racis*",
+      "stereotyp*",
+      "prejudic*",
+      "kill*",
+      "retaliat*",
+      "atrocit*",
+      "hate speech",
+      "mine*",
+      "outsourc*",
+      "journalist*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

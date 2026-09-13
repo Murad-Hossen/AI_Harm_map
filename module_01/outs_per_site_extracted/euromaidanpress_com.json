@@ -1,0 +1,1253 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Russia built the Gerbera to be shot down instead of a Shahed. For $10,000, it now carries the Shahed’s targeting kit. To match Ukraine's drone strikes on Russian logistics, the Russians need a lot more drones The \"Seeker\" attack Gerbera could be just the thing The Seeker modification adds AI-assisted terminal guidance to the inexpensive e…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/07/31/seeker-gerbera/",
+    "publication_date": "2026-07-30",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "AI targeting",
+      "ai assist*",
+      "strike*",
+      "drone strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Ukraine’s countershipping campaign risks polluting the fragile Black Sea. Drone operators are trying to spill less oil. Ukrainian drone units aren't just trying to strike Russia's shadow fleet They're trying to strike the ships without spilling fuel or oil But that requires very accurate strikes Ukraine's drone force is walking a fine lin…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/07/18/oil-spills/",
+    "publication_date": "2026-07-18",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "AI targeting",
+      "ai system*",
+      "ai assist*",
+      "harm*",
+      "breach*",
+      "sanction*",
+      "died",
+      "kill*",
+      "pollut*",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "Russia’s fast, highly autonomous Geran-4 one-way attack drone is the weapon of choice for strikes on Ukrainian grain ships.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/07/14/geran-4-vs-grain-ships/",
+    "publication_date": "2026-07-14",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "target recognition",
+      "command and control",
+      "automatic target recognition",
+      "damag*",
+      "strike*",
+      "munition*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "Russia showed a new Geran-4 Seeker Shahed variant with machine-vision AI targeting. Russia's new Geran-4 Seeker Shahed variant uses machine-vision AI for targeting.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/07/12/ai-against-ai-over-ukraine-russias-shahed-now-sees-its-target-and-ukraines-interceptor-sees-shahed/",
+    "publication_date": "2026-07-12",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "AI targeting",
+      "ai driven",
+      "sanction*",
+      "banned",
+      "propaganda",
+      "vulnerable"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "No antenna. No operator. No emissions for a detector to catch. Ukraine’s answer is no longer electronic warfare—it’s a bullet. Ukraine has shot down an autonomous version of Russia's Molniya strike drone.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/07/09/russias-ai-drone-cant-be-jammed-or-detected-so-ukraine-shot-it-down/",
+    "publication_date": "2026-07-09",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "target selection",
+      "banned",
+      "emission*",
+      "strike*",
+      "mine*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "Russia has moved to “conveyor production” of fakes. Russia is deploying AI-generated \"Ukrainian soldiers\", \"rabbis\", and other fake authority figures on Ukrainian social media at scale.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/07/04/russia-is-building-fake-ukrainians-one-ai-video-telling-ukrainians-their-soldiers-are-dying-so-politicians-can-buy-villas-got-900000-views/",
+    "publication_date": "2026-07-04",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai generat*",
+      "disinformation",
+      "exploit*",
+      "accus*",
+      "banned",
+      "fabricated",
+      "propaganda",
+      "defect*",
+      "antisemit*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "From last-mile targeting that beats jamming to autonomous turrets, the Ukrainian military center wants AI everywhere, but humans still pull the trigger. Ukraine wants to turn its military into what it calls an AI-driven army.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/06/25/ukraine-wants-an-ai-driven-army-its-new-defense-center-is-already-putting-ai-inside-kill-chain-steering-drones-onto-target-in-final-seconds/",
+    "publication_date": "2026-06-25",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "ai driven",
+      "computer vision",
+      "killer robot*",
+      "defense ai",
+      "drone swarm*",
+      "banned",
+      "kill*",
+      "kill chain"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.2",
+      "subcategory": "Military decision support harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "Leaked files suggest Russian operatives are attempting to embed manipulated narratives into the infrastructure behind AI systems, including training data and search indexing pipelines, Bloomberg reports.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/06/23/russia-expands-disinformation-strategy-to-target-ai-ecosystems/",
+    "publication_date": "2026-06-23",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "automated system*",
+      "bias*",
+      "disinformation",
+      "impersonat*",
+      "sanction*",
+      "banned",
+      "fabricated",
+      "propaganda",
+      "information operation*",
+      "manipulat*",
+      "contaminat*"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.3",
+      "subcategory": "Data rights / consent violation",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "Ukraine’s Defense Ministry says artificial intelligence is now integrated into long-range “middle strike” systems, enabling drones to navigate without reliable GPS, avoid electronic warfare disruption, and identify targets during the final phase of flight.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/06/12/how-ukraine-is-integrating-ai-into-its-long-range-drone-strike-system/",
+    "publication_date": "2026-06-12",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "ai assist*",
+      "computer vision",
+      "target recognition",
+      "targeting system*",
+      "misidentif*",
+      "banned",
+      "strike*",
+      "drone strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "Until last month the trucks rolled out unarmed—now 71% of them have vanished from the M-14 entirely. Ukraine's middle-strike drones are forcing Russian commanders to reroute and harden their supply convoys Now some Russian truck convoys are rolling out with air defense gun trucks as escorts Can the Russian gunners shoot down enough drones…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/06/11/russian-gun-teams/",
+    "publication_date": "2026-06-10",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "AI targeting",
+      "ai assist*",
+      "targeting system*",
+      "vulnerable",
+      "strike*",
+      "scrap*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "AI-targeted drones need training images to find their targets. Ukraine just gave Russia one. Ukrainian troops released imagery of a specially modified truck launcher for Fire Point attack drones A few days later, Russian troops released imagery of an attack on one of the launchers The two releases may be related On 30 May, Ukrainian force…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/06/04/fire-point-launcher/",
+    "publication_date": "2026-06-04",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai assist*",
+      "Runway",
+      "breach*",
+      "strike*",
+      "scrap*",
+      "drone strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "Experts say the patterns are part of an ongoing adaptation cycle as AI-assisted targeting systems evolve on the battlefield.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/06/04/russia-paints-military-trucks-with-zebra-stripes/",
+    "publication_date": "2026-06-04",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai model*",
+      "ai assist*",
+      "computer vision",
+      "loitering munition*",
+      "targeting system*",
+      "banned",
+      "strike*",
+      "drone strike*",
+      "munition*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "AI targeting cuts through Russian electronic warfare. The supply vans aren’t reaching the front. Ukraine's AI drones are ranging across the Russian logistical zone, hunting buhanka vans The buhankas haul troops and supplies to front-line regiments Blowing up the buhankas weakens regiments before they can attack The Ukrainian counterlogist…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/05/01/buhanka-hunt/",
+    "publication_date": "2026-05-01",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "AI targeting",
+      "targeting system*",
+      "strike*",
+      "checkpoint*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "Ukraine built its AI defense capability under fire, with no margin for slow procurement cycles or multi-year development timelines. Rapid military deployment of artificial intelligence is becoming a critical factor for Ukraine’s survival in the war.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/04/30/ai-makes-it-possible-to-automate-parts-of-the-kill-chain-says-ukraines-top-defense-ai-official/",
+    "publication_date": "2026-04-30",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "defense ai",
+      "command and control",
+      "banned",
+      "kill*",
+      "casualt*",
+      "kill chain"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.2",
+      "subcategory": "Military decision support harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "Relentless Ukrainian strikes on Russian air defenses are rendering wide swathes of the Russian rear area defenseless against further aerial attacks.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/04/17/donetsk-city-drone-strikes/",
+    "publication_date": "2026-04-17",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai assist*",
+      "killer robot*",
+      "fire control",
+      "surveil*",
+      "impunity",
+      "vulnerable",
+      "kill*",
+      "strike*",
+      "bombing*",
+      "drone strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "“The technologies used today against Ukraine pose a potential threat to other regions of the world.” Russian forces are integrating AI capabilities into their Lancet series of attack drones, Ukraine's military intelligence directorate (GUR) revealed on 23 March. One of these drones was shot down over Kyiv last week.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/03/23/gur-russia-is-testing-ai-on-its-lancet-drones-using-nvidia-tech-in-cooperation-with-iran/",
+    "publication_date": "2026-03-23",
+    "country": "Ukraine",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "ai assist*",
+      "killer robot*",
+      "loitering munition*",
+      "Nvidia",
+      "sanction*",
+      "kill*",
+      "strike*",
+      "shell compan*",
+      "munition*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "“We are already deep into practical battlefield autonomy.” A drone skims over the treetops, ignoring the dense blankets of electronic jamming. Onboard cameras feed a steady stream of the landscape beneath to the navigation processor, which compares them to preloaded terrain data at machine speed.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2026/03/18/killer-robots-dont-exist-yet-but-ukraine-and-russia-are-getting-closer/",
+    "publication_date": "2026-03-18",
+    "country": "Ukraine",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "training data",
+      "data cent*",
+      "autonomous weapon*",
+      "neural net*",
+      "agentic*",
+      "ai model*",
+      "ai power*",
+      "ai assist*",
+      "automated system*",
+      "killer robot*",
+      "loitering munition*",
+      "anthropic",
+      "guardrail*",
+      "surveil*",
+      "hacking",
+      "kill*",
+      "strike*",
+      "bombing*",
+      "false positive*",
+      "subsid*",
+      "munition*",
+      "friendly fire"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "Storm-1516 produced more false claims in 2025 than RT and Sputnik combined A Russian disinformation network called Storm-1516 has overtaken RT and Sputnik as the Kremlin's primary vehicle for spreading false claims about Ukraine, according to a NewsGuard analysis of 400 debunked narratives about the war.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/12/23/russia-disinformation-storm-1516-overtakes-rt-sputnik/",
+    "publication_date": "2025-12-23",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "chatbot*",
+      "ai model*",
+      "ai tool*",
+      "ai power*",
+      "ai generat*",
+      "ai enabl*",
+      "disinformation",
+      "impersonat*",
+      "abus*",
+      "allegedly",
+      "accus*",
+      "sanction*",
+      "banned",
+      "fake news",
+      "false claim*",
+      "fabricated",
+      "propaganda",
+      "manipulat*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "Over 140 sites clone real French outlets, twist stories to push Kremlin-friendly themes. Ukrainian analysts say Russian disinformation activity in France has surged, with more than 200 new fake media websites uncovered this year.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/12/05/russia-floods-france-with-200-fake-news-sites/",
+    "publication_date": "2025-12-05",
+    "country": "France",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai generat*",
+      "AI factory",
+      "disinformation",
+      "damag*",
+      "banned",
+      "fake news",
+      "fabricated",
+      "election interference"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "Visual glitches expose fakes, but millions had already watched. Dozens of AI-generated videos depicting fabricated Ukrainian soldiers surrendering or weeping have spread across TikTok, Instagram, Telegram, Facebook, and X in November, accumulating millions of views before platform interventions, AFP reports.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/11/26/russia-ai-generated-fake-videos-ukrainian-soldiers-pokrovsk/",
+    "publication_date": "2025-11-26",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai generat*",
+      "openai",
+      "chip*",
+      "Sora",
+      "disinformation",
+      "banned",
+      "fabricated",
+      "propaganda",
+      "strike*",
+      "likeness"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "Insikt Group researchers link Llama 3-based models to a Kremlin-driven disinformation wave. A sprawling Russian disinformation network tied to a former Florida sheriff’s deputy has resurfaced in 2025 with over 200 newly created fake news websites.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/09/24/the-register-putins-trolls-return-with-ai-powered-media-fakes-and-a-florida-ex-cop-at-the-helm/",
+    "publication_date": "2025-09-24",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai model*",
+      "ai power*",
+      "ai generat*",
+      "Llama",
+      "disinformation",
+      "allegedly",
+      "accus*",
+      "fake news",
+      "fabricated",
+      "propaganda",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "John Mark Dougan fled to Moscow in 2016 after facing charges in Florida, then received political asylum and now coordinates GRU-funded servers running AI models. The Russian troll farm, notorious for its 2024 video depicting Kamala Harris as a “rhino poacher,” has reemerged.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/09/23/former-florida-cop-turned-kremlin-operative-spreading-russian-propaganda-through-over-200-fake-news-websites/",
+    "publication_date": "2025-09-23",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "LLM*",
+      "ai model*",
+      "Llama",
+      "disinformation",
+      "impersonat*",
+      "exploit*",
+      "sanction*",
+      "banned",
+      "fake news",
+      "false claim*",
+      "fabricated",
+      "propaganda",
+      "election interference",
+      "manipulat*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "They can’t hit moving trucks yet—but but they must beat Russia to swarm dominance by 2027 Ukraine has less than two years to master AI-powered drone warfare before autonomous weapons transform the battlefield into something \"totally ruthless,\" warns former Commander-in-Chief Valerii Zaluzhnyi. The stakes couldn't be higher.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/09/19/ukraine-russia-drone-ai-swarms/",
+    "publication_date": "2025-09-19",
+    "country": "Ukraine",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "autonomous weapon*",
+      "AI targeting",
+      "artificial intelligen*",
+      "ai system*",
+      "ai model*",
+      "ai power*",
+      "ai driven",
+      "ai enabl*",
+      "ai assist*",
+      "targeting system*",
+      "drone swarm*",
+      "fine tun*",
+      "synthetic data",
+      "disinformation",
+      "misidentif*",
+      "kill*",
+      "casualt*",
+      "strike*",
+      "bombing*",
+      "underperform*",
+      "friendly fire"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "Russian, Chinese, and Belarusian companies hit with new sanctions for supplying Russian drone manufacturing. Ukraine imposed sweeping sanctions on Russia's artificial intelligence-powered drone manufacturers on 17 August, targeting 39 individuals and 55 companies across Russia, China, and Belarus.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/08/17/ukraine-sanctions-russias-international-ai-drone-networks/",
+    "publication_date": "2025-08-17",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai power*",
+      "target selection",
+      "Nvidia",
+      "sanction*",
+      "banned",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "UNMAPPED",
+      "subcategory_id": null,
+      "subcategory": "UNMAPPED - weapons proliferation / export",
+      "event_type": null
+    }
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "The $50 million Pentagon contract equips Ukraine’s drones with AI software able to track targets and resist jamming. US-German software company Auterion will send 33,000 AI-powered drone “strike kits” to Ukraine before the end of the year under a new Pentagon contract, the Financial Times reports.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/07/27/33k-ai-strike-kits-ukraine-pentagon/",
+    "publication_date": "2025-07-27",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "ai driven",
+      "damag*",
+      "breach*",
+      "banned",
+      "strike*",
+      "drone strike*"
+    ],
+    "classification": {
+      "branch": "UNMAPPED",
+      "subcategory_id": null,
+      "subcategory": "UNMAPPED - weapons proliferation / export",
+      "event_type": null
+    }
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "They sound human and post nonstop. Russia has begun using artificial intelligence-based bots for spreading propaganda on social media, especially on Telegram, according to a joint investigation by OpenMinds and the Digital Forensic Research Lab (DFRLab).",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/07/18/digital-occupation-russia-deploys-ai-army-of-bots-on-telegram-for-promoting-kremlins-propaganda-narratives/",
+    "publication_date": "2025-07-18",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "banned",
+      "fake news",
+      "propaganda",
+      "manipulat*",
+      "isolation"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "German company Helsing designed the HX-2 AI drone as Europe’s answer to Russia’s Lancet loitering munition. Armed forces across Europe are conducting trials of a German-developed HX-2 strike drone that could reshape the continent's military capabilities, while Ukrainian pilots already fly it against Russian targets.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/07/11/nato-allies-test-german-ai-drone-as-ukraine-already-destroys-russian-equipment-with-it/",
+    "publication_date": "2025-07-10",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai power*",
+      "loitering munition*",
+      "unmanned aerial*",
+      "banned",
+      "kill*",
+      "strike*",
+      "munition*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "Russia’s war turned Ukraine into ground zero for next-gen warfare, rendering the world’s top weapons obsolete—and positioning Kyiv as the West’s only ally fast enough to match China’s breakneck innovation.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/06/14/drones-rack-up-70-of-troop-losses-in-the-ukraine-war-and-ais-killing-spree-will-make-it-worse/",
+    "publication_date": "2025-06-14",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "drone swarm*",
+      "chip*",
+      "Nvidia",
+      "misleading",
+      "vulnerable",
+      "kill*",
+      "casualt*",
+      "crash*",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "With redundant navigation and AI targeting, Russia’s 1.2-m V2U attack drone can fly and attack without human help. Russia’s new AI kamikaze drone can navigate and attack without any connection to a human operator.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/06/11/v2u-essentially-impossible-to-jam/",
+    "publication_date": "2025-06-11",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "AI targeting",
+      "ai assist*",
+      "computer vision",
+      "sanction*",
+      "death*",
+      "crash*",
+      "emission*",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "A Chinese minicomputer and American processor enable Russia’s V2U drone to select targets autonomously using artificial intelligence, according to the Ukraine’s Main Intelligence Directorate Ukraine's military intelligence has disclosed technical specifications of Russia's V2U strike drone, which employs artificial intelligence for autono…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/06/09/russias-v2u-drone-uses-ai-for-autonomous-strikes-in-ukraines-sumy-oblast/",
+    "publication_date": "2025-06-09",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "computer vision",
+      "target selection",
+      "Nvidia",
+      "banned",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "Image evidence and drone specs point to First Contact’s AI-capable Osa (“Wasp”) model. A new report by Defense Express identifies Ukrainian Osa (\"Wasp\") FPV drones produced by First Contact as the likely unmanned aircraft used in the Security Service of Ukraine's (SBU) highly successful 1 June Spiderweb operation targeting Russian strateg…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/06/03/meet-first-contacts-osa-the-ukraine-fpv-drone-used-to-strike-russian-bombers-in-spiderweb-operation/",
+    "publication_date": "2025-06-03",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai enabl*",
+      "censor*",
+      "damag*",
+      "banned",
+      "vulnerable",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "Small quadcopters armed with AI dive bombers surprise Russian forces. Never before have drones with artificial intelligence executed such precise strikes on Russian military airbases as in the operation Web by Ukrainian forces, writes Clash Report.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/06/01/at-least-150-ai-guided-ukrainian-drones-targeted-41-russian-aircraft-in-historic-truck-smuggled-strike/",
+    "publication_date": "2025-06-01",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "damag*",
+      "banned",
+      "kill*",
+      "strike*",
+      "journalist*",
+      "munition*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "The MTS line of autonomous drones reportedly completes missions without GPS or radio, flying straight through hostile zones. Czech company LPP Holding says it has successfully deployed its autonomous MTS drones in Ukraine, confirming their combat effectiveness and resistance to Russian electronic warfare.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/05/15/ukraine-battle-tests-czech-ai-kamikaze-drones-immune-to-russian-jamming/",
+    "publication_date": "2025-05-15",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai driven",
+      "unmanned aerial*",
+      "Palantir",
+      "suicid*",
+      "kill*",
+      "immunity"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "Ukraine is using HF1 loitering drones with plywood frames to strike Russian air defenses more than 50 kilometers behind the front. Today, there is a lot of news from Ukraine. Here, Ukrainian special forces received Germany's cutting-edge loitering munitions powered with artificial intelligence for automatic targeting.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/04/20/frontline-report-german-wooden-ai-drones-just-smoked-putins-troops-in-ukraine/",
+    "publication_date": "2025-04-20",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "ai driven",
+      "loitering munition*",
+      "strike*",
+      "re identif*",
+      "munition*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "Just in 2024, the Kremlin’s propaganda network flooded the web with 3.6 million fake articles to trick the top 10 AI models, a report reveals.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/03/27/russian-propaganda-network-pravda-tricks-33-of-ai-responses-in-49-countries/",
+    "publication_date": "2025-03-27",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "xAI",
+      "Grok",
+      "Mistral",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "bias*",
+      "disinformation",
+      "misus*",
+      "allegation*",
+      "banned",
+      "fake news",
+      "false claim*",
+      "misleading",
+      "propaganda",
+      "manipulat*",
+      "kill*",
+      "layoff*"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.3",
+      "subcategory": "Data rights / consent violation",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "Ukrainian forces have cut drone operator training using AI-guided systems that have boosted target accuracy up to 80%, a recent CSIS report finds.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/03/08/we-try-anything-that-can-kill-more-russians-new-ukraine-ai-drones-require-just-30-min-training/",
+    "publication_date": "2025-03-08",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai system*",
+      "ai model*",
+      "killer robot*",
+      "human in the loop",
+      "kill*",
+      "casualt*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "Ukrainian forces are deploying AI-equipped drones to bypass Russian jamming. Developers claim high success rate, but frontline commanders report mixed results. In a recent Forbes report, technology correspondent David Hambling examines how Ukrainian forces are deploying AI-enabled drones to counter Russian jamming.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/03/06/forbes-ukrainian-ai-drones-claim-80-hit-rate-yet-human-pilots-remain-superior/",
+    "publication_date": "2025-03-06",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai system*",
+      "ai enabl*",
+      "targeting system*",
+      "Nvidia",
+      "vulnerable",
+      "mine*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "Russian actors are using artificial intelligence to create fake videos portraying Ukrainian refugees as ungrateful and demanding. Voice of America reports that pro-Russian actors are creating AI-generated deepfake videos targeting Ukrainian refugees and their supporters.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/01/28/russia-produces-fake-videos-about-ukrainian-refugees-using-ai/",
+    "publication_date": "2025-01-28",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai generat*",
+      "misinformation",
+      "disinformation",
+      "allegedly",
+      "false claim*",
+      "propaganda",
+      "hacker*",
+      "host community",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R039",
+    "source_language": "en",
+    "original_text": "Meta claims it’s championing free speech. But for Ukrainians, it feels more like a death sentence for the truth. Remember that last viral post you saw about election fraud? The one that made you wonder if it was real? Now imagine a world where no one checks if it's true – where Russian bots can freely spread disinformation about everythin…",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2025/01/12/im-a-ukrainian-fact-checker-meta-just-handed-russia-the-keys-to-your-newsfeed/",
+    "publication_date": "2025-01-12",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai generat*",
+      "bias*",
+      "discriminat*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "censor*",
+      "damag*",
+      "allegedly",
+      "sanction*",
+      "fake news",
+      "false claim*",
+      "fabricated",
+      "propaganda",
+      "election interference",
+      "manipulat*",
+      "death*",
+      "casualt*",
+      "atrocit*",
+      "human rights defender*",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R040",
+    "source_language": "en",
+    "original_text": "Ukrainian forces conduct first-ever fully robotic combat operation, combining ground robots, drones, and unmanned turrets to advance on Kharkiv front while preserving soldiers’ lives.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2024/12/17/ukraine-military-deploys-dozens-of-ground-robots-uavs-fpv-drones-in-historic-combat-operation-in-kharkiv-oblast/",
+    "publication_date": "2024-12-17",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai system*",
+      "ai power*",
+      "unmanned aerial*",
+      "mining",
+      "surveil*",
+      "wounded",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R041",
+    "source_language": "en",
+    "original_text": "US authorities have seized domain names and searched nearly 1,000 X accounts linked to a sophisticated Russian disinformation operation. The US Department of Justice (DoJ) has uncovered and disrupted a sophisticated Russian disinformation operation involving an AI-enhanced bot farm on social media platform X.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2024/07/10/us-department-of-justice-uncovers-russian-ai-powered-disinformation-network-on-x/",
+    "publication_date": "2024-07-10",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "ai enabl*",
+      "disinformation",
+      "propaganda"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R042",
+    "source_language": "en",
+    "original_text": "Ukraine’s deployment of AI-driven drones has dealt a significant blow to Russia’s oil refining capabilities, disrupting a vital revenue stream for Moscow’s invasion. Exclusives Can Russia take Kharkiv? . Russia is reportedly preparing an operation to take Ukraine's second-largest city.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2024/04/03/russo-ukrainian-war-day-769-ukrainian-ai-drones-cut-off-russias-fuel-supply-in-precision-strikes/",
+    "publication_date": "2024-04-02",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai driven",
+      "ai enabl*",
+      "damag*",
+      "allegation*",
+      "accus*",
+      "strike*",
+      "war crime*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R043",
+    "source_language": "en",
+    "original_text": "Ukraine employs AI-enabled drones to target Russian oil refineries, disrupting a vital revenue stream for Moscow’s invasion. These drones, with machine vision, navigate autonomously and have significantly impacted Russia’s refining capacity, CNN says.",
+    "translated_text": null,
+    "source_url": "https://euromaidanpress.com/2024/04/02/cnn-ukraines-ai-enabled-drones-disrupting-russias-oil-industry-so-far-successfully/",
+    "publication_date": "2024-04-02",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai enabl*",
+      "suicid*",
+      "strike*",
+      "drone strike*"
+    ],
+    "classification": {
+      "branch": "Deployment Context / Weapons",
+      "subcategory_id": "5.1",
+      "subcategory": "Autonomous weapons / lethal targeting harm",
+      "event_type": "Acute"
+    }
+  }
+]

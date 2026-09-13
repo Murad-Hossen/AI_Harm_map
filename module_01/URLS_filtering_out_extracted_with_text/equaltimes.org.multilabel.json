@@ -1,0 +1,309 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Constanza Llanos, 26, spends much of her day in the offices of an insurance company in Santa Cruz, Bolivia. She works as a human resources assistant – a role that, until recently, meant going through CVs one by one. Now, a digital platform screens candidates before they ever reach her desk. “It saves us time, but we still have to go through everything manually,” she says. Although her company has yet to introduce formal artificial intelligence (AI) systems, many employees make use of (…). Artificial intelligence is gradually entering offices across Latin America and changing the way work is done. For some, it brings greater speed and order; for others, new inequalities and pressures.",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/in-latin-america-white-collar-work",
+    "publication_date": "2025-11-20",
+    "country": "Bolivia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "algorithmic management",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "displac*",
+      "job loss*",
+      "anxiet*",
+      "precarious*",
+      "working condition*",
+      "isolation",
+      "restructur*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Driven by e-commerce and the radical changes that technology has brought about in European consumption habits, logistics has become one of the fastest growing sectors in the EU economy. But it is also undergoing changes that, in the final stage of online order distribution and delivery, it has become a veritable laboratory of precarious work and labour abuses. European society is buying and consuming online at an ever growing rate, and the need to transport and deliver all these items has (…). In an interview for Equal Times, Silvia Borelli (pictured here), labour law professor, explains how the business of storage and home delivery has ended up relying on a model that makes outsourcing, precarious work and automated supervision the perfect artificial storm for keeping multinationals’ logistics costs as low as possible, at the expense of the safety and working conditions of employees…",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/subcontracting-and-algorithmic",
+    "publication_date": "2025-08-29",
+    "country": "Italy",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "algorithmic management",
+      "automated system*",
+      "exploit*",
+      "low pay",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "penalt*",
+      "liab*",
+      "vulnerable",
+      "precarious*",
+      "working condition*",
+      "unionis*",
+      "outsourc*",
+      "subcontract*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "Professional translators have been on the frontline of the impact of new technologies on the world of work for decades. Not only has this forced them to adapt to an increasingly uncertain and changing environment, but it has also shown them, over the years, how each new technological development, while providing them with useful tools for their work, often adds another layer of complexity, dehumanisation and a loss of control over the conditions in which they translate, and even over the (…). Translators work in a changing and competitive field, where the use of new technologies – currently AI – is once again leading to the dehumanisation of their work and the deterioration of their working conditions, a trajectory that looks set to be the future for many other specialised professions.",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/artificial-intelligence",
+    "publication_date": "2025-06-06",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "neural net*",
+      "generative ai",
+      "damag*",
+      "misus*",
+      "wrongly*",
+      "dehumanis*",
+      "precarious*",
+      "working condition*",
+      "unionis*",
+      "hallucinat*",
+      "outsourc*",
+      "subcontract*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "As they do every evening, Junbee and John-Henry, two friends aged 22 and 27, take their place in the over-heated room of a small cybercafé in the slum area they call home in Cagayan de Oro, a city in the southern Philippines. After shooing out two teenagers transfixed by video games, they flop down onto the plastic chairs in front of two outdated computers. “We don't have enough money to buy a computer ourselves, so we come here to work each night from eight in the evening to five in the (…). “We don’t have enough money to buy a computer ourselves, so we come here to work each night from eight in the evening to five in the morning,” one of them explains wearily.",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/the-filipino-workers-at-the-sharp",
+    "publication_date": "2025-04-24",
+    "country": "Philippines",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "driverless",
+      "data annotat*",
+      "data worker*",
+      "openai",
+      "Scale AI",
+      "Appen",
+      "Remotasks",
+      "Mechanical Turk",
+      "exploit*",
+      "surveil*",
+      "accus*",
+      "precarious*",
+      "working condition*",
+      "accent*",
+      "pedestrian",
+      "subsid*",
+      "outsourc*",
+      "subcontract*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "“There are surely some content moderators that haven't suffered mental health problems connected to the job, but I haven't met them,” says sociologist and computer scientist Milagros Miceli, who has studied the content moderation industry for the past six years. “I have no doubt that content moderation, like coal mining, is a hazardous job.” Coal mining, known for the proliferation of ‘black lung disease', is a classic example of a hazardous job, but there are only approximately 200,000 coal (…). A veil of secrecy surrounds this industry. No major social media platform has been willing to say how many content moderators are hired on behalf of these outsourcing firms, but there is little doubt that this is a big and rapidly growing sector: there were three million posts flagged for removal every day on Facebook alone in 2021.",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/content-moderation-is-what-a-21st",
+    "publication_date": "2025-03-27",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "content moderat*",
+      "algorithmic management",
+      "artificial intelligen*",
+      "ai system*",
+      "Appen",
+      "harm*",
+      "regulator*",
+      "injur*",
+      "harass*",
+      "mining",
+      "exploit*",
+      "trauma*",
+      "surveil*",
+      "GDPR",
+      "accountab*",
+      "damag*",
+      "breach*",
+      "marginalis*",
+      "PTSD",
+      "distress*",
+      "self harm*",
+      "suicid*",
+      "sexual exploitation",
+      "bully*",
+      "blackmail*",
+      "working condition*",
+      "burnout",
+      "data protection",
+      "hate speech",
+      "accent*",
+      "mine*",
+      "miner*",
+      "silica",
+      "outsourc*",
+      "click work*",
+      "mental health support",
+      "counsel*",
+      "disturbing content",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "Yati Narsinghanand, the head priest of a powerful temple in Uttar Pradesh, India's most populous state, first made national headlines in 2019 when a local TV station devoted a news item to the weapons training he conducted on temple grounds for Hindu youth and boys. His dramatic rise as a poster boy for ‘Hindutva', India's reigning anti-Muslim political ideology, was fuelled by the inflammatory videos he subsequently began sharing on social media platforms, where they garnered millions of (…). Mourners carry the body of Amir Khan, 30, who was killed by a Hindu mob during anti-Muslim riots in north-east Delhi on 29 February 2020.",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/across-south-asia-online-hate",
+    "publication_date": "2022-07-13",
+    "country": "India",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "content moderat*",
+      "harm*",
+      "discriminat*",
+      "misinformation",
+      "trauma*",
+      "accus*",
+      "death*",
+      "kill*",
+      "hate speech",
+      "antisemit*",
+      "dialect*",
+      "outsourc*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "In January 2021 the Dutch government collapsed because of a scandal that highlights the dangers of trying to administer essential governent services with artificial intelligence (AI). Between 2009 and 2019, in what has become known as the toeslagenaffaire (the benefits affair), around 26,000 parents were wrongly accused of committing childcare benefit fraud. The Dutch tax services heavily targeted families from poorer backgrounds and those with ‘foreign sounding' names, in some cases (…). On 6 February 2021, parents targeted in the Dutch child benefits affair protest in front of the official residence of the Dutch prime minister in The Hague holding signs that say “Why have we been unfairly accused?” and “We will go on”.",
+    "translated_text": null,
+    "source_url": "https://www.equaltimes.org/can-algorithmic-registers-solve",
+    "publication_date": "2021-03-24",
+    "country": "Netherlands",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "predictive polic*",
+      "training data",
+      "artificial intelligen*",
+      "chatbot*",
+      "automated decision*",
+      "automated system*",
+      "bias*",
+      "discriminat*",
+      "fraud*",
+      "surveil*",
+      "GDPR",
+      "accountab*",
+      "violat*",
+      "scandal*",
+      "accus*",
+      "stereotyp*",
+      "wrongly*",
+      "protest",
+      "unionis*",
+      "data protection"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

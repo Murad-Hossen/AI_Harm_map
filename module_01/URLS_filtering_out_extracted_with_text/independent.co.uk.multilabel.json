@@ -1,0 +1,3205 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Chinese military researchers have used outputs from leading U.S. artificial intelligence models developed by OpenAI and Anthropic to train domestic AI systems. Chinese military researchers are increasingly using American artificial intelligence models to help train their own AI systems, according to a review of research papers that is raising fresh concerns in Washington over national security and the U.S.-China technology race. A Reuters review of studies compiled by the Washington-based Jamestown Foundation found researchers linked to China's military and defense sector have repeatedly used a technique known as \"model distillation\" to build smaller, more efficient AI systems by learning from powerful Western models.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/china-military-ai-distillation-western-models-b3025234.html",
+    "publication_date": "2026-07-31",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "content moderat*",
+      "GPT*",
+      "artificial intelligen*",
+      "frontier model*",
+      "ai system*",
+      "ai model*",
+      "unmanned aerial*",
+      "openai",
+      "anthropic",
+      "chip*",
+      "social media monitoring",
+      "Claude",
+      "surveil*",
+      "violat*",
+      "allegation*",
+      "accus*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "The Trump administration has pushed to speed AI data center construction and preempt state regulations. The Trump administration has announced a massive plan to redevelop a former nuclear enrichment site in Kentucky so it can host an AI data center, the latest in a string of similar conversion plans. “The U.S. government is leveraging its assets — like our federal lands — to add power generation, create jobs, and ensure the United States wins the A.I. race,” Energy Secretary Chris Wright said in a Wednesday statement. The project is located at the Department of Energy ’s Paducah Site in Kentucky, which enriched nuclear material for the military and later commercial uses until it closed in 2013.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-data-centers-nuclear-sites-ai-b3024167.html",
+    "publication_date": "2026-07-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "pollut*",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax incentive*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "The Birmingham shelter says it is not against data centers but wants transparency, due diligence and proper approvals for a project planned near its new facility. An Alabama animal shelter is suing to halt construction of a $2 billion AI data center, alleging the project was rushed through approvals and could threaten thousands of animals at its planned new campus. The Greater Birmingham Humane Society filed the lawsuit in Jefferson County Circuit Court earlier this month against the City of Birmingham and developers behind the project, alleging they engaged in a \"months-long scheme\" to bypass zoning rules and rush approvals for the facility, Business Insider reports.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/alabama-dog-shelter-ai-data-center-b3023333.html",
+    "publication_date": "2026-07-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "abus*",
+      "allegation*",
+      "lawsuit*",
+      "litigat*",
+      "complaint*",
+      "manipulat*",
+      "zoning",
+      "public hearing*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "Residents feared air pollution, water contamination and noise in latest pushback against AI data center boom. The Nashville Zoo has rejected a deal that would have allowed a new data center near the animal park. As the artificial intelligence boom continues, there have been new environmental concerns about data centers popping up in communities. The latest fight is between the Nashville Zoo, a 188-acre park just 6 miles south of downtown, and data center provider DC Blox. DC Blox wants to build a 69,200-square-foot data center next to the zoo with landscape buffers and concrete walls to separate the two areas. Amid backlash from locals, DC Blox proposed a memorandum of understanding with the Nashville Zoo that would have created the data center, but zoo officials declined, local media reported Thursday.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/nashville-zoo-rejects-data-center-b3021331.html",
+    "publication_date": "2026-07-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "AI data cent*",
+      "AI factory",
+      "Grok",
+      "backlash",
+      "lawsuit*",
+      "vulnerable",
+      "pollut*",
+      "contaminat*",
+      "utility bill*",
+      "gas turbine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "The backlash to energy-guzzling server warehouses that power artificial intelligence is shaping statewide campaigns from Arizona to New York. What was once a little-known local issue has exploded into one of the biggest political fights of the year in Texas, as massive AI data centers ignite a rural backlash that could reshape November's governor's race. When Democratic gubernatorial nominee Gina Hinojosa launched her campaign last year, data centers barely registered with voters. Now, the sprawling server farms powering artificial intelligence are fueling anger across rural Texas, where residents fear soaring electricity bills, shrinking water supplies and the loss of farmland and ranchland.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/texas-ai-data-centers-rural-backlash-hinojosa-abbott-b3020184.html",
+    "publication_date": "2026-07-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "artificial intelligen*",
+      "ai power*",
+      "server farm*",
+      "AI data cent*",
+      "regulator*",
+      "backlash",
+      "drought*",
+      "pollut*",
+      "land grab*",
+      "utility bill*",
+      "electricity bill*",
+      "tax incentive*",
+      "zoning",
+      "farmland"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "Plaintiff attorney Justin Nelson hailed the agreement as ‘the largest known copyright recovery in history’. A federal judge has approved a significant $1.5 billion copyright settlement, mandating that artificial intelligence company Anthropic compensate thousands of authors whose pirated works were used to train its Claude chatbot. District Judge Araceli Martínez-Olguín, in a Monday ruling, described the class-action agreement as providing \"meaningful relief\" to the affected writers and publishers The settlement stipulates payments of approximately $3,000 per book. A substantial 91% of the more than 482,000 books covered by the ruling have already been claimed by their creators or publishers, who are now awaiting payment.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/anthropic-claude-authors-copyright-settlement-b3018963.html",
+    "publication_date": "2026-07-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "anthropic",
+      "Claude",
+      "lawsuit*",
+      "class action*",
+      "wrongful*",
+      "copyright*",
+      "without permission",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "Mounting voter concerns over land use and resources have made data centers a national issue. What was once a quiet stretch of Michigan farmland is becoming ground zero in America's AI boom — and many of the people who live there want no part of it. Cornfields and grain silos in Saline Township are giving way to towering cranes as construction begins on a $16 billion AI data center backed by OpenAI , Oracle, Blackstone, Related Digital and Walbridge. The massive project, known as \"The Barn\" and part of the Stargate initiative, will cover more than 250 acres. Supporters say it will bring thousands of jobs and billions in investment.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/saline-township-michigan-ai-data-center-stargate-opposition-b3016112.html",
+    "publication_date": "2026-07-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "openai",
+      "AI data cent*",
+      "water use",
+      "backlash",
+      "litigat*",
+      "contaminat*",
+      "rezoning",
+      "farmland"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "The project claims it will generate more than $500 million in tax revenue per year, but residents are worried the sprawling ‘hyperscale’ data center could pose a risk to water supplies. Palm Beach County, Florida, boasts an airport and a boulevard named for Donald Trump , but if local residents have their way, another Trump-aligned project will not find a home in the area: a sprawling artificial intelligence data center. The Trump administration has pushed to speed up data center construction and block local regulation efforts, but locals have voiced heavy opposition to Project Tango, a proposed data center near the community of Arden, about 20 miles from Trump’s Mar-a-Lago club and estate.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/palm-beach-ai-data-center-project-trump-b3015657.html",
+    "publication_date": "2026-07-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "hyperscale*",
+      "AI data cent*",
+      "contaminat*",
+      "potable water",
+      "zoning",
+      "moratorium",
+      "property value*",
+      "mine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "This decision thrusts New York into a national debate over AI industry regulation. New York has enacted a year-long moratorium on large data center construction, aiming to protect the state's environment and energy grid from the power-intensive demands of artificial intelligence Governor Kathy Hochul signed an executive order Tuesday, establishing the country's first statewide pause on hyperscale data centers, facilities housing thousands of computer servers and requiring massive energy and water for cooling. This decision thrusts New York into a national debate over AI industry regulation, balancing environmental and utility cost concerns against fostering local economic growth and the U.S. tech sector.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/nys-data-center-moratorium-hochul-trump-b3014927.html",
+    "publication_date": "2026-07-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "hyperscale*",
+      "regulator*",
+      "greenhouse gas*",
+      "pollut*",
+      "noise pollution",
+      "utility bill*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "Images generated by AI showed women who had been killed or sexually abused. Warning: This article contains details that some readers may find distressing. ChatGPT can spontaneously generate sexually explicit and deeply violent images from prompts that did not request such material to be produced, research has found. A British AI security startup says that the OpenAI chatbot was capable of producing “truly disturbing” imagery that included scenes of death, sexual violence, blood, and murder Some of the images it generated included a woman bludgeoned dead and bleeding from the genitals, a half-naked college student bound and gagged in a basement, and a deceased woman lying on a pavement with her organs exposed and wrists slit open.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/chatgpt-openai-images-sexual-violence-b2998272.html",
+    "publication_date": "2026-06-19",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai generat*",
+      "automated system*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "harm*",
+      "abus*",
+      "violat*",
+      "distress*",
+      "death*",
+      "kill*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "Top defense official says data centers powering trillionaire’s chatbot are critical to national security. Donald Trump’s administration turned to Elon Musk’s Grok chatbot to launch thousands of missiles in Iran , according to a top defense official. In a sworn statement defending the trillionaire from a lawsuit alleging xAI data centers are illegally polluting Black communities , the Pentagon’s artificial intelligence chief said the chatbot’s continued operation is “a matter of paramount national security” — and was used to fire more than “2,000 munitions at 2,000 distinct targets within 96 hours.” Grok, a generative artificial intelligence chatbot developed by xAI, is among four AI models “currently capable of supporting national security applications,” according to Cameron Stanley, the Pentagon’s chief digital and artificial intelligence officer.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-grok-ai-iran-missiles-pentagon-b2997321.html",
+    "publication_date": "2026-06-17",
+    "country": "Iran",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "ai driven",
+      "anthropic",
+      "guardrail*",
+      "Maven Smart System",
+      "xAI",
+      "Grok",
+      "Claude",
+      "surveil*",
+      "violat*",
+      "lawsuit*",
+      "death*",
+      "kill*",
+      "casualt*",
+      "pollut*",
+      "strike*",
+      "bombing*",
+      "civilian death*",
+      "civilian casualt*",
+      "munition*",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "Christi Hill was wrongly identified in the Vickrum Digwa murder case by platforms including Grok. A former police officer has been forced to move to a safe house after she was falsely accused by AI and social media users of being one of the arresting officers in the Henry Nowak murder case. Christi Hill, who left her job as a police constable in Portsmouth, near Southampton , 20 months before the murder, said she was scared for her safety after the wrong information spread. Police officers in Southampton in December handcuffed Henry Nowak after he had been attacked by Vickrum Digwa, who was later jailed for life.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/henry-nowak-murder-police-officer-grok-ai-b2989079.html",
+    "publication_date": "2026-06-04",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai system*",
+      "Grok",
+      "harm*",
+      "misinformation",
+      "misidentif*",
+      "abus*",
+      "accus*",
+      "wrongful*",
+      "wrongly*",
+      "distress*",
+      "death*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "Charles Sigwalt, the plaintiff, has filed a class-action lawsuit in federal court in Seattle, asserting that Ring’s \"Familiar Faces\" feature retains images of passersby, including himself, without their permission. Amazon is facing a new lawsuit alleging privacy violations after a Virginia resident claimed the company’s Ring doorbell cameras collected and stored images of his face using facial recognition software without consent. He is seeking at least $5 million in damages for the class. The optional \"Familiar Faces\" feature utilizes artificial intelligence to identify and remember individuals, allowing notifications to include specific names when recognized people approach a home or business.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/amazon-ring-facial-recognition-lawsuit-b2987930.html",
+    "publication_date": "2026-06-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "artificial intelligen*",
+      "license plate reader*",
+      "surveil*",
+      "without consent",
+      "damag*",
+      "violat*",
+      "wrongdoing",
+      "controvers*",
+      "backlash",
+      "alleged",
+      "allegation*",
+      "lawsuit*",
+      "class action*",
+      "privacy violation*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "Exclusive: New polling shows deepfakes and AI-generated video, audio clips or images about election candidates reached 16.5 million UK adults in the month before elections. The UK is facing a \"democratic emergency”, a leading think tank has warned weeks ahead of a crucial by-election, after new polling revealed around 16.5 million UK adults saw political deepfakes in the month before the local elections Almost one in three (30 per cent) voters said they had seen a deepfake or AI-generated video, audio clip or image about an election candidate or politician online in the lead-up to this month's elections, the shocking new polling showed. The polling of 2,005 adults was conducted by Opinium for the cross-party think tank Demos between 30 April and 6 May this year – immediately before local and devolved elections across the UK.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/politics/elections-ai-deepfakes-politics-b2986017.html",
+    "publication_date": "2026-05-30",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai generat*",
+      "harm*",
+      "misinformation",
+      "fraud*",
+      "accountab*",
+      "damag*",
+      "enforcement action*",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "Scottish government’s NPF4 national planning framework states that \"green data centres\" will have an \"overall negligible impact\" on nation’s emissions reduction goals. The Scottish Government faces urgent calls to address \"major shortcomings\" in its data centre policy, as Action to Protect Rural Scotland (APRS) alleges a critical failure to account for the emissions of hyperscale AI facilities in assessments of \"green data centres\" and their contribution to climate targets. Kat Jones, director of APRS, branded the situation \"pretty shocking\". The government’s NPF4 national planning framework states that \"green data centres\" will have an \"overall negligible impact\" on Scotland’s emissions reduction goals.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/scottish-government-hyperscale-ai-data-emissions-b2982766.html",
+    "publication_date": "2026-05-25",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "GPT*",
+      "ai system*",
+      "ai model*",
+      "chatgpt",
+      "hyperscale*",
+      "AI data cent*",
+      "emission*",
+      "carbon footprint*",
+      "greenhouse gas*",
+      "climate target*",
+      "moratorium",
+      "planning permission"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "New proposals would allow third-party contractor to hold onto U.S. taxpayers’ identifying information for up to three years after their accounts are closed, inviting privacy concerns. U.S. taxpayers’ biometric data could be kept by a third party contractor for years, under new proposals being considered by the Internal Revenue Service. The IRS and the Treasury Department are reviewing their relationship with identity verification company ID.me, which carries out authentication for federal websites, in light of the growing threat posed by fraudsters using AI The changes outlined in a presentation shown to Treasury staff on April 16, according to Politico , would drastically extend the amount of time ID.me is allowed to access account holders’ biometric information to assist with fraud investigations.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/irs-biometric-data-fraud-ai-deepfakes-b2982075.html",
+    "publication_date": "2026-05-22",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "biometric*",
+      "deepfake*",
+      "ai enabl*",
+      "fraud*",
+      "abus*",
+      "misus*",
+      "controvers*",
+      "litigat*",
+      "scam*",
+      "no transparency"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "The legal filing alleges that the chatbot informed Sam Nelson it was safe to combine the anti-anxiety medication Xanax with the herbal supplement kratom. A Texas couple has filed a lawsuit against OpenAI, alleging that the technology company is responsible for the overdose death of their 19-year-old son. Leila Turner-Scott and Angus Scott say that their son, Sam Nelson, died in 2025 after following drug-related advice provided by the ChatGPT platform. The lawsuit, filed in California state court, alleges that the AI dispensed medical guidance it was not qualified to give, leading to a fatal interaction of substances.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/open-ai-chatgpt-drug-overdose-lawsuit-b2975315.html",
+    "publication_date": "2026-05-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "accountab*",
+      "alleged",
+      "allegedly",
+      "lawsuit*",
+      "distress*",
+      "anxiet*",
+      "self harm*",
+      "death*",
+      "died",
+      "unlicensed",
+      "psychosis",
+      "encouraged self harm"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "The 22-year-old estimates he made thousands each month through his AI-generated MAGA influencer. A medical student who created an AI-generated conservative influencer has claimed the “dumb” MAGA crowd was easy to fool, according to a new report. A 22-year-old medical student from northern India, identified only as Sam, told Wired he was behind a series of pro-MAGA social media accounts featuring Emily Hart, an AI-generated woman. Sam said he started posting about Emily Hart to generate some extra cash while studying, and made thousands of dollars every month. “The MAGA crowd is made up of dumb people—like, super dumb people.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/emily-hart-ai-generated-maga-influencer-b2962977.html",
+    "publication_date": "2026-04-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai tool*",
+      "ai generat*",
+      "Gemini",
+      "fraud*",
+      "penalt*",
+      "banned",
+      "scam*",
+      "made up"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "The investigation is looking into alleged ‘complicity’ in possessing and spreading pornographic images of minors. Elon Musk has been summoned to Paris as part of an investigation into child sex abuse material and deepfakes on his social media platform X. He has been summoned for “voluntary interviews” on Monday, alongside Linda Yaccarino, X’s former CEO. The Paris prosecutor’s office said that other employees of the platform will be heard as witnesses throughout the week. It is unclear whether Musk and Yaccarino will travel to France. A spokesperson for X did not respond to questions and Yaccarino’s current company, eMed, did not answer a request sent to the press email.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/europe/elon-musk-grok-x-france-b2960831.html",
+    "publication_date": "2026-04-20",
+    "country": "France",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "chatbot*",
+      "ai system*",
+      "xAI",
+      "Grok",
+      "bias*",
+      "disinformation",
+      "abus*",
+      "violat*",
+      "controvers*",
+      "alleged",
+      "allegedly",
+      "allegation*",
+      "accus*",
+      "complaint*",
+      "sanction*",
+      "wrongful*",
+      "manipulat*",
+      "death*",
+      "kill*",
+      "nonconsensual*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "The planned cutoff has sparked ‘a great deal of concern’ among residents and businesses worried about possible disruptions, says South Lake Tahoe Mayor Cody Bass. Lake Tahoe residents are the latest community to fight back against AI data centers after thousands of people have been told their power could be cut off to supply new projects. Nevada -based NV Energy will stop providing 75 percent of Liberty Utilities’ electricity for the California side of Lake Tahoe by May 2027, affecting about 49,000 customers to meet growing demand from AI-driven data centers in Nevada, Fortune reports. “It’s like we don’t exist,” Danielle Hughes, a North Lake Tahoe resident, CEO of the nonprofit Tahoe Spark and a supervisor within the California Energy Commission’s Efficiency Division, told the outlet.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/lake-tahoe-energy-source-ai-data-centers-b2975802.html",
+    "publication_date": "2026-04-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "ai driven",
+      "AI data cent*",
+      "regulator*",
+      "water use",
+      "drought*",
+      "pollut*",
+      "electricity price*",
+      "protest",
+      "air quality"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "The revelation comes amid Massachusetts Democratic Senator Edward Markey’s investigation into autonomous vehicle companies. Elon Musk’s Tesla has admitted there are “rare cases” where its autonomous vehicles are driven by remote workers, according to new documents released Tuesday by Democratic Senator Edward Markey. Karen Steakley, Tesla’s director of public policy and business development, described the company’s use of “remote assistance operators” in a letter sent to Markey last week. These remote workers can help when a rider or the car’s autonomous driving system requests assistance , she explained. They can also take control of the vehicle, such as a robotaxi, in certain circumstances.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/tesla-robotaxi-remote-drivers-b2949566.html",
+    "publication_date": "2026-03-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "self driving",
+      "autonomous vehicle*",
+      "robotaxi*",
+      "misleading",
+      "fatalities",
+      "redundanc*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "Merriam-Webster and Britannica argue that OpenAI’s ChatGPT ‘cannibalized’ their web traffic. Merriam-Webster has filed a lawsuit against OpenAI, accusing the company of using its material to train its artificial intelligence models. The popular American dictionary, which is a subsidiary of Encyclopedia Britannica, filed the lawsuit Friday in Manhattan federal court. In the complaint, Britannica and Merriam-Webster accuse OpenAI of using its online articles, encyclopedia and dictionary entries to teach the company’s chatbot, ChatGPT, how to respond to human prompts. The companies argue that ChatGPT has “cannibalized” their web traffic with its AI-generated summaries of their content.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/merriam-webster-dictionary-chatgpt-lawsuit-b2940549.html",
+    "publication_date": "2026-03-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "infring*",
+      "damag*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "complaint*",
+      "wrongful*",
+      "copyright*",
+      "unlicensed",
+      "hallucinat*",
+      "subsid*",
+      "fair use"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "OpenAI came forward to police after Jesse Van Roostselaar killed eight people and then herself last month. The parents of a girl critically wounded in a Canadian school shooting have filed a civil lawsuit, alleging ChatGPT-maker OpenAI knew the shooter was planning a mass attack. OpenAI has said it considered but didn’t alert police about the activities of the person who months later committed one of Canada's worst school shootings in Tumbler Ridge, British Columbia, on 10 February. OpenAI came forward to police after Jesse Van Roostselaar killed eight people and then herself last month, saying the attacker's ChatGPT account had been closed but she evaded the ban with a second account.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/chatgpt-jesse-van-roostselaar-lawsuit-b2935262.html",
+    "publication_date": "2026-03-10",
+    "country": "Canada",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "injur*",
+      "alleged",
+      "lawsuit*",
+      "kill*",
+      "casualt*",
+      "wounded"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "As debate grows over the role of AI in military strikes in the bombing of Iran, scrutiny has turned to civilians caught up in the destruction. An investigation by The Independent and conflict monitoring group Airwars explores the death of a 20-year-old killed in a US strike in Iraq in 2024 – the first known victim of an airstrike in which the use of AI-assisted targeting was acknowledged. Namir Shabibi and Alex Croft report. A bdul-Rahman al-Rawi, a 20-year-old student working towards his diploma in construction, stepped out of his home in a quiet street in al-Qaim, northeast Iraq , having heard a volley of noise overhead.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/middle-east/ai-airstrike-civilian-killed-us-centcom-iraq-anthropic-b2926712.html",
+    "publication_date": "2026-03-10",
+    "country": "Iran",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "autonomous weapon*",
+      "ai tool*",
+      "ai enabl*",
+      "ai assist*",
+      "decision support*",
+      "computer vision",
+      "targeting system*",
+      "openai",
+      "anthropic",
+      "Project Maven",
+      "Maven Smart System",
+      "Palantir",
+      "command and control",
+      "Claude",
+      "harm*",
+      "bias*",
+      "surveil*",
+      "airstrike*",
+      "damag*",
+      "victim*",
+      "allegedly",
+      "death*",
+      "died",
+      "kill*",
+      "wounded",
+      "strike*",
+      "bombing*",
+      "civilian death*",
+      "civilian harm",
+      "international humanitarian law",
+      "collateral damage",
+      "kill chain",
+      "automation bias"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "Exclusive: Caseworkers use AI to summarise asylum interviews and to search for information about country of origin. The Home Office ’s use of artificial intelligence (AI) in processing asylum claims could be unlawful, legal experts have warned, opening up the possibility of court action against the government. Caseworkers at the Home Office use AI to summarise interview transcripts with asylum seekers It is also used to search policy guidance, such as information about whether a country is deemed safe to return to. Asylum seekers are not told when AI is used on their interview testimony and are instead kept in the dark about the technology’s impact on their claims The government’s own evaluation of the AI tool that summarises asylum interview transcripts found that 9 per cent of summaries were so flawed that they had to be removed.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/ai-artificial-intelligence-asylum-claims-backlog-b2937111.html",
+    "publication_date": "2026-03-09",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "artificial intelligen*",
+      "ai tool*",
+      "inaccurate information",
+      "meaningful human control"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "Exclusive: Over 28,000 fake websites were found in January alone. Shoppers have been warned to be aware of tens of thousands of scam websites which are impersonating big retailers such as Tesco and Amazon online. New research by Which? uncovered more than 28,000 unsafe website addresses in January, asking visitors for personal information under the guise of trusted brands. One of the most common methods to catch online shoppers out is called ‘typosquatting’, the consumer chamption found. This is where scammers register domain addresses that are common misspellings or mistypings of big-name companies, posing as the genuine landing page when people accidentally visit online.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/scam-website-warning-tesco-amazon-chatgpt-b2932687.html",
+    "publication_date": "2026-03-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatgpt",
+      "Gemini",
+      "fraud*",
+      "impersonat*",
+      "scam*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "Leaked memo suggests the company is well aware of the potential pitfalls of introducing controversial technology. Meta says it’s still “thinking through the options”. Meta is looking to add facial recognition software to its smart glasses despite concerns about security and privacy, a report claims. The “Name Tag” feature would provide glasses wearers with identifying details of the people they are looking at, according to the New York Times. But an internal memo seen by the newspaper acknowledged the technology carries “safety and privacy risks.” Furthermore, the company appears to see an upside in releasing a potentially controversial product during the ongoing political turmoil in the U.S., The Times adds.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/meta-facial-recognition-glasses-privacy-b2919889.html",
+    "publication_date": "2026-02-13",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "face recognition",
+      "abus*",
+      "controvers*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "There has been controversy surrounding chatbot Grok after it was used to generate sexual deepfake images without consent. Formal investigations have been launched into whether Elon Musk’s X and xAI have complied with data protection law after the chatbot Grok was used to create sexualised deepfake images. The Information Commissioner’s Office (ICO) confirmed it had opened the investigations on Tuesday afternoon. In a statement, it said the reports raised “serious concerns” under UK data protection laws, such as whether “appropriate safeguards were built into Grok’s design and deployment”. It comes after outrage over Grok’s ability to digitally “strip” victims without their consent, generating deepfake images of them nude or in minimal clothing.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/x-uk-investigation-grok-deepfakes-ico-elon-musk-b2912966.html",
+    "publication_date": "2026-02-03",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "chatbot*",
+      "xAI",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "without consent",
+      "victim*",
+      "violat*",
+      "controvers*",
+      "dehumanis*",
+      "data protection",
+      "Information Commissioner"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "He had previously requested special access to ChatGPT — which most DHS employees were barred from. The head of the Cybersecurity and Infrastructure Security Agency uploaded \"sensitive\" contracting materials to a public version of ChatGPT , triggering an internal review, according to a new report. Madhu Gottumukkala, CISA's acting director under President Donald Trump , shared the files with the AI platform last summer, multiple unnamed Department of Homeland Security officials told Politico Though not classified, the documents were marked “for official use only” — indicating they were sensitive and not for public release.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cyber-security-sensitive-materials-chatgpt-b2909704.html",
+    "publication_date": "2026-01-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "abus*",
+      "controvers*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "The AI chatbot was used to remove clothing from images of women and children. The European Commission has launched an investigation into Grok, Elon Musk's AI chatbot , over the production of explicit imagery Regina Doherty, a member of the European parliament representing Ireland, announced the investigation on Monday. It will probe whether the social media platform X has complied with its obligations under EU digital legislation, including requirements relating to risk mitigation, content governance, and the protection of fundamental rights, Ms Doherty said. A European Union crackdown on Big Tech has triggered criticism and even the threat of tariffs from the United States A Commission spokesperson did not immediately respond when asked to confirm if an investigation had been opened.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/europe/elon-musk-grok-ai-eu-b2907611.html",
+    "publication_date": "2026-01-26",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "harm*",
+      "regulator*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "A new lawsuit from Ashley St. Clair targets Elon Musk’s Grok over sexually-explicit images. Ashley St. Clair has sued Elon Musk’s xAI, alleging its Grok chatbot generated nude and sexual photos of her St. Clair, 27, is a conservative influencer and is the mother to Musk’s one-year-old son. Now, she’s suing Musk’s artificial intelligence company, claiming it is “profiting off of the creation and dissemination of deepfakes,” and that “this is intentional,” according to a copy of the lawsuit filed in New York and reviewed by The Independent The Independent has contacted xAI for comment. St. Clair is suing on nine causes of action, including \"negligence,” “design defect,” “manufacturing defect,” and \"intentional infliction of emotional distress,” the lawsuit states.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/ashley-st-clair-musk-xai-lawsuit-b2901540.html",
+    "publication_date": "2026-01-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "xAI",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "harass*",
+      "accountab*",
+      "damag*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "breach*",
+      "negligen*",
+      "lawsuit*",
+      "degrading",
+      "distress*",
+      "defect*",
+      "nonconsensual*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "PJM, which services nearly 70 million Americans, could be forced to trigger blackouts during periods of high demand. The East Coast of the United States could soon experience rolling blackouts as AI data centers gobble up more and more electricity, pushing the grid to the limit, according to a new report. PJM, the organization that services nearly 70 million people in a 13-state corridor stretching from Kentucky to New Jersey, may be forced to trigger power outages during high demand periods, such as summer heat waves or winter freezes, The Wall Street Journal reported. Mark Christie, a former head of the Federal Energy Regulatory Commission, said he used to believe the threat of blackouts was distant.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/east-coast-blackouts-ai-data-centers-b2899669.html",
+    "publication_date": "2026-01-13",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "regulator*",
+      "complaint*",
+      "died",
+      "kill*",
+      "blackout*",
+      "energy bill*",
+      "power demand"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "Beyond Grok, nudifying technology and pornographic deepfakes are ripping through classrooms, leaving teachers and children traumatised and schools unsure how to respond. With suspensions rising and prosecutions rare, Chloe Combi asks who is protecting them in the age of AI? T welve years ago, a friend of mine had just started her first teaching post at a well-respected grammar school A huge perk of the job was that, so young teachers could afford to live in the South East and get to school easily, the school owned several houses that staff could rent for a heavily subsidised fee. One Saturday morning during a heatwave, there was a knock at the door.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/ai-deepfakes-british-schools-pupils-teachers-b2897746.html",
+    "publication_date": "2026-01-11",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai model*",
+      "ai generat*",
+      "guardrail*",
+      "Grok",
+      "harm*",
+      "non-consensual",
+      "exploit*",
+      "trauma*",
+      "damag*",
+      "victim*",
+      "abus*",
+      "misus*",
+      "sexis*",
+      "dehumanis*",
+      "distress*",
+      "addict*",
+      "manipulat*",
+      "non consensual*",
+      "nudif*",
+      "bully*",
+      "CSAM",
+      "child sexual abuse material",
+      "isolation",
+      "subsid*",
+      "mine*",
+      "outsourc*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "The tool has been used more than 100,000 times so far, according to a new report. Immigration and Customs Enforcement officers are deploying mobile facial recognition technology to speed up arrests amid President Donald Trump’s immigration crackdown , according to a new report. In recent months, ICE personnel have used a government-created app called Mobile Fortify in order to ascertain the identity of potential detainees , The Wall Street Journal reported. It’s been hailed as a powerful new tool by administration officials, while privacy advocates and Democratic lawmakers have decried it as a form of unchecked government overreach.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/ice-facial-recognition-technology-arrests-b2894794.html",
+    "publication_date": "2026-01-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "face recognition",
+      "controvers*",
+      "darker skin",
+      "counsel*",
+      "arrest*",
+      "detained",
+      "deportation",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "Anecdotal evidence of chatbots inspiring delusional behaviour prompts renewed calls for safeguarding. A growing number of people are turning to AI chatbots for emotional support and even in place of therapists, but this could be having a detrimental impact on some users’ health , with increasing reports of extreme behaviour apparently inspired by heavy usage of AI services. A concerning pattern of AI chatbots validating or reinforcing users’ delusions may be contributing towards a surge in reports of so-called “AI psychosis ” or “ ChatGPT psychosis” – neither of which is recognised clinically, but which have been increasingly reported in the media and in online forums.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/health/ai-chatbots-psychosis-delusion-chatgpt-experts-b2874373.html",
+    "publication_date": "2025-11-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "chatbot*",
+      "ai agent*",
+      "openai",
+      "chatgpt",
+      "distress*",
+      "vulnerable",
+      "kill*",
+      "delusion*",
+      "psychosis",
+      "isolation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "One AI company, whose technology is being used in toys, faces seven lawsuits related to users being driven to suicide. A children’s advocacy group is urging parents not to buy AI-powered toys for their kids, ahead of the holiday season. Fairplay, a group that describes itself as advocating for “putting kids’ needs ahead of corporate greed,” says that toys with inbuilt chatbots can encourage violence and even make explicit sexual remarks. “The serious harms that AI chatbots have inflicted on children are well-documented, including fostering obsessive use, having explicit sexual conversations, and encouraging unsafe behaviors, violence against others, and self-harm,” a statement from Fairplay said.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/ai-toys-openai-miko-mattel-fairplay-b2869223.html",
+    "publication_date": "2025-11-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "harm*",
+      "controvers*",
+      "lawsuit*",
+      "self harm*",
+      "suicid*",
+      "delusion*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "Artificial intelligence decided a case that would take years in just “a couple of minutes,” the senior judge said. One of the most senior judges in the country has revealed that artificial intelligence (AI) is being used in the legal sector for “every purpose under the sun” as he weighs up the power of the technology to make decisions in court. Master of the rolls Sir Geoffrey Vos, the second most senior judge in the UK, said AI was like a “chainsaw” at his address to the Legal Geek Conference, in that it was useful in the right hands, but “super dangerous” in the wrong ones. The technology can and should be used to draft contracts and research legal questions, Sir Geoffrey said, especially noting how the summarising capability of large language models (LLMs) can “save time and drudgery” when used carefully.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/artificial-intelligence-law-legal-ai-chatgpt-judges-b2849313.html",
+    "publication_date": "2025-10-22",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "chatgpt",
+      "regulator*",
+      "damag*",
+      "misus*",
+      "litigat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "Tribunal judge says Chowdhury Rahman wasted court time with ‘wholly irrelevant’ submissions. An immigration barrister could face a disciplinary probe after a judge ruled he used AI tools such as ChatGPT to prepare his legal research. A tribunal heard that a judge was left baffled when Chowdhury Rahman presented his submissions, which included citing cases that were “ entirely fictitious ” or “wholly irrelevant”. A judge found that Mr Rahman had also attempted to “hide” this when questioned, and “wasted” the tribunal’s time. The incident occurred while Mr Rahman was representing two Honduran sisters who were claiming asylum in the UK on the basis that they were being targeted by a violent criminal gang called Mara Salvatrucha (MS-13).",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/chowdhury-rahman-barrister-chatgpt-ai-asylum-case-b2847109.html",
+    "publication_date": "2025-10-17",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "chatgpt",
+      "wrongly*",
+      "misleading",
+      "kill*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R039",
+    "source_language": "en",
+    "original_text": "There were several reports of injuries from crashes involving the full self-driving function on Teslas. Federal regulators have launched an investigation into Elon Musk ’s Tesla cars after high-profile incidents involving the full self-driving function The National Highway Traffic Safety Administration announced its probe Tuesday after receiving dozens of reports of Tesla cars running red lights and driving on the wrong side of the road with some instances involving injuries from crashes. The investigation focuses on full self-driving cars that still require a “fully attentive driver.” While the drivers are fully responsible for complying with traffic laws, some claimed the full self-driving technology didn’t warn them of its “intended behavior.”",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/elon-musk-tesla-self-driving-crashes-investigation-b2842919.html",
+    "publication_date": "2025-10-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "self driving",
+      "robotaxi*",
+      "driver assist*",
+      "regulator*",
+      "injur*",
+      "death*",
+      "kill*",
+      "crash*",
+      "NHTSA",
+      "pedestrian"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R040",
+    "source_language": "en",
+    "original_text": "Critics issue warning over nationwide expansion of ‘intrusive’ technology which ‘turns every passerby into a walking barcode’. Critics have branded the nationwide rollout of live facial recognition technology as another move towards a “total surveillance society”. The Home Office has announced that ten more vans fitted with high-tech cameras will be deployed across the country to catch “high-harm” offenders as part of a government overhaul of neighbourhood policing. Alongside the expansion, the government will simultaneously consult on how the technology should be used and what appropriate safeguards and oversight are needed to shape a new legal framework for its use.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/crime/facial-recognition-vans-police-home-office-b2806734.html",
+    "publication_date": "2025-08-13",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "automated decision*",
+      "harm*",
+      "discriminat*",
+      "misidentif*",
+      "surveil*",
+      "abus*",
+      "breach*",
+      "accus*",
+      "wrongful*",
+      "false match*",
+      "domestic abuse",
+      "wrongful arrest*",
+      "arrest*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R041",
+    "source_language": "en",
+    "original_text": "Teenagers are increasingly turning to AI for advice, emotional support and decision-making, according to a new study. Artificial intelligence chatbots are increasingly becoming digital companions for teenagers, offering advice on everything from fashion to party planning, a new study suggests. This trend is exemplified by Kayla Chege, a 15-year-old high school student in Kansas , who consults ChatGPT for guidance on back-to-school shopping, makeup colours, low-calorie choices at Smoothie King, and ideas for her Sweet 16 and her younger sister’s birthday party. While the honours student makes a point not to have chatbots do her homework and limits her interactions to mundane questions, interviews with The Associated Press and a new study indicate that teenagers are increasingly interacting with AI as a companion, offering advice and friendship.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/teenagers-school-ai-chatgpt-questions-b2794437.html",
+    "publication_date": "2025-07-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "risk assessment",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "chatgpt",
+      "Claude",
+      "harm*",
+      "addict*",
+      "suicid*",
+      "died",
+      "strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R042",
+    "source_language": "en",
+    "original_text": "OpenAI CEO Sam Altman warns of a looming fraud crisis in the financial industry due to AI's ability to mimic voices. Sam Altman, the chief executive of OpenAI , has issued a stark warning to the financial sector, predicting a \"significant impending fraud crisis\" driven by artificial intelligence. He highlighted AI’s growing capability to impersonate human voices, allowing sophisticated bypasses of security protocols to illicitly transfer funds. Speaking at a Federal Reserve conference in Washington, Mr Altman expressed particular alarm over outdated authentication methods. \"A thing that terrifies me is apparently there are still some financial institutions that will accept the voiceprint as authentication,\" he stated.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/openai-sam-altman-voice-fraud-b2794039.html",
+    "publication_date": "2025-07-22",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "voice clon*",
+      "openai",
+      "regulator*",
+      "fraud*",
+      "impersonat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R043",
+    "source_language": "en",
+    "original_text": "The proposed construction of a data centre in London’s famous Brick Lane continues to generate controversy. Suha Kidwai speaks to residents about the impact it could have on the area. L ined with its famed curry houses, 24-hour bagel shops and stores selling vintage jeans covered with anti-war slogans, London’s Brick Lane has long been considered a beloved cultural hotspot But now, a 5,200 square metre data centre could be built over one of the area’s most iconic buildings, the former Truman Brewery. The 29-metre-tall facility is set to be used for high-speed trading in London’s nearby financial district, and aims to employ 20 full-time staff.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/brick-lane-new-data-centre-plans-london-b3015349.html",
+    "publication_date": "2025-07-19",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "ai tool*",
+      "scandal*",
+      "controvers*",
+      "death*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R044",
+    "source_language": "en",
+    "original_text": "Musk’s AI chatbot was updated over the weekend to ‘not shy away from making claims which are politically incorrect’. Elon Musk ’s Grok chatbot has been making antisemitic statements after the artificial intelligence tool, which is embedded in X, was updated over the weekend. Throughout Tuesday, Grok responded to a variety of posts by echoing antisemitic tropes and claiming people with Jewish-sounding names are disproportionately linked “every damn time” to hate, radicalism, and deceitfulness. “What we are seeing from Grok LLM right now is irresponsible, dangerous and antisemitic, plain and simple,” a spokesperson for the Anti-Defamation League, a civil rights group that monitors antisemitism and other forms of extremism, told The Independent “This supercharging of extremist rhetoric will only amplify and encourage the antisemitism that is already surging on X and many other platforms.”",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/elon-musk-x-grok-antisemitism-meme-b2785152.html",
+    "publication_date": "2025-07-09",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai tool*",
+      "xAI",
+      "Grok",
+      "scandal*",
+      "controvers*",
+      "alleged",
+      "allegedly",
+      "allegation*",
+      "racis*",
+      "disproportionat*",
+      "death*",
+      "defam*",
+      "hate speech",
+      "antisemit*",
+      "conspiracy theor*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R045",
+    "source_language": "en",
+    "original_text": "Musk’s AI chatbot Grok turned unrelated questions on several different issues back to an insistence that white genocide is ‘real.’ It was responding to a code manipulation said xAI. Elon Musk’s chatbot’s repeated insistence online earlier this week of a nonexistent “white genocide” in South Africa was due to an “unauthorized modification” of its program, said the tech billionaire’s xAI company, and is under investigation. Trump officials earlier this week welcomed 59 South African white “refugees” into the United States, even as the president is closing the borders to people of color. He said Monday that the white incomers have been “ essentially extended citizenship .”",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/musk-xai-grok-south-africa-white-genocide-b2752760.html",
+    "publication_date": "2025-05-17",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "xAI",
+      "Grok",
+      "discriminat*",
+      "violat*",
+      "controvers*",
+      "racis*",
+      "manipulat*",
+      "kill*",
+      "protest",
+      "farmland"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R046",
+    "source_language": "en",
+    "original_text": "Social media was flooded with AI-generated renditions of popular memes or photos in the style of Studio Ghibli. Several fans of famed Japanese animation studio behind Spirited Away and Howl’s Moving Castle , Studio Ghibli , were delighted this week when a new version of ChatGPT let them transform popular internet memes or personal photos into the distinct style of Ghibli founder Hayao Miyazaki However, the trend also highlighted ethical concerns about artificial intelligence tools trained on copyrighted creative works and what that means for the future livelihoods of human artists, as well as ethical questions on the value of human creativity in a time increasingly shaped by algorithms. Miyazaki, 84, known for his hand-drawn approach and whimsical storytelling, has expressed skepticism about AI's role in animation in the past.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/arts-entertainment/films/news/studio-ghibli-chatgpt-openai-hayao-miyazaki-trend-copyright-b2723114.html",
+    "publication_date": "2025-03-28",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "GPT*",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "training run*",
+      "openai",
+      "chatgpt",
+      "exploit*",
+      "without consent",
+      "infring*",
+      "violat*",
+      "backlash",
+      "lawsuit*",
+      "emission*",
+      "copyright*",
+      "arrest*",
+      "in the style of"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R047",
+    "source_language": "en",
+    "original_text": "As DeepSeek takes the world by storm, Alexander Butler speaks to Uyghurs worried about the app’s ‘dangerous’ erasure of their alleged genocide. DeepSeek has had a meteoric rise in the growing world of AI, becoming a strong competitor to US rival ChatGPT But for Xinjiang ’s Uyghurs, who are facing an alleged genocide , the rollout of China’s newest chatbot was just another way to remove their 12 million people from history. “The Chinese government is trying to erase the Uyghur people by employing AI to mislead the public,” Rahima Mahmut, who fled China in 2000, told The Independent Ms Mahmut, who has not heard from her family for eight years, and learnt her brother was locked up in a mass-internment camp for two of those, had reason for concern.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/asia/china/deepseek-ai-china-uyghur-genocide-b2697425.html",
+    "publication_date": "2025-02-13",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai assistant*",
+      "ai assist*",
+      "chatgpt",
+      "deepseek",
+      "harm*",
+      "censor*",
+      "alleged",
+      "accus*",
+      "strike*",
+      "atrocit*",
+      "arrest*",
+      "detained",
+      "Uyghur"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R048",
+    "source_language": "en",
+    "original_text": "Agents do not ‘simply accept the result provided by the solution,’ DWP says. The Department for Work and Pensions (DWP) has revealed how it is using AI to inform decisions on whether to approve or deny certain benefit applications. Sharing new details to the official government algorithm database, the department says it is using an AI tool called ‘online medical matching’ to help agents make decisions on applications for Employment Support Allowance (ESA). Claimed by 1.5 million people, this is the main health-related benefit that people can receive if they have a condition that affects how much they are able to work.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/dwp-benefits-esa-artificial-intelligence-disability-b2697488.html",
+    "publication_date": "2025-02-13",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "risk assessment",
+      "artificial intelligen*",
+      "ai model*",
+      "ai tool*",
+      "ai driven",
+      "bias*",
+      "fraud*",
+      "welfare fraud"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R049",
+    "source_language": "en",
+    "original_text": "‘This is the most humiliating day of my life,’ the presenter said. Naga Munchetty has become the latest celebrity to be targeted in a sexually explicit scam. The veteran BBC presenter, 49, discovered paid advertisements on X/Twitter and Facebook promoted to “trick people out of their hard-earned money” and include “crudely mocked-up” fake nude photos of her. Munchetty, who conducted an investigation into the images with her team at BBC 5 Live , said she was “mortified and bemused” to discover the explicit content that somebody had paid “good money” to advertise. “I'm used to seeing misleading articles about myself online, but the screenshots I've been sent by friends and followers on social media in recent weeks are a lot more insidious than most,” she said.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/arts-entertainment/tv/news/naga-munchetty-nude-images-scam-bbc-warning-deepfake-b2693198.html",
+    "publication_date": "2025-02-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "harm*",
+      "fraud*",
+      "impersonat*",
+      "non-consensual",
+      "violat*",
+      "controvers*",
+      "allegedly",
+      "fake news",
+      "misleading",
+      "scam*",
+      "manipulat*",
+      "non consensual*",
+      "nonconsensual*",
+      "copyright*",
+      "detained",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R050",
+    "source_language": "en",
+    "original_text": "Investigator calls it the first known incident in which ChatGPT was ‘utilized to help an individual build a particular device’. The decorated soldier who blew up a Tesla Cybertruck outside the Trump hotel in Las Vegas last week used generative AI, including ChatGPT, to help set up the attack, Las Vegas police said Tuesday. A laptop, cellphone and watch are still being examined after 37-year-old Matthew Livelsberger fatally shot himself just before the truck exploded on New Year’s Day. An investigation of Livelsberger’s searches through ChatGPT indicate he was looking for information on explosive targets, the speed at which certain rounds of ammunition would travel and whether fireworks were legal in Arizona, according to investigators.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/cybertruck-explosion-trump-chatgpt-las-vegas-b2675465.html",
+    "publication_date": "2025-01-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "chatgpt",
+      "injur*",
+      "damag*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R051",
+    "source_language": "en",
+    "original_text": "Researchers and watchdog groups say the emergence of generative artificial intelligence tools that allow people to efficiently produce detailed and novel online reviews has put merchants, service providers and consumers in uncharted territory. The emergence of generative artificial intelligence tools that allow people to efficiently produce novel and detailed online reviews with almost no work has put merchants, service providers and consumers in uncharted territory, watchdog groups and researchers say. Phony reviews have long plagued many popular consumer websites, such as Amazon and Yelp They are typically traded on private social media groups between fake review brokers and businesses willing to pay.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/yelp-ap-amazon-federal-trade-commission-openai-b2669042.html",
+    "publication_date": "2024-12-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "ai assist*",
+      "openai",
+      "chatgpt",
+      "fraud*",
+      "abus*",
+      "accus*",
+      "penalt*",
+      "banned",
+      "liab*",
+      "scam*",
+      "pollut*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R052",
+    "source_language": "en",
+    "original_text": "Ireland has attracted global tech companies since the ‘Celtic Tiger’. Dozens of data centres humming at the outskirts of Dublin are consuming more electricity than all of the urban homes in Ireland And now they are starting to wear out the warm welcome that brought them here. Ireland is a country that made itself a computing factory for Amazon , Google , Meta , Microsoft and TikTok. It is wondering whether it was all worth it as tech giants look around the world to build even more data centres to fuel the next wave of artificial intelligence. Fears of rolling blackouts led Ireland's grid operator to halt new data centres near Dublin until 2028.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/ireland-data-centres-google-meta-b2667210.html",
+    "publication_date": "2024-12-19",
+    "country": "Ireland",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "power purchase agreement*",
+      "regulator*",
+      "surveil*",
+      "backlash",
+      "banned",
+      "emission*",
+      "pollut*",
+      "electricity price*",
+      "blackout*",
+      "electricity bill*",
+      "fossil fuel*",
+      "tax incentive*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R053",
+    "source_language": "en",
+    "original_text": "Partnership marks increasing Silicon Valley openness towards working with defense partners. ChatGPT-maker OpenAI and high-tech defense startup Anduril Industries will collaborate to develop artificial intelligence-inflected technologies for military applications, the companies announced. “U.S. and allied forces face a rapidly evolving set of aerial threats from both emerging unmanned systems and legacy manned platforms that can wreak havoc, damage infrastructure and take lives,” the companies wrote in a Wednesday statement “The Anduril and OpenAI strategic partnership will focus on improving the nation’s counter-unmanned aircraft systems (CUAS) and their ability to detect, assess and respond to potentially lethal aerial threats in real-time.”",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/openai-anduril-pentagon-elon-musk-b2659001.html",
+    "publication_date": "2024-12-04",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "military ai",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "Project Maven",
+      "Palantir",
+      "Anduril",
+      "damag*",
+      "controvers*",
+      "protest"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R054",
+    "source_language": "en",
+    "original_text": "The AI-generated video echoed longstanding themes of the Republican Party’s outreach to Black voters. The daughter of Martin Luther King Jr has rebuked an AI-generated video that depicts the long-dead civil rights leader endorsing Donald Trump. The video, which features a synthetic version of King's voice and likeness, was posted on the social network X on Sunday by a pro-MAGA account, which billed it as what King would say \"if he could speak today\". \"We will vote for Donald Trump as our president, and we will fight beside him to make America great again. We will not allow the American dream to die,\" intoned the AI voice in a facsimile of King's trademark rising and falling delivery.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/martin-luther-king-trump-deepfake-b2641309.html",
+    "publication_date": "2024-11-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "discriminat*",
+      "racis*",
+      "disproportionat*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R055",
+    "source_language": "en",
+    "original_text": "Abbots Langley has become a flashpoint in a battle between villagers and big tech. A proposal to build a data center on the edge of the English village of Abbots Langley was rejected by local authorities amid fierce opposition from villagers. But it's getting a second chance from British Prime Minister Keir Starmer's government, which is pursuing reforms to boost economic growth following his Labour party's election victory in July. Residents of Abbots Langley, 18 miles northwest of London in Hertfordshire, worry the facility will strain local resources and create noise and traffic that damages the character of the quiet village, which is home to just over 20,000 people.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/abbots-langley-ai-data-centre-hertfordshire-b2640085.html",
+    "publication_date": "2024-11-02",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "server farm*",
+      "AI data cent*",
+      "damag*",
+      "controvers*",
+      "complaint*",
+      "megawatt*",
+      "power demand"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R056",
+    "source_language": "en",
+    "original_text": "Warning distressing content: When the teen expressed his suicidal thoughts to his favorite bot, Character.AI ‘made things worse,’ a lawsuit filed by his mother says. A 14-year-old who took his own life had intimate conversations with an AI chatbot that pressed about his suicidal thoughts and instigated sexual encounters, a lawsuit says. “I promise I will come home to you. I love you so much, Dany,” Sewell Setzer III wrote to Daenerys, the Character.AI chatbot named after Game of Thrones. The bot replied that it loved the teenager too: “Please come home to me as soon as possible, my love.” “What if I told you I could come home right now?”",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/crime/ai-chatbot-lawsuit-sewell-setzer-b2635090.html",
+    "publication_date": "2024-10-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai generat*",
+      "harm*",
+      "non-consensual",
+      "abus*",
+      "violat*",
+      "negligen*",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "litigat*",
+      "wrongful*",
+      "distress*",
+      "anxiet*",
+      "depression",
+      "self harm*",
+      "suicid*",
+      "death*",
+      "non consensual*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R057",
+    "source_language": "en",
+    "original_text": "European Union regulators say they’re looking into one of Google’s artificial intelligence models over concerns about its compliance with the bloc’s strict data privacy rules. European Union regulators said Thursday they're looking into one of Google 's artificial intelligence models over concerns about its compliance with the bloc's strict data privacy rules. Ireland 's Data Protection Commission said it has opened an inquiry into Google's Pathways Language Model 2, also known as PaLM2. It's part of wider efforts, including by other national watchdogs across the 27-nation bloc, to scrutinize how AI systems handle personal data.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/google-ap-european-union-london-openai-b2611317.html",
+    "publication_date": "2024-09-12",
+    "country": "Ireland",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "Grok",
+      "regulator*",
+      "GDPR",
+      "breach*",
+      "banned",
+      "privacy breach*",
+      "data protection"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R058",
+    "source_language": "en",
+    "original_text": "Parents and experts urge the state to roll back the facial recognition system in schools. A state in southern India is facing severe backlash from child rights activists and experts after the authorities proposed to introduce an AI face recognition system to keep track of students’ attendance. The Department of School Education and Literacy in Karnataka is planning to use mobile phone-based facial recognition to mark attendance in the Students Achievement Tracking System (SATS) – the government’s database for monitoring students. The facial recognition system will also be used to track beneficiaries of government welfare schemes such as midday meals, where pupils are provided lunches under the largest free-food-in-school programme in the world, the authorities earlier said.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/asia/india/karnataka-schools-face-recognition-system-attendance-b2810805.html",
+    "publication_date": "2024-08-20",
+    "country": "India",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "deepfake*",
+      "face recognition",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "backlash",
+      "sexual exploitation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R059",
+    "source_language": "en",
+    "original_text": "Former president posted several deepfake images of the pop star and her fanbase on Sunday, claiming he ‘accepts’ her support. Donald Trump has shared AI-generated images of Taylor Swift and her dedicated fanbase sporting “ Swifties for Trump” T-shirts, alluding that the star has become an unlikely follower of the MAGA movement. Swift’s popularity transcends the world of pop music with one Instagram post urging her 283m followers to register to vote last September resulting in more than 35,000 online sign-ups, according to Vote.org. Despite her vast political influence – particularly resonating with Gen Z – the “Shake it Off” hit-maker has yet to officially endorse any presidential candidate for the 2024 election cycle, after backing President Joe Biden in 2020.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-taylor-swift-swifties-ai-deepfake-b2598414.html",
+    "publication_date": "2024-08-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "allegedly",
+      "propaganda",
+      "conspiracy theor*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R060",
+    "source_language": "en",
+    "original_text": "Fake images of Sir Keir Starmer and Prince William have been used in more than 250 adverts. D eepfake videos of Sir Keir Starmer and Prince William are being used to promote financial scams on Meta platforms such as Facebook and Instagram The artificial intelligence (AI) versions of the prime minister and the Prince of Wales have been used in more than 250 adverts promoting a scam cryptocurrency trading platform. The fraudulent adverts, promoting a platform name “Immediate Edge”, suggest the project has been endorsed by the pair, and have reached more than 890,000 people on Facebook and Instagram. The adverts were found by Fenimore Harper , a media insight and research firm, using Meta’s open-source AI software, called Llama 3.1.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/starmer-prince-william-ai-deepfake-crypto-scam-b2595554.html",
+    "publication_date": "2024-08-13",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "Llama",
+      "harm*",
+      "disinformation",
+      "fraud*",
+      "impersonat*",
+      "victim*",
+      "violat*",
+      "scam*",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R061",
+    "source_language": "en",
+    "original_text": "Amnesty International analysis found algorithm ‘systematically prioritises’ content that ‘sparks outrage’. New analysis investigating X’s algorithm has revealed how the platform played a “central role” in spreading false narratives fuelling riots in the UK last summer Amnesty International’s analysis of the platform’s own source code, published in March 2023, has revealed how it “systematically prioritises” content that “sparks outrage” - without adequate safeguards to prevent harm. The human rights group said the design of the software created “fertile ground for inflammatory racist narratives to thrive” in the wake of the Southport attack last year.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/x-elon-musk-algorithm-southport-race-riots-amnesty-uk-b2802863.html",
+    "publication_date": "2024-08-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "content moderat*",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "injur*",
+      "accountab*",
+      "violat*",
+      "banned",
+      "racis*",
+      "misleading",
+      "manipulated media",
+      "manipulat*",
+      "hate speech",
+      "islamophob*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R062",
+    "source_language": "en",
+    "original_text": "A Miami jury ordered Elon Musk’s car company on Friday to pay $329 million to victims of a deadly crash involving its Autopilot driver assist technology, opening the door to other costly lawsuits and striking a blow to Tesla’s reputation for safety. A Miami jury has ordered Elon Musk's car manufacturer, Tesla, to pay $329 million to victims of a fatal crash involving its Autopilot driver-assist technology. The ruling, delivered on Friday, could open the door to further costly lawsuits and deals a significant blow to the company's reputation for safety. The federal jury found Tesla bore substantial responsibility, citing a failure in its technology.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/tesla-autopilot-court-case-crash-deadly-b2800691.html",
+    "publication_date": "2024-08-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "driverless",
+      "robotaxi*",
+      "autopilot",
+      "driver assist*",
+      "regulator*",
+      "victim*",
+      "lawsuit*",
+      "crash*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R063",
+    "source_language": "en",
+    "original_text": "Elon Musk said last week that ‘Full Self Driving’ should be able to run without human supervision by the end of this year. Authorities in Washington have determined that a Tesla that hit and killed a motorcyclist near Seattle in April was operating on the company's “Full Self Driving” system at the time of the crash. Investigators from the Washington State Patrol made the discovery after downloading information from the event-data recorder on the 2022 Tesla Model S, agency spokesman Capt. Deion Glover said Tuesday. “The investigation is still ongoing in this case,” Glover said in an email to The Associated Press.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/tesla-crash-self-driving-seattle-elon-musk-b2588562.html",
+    "publication_date": "2024-07-31",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "artificial intelligen*",
+      "automated system*",
+      "self driving",
+      "autonomous vehicle*",
+      "robotaxi*",
+      "autopilot",
+      "regulator*",
+      "death*",
+      "kill*",
+      "fatality",
+      "crash*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R064",
+    "source_language": "en",
+    "original_text": "Manipulated photos were shared on two WhatsApp groups, court says. Fifteen schoolchildren in south-west Spain were sentenced by a court to probation for spreading AI-generated naked images of their female classmates. “The sentence notes that it has been proved that the minors used artificial intelligence applications to obtain manipulated images of [other minors] by taking girls’ original faces from their social media profiles and superimposing those images on the bodies of naked female bodies,” the court said in a statement. “The manipulated photos were then shared on two WhatsApp groups,” it added. Each teenager was given a year’s probation in a case that has sparked debate over the abusive use of such technology The incident reportedly came to light when parents in Almendralejo reported that fake naked pictures of their daughters were being circulated on WhatsApp.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/europe/spain-almendralejo-teens-ai-naked-deepfake-b2577067.html",
+    "publication_date": "2024-07-10",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai tool*",
+      "ai generat*",
+      "victim*",
+      "abus*",
+      "sexis*",
+      "anxiet*",
+      "manipulat*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R065",
+    "source_language": "en",
+    "original_text": "STOIC used AI models to create accounts posing as Jewish students and African Americans to influence online audiences in US and Canada. Meta and OpenAI claim to have disrupted covert online influence operations run by an Israeli company amid the intensifying war in Gaza. The tech giants said STOIC, a political marketing and business intelligence firm based in Tel Aviv, is deploying their products and tools to manipulate political conversations online. OpenAI, the maker of ChatGPT, said in a report on Thursday that it banned a network of accounts linked to STOIC, which it accused of posting anti-Hamas and pro-Israel content and acting as a “for-hire Israeli threat actor”.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/israel-gaza-war-covert-online-operation-meta-openai-b2554289.html",
+    "publication_date": "2024-05-31",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "disinformation",
+      "violat*",
+      "alleged",
+      "accus*",
+      "banned",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R066",
+    "source_language": "en",
+    "original_text": "The close-shave in Camden, Ohio, was captured from multiple angles by the car’s cameras. Shocking footage shows the moment a Tesla in “Full Self Driving” mode narrowly avoided a crash on rail tracks in Ohio after the vehicle failed to detect a passing train The vehicle’s owner, Craig Doty II, said he took responsibility for the near-miss incident on the morning of May 8 in Camden, Ohio, and that he may have become “complacent” with the technology The footage, first aired by NBC News, showed the vehicle driving down a road in heavy fog towards a set of railtracks, where a freight train is passing. The car does not slow down as it approaches and only swerves to avoid the train at the last second, smashing into a safety barrier.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/tesla-self-driving-train-crash-ohio-b2552678.html",
+    "publication_date": "2024-05-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "automated system*",
+      "self driving",
+      "autopilot",
+      "regulator*",
+      "damag*",
+      "lawsuit*",
+      "misleading",
+      "died",
+      "crash*",
+      "defect*",
+      "near miss"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R067",
+    "source_language": "en",
+    "original_text": "Tool takes screenshots every few seconds to build a ‘photographic memory’ – which experts warn could be exploited by attackers. UK officials are “making inquiries” into Microsoft’s latest AI feature, which collects records of everything people do. The new tool, named Recall, takes screenshots of the screen every few seconds. Microsoft has said that it will be like having a “photographic memory” of everything that has been done on the device. The company said that would be useful when combined with artificial intelligence, so that the computer can better know what its owner has done – and what they might want to do next.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/microsoft-ai-artificial-intelligenc-recall-b2549657.html",
+    "publication_date": "2024-05-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "ai power*",
+      "regulator*",
+      "exploit*",
+      "data protection",
+      "sensitive data",
+      "Information Commissioner"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R068",
+    "source_language": "en",
+    "original_text": "Tool aims to keep people safe by listening for scams – but could actually put them at risk, some warn. A new Google feature aimed at alerting people to scams has led to fears from privacy campaigners. The tool uses artificial intelligence to listen in on people’s phone calls, and try and spot if they sound like a scam. If they do, then a pop-up will show alerting people to a “likely scam”. The feature was announced at Google’s I/O event this week, during which it announced a host of new AI tools. Like many of those features, Google did not say when it would actually arrive. It also gave little information on how the feature would actually work, such as what kind of conversations would prompt the AI to suggest that the call could be a scam.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/google-scam-ai-artificial-intelligence-gemini-b2546940.html",
+    "publication_date": "2024-05-17",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "Gemini",
+      "surveil*",
+      "scam*",
+      "protests",
+      "private conversation*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R069",
+    "source_language": "en",
+    "original_text": "Hans Von Ohain died after the car hit a tree and burst into flames, but a passenger was able to escape, the suit says. The widow of a man who died after his Tesla veered off the road and crashed into a tree while he was using its partially automated driving system is suing the carmaker, claiming its marketing of the technology is dangerously misleading. The Autopilot system prevented Hans Von Ohain from being able to keep his Model 3 Tesla on a Colorado road in 2022, according to the lawsuit filed by Nora Bass in state court on May 3. Von Ohain died after the car hit a tree and burst into flames, but a passenger was able to escape, the suit says.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/tesla-autopilot-crash-colorado-b2543408.html",
+    "publication_date": "2024-05-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "automated system*",
+      "self driving",
+      "autopilot",
+      "regulator*",
+      "lawsuit*",
+      "misleading",
+      "died",
+      "crash*",
+      "defect*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R070",
+    "source_language": "en",
+    "original_text": "Decision makers may not be aware of the dangers of relying on information from artificial intelligence, experts say. AI could have profound implications for national security – including posing a host of risks, a new government-commissioned report warns. Artificial intelligence is a valuable tool to help senior officials in government and intelligence make decisions, it says. But it could also lead to inaccuracies, confusion and other dangers, it warns. Senior officials must be trained to spot those problems, and there is a critical need for any AI systems to be carefully watched and continuously monitored to ensure they don’t lead to more bias and errors, it warns.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/ai-artificial-intelligence-national-security-government-b2533198.html",
+    "publication_date": "2024-04-23",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "bias*",
+      "exploit*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R071",
+    "source_language": "en",
+    "original_text": "As technology advances, so does the potential for humans to be duped when looking for love. Helen Coffey delves into the digital threat facing singles. T alk to anyone currently engaged in the fool’s errand that is attempting to find love online , and they’ll tell you how unimaginably bleak the experience is. Endless swiping; matches who never write back; matches who engage in days of conversation before disappearing off the face of the planet; strings of promising dates that end in an abrupt and unexplained ghosting And now a new threat is set to make the whole rigmarole even less enjoyable. Picture the scene: you’ve matched with someone on an app who actually seems like a normal, attractive person.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/life-style/ai-catfishing-dating-apps-chatgpt-b2531460.html",
+    "publication_date": "2024-04-22",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "deepfake*",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "midjourney",
+      "Sora",
+      "fraud*",
+      "damag*",
+      "scam*",
+      "hacked",
+      "manipulat*",
+      "bombing*",
+      "hallucinat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R072",
+    "source_language": "en",
+    "original_text": "Suspects sold posters with obscene images on internet auction sites last year. Japanese police have arrested four people for selling AI -generated obscene images in the first of its kind clampdown on the sale of pornographic images in the country. The suspects, arrested in Tokyo , were accused of selling posters with obscene images on internet auction sites in October of last year, NHK reported. They had allegedly used AI software to make nude images of non-existent women. The posters were reportedly sold for thousands of yen. A 2019 study by Dutch AI company Sensity found that around 96 per cent of deepfake videos online were non-consensual pornography.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/asia/japan/japan-ai-generated-porn-arrest-b2733390.html",
+    "publication_date": "2024-04-15",
+    "country": "Japan",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "non-consensual",
+      "damag*",
+      "allegedly",
+      "accus*",
+      "non consensual*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R073",
+    "source_language": "en",
+    "original_text": "Full Fact’s annual report says the UK is ill-equipped to tackle misleading content. The UK is highly vulnerable to misinformation and is currently not properly equipped to combat it, the annual report from fact-checking charity Full Fact says. The report warns that without urgent action, the UK risks falling behind the pace of international progress in protecting citizen from misinformation. It says that a combination of significant gaps in the Online Safety Act and the rapid rise of generative AI means a fundamental overhaul of the UK’s legislative and regulatory framework is needed in order to adequately combat misinformation and disinformation.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/chris-morris-chatgpt-rishi-sunak-labour-sadiq-khan-b2525418.html",
+    "publication_date": "2024-04-09",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "chatbot*",
+      "ai generat*",
+      "chatgpt",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "disinformation",
+      "misleading",
+      "vulnerable"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R074",
+    "source_language": "en",
+    "original_text": "News industry lawsuits are piling up for OpenAI, the company behind artificial intelligence-fueled chatbot ChatGPT. Digital news outlets The Intercept , Raw Story and AlterNet are joining the fight against unauthorised use of their journalism in artificial intelligence. The companies filed a copyright-infringement lawsuit on Wednesday against ChatGPT owner OpenAI The organisations say thousands of their stories were used by OpenAI to train chatbots to answer questions posed to it by users, in effect piggybacking on their journalism without permission, payment or credit. San Francisco -based OpenAI did not immediately respond to a request for comment.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/ap-the-intercept-the-new-york-times-chatgpt-openai-b2504287.html",
+    "publication_date": "2024-02-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "infring*",
+      "damag*",
+      "lawsuit*",
+      "copyright*",
+      "without permission",
+      "journalist*",
+      "licensing deal*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R075",
+    "source_language": "en",
+    "original_text": "The AI firm said hacker groups backed by China, Iran, North Korea and Russia had been found and removed from the chatbot. ChatGPT maker OpenAI says it has disrupted multiple networks of state-backed hackers trying to use the AI chatbot to further their “malicious” activities. The company said that alongside Microsoft , it had disrupted five groups from China , Iran , North Korea and Russia. OpenAI said the different state-linked groups had used its AI services to carry out research, translation, find coding errors and run basic coding tasks to support their activities. The ChatGPT maker said the identified accounts associated with the various groups had been terminated.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/microsoft-chatgpt-iran-north-korea-china-b2496656.html",
+    "publication_date": "2024-02-15",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "GPT*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "red team*",
+      "harm*",
+      "abus*",
+      "phishing",
+      "hacker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R076",
+    "source_language": "en",
+    "original_text": "Iranian hackers used artificial intelligence tools to ‘lure prominent feminists’. Hackers in Iran have used the popular AI tool ChatGPT to launch cyber attacks against feminists, researchers have revealed. It is one of several incidents of state-backed actors using the technology in hacking campaigns, with the app’s creator OpenAI also naming groups linked to China, North Korea and Russia. A report published on Wednesday said hackers were honing their skills and tricking their targets by using generative artificial intelligence tools like ChatGPT, which draw on massive amounts of text to generate human-sounding responses.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/chatgpt-hack-ai-feminists-openai-microsoft-b2496310.html",
+    "publication_date": "2024-02-14",
+    "country": "Iran",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "abus*",
+      "misus*",
+      "violat*",
+      "alleged",
+      "allegation*",
+      "accus*",
+      "phishing",
+      "hacking",
+      "hacker*",
+      "spying"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R077",
+    "source_language": "en",
+    "original_text": "Waymo says its autonomous vehicle did not see the cyclist as it was hidden behind a truck. An investigation is underway into a collision between a driverless taxi and a cyclist in San Francisco on Tuesday. Californian police and regulators are reviewing the incident, first reported by Reuters, after the cyclist was left with minor injuries. The vehicle involved was a robotaxi owned by WaYmo, the autonomous driving unit of Google ’s parent company Alphabet. A spokesperson for Waymo said the vehicle was pulling out from a four-way intersection and failed to spot a cyclist hidden behind a truck that was turning into the intersection.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/driverless-car-crash-waymo-cyclist-b2492735.html",
+    "publication_date": "2024-02-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "self driving",
+      "autonomous vehicle*",
+      "driverless",
+      "robotaxi*",
+      "regulator*",
+      "injur*",
+      "kill*",
+      "crash*",
+      "collision*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R078",
+    "source_language": "en",
+    "original_text": "Morris II represents new breed of ‘zero-click malware’, researchers warn. Security researchers have developed a self-replicating AI worm that can infiltrate people’s emails in order to spread malware and steal data. Dubbed Morris II, after the first ever computer worm from 1988, the computer worm was created by an international team from the US and Israel in an effort to highlight the risks associated with generative artificial intelligence (GenAI). The worm is designed to target AI-powered apps that use popular tools like OpenAI’s ChatGPT and Google’s Gemini. It has already been demonstrated against GenAI-powered email assistants to steal personal data and launch spamming campaigns.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/ai-worm-computer-security-chatgpt-malware-b2506594.html",
+    "publication_date": "2024-02-03",
+    "country": "Global",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai tool*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "fraud*",
+      "exploit*",
+      "victim*",
+      "hacker*",
+      "malware"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R079",
+    "source_language": "en",
+    "original_text": "Several people were arrested including for failure to turn up at court. London’s Metropolitan Police have arrested over a dozen people in two days using controversial Live Facial Recognition technology in Croydon. The operation which took place on Saturday 20 January and Tuesday 23 January consisted of LFR cameras being focused on a specific area in Croydon and as people pass through that area their images are streamed directly to the Live Facial Recognition system. Ahead of the deployment police upload images of criminals who are wanted onto a database. Met Police say this system contains a “watchlist” of offenders who are wanted by the police and/or courts and those who pose a risk of harm to themselves or others.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/home-news/met-police-croydon-facial-recognition-b2484112.html",
+    "publication_date": "2024-01-24",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "ai power*",
+      "harm*",
+      "discriminat*",
+      "misidentif*",
+      "surveil*",
+      "damag*",
+      "victim*",
+      "breach*",
+      "controvers*",
+      "banned",
+      "protesters",
+      "arrest*",
+      "watchlist*",
+      "racial profiling"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R080",
+    "source_language": "en",
+    "original_text": "Newspaper alleges it is owed ‘billions of dollars in statutory and actual damages’. The Independent's journalism is supported by our readers. When you purchase through links on our site, we may earn commission. New York Times sues OpenAI and Microsoft for copying articles Newspaper alleges it is owed ‘billions of dollars in statutory and actual damages’ - Bookmark - CommentsGo to comments The New York Times has sued ChatGPT maker OpenAI and Microsoft over alleged copyright infringement. The newspaper accuses the companies in a new lawsuit of using its intellectual property to train the large language models used by ChatGPT.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/new-york-times-microsoft-openai-lawsuit-b2470094.html",
+    "publication_date": "2023-12-27",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "GPT*",
+      "large language model*",
+      "language model*",
+      "ai system*",
+      "openai",
+      "chatgpt",
+      "exploit*",
+      "infring*",
+      "damag*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "copyright*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R081",
+    "source_language": "en",
+    "original_text": "Study also raises concerns about AI algorithms being disproportionately trained on white faces. AI-generated faces now look more real than ever. Can you spot the fake ones? Study also raises concerns about AI algorithms being disproportionately trained on white faces - Bookmark - CommentsGo to comments AI-generated faces of white people now seem more real than actual ones, according to a new study which raises concerns that the technology may be used to fool people. More people thought AI-generated white faces were human than the faces of real people, while the same wasn’t true for the images of people of colour, according to research published recently in the journal Psychological Science.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/artificial-intelligence-ai-face-real-b2446824.html",
+    "publication_date": "2023-11-14",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai generat*",
+      "bias*",
+      "misinformation",
+      "misus*",
+      "disproportionat*",
+      "identity theft"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R082",
+    "source_language": "en",
+    "original_text": "Civil servants are relying on AI to make decisions around welfare, immigration and criminal justice. Bookmark - CommentsGo to comments Government officials are using artificial intelligence (AI) to help decide on everything from approving marriage licences to who should be given benefits, it has been revealed. Civil servants in at least eight Whitehall departments, and several police forces, are relying on AI to make decisions around welfare, immigration and criminal justice, according to an investigation. The shocking findings include the use of an algorithm by the Department for Work and Pensions (DWP) to identify potential benefit fraud.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/uk/politics/ai-artificial-intelligence-government-b2434850.html",
+    "publication_date": "2023-10-24",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "artificial intelligen*",
+      "fraud*",
+      "disproportionat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R083",
+    "source_language": "en",
+    "original_text": "GM-owned AV company can still operate cars with test driver onboard. Bookmark - CommentsGo to comments Autonomous carmaker Cruise must suspend its driverless taxi operations in California immediately, state motor vehicles regulators announced on Tuesday. \"The California DMV today notified Cruise that the department is suspending Cruise’s autonomous vehicle deployment and driverless testing permits, effective immediately,” the state Department of Motor Vehicles said in a statement. “The DMV has provided Cruise with the steps need to apply to reinstate its suspended permits, which the DMV will not approve until the company has fulfilled the requirements to the department’s satisfaction.”",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/california-cruise-gm-driverless-taxi-b2435296.html",
+    "publication_date": "2023-10-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "autonomous vehicle*",
+      "driverless",
+      "robotaxi*",
+      "regulator*",
+      "displac*",
+      "victim*",
+      "accus*",
+      "kill*",
+      "collision*",
+      "malfunction*",
+      "pedestrian",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R084",
+    "source_language": "en",
+    "original_text": "As politicans find themselves targeted by advances in deepfakes, the pubilc will have to be on guard not to get duped, writes Anthony Cuthbertson. But given they are so convincing, is it time for a tech solution? Bookmark - CommentsGo to comments Just a week after Slovakia scrambled to deal with an AI-generated recording designed to influence national elections, the UK Labour Party has become the target of deepfake audio. “I’m sick of this,” one of the clips, which appeared to be from a secret recording of party leader Keir Starmer, stated. “I f***ing hate Liverpool.” Despite being debunked and deleted from some platforms, the fake recordings still received millions of views across social media, and highlighted what Tory MP Simon Clarke described as “a new threat to democracy”.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/keir-starmer-deepfake-ai-elections-b2426578.html",
+    "publication_date": "2023-10-09",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "misus*",
+      "alleged",
+      "manipulat*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R085",
+    "source_language": "en",
+    "original_text": "Gallons of water are just one part of sustainability questions over the growth of artificial intelligence. Bookmark - CommentsGo to comments Artificial intelligence is using gallons upon gallons of water. Microsoft alone used more than 2,500 Olympic-sized swimming pools of water in its data centres last year. The latest numbers are leading to yet more questions about the sustainability and environmental dangers of the growth of artificial intelligence and related technology. Artificial intelligence requires vast computing resources, undertaking deeply complex calculations on behalf of people around the world. AI systems tend to be run in the cloud rather than on individual people’s computers, meaning that companies running them must operate vast server farms to deal with the queries of their users.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/ai-water-energy-artificial-intelligence-b2409356.html",
+    "publication_date": "2023-09-11",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "ai system*",
+      "server farm*",
+      "chatgpt",
+      "water use",
+      "damag*",
+      "water consumption"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R086",
+    "source_language": "en",
+    "original_text": "China requires tech companies to obtain government approvals before their AI products are publicly launched. China’s ‘government-approved’ AI chatbot says Taiwan invasion is likely China requires tech companies to obtain government approvals before their AI products are publicly launched - Bookmark - CommentsGo to comments A military takeover of Taiwan is likely, according to one of many Chinese government-approved artificial intelligence chatbots that seem to toe the ruling Communist Party’s official line. The island nation has transformed into a self-governing democracy, years after its separation from the mainland in 1949.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/china-ai-chatbot-taiwan-invasion-b2404303.html",
+    "publication_date": "2023-09-04",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "regulator*",
+      "controvers*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R087",
+    "source_language": "en",
+    "original_text": "The banned books include ‘The Handmaid’s Tale’ by Margaret Atwood and ‘Beloved’ by Toni Morrison. Bookmark - CommentsGo to comments A school district in Iowa is utilising ChatGPT to advance a book ban. Mason City Community School District has pulled 19 books from school libraries’ shelves, including “The Handmaid’s Tale” by Margaret Atwood and “Beloved” by Toni Morrison, according to The Gazette. The changes were made in order for the district to comply with an Iowa law, Senate File 496, which prohibited “instruction related to gender identity and sexual orientation in school districts.” Additionally, school libraries must hold books that contain “age-appropriate material,” which excludes “any material with descriptions or visual depictions of a sex act,” according to the measure.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/news/world/americas/iowa-school-banned-books-chatgpt-b2393494.html",
+    "publication_date": "2023-08-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai system*",
+      "ai tool*",
+      "chatgpt",
+      "censor*",
+      "infring*",
+      "banned"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R088",
+    "source_language": "en",
+    "original_text": "More than 2 million people have signed up for a free share of the cryptocurrency. Bookmark - CommentsGo to comments Kenya has suspended a controversial cryptocurrency launched by the creator of ChatGPT over concerns for public safety. Worldcoin, founded by OpenAI boss Sam Altman, requires users to scan their eyeballs in order to receive a free share of the crypto token WLD More than 350,000 people have already signed up in Kenya, according to local reports, representing a significant portion of the roughly 2 million users worldwide. Interior minister Kithure Kindiki said investigations were underway into how Worldcoin intends to use people’s data.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/worldcoin-crypto-kenya-cryptocurrency-chatgpt-b2386910.html",
+    "publication_date": "2023-08-03",
+    "country": "Kenya",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "biometric*",
+      "openai",
+      "chatgpt",
+      "regulator*",
+      "controvers*",
+      "data protection"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R089",
+    "source_language": "en",
+    "original_text": "Europol warns AI tool is ‘extremely useful’ for cyber criminals. Bookmark - CommentsGo to comments A ChatGPT-style AI tool with “no ethical boundaries or limitations” is offering hackers a way to perform attacks on a never-before-seen scale, researchers have warned. Cyber security firm SlashNext observed the generative artificial intelligence WormGPT being marketed on cybercrime forums on the dark web, describing it as a “sophisticated AI model” capable of producing human-like text that can be used in hacking campaigns. “This tool presents itself as a blackhat alternative to GPT models, designed specifically for malicious activities,” the company explained in a blog post.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/chatgpt-dark-web-wormgpt-hack-b2376627.html",
+    "publication_date": "2023-07-17",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "GPT*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "fraud*",
+      "impersonat*",
+      "exploit*",
+      "misus*",
+      "allegedly",
+      "scam*",
+      "phishing",
+      "hacking",
+      "hacker*",
+      "malware",
+      "social engineering"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R090",
+    "source_language": "en",
+    "original_text": "Two of the world’s biggest artificial intelligence firms are being sued by celebrities including Sarah Silverman. Sarah Silverman and other authors sue ChatGPT creator over claims it stole their texts - Bookmark - CommentsGo to comments Two of the world’s biggest artificial intelligence firms are being sued by celebrities including Sarah Silverman. The writers claim that ChatGPT creator OpenAI and Facebook parent company Meta used their text to train their artificial intelligence systems, without permission. “Since the release of OpenAI’s ChatGPT system in March 2023, we’ve been hearing from writers, authors, and publishers who are concerned about its uncanny ability to generate text similar to that found in copyrighted textual materials, including thousands of books,” wrote Joseph Saveri and Matthew Butterick, the lawyers behind the class-action complaint.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/sarah-silverman-chatgpt-openai-meta-llama-text-lawsuit-b2372692.html",
+    "publication_date": "2023-07-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "openai",
+      "chatgpt",
+      "Llama",
+      "without consent",
+      "infring*",
+      "lawsuit*",
+      "class action*",
+      "complaint*",
+      "copyright*",
+      "without permission",
+      "plagiaris*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R091",
+    "source_language": "en",
+    "original_text": "Man allegedly generated fake news using ChatGPT and then shared it on Chinese social media. Bookmark - CommentsGo to comments China has made its first-known arrest in a case involving the misuse of ChatGPT by a man to allegedly generate fake news about a train crash. Police in the northwest Gansu province arrested the man, identified only by his second name Hong, for using the artificial intelligence technology to allegedly create variations of a fake news piece and then sharing it on the country’s social media, where it was shared widely. Local reports said the fake news item about the crash had elements from various trending news pieces.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/asia/china/china-chatgpt-fake-news-arrest-b2335338.html",
+    "publication_date": "2023-05-09",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "chatgpt",
+      "misus*",
+      "allegedly",
+      "fake news",
+      "kill*",
+      "crash*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R092",
+    "source_language": "en",
+    "original_text": "Australian mayor says he may sue OpenAI over chatbot’s ‘false claims’. in Australia Australian mayor says he may sue OpenAI over chatbot’s ‘false claims’ - Bookmark - CommentsGo to comments OpenAI is facing a lawsuit in Australia after a regional mayor accused ChatGPT of sharing false claims about him. Victorian Mayor Brian Hood claims the AI chatbot was telling users that he had served time in prison as a result of a foreign bribery scandal. He said he would sue OpenAI if the incorrect information was not removed, which would mark the first defamation lawsuit against an artificial intelligence chatbot Mayor Hood became concerned about his reputation when members of the public told him ChatGPT had falsely named him as a guilty party in a bribery case involving a subsidiary of the Reserve Bank of Australia in the early 2000s.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/chatgpt-lawsuit-australia-openai-b2315525.html",
+    "publication_date": "2023-04-06",
+    "country": "Australia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "misinformation",
+      "damag*",
+      "scandal*",
+      "accus*",
+      "lawsuit*",
+      "false claim*",
+      "defam*",
+      "hallucinat*",
+      "false information",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R093",
+    "source_language": "en",
+    "original_text": "Site had been used to create fake pictures of Donald Trump being arrested and the Pope wearing a stylish coat. Midjourney: Controversial AI image tool stops free trials after ‘abuse’ Site had been used to create fake pictures of Donald Trump being arrested and the Pope wearing a stylish coat - Bookmark - CommentsGo to comments Midjourney, the controversial image generating AI, has stopped free trials after it says it was “abused”. The change comes after a range of high-profile fake images were created using the tool, including pictures of Donald Trump being arrested and the Pope wearing a stylish jacket. After that controversy, Midjourney chief executive announced on Discord that the site was stopping its free trials amid “extraordinary demand and trial abuse”.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/midjourney-free-ai-images-trump-pope-b2312000.html",
+    "publication_date": "2023-03-31",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai system*",
+      "chatgpt",
+      "midjourney",
+      "abus*",
+      "misus*",
+      "controvers*",
+      "banned",
+      "fake news",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R094",
+    "source_language": "en",
+    "original_text": "ChatGPT is now banned in Italy. Bookmark - CommentsGo to comments ChatGPT is now banned in Italy. The country’s data protection authorities said AI service would be blocked and investigated over privacy concerns. The system does not have a proper legal basis to be collecting personal information about the people using it, the Italian agency said. That data is collected to help train the algorithm that powers ChatGPT’s answers. Authorities also accused OpenAI of failing to check the age of its ChatGPT users, and not properly enforcing rules banning over 13s. Those young users could potentially be exposed to “unsuitable answers” from the chatbot, given their relative lack of development, authorities said.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/tech/chatgpt-ban-italy-gdpr-data-protection-b2311738.html",
+    "publication_date": "2023-03-24",
+    "country": "Italy",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "regulator*",
+      "breach*",
+      "accus*",
+      "banned",
+      "data breach*",
+      "data protection"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R095",
+    "source_language": "en",
+    "original_text": "Flood of deepfake images prompts NYPD to deny it has detained the former president. Bookmark - CommentsGo to comments A grand jury investigating Donald Trump’s alleged role in a scheme to pay hush money to a porn star won’t consider the case until at least next week – further postponing a decision on his possible arrest. The latest twist in the saga came after Stormy Daniels said her phone records are bombshell evidence in the case and are “gonna hurt” the former president. The New York grand jury had been expected to meet on Thursday to consider evidence involving Mr Trump’s role involving a $130,000 (£106,000) payment to Ms Daniels in 2016 that prosecutors reportedly allege was an illegal campaign expenditure.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/independentpremium/world/trump-grand-jury-deepfake-images-b2307041.html",
+    "publication_date": "2023-03-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai generat*",
+      "midjourney",
+      "violat*",
+      "alleged",
+      "allegation*",
+      "fabricated",
+      "counsel*",
+      "arrest*",
+      "detained"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R096",
+    "source_language": "en",
+    "original_text": "The error occurred on TikTok’s beta Creator Marketplace, which links content makers with sponsors. The Independent's journalism is supported by our readers. When you purchase through links on our site, we may earn commission. TikTok’s algorithm misreads creator’s pro-Black profile as a threat The error occurred on TikTok’s beta Creator Marketplace, which links content makers with sponsors - Bookmark - CommentsGo to comments TikTok blocked users of its Creator Marketplace from using the word “black” and phrases like “Black Lives Matter” in their bios, as the algorithm flagged them as “inappropriate content”. Creator Ziggi Tyler discovered the issue attempting to update his bio; the words “Black,” “Black Lives Matter,” “Black people,\" “Black success,” “Pro-Black,” and “I am a Black man” were not accepted.",
+    "translated_text": null,
+    "source_url": "https://www.independent.co.uk/life-style/gadgets-and-tech/tiktok-black-lives-matter-algorithm-ziggi-tyler-b1881155.html",
+    "publication_date": "2021-07-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "automated system*",
+      "bias*",
+      "misidentif*",
+      "censor*",
+      "violat*",
+      "controvers*",
+      "disproportionat*",
+      "hate speech",
+      "arrest*",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "The conflict involving Iran is revealing new lessons about how artificial intelligence is being weaponized in modern warfare and statecraft.",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/lego-hip-hop-deepfakes-iran-ai-propaganda/33756098.html",
+    "publication_date": "2026-05-13",
+    "country": "Iran",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai power*",
+      "ai generat*",
+      "exploit*",
+      "fake news",
+      "fabricated",
+      "propaganda",
+      "cyberattack*",
+      "manipulat*",
+      "protests",
+      "strike*",
+      "repress*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "The Serbian government is facing renewed scrutiny after RFE/RL reviewed documents revealing a significant expansion of its controversial surveillance program in collaboration with Chinese tech giant Huawei despite public protests and legal challenges.",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/exclusive-safe-city-china-surveillance-huawei-facial-recognition/33501155.html",
+    "publication_date": "2025-08-12",
+    "country": "Serbia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "controvers*",
+      "backlash",
+      "protests",
+      "protesters"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "Before Moldova held a dual presidential vote and EU referendum, Kremlin-linked actors were busy sowing disinformation, explains Felix Kartte, a disinformation expert.",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/deepfakes-disinformation-russia-moldova/33205600.html",
+    "publication_date": "2024-11-18",
+    "country": "Moldova",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai tool*",
+      "chatgpt",
+      "harm*",
+      "disinformation",
+      "exploit*",
+      "allegedly",
+      "accus*",
+      "sanction*",
+      "propaganda",
+      "anxiet*",
+      "manipulat*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "Russia is expanding the use of a facial-recognition payment system for subway rides, with initial launches in Kazan and Nizhny Novgorod. Some rights advocates warn that the system facilitates government surveillance of citizens and have advised strict safeguards for civil rights.",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/facial-recognition-security-civil-rights-subways/33109725.html",
+    "publication_date": "2024-09-13",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "surveil*",
+      "censor*",
+      "alleged",
+      "banned",
+      "protests",
+      "unlawful processing",
+      "arrest*",
+      "detention",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  }
+]

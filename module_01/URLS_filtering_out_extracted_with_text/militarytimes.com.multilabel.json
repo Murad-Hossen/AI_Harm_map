@@ -1,0 +1,46 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "A Ukrainian drone developer says the Minab strike exposed a familiar danger of semi-autonomous warfare. KYIV, Ukraine — On the first day of the U.S.-Iran war, a Tomahawk cruise missile struck Shajareh Tayyebeh elementary school in Minab, southern Iran. At least 168 people were killed — more than 100 of them under the age of 12, according to UN and Iranian officials. The school building sat fewer than 100 yards from a long-time Islamic Revolutionary Guard Corps naval installation and was previously located within the IRGC compound perimeter until a wall appeared between 2013 and 2016, according to an analysis of satellite imagery by Amnesty International By the time the U.S. and Israel launched their first strikes on Feb. 28, the school had been established several years prior.",
+    "translated_text": null,
+    "source_url": "https://www.militarytimes.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
+    "publication_date": "2026-03-24",
+    "country": "Iran",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "training data",
+      "autonomous weapon*",
+      "AI targeting",
+      "artificial intelligen*",
+      "ai system*",
+      "ai model*",
+      "targeting system*",
+      "anthropic",
+      "guardrail*",
+      "Maven Smart System",
+      "Palantir",
+      "Claude",
+      "surveil*",
+      "accountab*",
+      "damag*",
+      "kill*",
+      "casualt*",
+      "malfunction*",
+      "strike*",
+      "civilian casualt*",
+      "collateral damage",
+      "kill chain"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "THE case for a controversial £8.2 billion hyperscale AI data centre in Lanarkshire is built on “bunk,” an investigation has found.In January, Prime Minister Sir Keir Starmer&nbsp;unveiled a plan to turn the area once synonymous with Scotland’s heavy industry into an “AI growth zone,” with £5 million of state and £8.2bn of private-sector i…",
+    "translated_text": null,
+    "source_url": "https://morningstaronline.co.uk/article/renewables-case-ai-data-centres-built-bunk",
+    "publication_date": "2026-07-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "hyperscale*",
+      "AI data cent*",
+      "controvers*",
+      "megawatt*",
+      "gigawatt*"
+    ],
+    "classification": {
+      "branch": "Energy / Land",
+      "subcategory_id": "2.1",
+      "subcategory": "Environmental resource harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "UBER drivers and gig workers demonstrated today against the rollout of robotaxis in London, as the government opened bids for US and Chinese operators to access the British market.App Drivers’ &amp; Cour­i­ers’ Union (ADCU) members protested in the borough of Brent, as the Transport for London (TfL) joined the union in expressing concerns…",
+    "translated_text": null,
+    "source_url": "https://morningstaronline.co.uk/article/concerns-raised-about-congestion-and-job-losses-rollout-robotaxis-london",
+    "publication_date": "2026-05-22",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "self driving",
+      "autonomous vehicle*",
+      "robotaxi*",
+      "job loss*",
+      "gig work*"
+    ],
+    "classification": {
+      "branch": "Labor",
+      "subcategory_id": "3.3",
+      "subcategory": "Employment displacement / quality harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "DOZENS of massive data centres humming at the outskirts of Dublin are consuming more electricity than all of the urban homes in Ireland and starting to wear out the warm welcome that brought them here.Now, a country that made itself a computing factory for Amazon, Google, Meta, Microsoft and TikTok is wondering whether it was all worth it…",
+    "translated_text": null,
+    "source_url": "https://morningstaronline.co.uk/article/ireland-embraced-ai-boom-now-its-data-centres-are-consuming-too-much-its-energy",
+    "publication_date": "2025-01-07",
+    "country": "Ireland",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "displac*",
+      "pollut*",
+      "blackout*",
+      "unionis*",
+      "strike*"
+    ],
+    "classification": {
+      "branch": "Energy / Land",
+      "subcategory_id": "2.1",
+      "subcategory": "Environmental resource harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "A DUTCH data protection watchdog has issued facial recognition tech Clearview AI with a €30.5 million&nbsp;(£25.7m) fine for creating an “illegal database” of billions of faces.The New York-based start-up pulls photos from social media and elsewhere on the internet to create a database that it sells to businesses, individuals and governme…",
+    "translated_text": null,
+    "source_url": "https://morningstaronline.co.uk/article/facial-recognition-company-fined-creating-illegal-database-billions-faces",
+    "publication_date": "2024-09-03",
+    "country": "Netherlands",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "Clearview AI",
+      "fined",
+      "abus*",
+      "data protection",
+      "copyright*",
+      "unable to appeal"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "ARTIFICIAL INTELLIGENCE (AI) is rewriting modern Chinese lives in every way it can. Glazers in ceramic factories of southern China’s Yunnan Province were replaced by robots that were three times more efficient at spraying glazes.",
+    "translated_text": null,
+    "source_url": "https://morningstaronline.co.uk/article/artificial-intelligence-how-china-reacts-technology-bound-boom",
+    "publication_date": "2024-03-05",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "unionis*",
+      "strike*",
+      "accent*"
+    ],
+    "classification": {
+      "branch": "Labor",
+      "subcategory_id": "3.3",
+      "subcategory": "Employment displacement / quality harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "ARTIFICIAL intelligence could have as wide-reaching and profound an impact on jobs as the first Industrial Revolution.That was the warning issued by the government’s former chief scientific adviser, Sir Patrick Vallance, when he appeared before Parliament’s science and technology committee earlier this month.Research commissioned by the t…",
+    "translated_text": null,
+    "source_url": "https://morningstaronline.co.uk/article/f/mick-whitley-feature-0",
+    "publication_date": "2023-05-17",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "artificial intelligen*",
+      "ai tool*",
+      "ai power*",
+      "automated decision*",
+      "harm*",
+      "regulator*",
+      "discriminat*",
+      "job loss*",
+      "prejudic*",
+      "disproportionat*",
+      "death*",
+      "scrap*",
+      "Information Commissioner"
+    ],
+    "classification": {
+      "branch": "Labor",
+      "subcategory_id": "3.3",
+      "subcategory": "Employment displacement / quality harm",
+      "event_type": "Chronic"
+    }
+  }
+]

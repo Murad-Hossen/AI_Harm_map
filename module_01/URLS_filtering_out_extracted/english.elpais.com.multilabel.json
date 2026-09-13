@@ -1,0 +1,1403 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Psychologists warn that young people are increasingly turning to tools like ChatGPT for emotional support, a practice they consider highly dangerous Generative artificial intelligence (AI) chatbots such as ChatGPT, Claude or Gemini are penetrating people’s private lives — including those of minors.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2026-07-28/ai-powered-digital-friends-the-new-threat-to-teenagers-mental-health.html",
+    "publication_date": "2026-07-28",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai tool*",
+      "ai power*",
+      "chatgpt",
+      "Claude",
+      "Gemini",
+      "harm*",
+      "allegedly",
+      "lawsuit*",
+      "distress*",
+      "self harm*",
+      "suicid*",
+      "died",
+      "kill*",
+      "sycophan*",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Investors across the continent have already put more than $27 billion into this leader in military-grade AI that has been accused of numerous human rights violations Over the past year, major European banks and asset managers have dramatically increased their investments in Palantir, the controversial U.S. technology company.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html",
+    "publication_date": "2026-04-11",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "anthropic",
+      "Maven Smart System",
+      "Palantir",
+      "Claude",
+      "regulator*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "controvers*",
+      "accus*",
+      "penalt*",
+      "banned",
+      "kill*",
+      "strike*",
+      "kill chain"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - investor complicity in military AI supply",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "Incidents attributed to cybercriminals sponsored by Pyongyang increased by 130% in 2025. Analysts highlight their growing sophistication China is the world’s leading promoter of cybercrime , according to all reports. But there is a small Asian country that is steadily gaining importance in this industry: North Korea.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/international/2026-03-19/deepfakes-and-an-elite-hacker-school-how-cybercrime-is-growing-as-a-source-of-income-for-north-korea.html",
+    "publication_date": "2026-03-19",
+    "country": "North Korea",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai power*",
+      "ai generat*",
+      "impersonat*",
+      "exploit*",
+      "allegedly",
+      "sanction*",
+      "fabricated",
+      "cyberattack*",
+      "hacker*",
+      "trade secret*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "Tehran’s attacks against the digital ecosystems of its neighbors are considered among the first military actions of their kind in the world When Iran began launching drones and missiles against Arab Gulf states in response to the US-Israeli offensive against Iran on February 28, much of the attention turned to the attacks on energy infras…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/international/2026-03-13/why-iran-is-targeting-the-artificial-intelligence-infrastructure-of-gulf-countries.html",
+    "publication_date": "2026-03-13",
+    "country": "United Arab Emirates",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "artificial intelligen*",
+      "openai",
+      "Nvidia",
+      "damag*",
+      "strike*",
+      "mine*",
+      "miner*",
+      "silica",
+      "drone strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "Amid negotiations over funding for the Department of Homeland Security, a separate bill seeks to prohibit the agency from acquiring and using biometric identification systems on the general population A federal agent stops a car during a “routine” traffic stop amid the Trump administration’s anti-immigrant crackdown .",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/2026-02-12/ices-facial-recognition-app-draws-scrutiny-over-errors-and-increased-state-surveillance.html",
+    "publication_date": "2026-02-12",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "discriminat*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "alleged",
+      "penalt*",
+      "false match*",
+      "protesters",
+      "mass surveillance",
+      "false positive*",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "Barclays places technology at the heart of the ‘nuclear renaissance.’ Amazon, Google, Microsoft, and Meta are also launching plans in this area The tech giants’ approach to nuclear energy is evolving.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2025-10-23/tech-giants-revive-nuclear-power-plants-to-meet-the-needs-of-their-data-centers.html",
+    "publication_date": "2025-10-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "ai driven",
+      "openai",
+      "chatgpt",
+      "hyperscale*",
+      "power purchase agreement*",
+      "emission*",
+      "energy consumption",
+      "gigawatt*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "The federal agency’s activity has raised concerns about whether spying on undocumented foreigners will be extended to political dissidents in Washington Immigration and Customs Enforcement (ICE) is ramping up its surveillance capabilities to advance the government’s immigration agenda on an unprecedented scale.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/2025-10-21/ice-intensifies-surveillance-of-immigrants-with-facial-recognition-programs-human-tracking-and-social-media-monitoring.html",
+    "publication_date": "2025-10-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "social media monitoring",
+      "surveil*",
+      "lawsuit*",
+      "doxx*",
+      "spying",
+      "spyware",
+      "wiretap*",
+      "dissident*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "OpenAI has announced the construction of a mega data center in Argentina, the latest of its kind in the region. Governments should demand local participation and reinvestment terms that promise more than free access to ChatGPT In July of this year, I flew 11,000 kilometers from Buenos Aires to take a course on artificial intelligence poli…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/international/women-leaders-of-latin-america/2025-10-17/artificial-intelligence-and-digital-extractivism-who-benefits-from-data-centers-in-latin-america.html",
+    "publication_date": "2025-10-17",
+    "country": "Argentina",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "openai",
+      "chatgpt",
+      "mining",
+      "water scarcit*",
+      "pollut*",
+      "fossil fuel*",
+      "mine*",
+      "miner*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      },
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.3",
+        "subcategory": "Resource extraction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "OpenAI CEO Sam Altman has expressed concern about the content created by bots, which facilitate misinformation “I had desired it with an ardor that far exceeded moderation; but now that I had finished, the beauty of the dream vanished, and breathless horror and disgust filled my heart.” This is Dr.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2025-09-20/dead-internet-theory-gains-ground-amid-rise-of-ai-generated-content.html",
+    "publication_date": "2025-09-20",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "ai assistant*",
+      "ai tool*",
+      "ai driven",
+      "ai generat*",
+      "ai assist*",
+      "openai",
+      "harm*",
+      "misinformation",
+      "disinformation",
+      "accountab*",
+      "fake news",
+      "manipulat*",
+      "vulnerable"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "Some college students are beginning to limit their use of artificial intelligence, so as not to hinder their own creativity, discipline and critical thinking “I started using ChatGPT in my second year of college, during a very stressful time juggling internships, assignments, studies and extracurricular activities.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2025-08-03/chatgpt-dissidents-the-students-who-refuse-to-use-ai-i-couldnt-remember-the-last-time-i-had-written-something-by-myself.html",
+    "publication_date": "2025-08-03",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "Claude",
+      "water consumption",
+      "dissident*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "Experts says the controversial software, which collects biographical, biometric, and geolocation information, violates fundamental human rights The United States Immigration and Customs Enforcement (ICE) has signed a $29.8 million contract with the tech company Palantir to develop software that tracks information on immigrants who are eit…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/2025-04-25/immigrationos-by-palantir-trumps-new-tool-to-completely-monitor-immigrants-lives.html",
+    "publication_date": "2025-04-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "Palantir",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "exploit*",
+      "accountab*",
+      "violat*",
+      "controvers*",
+      "alleged",
+      "racis*",
+      "vulnerable",
+      "without permission",
+      "xenophob*",
+      "arrest*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "A collaboration between an essayist and two AI platforms produced a book that reflects on new forms of manipulation The French city of Cannes hosted a roundtable discussion on February 14 called “ The Metamorphosis of Democracy - How Artificial Intelligence is Disrupting Digital Governance and Redefining Our Policy .” The debate was cover…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2025-04-07/jianwei-xun-the-supposed-philosopher-behind-the-hypnocracy-theory-does-not-exist-and-is-a-product-of-artificial-intelligence.html",
+    "publication_date": "2025-04-08",
+    "country": "Italy",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "ai generat*",
+      "violat*",
+      "controvers*",
+      "manipulat*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "One of the latest executive orders signed by Joe Biden prohibits these infrastructures from being built in areas with a high risk of cancer due to pollution The rise of artificial intelligence over the past two years has sparked a frenzy in the construction of data centers , the infrastructure that powers this technology.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2025-02-07/us-admits-data-centers-are-harmful-to-health.html",
+    "publication_date": "2025-02-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "ai model*",
+      "model training",
+      "deepseek",
+      "hyperscale*",
+      "colocation",
+      "AI data cent*",
+      "harm*",
+      "death*",
+      "water consumption",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "backup generator*",
+      "air quality",
+      "PM2.5",
+      "respiratory"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "Massive downloads of the Asian country’s app are expanding its potential to control, misinform and erode democratic principles in the West In just one week, DeepSeek, China’s new artificial intelligence app, has surpassed one million downloads (more than half in just two days) and it is expected to multiply that figure, according to AppBr…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2025-01-30/deepseek-is-no-game-the-dangers-of-chinas-new-ai.html",
+    "publication_date": "2025-01-30",
+    "country": "China",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "biometric*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "openai",
+      "chatgpt",
+      "deepseek",
+      "harm*",
+      "regulator*",
+      "disinformation",
+      "surveil*",
+      "accountab*",
+      "damag*",
+      "misus*",
+      "violat*",
+      "liab*",
+      "data protection",
+      "spyware"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "A study confirms that no major language model is neutral and that its biases tend to be constant in the same direction “Overall, OpenAI models [behind ChatGPT] display a particular ideological stance, in contrast to the more progressive and human rights-oriented preferences of other Western models,” says a new study on the ideology of lar…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-11-28/chatgpt-is-right-wing-and-gemini-is-left-wing-why-each-ai-has-its-own-ideology.html",
+    "publication_date": "2024-11-28",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "openai",
+      "chatgpt",
+      "human feedback",
+      "alignment",
+      "Grok",
+      "Gemini",
+      "regulator*",
+      "bias*",
+      "prejudic*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "After nearly two years of existence, AI text generators are proving to be a growing headache for educators. Though many say there’s no going back to a world without them, the way forward is fraught with obstacles “It’s exhausting because it keeps happening, there are several students who I warn not to do their work with AI and they just d…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-11-09/teachers-mounting-chatgpt-frustrations-they-keep-using-it-even-though-ive-warned-them-not-to.html",
+    "publication_date": "2024-11-09",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai tool*",
+      "chatgpt",
+      "plagiaris*",
+      "indiscriminate",
+      "outsourc*",
+      "memoriz*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "Experts warn that the surging demand for microprocessors is becoming an increasingly big obstacle for the green transition The first half of 2024 marked a high point for Nvidia , the leading U.S. company in the chip industry.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/economy-and-business/2024-10-30/the-dead-end-of-chips-manufacturing-semiconductors-consumes-as-much-energy-as-entire-countries.html",
+    "publication_date": "2024-10-30",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "artificial intelligen*",
+      "chip*",
+      "chipmaker*",
+      "semiconductor*",
+      "wafer*",
+      "Nvidia",
+      "TSMC",
+      "ASML",
+      "energy consumption",
+      "energy bill*",
+      "megawatt*",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.3",
+        "subcategory": "Resource extraction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "A study published in the journal ‘Nature’ warns that errors, even in simple matters, will be difficult to completely eliminate in the future ChatGPT and other language models have become an increasingly common resource in a multitude of jobs.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-09-25/new-ai-models-like-chatgpt-pursue-superintelligence-but-cant-be-trusted-even-when-it-comes-to-basic-questions.html",
+    "publication_date": "2024-09-25",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "artificial intelligen*",
+      "language model*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "alignment",
+      "Claude",
+      "data protection",
+      "made up"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "IDB study shows the impact that AI will have on the labor market. Women and low-skilled workers are more vulnerable to being replaced Artificial intelligence’s impact on our lives is already well-known, but now, its most feared consequences related to the job market are setting off alarms.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/economy-and-business/2024-09-15/artificial-intelligence-will-affect-60-million-us-and-mexican-jobs-within-the-year.html",
+    "publication_date": "2024-09-15",
+    "country": "Mexico",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "job loss*",
+      "vulnerable",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "A federal judge will hear a class-action lawsuit filed by illustrators seeking royalties from companies that used their work to train their algorithms One of the big, unresolved issues surrounding generative artificial intelligence revolves around copyrights.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-08-29/the-court-decision-that-could-turn-generative-ai-upside-down.html",
+    "publication_date": "2024-08-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai model*",
+      "ai generat*",
+      "ai assist*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "midjourney",
+      "Stability AI",
+      "Runway",
+      "Sora",
+      "fraud*",
+      "infring*",
+      "violat*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "class action*",
+      "complaint*",
+      "copyright*",
+      "without permission",
+      "fair use"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "Juan Rosa, from the National Association of Latino Elected and Appointed Officials Educational Fund, warns of the risks that artificial intelligence will pose to the community in the November elections Juan Rosa, 39, has a clear objective for the next five months: educate Latino voters about the risk posed by artificial intelligence (AI)…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/elections/2024-06-11/latino-voters-are-more-of-a-target-for-ai-generated-fake-news.html",
+    "publication_date": "2024-06-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "artificial intelligen*",
+      "ai generat*",
+      "social media monitoring",
+      "Runway",
+      "misinformation",
+      "disinformation",
+      "fake news",
+      "vulnerable"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "The Israel Defense Forces use an automated program to select their human targets, an unprecedented practice until now Israel has crossed another line in the automation of war.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-04-17/lavender-israels-artificial-intelligence-system-that-decides-who-to-bomb-in-gaza.html",
+    "publication_date": "2024-04-17",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "ai system*",
+      "automated decision*",
+      "Lavender",
+      "The Gospel",
+      "harm*",
+      "surveil*",
+      "censor*",
+      "damag*",
+      "victim*",
+      "controvers*",
+      "alleged",
+      "propaganda",
+      "death*",
+      "kill*",
+      "bombing*",
+      "civilian death*",
+      "war crime*",
+      "international humanitarian law",
+      "collateral damage",
+      "false positive*",
+      "arrest*",
+      "Pegasus",
+      "journalist*",
+      "checkpoint*",
+      "target recommendation*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.3",
+        "subcategory": "Accountability gap harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "In Spain, the authorities have prohibited Worldcoin from collecting this kind of information, opening a debate about whether protecting privacy is an individual or collective responsibility The Spanish Data Protection Agency (AEPD) made an unprecedented decision this past Wednesday.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-03-09/why-the-iris-offers-the-most-precious-biometric-data.html",
+    "publication_date": "2024-03-09",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "chatgpt",
+      "fined",
+      "disinformation",
+      "impersonat*",
+      "damag*",
+      "violat*",
+      "scandal*",
+      "disproportionat*",
+      "phishing",
+      "data protection",
+      "repress*",
+      "Uyghur"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "Online fraud has multiplied in recent months due to the lack of moderation on the social media platform X and the use of artificial intelligence No journalist working with Spain’s public broadcaster TVE is really encouraging viewers to invest in a “super platform” with ties to the energy company Repsol.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-02-08/deepfakes-accelerate-cryptocurrency-scams-it-is-very-easy-to-fall-for-them-they-are-becoming-more-and-more-sophisticated.html",
+    "publication_date": "2024-02-08",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "content moderat*",
+      "artificial intelligen*",
+      "fraud*",
+      "impersonat*",
+      "victim*",
+      "alleged",
+      "scam*",
+      "hate speech",
+      "sensitive data",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "New Hampshire issued cease-and-desist orders and subpoenas to both companies and said the calls as the clearest and possibly first known attempt to use AI to interfere with an election in the U.S.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/2024-02-06/authorities-target-two-texas-firms-in-probe-of-ai-generated-robocalls-before-new-hampshires-primary.html",
+    "publication_date": "2024-02-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai generat*",
+      "disinformation",
+      "violat*",
+      "fines",
+      "voter suppression"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "The watchdog had imposed a ban after finding that some users’ messages and payment information were exposed and because ChatGPT didn’t have a system to verify users’ ages Italian regulators said they told OpenAI that its ChatGPT artificial intelligence chatbot has violated European Union’s stringent data privacy rules.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-01-30/chatgpt-violated-european-privacy-laws-italy-tells-chatbot-maker-openai.html",
+    "publication_date": "2024-01-31",
+    "country": "Italy",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "regulator*",
+      "GDPR",
+      "violat*",
+      "breach*",
+      "allegation*",
+      "banned",
+      "data protection",
+      "false information",
+      "Garante"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "The Attorney General’s Office is investigating a robocall, allegedly made with AI, that discouraged voters from taking part in the vote on Tuesday Social media has revolutionized political communication, for better and for worse.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/2024-01-23/joe-biden-impersonated-in-deepfake-call-to-disrupt-new-hampshire-primary.html",
+    "publication_date": "2024-01-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "misinformation",
+      "impersonat*",
+      "allegedly",
+      "complaint*",
+      "fake news"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "The dark side of this technology can be used to create sophisticated scams, deepfake pornography and biochemical weapons Meet FraudGPT, the evil twin of ChatGPT.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-01-22/beware-of-chatgpts-evil-twin-and-other-generative-ai-dangers.html",
+    "publication_date": "2024-01-22",
+    "country": "Global",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "deepfake*",
+      "LLM*",
+      "artificial intelligen*",
+      "deep learning",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "chatgpt",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "impersonat*",
+      "non-consensual",
+      "exploit*",
+      "victim*",
+      "misus*",
+      "misleading",
+      "scam*",
+      "phishing",
+      "hacker*",
+      "malware",
+      "manipulat*",
+      "non consensual*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "In an industry as profitable as the video game sector, massive layoffs foreshadow greater turbulence Baldur’s Gate 3, Zelda: Tears of the Kingdom, Resident Evil 4, Diablo IV, Super Mario Bros.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2024-01-02/artificial-intelligence-hold-on-troubles-are-coming.html",
+    "publication_date": "2024-01-02",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "accus*",
+      "precarious*",
+      "layoff*",
+      "data leak*",
+      "mine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "Cruise, the autonomous vehicle division of General Motors, fired nine executives after a robotaxi accident; Tesla recalled two million cars due to problems with Autopilot Safety concerns hinder the advancement of driverless cars in the US Cruise, the autonomous vehicle division of General Motors, fired nine executives after a robotaxi acc…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/economy-and-business/2023-12-27/safety-concerns-hinder-the-advancement-of-driverless-cars-in-the-us.html",
+    "publication_date": "2023-12-27",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "autonomous vehicle*",
+      "driverless",
+      "robotaxi*",
+      "autopilot",
+      "driver assist*",
+      "regulator*",
+      "victim*",
+      "death*",
+      "crash*",
+      "NHTSA",
+      "run over"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "Apps like Replika, Intimate and Forever Voices allow for sophisticated conversations with customized avatars, but experts warn of the risks of these interactions perpetuating macho and controlling behaviors Virtual girlfriend, real love: How artificial intelligence is changing romantic relationships Apps like Replika, Intimate and Forever…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2023-12-09/virtual-girlfriend-real-love-how-artificial-intelligence-is-changing-romantic-relationships.html",
+    "publication_date": "2023-12-10",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai generat*",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "stereotyp*",
+      "harmful stereotype*",
+      "gender based violence",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "Artificial intelligence streamlines many tasks, but it can also have a fatal influence on some people, and it is creating a world in which reality and artifice will be indistinguishable When the algorithm encourages you to commit suicide Artificial intelligence streamlines many tasks, but it can also have a fatal influence on some people,…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/science-tech/2023-11-20/when-the-algorithm-encourages-you-to-commit-suicide.html",
+    "publication_date": "2023-11-21",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai generat*",
+      "automated system*",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "disinformation",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "allegedly",
+      "lawsuit*",
+      "depression",
+      "addict*",
+      "manipulat*",
+      "suicid*",
+      "vulnerable",
+      "defam*",
+      "hallucinat*",
+      "anthropomorph*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "Character.AI generates fictional conversations with famous people, but occasionally spins out of control ‘You wanted it, bitch!’: An AI chatbot gets nasty with a teenager Character.AI generates fictional conversations with famous people, but occasionally spins out of control “I’m about to comeeeeeee.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2023-11-21/you-wanted-it-bitch-an-ai-chatbot-gets-nasty-with-a-teenager.html",
+    "publication_date": "2023-11-21",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "GPT*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "fine tun*",
+      "abus*",
+      "kill*",
+      "hallucinat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "The growing thirst of data centers, which use water to cool their equipment, is beginning to cause tensions in the territories where they are located Artificial intelligence guzzles billions of liters of water The growing thirst of data centers, which use water to cool their equipment, is beginning to cause tensions in the territories whe…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/technology/2023-11-15/artificial-intelligence-guzzles-billions-of-liters-of-water.html",
+    "publication_date": "2023-11-16",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "data cent*",
+      "GPT*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "GPU*",
+      "water use",
+      "scandal*",
+      "manipulat*",
+      "water consumption",
+      "drought*",
+      "energy consumption",
+      "wastewater",
+      "subsid*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "More and more artists have denounced that this technology is absorbing their works — without authorization — to learn how to imitate them. Meanwhile, the EU is preparing new regulations surrounding AI, as the U.N.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/culture/2023-11-06/artificial-intelligence-clashes-with-copyright-is-it-stealing-thousands-of-protected-creations.html",
+    "publication_date": "2023-11-07",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "ai system*",
+      "openai",
+      "chatgpt",
+      "mining",
+      "exploit*",
+      "infring*",
+      "complaint*",
+      "identity theft",
+      "hacked",
+      "precarious*",
+      "strike*",
+      "copyright*",
+      "plagiaris*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "It will make San Francisco first major U.S. city with two fleets of driverless vehicles competing for passengers against ride-hailing and taxi services Two rival robotaxi services win approval to operate throughout San Francisco despite safety concerns It will make San Francisco first major U.S.",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/usa/2023-08-11/two-rival-robotaxi-services-win-approval-to-operate-throughout-san-francisco-despite-safety-concerns.html",
+    "publication_date": "2023-08-12",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "autonomous vehicle*",
+      "driverless",
+      "robotaxi*",
+      "regulator*",
+      "injur*",
+      "death*",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "Content moderators in the African country have formed a union to defend themselves against Big Tech. Social media giants outsource work to these freelancers, who are tasked with removing violent rhetoric and extremism from digital platforms In Kenya labor dispute, workers who clean up toxic content on Facebook, TikTok and ChatGPT for $3 a…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/science-tech/2023-08-05/in-kenya-labor-dispute-workers-who-clean-up-toxic-content-on-facebook-tiktok-and-chatgpt-for-3-an-hour-go-to-court.html",
+    "publication_date": "2023-08-05",
+    "country": "Kenya",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "content moderat*",
+      "chatgpt",
+      "Sama",
+      "harass*",
+      "exploit*",
+      "abus*",
+      "scandal*",
+      "lawsuit*",
+      "complaint*",
+      "kill*",
+      "working condition*",
+      "unionis*",
+      "data protection",
+      "repress*",
+      "toxicity",
+      "outsourc*",
+      "subcontract*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "The emergence of tools such as ChatGPT triggers warnings about a fivefold increase in global data center energy consumption The dirty secret of artificial intelligence The emergence of tools such as ChatGPT triggers warnings about a fivefold increase in global data center energy consumption Everyday activities like using a GPS to map out…",
+    "translated_text": null,
+    "source_url": "https://english.elpais.com/science-tech/2023-03-23/the-dirty-secret-of-artificial-intelligence.html",
+    "publication_date": "2023-03-23",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "data cent*",
+      "GPT*",
+      "artificial intelligen*",
+      "neural net*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "ai generat*",
+      "natural language process*",
+      "model training",
+      "openai",
+      "chatgpt",
+      "GPU*",
+      "bias*",
+      "water consumption",
+      "emission*",
+      "carbon footprint*",
+      "pollut*",
+      "energy consumption",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  }
+]

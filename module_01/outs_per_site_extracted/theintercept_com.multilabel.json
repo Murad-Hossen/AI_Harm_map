@@ -1,0 +1,4332 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "An unreleased Pentagon report says its center devoted to protecting civilians cut most of its staff and scrapped a records database while developing an AI assistant to speed up work.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/07/20/hegseth-civilian-harm-deaths-war/",
+    "publication_date": "2026-07-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai assistant*",
+      "ai enabl*",
+      "ai assist*",
+      "openai",
+      "Maven Smart System",
+      "Palantir",
+      "harm*",
+      "surveil*",
+      "airstrike*",
+      "victim*",
+      "violat*",
+      "death*",
+      "kill*",
+      "casualt*",
+      "wounded",
+      "strike*",
+      "civilian casualt*",
+      "civilian harm",
+      "extrajudicial",
+      "deportation",
+      "scrap*",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Cops told corporate security outfits that “challenges faced by the middle and lower classes” might spur attacks on wealthy CEOS. A law enforcement intelligence hub in New Jersey fretted that the growing class divide in the U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/06/25/police-luigi-mangione-wealthy-ceos-threat/",
+    "publication_date": "2026-06-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "mining",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "alleged",
+      "allegedly",
+      "propaganda",
+      "kill*",
+      "protest",
+      "arrest*",
+      "deportation",
+      "who is responsible"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "A proposal to entwine U.S. and Israeli tech in AI and autonomous systems is controversial — and closely resembles a pro-Israel bill that died earlier this year. A controversial insertion in the National Defense Authorization Act currently winding its way through the House would permanently intertwine U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/06/08/us-israel-224-ai-defense-budget/",
+    "publication_date": "2026-06-08",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "predictive model*",
+      "harm*",
+      "surveil*",
+      "controvers*",
+      "died",
+      "kill*",
+      "civilian harm",
+      "atrocit*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "La Tilde publishes an unusual mix of personal finance guides and articles extolling American military efforts in Latin America. The United States is feeding Pentagon propaganda to internet users in Latin American countries using a new AI-laden content mill, an investigation by The Intercept has found.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon/",
+    "publication_date": "2026-06-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "ai power*",
+      "ai generat*",
+      "midjourney",
+      "airstrike*",
+      "violat*",
+      "controvers*",
+      "propaganda",
+      "information operation*",
+      "death*",
+      "kill*",
+      "protest",
+      "false positive*",
+      "accent*",
+      "subcontract*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "A law enforcement document obtained by The Intercept shows police scan social media looking for posts opposing AI data centers. Americans speaking out against artificial intelligence data centers on social media are falling under police surveillance, a confidential law enforcement bulletin obtained by The Intercept reveals.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
+    "publication_date": "2026-06-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "AI data cent*",
+      "surveil*",
+      "damag*",
+      "outcry",
+      "protest",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "swatting",
+      "utility bill*",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "From Utah to Georgia, communities are demanding data center moratoriums as concerns move from local zoning fights into national politics. Shark Tank’s Kevin O’Leary has been making the media rounds defending the 40,000-acre data center project he’s backing in northern Utah.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/05/29/ai-data-centers-water/",
+    "publication_date": "2026-05-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "AI data cent*",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "accountab*",
+      "victim*",
+      "backlash",
+      "alleged",
+      "addict*",
+      "water scarcit*",
+      "drought*",
+      "pollut*",
+      "contaminat*",
+      "protest",
+      "protesters",
+      "gas turbine*",
+      "air quality",
+      "fossil fuel*",
+      "zoning",
+      "moratorium",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "New public disclosures reveal a web of right-wing businesses being paid by Israel through Brad Parscale. A company run by former Trump campaign manager Brad Parscale, hired by the Israeli government to push pro-Israel views on a major conservative media network, has directed $13 million from Israel to several Republican digital strategy f…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/05/28/israeli-government-money-brad-parsc/",
+    "publication_date": "2026-05-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai power*",
+      "chatgpt",
+      "Claude",
+      "bias*",
+      "subsid*",
+      "subcontract*",
+      "deportation",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "Video processing firm Sightline Intelligence, which claims its AI can separate civilians from militants, faces protests at home. A company in Portland, Oregon, that specializes in AI targeting for drones has made significant shipments of materials to military contractors in Israel, according to cargo data reviewed by The Intercept.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/05/05/portland-sightline-ai-surveillance-drones-israel/",
+    "publication_date": "2026-05-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "AI targeting",
+      "target recognition",
+      "openai",
+      "surveil*",
+      "sanction*",
+      "hacked",
+      "hacking",
+      "death*",
+      "kill*",
+      "protest",
+      "protests",
+      "protesters",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "In his lawsuit against OpenAI, Elon Musk evoked a “Terminator” scenario. He said nothing about the people AI is already killing.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/05/01/elon-musk-openai-lawsuit-trial/",
+    "publication_date": "2026-05-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai model*",
+      "ai enabl*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "deepmind",
+      "Nvidia",
+      "Project Maven",
+      "xAI",
+      "Claude",
+      "harm*",
+      "injur*",
+      "surveil*",
+      "airstrike*",
+      "accus*",
+      "lawsuit*",
+      "kill*",
+      "mass surveillance",
+      "spying",
+      "copyright*",
+      "counsel*",
+      "deportation",
+      "kill chain"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "Military contractor Palantir has been paid more than $130 million by the IRS to analyze sensitive federal databases. military contractor Palantir is helping the IRS analyze dozens of different data sets on Americans to investigate a broad range of financial crimes, according to records shared with The Intercept.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/04/24/palantir-irs-contract-data/",
+    "publication_date": "2026-04-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "predictive polic*",
+      "foundry",
+      "Palantir",
+      "bias*",
+      "fraud*",
+      "mining",
+      "surveil*",
+      "controvers*",
+      "backlash",
+      "money launder*",
+      "protest",
+      "sensitive data",
+      "health data",
+      "immigration enforcement"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "Al-Fassel and Pishtaz News publish pro-U.S. coverage about the war on Iran and the Trump administration’s plan to redevelop Gaza. Al-Fassel and Pishtaz News look like typical news websites.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+    "publication_date": "2026-04-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai generat*",
+      "synthetic media",
+      "harm*",
+      "injur*",
+      "exploit*",
+      "airstrike*",
+      "alleged",
+      "misleading",
+      "propaganda",
+      "death*",
+      "kill*",
+      "strike*",
+      "shelling",
+      "war crime*",
+      "demean*",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "Agencies are reportedly pooling immigration data, Social Security numbers, and more into a central database. FPF is suing to learn how deep it goes. Donald Trump signs an executive order on March 25, 2025, directing the Treasury Department to modernize and centralize its payment system.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/03/17/government-surveillance-centralized-database-privacy/",
+    "publication_date": "2026-03-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "biometric*",
+      "artificial intelligen*",
+      "fraud*",
+      "harass*",
+      "mining",
+      "exploit*",
+      "surveil*",
+      "abus*",
+      "negligen*",
+      "lawsuit*",
+      "litigat*",
+      "hacker*",
+      "vulnerable",
+      "retaliat*",
+      "counsel*",
+      "sensitive data",
+      "immigration enforcement",
+      "deportation",
+      "scrap*",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "OpenAI says Americans shouldn’t worry about the ethics of its new Pentagon contract. You’ll have to take their word for it (and Pete Hegseth’s).",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/",
+    "publication_date": "2026-03-08",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "killer robot*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "guardrail*",
+      "Palantir",
+      "surveil*",
+      "abus*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "misleading",
+      "kill*",
+      "strike*",
+      "mass surveillance",
+      "spying",
+      "copyright*",
+      "counsel*",
+      "deportation",
+      "drone strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "DHS has built a national police force with massive surveillance capabilities — which it could use to interfere with our elections. Senate Minority Leader Chuck Schumer, joined by House Minority Leader Hakeem Jeffries and fellow congressional Democrats, speaks at a press conference on DHS funding at the U.S. Capitol on Feb. 4, 2026.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/03/06/democrats-dhs-ice-reform-midterm-election-integrity/",
+    "publication_date": "2026-03-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "Palantir",
+      "Clearview AI",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "lawsuit*",
+      "propaganda",
+      "vulnerable",
+      "kill*",
+      "protest",
+      "protesters",
+      "detention",
+      "racial profiling",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "The bipartisan push to remove anonymity from the internet is ushering in an era of unprecedented mass surveillance and censorship. Sen. Marsha Blackburn, R-Tenn., speaks at a rally in support of the Kids Online Safety Act on Dec. 10, 2024, in Washington, D.C.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/03/05/kosa-online-age-verification-free-speech-privacy/",
+    "publication_date": "2026-03-05",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "ai model*",
+      "openai",
+      "anthropic",
+      "harm*",
+      "exploit*",
+      "surveil*",
+      "censor*",
+      "accountab*",
+      "abus*",
+      "wrongdoing",
+      "backlash",
+      "marginaliz*",
+      "addict*",
+      "vulnerable",
+      "sexual exploitation",
+      "blackmail*",
+      "protest",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "war crime*",
+      "outsourc*",
+      "counsel*",
+      "personally identifiable",
+      "dissident*",
+      "journalist*",
+      "deportation",
+      "COPPA"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "Immigration authorities in Minnesota have identified legal observers by name and address, and in some cases showed up at their homes. Former Minnesota state Sen. Matt Little was lawfully observing federal immigration agents in a Dakota County neighborhood last month when the drive took an unexpected turn.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/03/05/ice-cbp-minnesota-surveillance-intimidation-observers/",
+    "publication_date": "2026-03-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "biometric*",
+      "artificial intelligen*",
+      "face recognition",
+      "license plate reader*",
+      "surveil*",
+      "damag*",
+      "violat*",
+      "alleged",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "litigat*",
+      "kill*",
+      "protest",
+      "protests",
+      "retaliat*",
+      "arrest*",
+      "detained",
+      "detention",
+      "immigration enforcement",
+      "deportation",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "Google’s SynthID AI detection tool flip-flopped when asked if an image posted by the White House was altered by Google’s own AI. When the official White House X account posted an image depicting activist Nekima Levy Armstrong in tears during her arrest, there were telltale signs that the image had been altered.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/01/24/googles-ai-detection-white-house-synthid-gemini/",
+    "publication_date": "2026-01-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "ai generat*",
+      "deepmind",
+      "Gemini",
+      "manipulat*",
+      "arrest*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "An Intercept analysis indicated that the White House used Google AI tools to alter the photo of Minnesota activist Nekima Levy Armstrong. The White House used a photo that was digitally altered in its PR campaign against resistance to the federal agents’ assault on Minnesota.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2026/01/22/white-house-google-ai-photo-arrest-ice-minnesota/",
+    "publication_date": "2026-01-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai tool*",
+      "accus*",
+      "sanction*",
+      "prejudic*",
+      "propaganda",
+      "manipulat*",
+      "protest",
+      "protesters",
+      "arrest*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "And they stand to make millions more in cash bonuses for surveilling and tracking immigrants in service of ICE’s deportation machine. Immigration and Customs Enforcement has already hired 10 contractors to carry out its immigrant bounty hunting program, according to records reviewed by The Intercept.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/",
+    "publication_date": "2025-12-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "large language model*",
+      "language model*",
+      "ai agent*",
+      "fraud*",
+      "surveil*",
+      "propaganda",
+      "subsid*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "Anduril calls itself an “arsenal of democracy.” So why is it partnering with an authoritarian monarchy to build drones? The American weapons maker Anduril says its founding purpose is to arm democratic governments to safeguard the Western way of life.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/12/11/anduril-uae-weapons-edge-sudan/",
+    "publication_date": "2025-12-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "autonomous weapon*",
+      "openai",
+      "Anduril",
+      "surveil*",
+      "violat*",
+      "accus*",
+      "death*",
+      "civilian death*",
+      "atrocit*",
+      "subsid*",
+      "dissident*",
+      "Uyghur",
+      "deportation",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "The anti-woke Wikipedia alternative aims to create a parallel version of the truth for the right wing. The Grokipedia encyclopedia logo appears on a smartphone screen reflecting an abstract illustration.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/11/26/grok-elon-musk-grokipedia-hitler/",
+    "publication_date": "2025-11-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "chatbot*",
+      "ai generat*",
+      "GPU*",
+      "Grok",
+      "bias*",
+      "misinformation",
+      "victim*",
+      "violat*",
+      "alleged",
+      "allegation*",
+      "accus*",
+      "dehumaniz*",
+      "false claim*",
+      "propaganda",
+      "manipulat*",
+      "suicid*",
+      "death*",
+      "kill*",
+      "conspiracy theor*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "Officials at the University of Houston used Dataminr to surveil students, while University of Connecticut administrators voiced concerns over protests against a military contractor and major donor. A cluster of tents had sprung up on the University of Houston’s central lawn.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/11/24/gaza-student-protests-surveillance-uconn-houston/",
+    "publication_date": "2025-11-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "ai tool*",
+      "surveil*",
+      "scandal*",
+      "protest",
+      "protests",
+      "protesters",
+      "chilling effect*",
+      "subsid*",
+      "chat log*",
+      "arrest*",
+      "deportation",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "An FBI procurement document requests information about AI surveillance on drones, raising concerns about a crackdown on free speech. The FBI is looking for ways to incorporate artificial intelligence into drones, according to federal procurement documents.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/11/21/fbi-ai-surveillance-drones-facial-recognition/",
+    "publication_date": "2025-11-21",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "facial recognition",
+      "artificial intelligen*",
+      "ai enabl*",
+      "face recognition",
+      "unmanned aerial*",
+      "harass*",
+      "surveil*",
+      "marginaliz*",
+      "vulnerable",
+      "protest",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "chilling effect*",
+      "indiscriminate",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "ICE’s investigative division, increasingly involved in ground-level immigration enforcement, is using Nvidia tech to crunch data. Nvidia, the computing giant that this week became the world’s first $5 trillion company, is powering U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/11/01/ice-nvidia-software-hsi-surveillance/",
+    "publication_date": "2025-11-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "data cent*",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chip*",
+      "chipmaker*",
+      "GPU*",
+      "Nvidia",
+      "bias*",
+      "fraud*",
+      "surveil*",
+      "controvers*",
+      "prejudic*",
+      "protests",
+      "counsel*",
+      "arrest*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "The suit is the first of its kind to take on the NYPD surveillance machine, accusing the cops of violating New Yorkers’ constitutional rights.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/10/28/nypd-camera-mass-surveillance-lawsuit/",
+    "publication_date": "2025-10-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "biometric*",
+      "ShotSpotter",
+      "Clearview AI",
+      "harm*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "controvers*",
+      "accus*",
+      "lawsuit*",
+      "mass surveillance",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "The Intercept has learned that Amazon sold cloud services to Israeli weapons firms at the height of Israel’s bombardment of Gaza. Amazon sold cloud-computing services to two Israeli weapons manufacturers whose munitions helped devastate Gaza, according to internal company materials obtained by The Intercept.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/10/24/amazon-weapons-gaza-israel-rafael-iai/",
+    "publication_date": "2025-10-24",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "facial recognition",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "face recognition",
+      "loitering munition*",
+      "openai",
+      "anthropic",
+      "Claude",
+      "harm*",
+      "regulator*",
+      "displac*",
+      "airstrike*",
+      "violat*",
+      "controvers*",
+      "liab*",
+      "anxiet*",
+      "suicid*",
+      "death*",
+      "kill*",
+      "strike*",
+      "civilian harm",
+      "war crime*",
+      "moratorium",
+      "tungsten",
+      "deportation",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "From pro-Palestine students to Charlie Kirk commenters, the immigration system is being weaponized against people whose views Trump doesn’t like.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/10/16/unions-sue-ai-surveillance-trump-deportation/",
+    "publication_date": "2025-10-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai power*",
+      "surveil*",
+      "violat*",
+      "lawsuit*",
+      "enforcement action*",
+      "protesters",
+      "antisemit*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "Trump’s approval of the 211-mile Ambler Road Project through Gates of the Arctic National Park hinges on winning an “AI arms race.” President Donald Trump approved on Monday the construction of a 211-mile road right through the Brooks Range Foothills and across the Northwestern Alaskan Arctic, including 26 miles of Gates of the Arctic Nat…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/10/08/trump-ai-alaska-national-park-ambler-road/",
+    "publication_date": "2025-10-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "openai",
+      "AI data cent*",
+      "mining",
+      "controvers*",
+      "emission*",
+      "greenhouse gas*",
+      "air quality",
+      "mine*",
+      "miner*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.3",
+        "subcategory": "Resource extraction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "The lines between local, state, and federal law enforcement and the military have blurred. Officers stand in line as people marched from City Hall to the Federal Detention Center to protest ICE raids and unlawful detentions on Sept. 1, 2025, in Los Angeles.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/10/04/united-police-state-of-america/",
+    "publication_date": "2025-10-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "license plate reader*",
+      "Palantir",
+      "Clearview AI",
+      "regulator*",
+      "surveil*",
+      "accus*",
+      "lawsuit*",
+      "liab*",
+      "propaganda",
+      "protest",
+      "protesters",
+      "protestors",
+      "repress*",
+      "arrest*",
+      "detention",
+      "spyware",
+      "journalist*",
+      "immigration enforcement",
+      "checkpoint*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "Politicians demanding the removal of videos of Kirk’s killing pushed tech companies to gut the very systems they now expect to protect them. Charlie Kirk hands out hats before he was shot and killed during an event at Utah Valley University in Orem, Utah, on Sept. 10, 2025.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/09/24/charlie-kirk-shooting-video-content-moderation/",
+    "publication_date": "2025-09-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "content moderat*",
+      "harm*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "harass*",
+      "censor*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "accus*",
+      "lawsuit*",
+      "misleading",
+      "death*",
+      "kill*",
+      "hate speech",
+      "gender based violence",
+      "graphic content",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "NYC, Seattle, and more paid millions for Axon Fusus software after speaking to an Atlanta officer — who sat on Fusus’s board.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/09/02/atlanta-seattle-police-axon-fusus-surveillance/",
+    "publication_date": "2025-09-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chip*",
+      "AI chip*",
+      "chipmaker*",
+      "Nvidia",
+      "license plate reader*",
+      "surveil*",
+      "violat*",
+      "subsid*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "The U.S. is interested in acquiring machine-learning technology to carry out AI-generated propaganda campaigns overseas. The United States hopes to use machine learning to create and distribute propaganda overseas in a bid to “influence foreign target audiences” and “suppress dissenting arguments,” according to a U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/08/25/pentagon-military-ai-propaganda-influence/",
+    "publication_date": "2025-08-25",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "deepfake*",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "agentic*",
+      "ai generat*",
+      "ai enabl*",
+      "ai assist*",
+      "automated system*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "disinformation",
+      "exploit*",
+      "accountab*",
+      "liab*",
+      "wrongly*",
+      "propaganda",
+      "manipulat*",
+      "kill*",
+      "strike*",
+      "repress*",
+      "transphob*",
+      "deportation",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "After Trump was reelected, his son took stakes in several drone companies. They’re now raising ethics concerns. Last November, shortly after Donald Trump was reelected president, his son Donald Trump Jr. joined a venture capital firm with investments in several defense companies.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/07/28/donald-trump-jr-son-drones-unusual-machines/",
+    "publication_date": "2025-07-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "unmanned aerial*",
+      "Anduril",
+      "kill*",
+      "made up",
+      "subsid*",
+      "counsel*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "A U.S. Border Patrol “Industry Day” deck also asks for drones, seismic sensors, and tech that can see through walls. U.S. Customs and Border Protection, flush with billions in new funding, is seeking “advanced AI” technologies to surveil urban residential areas, increasingly sophisticated autonomous systems, and even the ability to see th…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/07/23/cbp-border-patrol-ai-surveillance/",
+    "publication_date": "2025-07-23",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "GPT*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai system*",
+      "computer vision",
+      "openai",
+      "Anduril",
+      "bias*",
+      "surveil*",
+      "accountab*",
+      "stereotyp*",
+      "addict*",
+      "protest",
+      "protests",
+      "subsid*",
+      "counsel*",
+      "arrest*",
+      "ethnic profiling",
+      "immigration enforcement",
+      "deportation",
+      "black box",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "Grok’s recent antisemitic turn is not an aberration, but part of a pattern of AI chatbots churning out hateful drivel. Grok, the Artificial intelligence chatbot from Elon Musk’s xAI, recently gave itself a new name: MechaHitler .",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/07/11/grok-antisemitic-ai-chatbot/",
+    "publication_date": "2025-07-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai system*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "xAI",
+      "Grok",
+      "bias*",
+      "airstrike*",
+      "accountab*",
+      "abus*",
+      "racis*",
+      "disproportionat*",
+      "manipulat*",
+      "kill*",
+      "antisemit*",
+      "made up",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "The One Big Beautiful Bill Act requires all new border surveillance towers to be certified “autonomous.” Only Anduril’s fit the bill. Anduril Industries is a major beneficiary of the One Big Beautiful Bill Act, which includes a section that essentially grants the weapons firm a monopoly on new surveillance towers for U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/07/09/trump-big-beautiful-bill-anduril/",
+    "publication_date": "2025-07-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "artificial intelligen*",
+      "ai power*",
+      "computer vision",
+      "self driving",
+      "Anduril",
+      "surveil*",
+      "accountab*",
+      "controvers*",
+      "suicid*",
+      "PII",
+      "personally identifiable",
+      "deportation",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "Inside the surveillance tech fueling Trump’s deportation machine. “Catch and revoke” — the phrase sounds like something from a dystopian thriller, but it’s Secretary of State Marco Rubio’s very real characterization of the Trump administration’s new one-strike visa cancellation policy targeting foreign students.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/05/30/trump-surveillance-students-protesters/",
+    "publication_date": "2025-05-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "openai",
+      "Palantir",
+      "surveil*",
+      "protesters",
+      "strike*",
+      "location data",
+      "deportation",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "The government wants to build a centralized platform where spy agencies can more easily buy private info about millions of people. The ever-growing market for personal data has been a boon for American spy agencies. The U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/05/22/intel-agencies-buying-data-portal-privacy/",
+    "publication_date": "2025-05-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "biometric*",
+      "training data",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "guardrail*",
+      "harm*",
+      "regulator*",
+      "discriminat*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "controvers*",
+      "protestors",
+      "privacy violation*",
+      "data leak*",
+      "spying",
+      "re identif*",
+      "counsel*",
+      "location data",
+      "deportation",
+      "data broker*",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R039",
+    "source_language": "en",
+    "original_text": "Internal Google documents show that the tech giant feared it wouldn’t be able to monitor how Israel might use its technology to harm Palestinians.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/05/12/google-nimbus-israel-military-ai-human-rights/",
+    "publication_date": "2025-05-12",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "ai tool*",
+      "harm*",
+      "surveil*",
+      "censor*",
+      "accountab*",
+      "damag*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "breach*",
+      "controvers*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "liab*",
+      "kill*",
+      "war crime*",
+      "atrocit*",
+      "made up",
+      "deportation",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R040",
+    "source_language": "en",
+    "original_text": "After deploying AI tools in Israel and on the U.S. border, American tech companies are now powering domestic repression. Illustration: The Intercept In partnership with Rita Murad , a 21-year-old Palestinian citizen of Israel and student at the Technion Israel Institute of Technology, was arrested by Israeli authorities in November 2023 a…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/04/30/israel-palestine-us-ai-surveillance-state/",
+    "publication_date": "2025-04-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "predictive polic*",
+      "content moderat*",
+      "large language model*",
+      "language model*",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "Palantir",
+      "Gemini",
+      "mining",
+      "surveil*",
+      "airstrike*",
+      "allegedly",
+      "protest",
+      "protesters",
+      "repress*",
+      "antisemit*",
+      "hallucinat*",
+      "mistranslat*",
+      "arrest*",
+      "detention",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R041",
+    "source_language": "en",
+    "original_text": "Google is part of a Customs and Border Protection plan to use machine learning for surveillance, documents reviewed by The Intercept reveal.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/04/03/google-cbp-ai-border-surveillance-ibm-equitus/",
+    "publication_date": "2025-04-03",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "ML",
+      "NLP",
+      "ai power*",
+      "computer vision",
+      "natural language process*",
+      "Anduril",
+      "surveil*",
+      "accountab*",
+      "damag*",
+      "misleading",
+      "subcontract*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R042",
+    "source_language": "en",
+    "original_text": "Parabon NanoLabs sells police composite images of suspects built on DNA. Critics say the product is snake-oil science fiction that can exacerbate problems in the criminal legal system. 1 Fighting Crime With Science As a teenager , Dr.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/02/02/forensic-dna-phenotyping-parabon-nanolabs-police/",
+    "publication_date": "2025-02-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "facial recognition",
+      "predictive model*",
+      "face recognition",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "surveil*",
+      "victim*",
+      "misus*",
+      "violat*",
+      "backlash",
+      "alleged",
+      "stereotyp*",
+      "wrongful*",
+      "marginaliz*",
+      "misleading",
+      "death*",
+      "kill*",
+      "contaminat*",
+      "racial stereotyp*",
+      "subcontract*",
+      "counsel*",
+      "arrest*",
+      "racial profiling",
+      "deportation",
+      "trade secret*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R043",
+    "source_language": "en",
+    "original_text": "A new report from MIT Coalition for Palestine details Israeli-funded research into everything from drone swarms to underwater surveillance.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2025/01/16/mit-israel-military-funding-research-gaza/",
+    "publication_date": "2025-01-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "artificial intelligen*",
+      "drone swarm*",
+      "disinformation",
+      "harass*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "banned",
+      "propaganda",
+      "distress*",
+      "kill*",
+      "protests",
+      "protesters",
+      "arrest*",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R044",
+    "source_language": "en",
+    "original_text": "Hannah Byrne joined Facebook to combat far-right extremism. She’s now convinced the tech giant can’t be trusted with such power. For two years , Hannah Byrne was part of an invisible machine that determines what over 3 billion people around the world can say on the internet.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/12/04/meta-facebook-terrorism-censorship-speech/",
+    "publication_date": "2024-12-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "content moderat*",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "censor*",
+      "airstrike*",
+      "victim*",
+      "violat*",
+      "controvers*",
+      "allegation*",
+      "sanction*",
+      "banned",
+      "liab*",
+      "racis*",
+      "stereotyp*",
+      "prejudic*",
+      "disproportionat*",
+      "propaganda",
+      "vulnerable",
+      "kill*",
+      "casualt*",
+      "hospitaliz*",
+      "protest",
+      "repress*",
+      "bombing*",
+      "hate speech",
+      "false positive*",
+      "dissident*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R045",
+    "source_language": "en",
+    "original_text": "A previously undisclosed email and new documents show the Project Nimbus deal isn’t covered by Google’s general terms of service.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/12/02/google-project-nimbus-ai-israel/",
+    "publication_date": "2024-12-03",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "harm*",
+      "injur*",
+      "surveil*",
+      "damag*",
+      "violat*",
+      "breach*",
+      "controvers*",
+      "death*",
+      "protest",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R046",
+    "source_language": "en",
+    "original_text": "The marketing of a new military tech tool powered by Meta’s artificial intelligence is “irresponsible” and “clumsy,” experts said. Meta’s in-house ChatGPT competitor is being marketed unlike anything that’s ever come out of the social media giant before: a convenient tool for planning airstrikes.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/11/24/defense-llama-meta-military/",
+    "publication_date": "2024-11-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "Nvidia",
+      "Scale AI",
+      "fine tun*",
+      "Llama",
+      "harm*",
+      "airstrike*",
+      "damag*",
+      "death*",
+      "casualt*",
+      "strike*",
+      "civilian death*",
+      "civilian casualt*",
+      "civilian harm",
+      "international humanitarian law",
+      "collateral damage",
+      "deportation",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R047",
+    "source_language": "en",
+    "original_text": "The Intercept’s lawsuit argues that the Digital Millennium Copyright Act prevents OpenAI from stripping a story’s title or byline. In an order on Friday, a federal court rejected OpenAI’s effort to toss a lawsuit filed by The Intercept over using its journalists’ work to train ChatGPT without permission or credit.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/11/22/openai-intercept-lawsuit/",
+    "publication_date": "2024-11-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "openai",
+      "chatgpt",
+      "violat*",
+      "accus*",
+      "lawsuit*",
+      "litigat*",
+      "copyright*",
+      "without permission",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R048",
+    "source_language": "en",
+    "original_text": "Silicon Valley has successfully rebranded military contracting as a proud national duty for the industry. Donald Trump pitched himself to voters as a supposed anti-interventionist candidate of peace.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/11/17/tech-industry-trump-military-contracts/",
+    "publication_date": "2024-11-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "military ai",
+      "chip*",
+      "Scale AI",
+      "alignment",
+      "The Gospel",
+      "Project Maven",
+      "Palantir",
+      "Anduril",
+      "Llama",
+      "harm*",
+      "regulator*",
+      "surveil*",
+      "damag*",
+      "kill*",
+      "protests",
+      "protesters",
+      "strike*",
+      "layoff*",
+      "subsid*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R049",
+    "source_language": "en",
+    "original_text": "The Pentagon explored the AI software for research, but the new deal is the first by a combatant command whose mission is one of killing. Less than a year after OpenAI quietly signaled it wanted to do business with the Pentagon , a procurement document obtained by The Intercept shows U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/10/25/africom-microsoft-openai-military/",
+    "publication_date": "2024-10-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "ML",
+      "GPT*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "natural language process*",
+      "openai",
+      "chatgpt",
+      "command and control",
+      "surveil*",
+      "airstrike*",
+      "accountab*",
+      "abus*",
+      "controvers*",
+      "alleged",
+      "suicid*",
+      "kill*",
+      "strike*",
+      "without permission",
+      "deportation",
+      "drone strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R050",
+    "source_language": "en",
+    "original_text": "The Department of Defense wants technology so it can fabricate online personas that are indistinguishable from real people.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/10/17/pentagon-ai-deepfake-internet-users/",
+    "publication_date": "2024-10-17",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "deepfake*",
+      "ai generat*",
+      "synthetic media",
+      "Nvidia",
+      "disinformation",
+      "fraud*",
+      "fabricated",
+      "propaganda",
+      "manipulat*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R051",
+    "source_language": "en",
+    "original_text": "Experts on international law pointed to the indiscriminate nature of the blasts in Lebanon and the prohibition on booby traps. A day after pagers simultaneously exploded across Lebanon and Syria, a second round of bombs — this time embedded in walkie-talkies and solar equipment — detonated on Wednesday in Beirut and throughout Lebanon.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/09/19/israel-pager-walkie-talkie-attack-lebanon-war-crimes/",
+    "publication_date": "2024-09-19",
+    "country": "Lebanon",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "harm*",
+      "injur*",
+      "displac*",
+      "airstrike*",
+      "violat*",
+      "alleged",
+      "allegation*",
+      "death*",
+      "kill*",
+      "wounded",
+      "strike*",
+      "bombing*",
+      "war crime*",
+      "indiscriminate",
+      "amputat*",
+      "arrest*",
+      "deportation",
+      "proportionality"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R052",
+    "source_language": "en",
+    "original_text": "The Department of Homeland Security wants to use face recognition technology on drivers and passengers approaching the border. The Department of Homeland Security is soliciting help from the U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/08/27/face-recognition-border-surveillance-dhs/",
+    "publication_date": "2024-08-27",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "face recognition",
+      "license plate reader*",
+      "surveil*",
+      "hacked",
+      "data protection",
+      "outsourc*",
+      "PII",
+      "personally identifiable",
+      "arrest*",
+      "checkpoint*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R053",
+    "source_language": "en",
+    "original_text": "“I don’t want to be working on something that can turn around and be used to slaughter innocent people.” Sixteen years ago , Riley Livermore enlisted in the Air Force. His path to the military was shaped by his evangelical Christian upbringing and growing up amid the war on terror.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/06/18/israel-gaza-war-military-resign-dissent/",
+    "publication_date": "2024-06-18",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "artificial intelligen*",
+      "targeting system*",
+      "Lavender",
+      "harm*",
+      "injur*",
+      "abus*",
+      "violat*",
+      "propaganda",
+      "died",
+      "kill*",
+      "protest",
+      "protests",
+      "war crime*",
+      "islamophob*",
+      "arrest*",
+      "deportation",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R054",
+    "source_language": "en",
+    "original_text": "UAVs continually kill civilians, but the U.S. military wants to expand its arsenal with an army of new, mass-produced kamikaze AI drones. Worried about a potential war with China, the Pentagon is turning to a new class of weapons to fight the numerically superior People’s Liberation Army: drones, lots and lots of drones.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/06/17/pentagon-ai-kamikaze-cheap-drones-replicator/",
+    "publication_date": "2024-06-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "ai driven",
+      "computer vision",
+      "killer robot*",
+      "loitering munition*",
+      "Anduril",
+      "harm*",
+      "misidentif*",
+      "airstrike*",
+      "accountab*",
+      "allegation*",
+      "suicid*",
+      "death*",
+      "kill*",
+      "casualt*",
+      "strike*",
+      "civilian casualt*",
+      "civilian harm",
+      "deportation",
+      "drone strike*",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R055",
+    "source_language": "en",
+    "original_text": "Researchers tested for bias in Facebook’s algorithm by purchasing ads promoting for-profit colleges and studying who saw them. Facebook’s advertising algorithm disproportionately targets Black users with ads for for-profit colleges, according to new paper by a team of university researchers.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/06/04/facebook-ads-algorithm-for-profit-colleges/",
+    "publication_date": "2024-06-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "artificial intelligen*",
+      "fine tun*",
+      "fined",
+      "regulator*",
+      "bias*",
+      "discriminat*",
+      "lawsuit*",
+      "liab*",
+      "racis*",
+      "stereotyp*",
+      "disproportionat*",
+      "deportation",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R056",
+    "source_language": "en",
+    "original_text": "Engineers warned Meta that nations can monitor chats; staff fear Israel is using this trick to pick assassination targets in Gaza. In March, WhatsApp’s security team issued an internal warning to their colleagues: Despite the software’s powerful encryption, users remained vulnerable to a dangerous form of government surveillance.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/05/22/whatsapp-security-vulnerability-meta-israel-palestine/",
+    "publication_date": "2024-05-22",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "data cent*",
+      "AI targeting",
+      "artificial intelligen*",
+      "targeting system*",
+      "Lavender",
+      "harm*",
+      "exploit*",
+      "surveil*",
+      "censor*",
+      "accountab*",
+      "vulnerable",
+      "death*",
+      "kill*",
+      "protest",
+      "retaliat*",
+      "dissident*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R057",
+    "source_language": "en",
+    "original_text": "The Intercept’s lawsuit against OpenAI and Microsoft shows how digital outlets are uniquely vulnerable. The Intercept is one of the many media outlets that have sued OpenAI and Microsoft over the past year for using journalists’ work to train ChatGPT without permission or credit.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/05/21/scarlett-johansson-openai-intercept-copyright/",
+    "publication_date": "2024-05-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "GPT*",
+      "openai",
+      "chatgpt",
+      "infring*",
+      "damag*",
+      "violat*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "vulnerable",
+      "copyright*",
+      "without permission",
+      "counsel*",
+      "journalist*",
+      "deportation",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R058",
+    "source_language": "en",
+    "original_text": "A Louisiana sheriff’s department has been testing the drone system, which is already used by the Israeli police and many settlements. An Israeli drone company is proselytizing to American police departments about an autonomous drone system that can automatically launch police drones to fly to the sites of suspected crimes.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/05/17/israel-orione-drone-us-police-louisiana/",
+    "publication_date": "2024-05-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "gunshot detection",
+      "ShotSpotter",
+      "bias*",
+      "harass*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "accus*",
+      "lawsuit*",
+      "racis*",
+      "kill*",
+      "defam*",
+      "protests",
+      "protesters",
+      "retaliat*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R059",
+    "source_language": "en",
+    "original_text": "Google downplays its military work with Israel, but “Project Nimbus” documents tie the American tech giants to Israel’s deadly military capabilities. Google and Amazon are both loath to discuss security aspects of the cloud services they provide through their joint contract with the Israeli government, known as Project Nimbus.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/05/01/google-amazon-nimbus-israel-weapons-arms-gaza/",
+    "publication_date": "2024-05-01",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "facial recognition",
+      "unmanned aerial*",
+      "foundry",
+      "Palantir",
+      "harm*",
+      "surveil*",
+      "airstrike*",
+      "abus*",
+      "violat*",
+      "controvers*",
+      "backlash",
+      "kill*",
+      "protest",
+      "protests",
+      "mass surveillance",
+      "subsid*",
+      "tungsten",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "UNMAPPED",
+        "subcategory_id": null,
+        "subcategory": "UNMAPPED - weapons proliferation / export",
+        "event_type": null
+      }
+    ]
+  },
+  {
+    "report_id": "R060",
+    "source_language": "en",
+    "original_text": "Any battlefield use of the software would be a dramatic turnaround for OpenAI, which describes its mission as developing AI that can benefit all of humanity.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/04/10/microsoft-openai-dalle-ai-military-use/",
+    "publication_date": "2024-04-10",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "training data",
+      "artificial intelligen*",
+      "generative ai",
+      "ai power*",
+      "ai generat*",
+      "computer vision",
+      "openai",
+      "chatgpt",
+      "fine tun*",
+      "synthetic data",
+      "battle management system*",
+      "command and control",
+      "harm*",
+      "injur*",
+      "surveil*",
+      "airstrike*",
+      "damag*",
+      "misus*",
+      "suicid*",
+      "kill*",
+      "without permission",
+      "civilian harm",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R061",
+    "source_language": "en",
+    "original_text": "Google prohibits using its tech for “immediate harm,” but Israel is harnessing its facial recognition to set up a dragnet of Palestinians.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/04/05/google-photos-israel-gaza-facial-recognition/",
+    "publication_date": "2024-04-05",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "facial recognition",
+      "harm*",
+      "discriminat*",
+      "surveil*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "controvers*",
+      "alleged",
+      "accus*",
+      "protest",
+      "mass surveillance",
+      "war crime*",
+      "arrest*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R062",
+    "source_language": "en",
+    "original_text": "As reports of Gaza censorship on Instagram and Facebook raises alarms, Congress targets TikTok while X profits from government surveillance. Meta — Facebook and Instagram’s parent company — refuses to provide evidence refuting widespread reports that it’s censoring Gaza-related content on its platforms.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/03/29/deconstructed-gaza-war-social-media-instagram-tiktok/",
+    "publication_date": "2024-03-29",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "content moderat*",
+      "Palantir",
+      "bias*",
+      "discriminat*",
+      "surveil*",
+      "censor*",
+      "airstrike*",
+      "abus*",
+      "violat*",
+      "controvers*",
+      "accus*",
+      "complaint*",
+      "prejudic*",
+      "manipulat*",
+      "blackout*",
+      "protests",
+      "atrocit*",
+      "false positive*",
+      "false negative*",
+      "conspiracy theor*",
+      "parasocial",
+      "spyware",
+      "Pegasus",
+      "journalist*",
+      "no explanation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R063",
+    "source_language": "en",
+    "original_text": "A plan to divert money from police ended up funneling an $8.6 million contract back toward the prison-industrial complex. In November 2020, Los Angeles voters moved to radically transform the way the county handled incarceration.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2024/03/12/los-angeles-jail-accenture-measure-j/",
+    "publication_date": "2024-03-12",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "biometric*",
+      "predictive polic*",
+      "risk assessment",
+      "risk assessment tool*",
+      "harm*",
+      "bias*",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "death*",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "spying",
+      "accent*",
+      "counsel*",
+      "arrest*",
+      "detention",
+      "deportation",
+      "no transparency"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R064",
+    "source_language": "en",
+    "original_text": "After the ad was discovered, digital rights advocates ran an experiment testing the limits of Facebook’s machine-learning moderation.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/11/21/facebook-ad-israel-palestine-violence/",
+    "publication_date": "2023-11-21",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "content moderat*",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "censor*",
+      "violat*",
+      "racis*",
+      "marginaliz*",
+      "dehumaniz*",
+      "vulnerable",
+      "antisemit*",
+      "outsourc*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R065",
+    "source_language": "en",
+    "original_text": "According to internal materials reviewed by The Intercept, Cruise cars were also in danger of driving into holes in the road.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/11/06/cruise-self-driving-cars-children/",
+    "publication_date": "2023-11-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "self driving",
+      "autonomous vehicle*",
+      "driverless",
+      "fine tun*",
+      "regulator*",
+      "surveil*",
+      "vulnerable",
+      "death*",
+      "kill*",
+      "fatalities",
+      "crash*",
+      "collision*",
+      "malfunction*",
+      "strike*",
+      "pedestrian",
+      "chat log*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R066",
+    "source_language": "en",
+    "original_text": "Meta acknowledged that Instagram was burying some flag emoji comments in “offensive” contexts. As Israel imposed an internet blackout in Gaza on Friday, social media users posting about the grim conditions have contended with erratic and often unexplained censorship of content related to Palestine on Instagram and Facebook.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/10/28/instagram-palestinian-flag-emoji/",
+    "publication_date": "2023-10-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "content moderat*",
+      "automated system*",
+      "trauma*",
+      "censor*",
+      "airstrike*",
+      "violat*",
+      "alleged",
+      "banned",
+      "racis*",
+      "distress*",
+      "death*",
+      "nonconsensual*",
+      "blackout*",
+      "retaliat*",
+      "dialect*",
+      "arrest*",
+      "deportation",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R067",
+    "source_language": "en",
+    "original_text": "Overstating the power of algorithmic systems only serves to benefit the tech companies behind them. Iowa Gov. Kim Reynolds and Florida Gov. Ron DeSantis speak on a book tour in Des Moines on March 10, 2023.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/08/16/ai-iowa-schools-book-ban/",
+    "publication_date": "2023-08-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "predictive polic*",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "ai tool*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "censor*",
+      "allegedly",
+      "racis*",
+      "astroturf*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R068",
+    "source_language": "en",
+    "original_text": "Evangelical military vets are using “counterterror” internet surveillance techniques to help police get search warrants against sex workers. The most popular video on Vaught Victor Marx’s YouTube now has more than 15 million views.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/07/29/skull-games-surveillance-sex-workers/",
+    "publication_date": "2023-07-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "face recognition",
+      "chatgpt",
+      "Clearview AI",
+      "harm*",
+      "exploit*",
+      "surveil*",
+      "victim*",
+      "controvers*",
+      "alleged",
+      "allegedly",
+      "lawsuit*",
+      "suicid*",
+      "spying",
+      "outsourc*",
+      "arrest*",
+      "wiretap*",
+      "deportation",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R069",
+    "source_language": "en",
+    "original_text": "The software was licensed as part of Gov. Greg Abbott’s troubled Operation Lone Star border crackdown. The Texas Department of Public Safety purchased access to powerful software capable of locating and following people through their phones as part of Republican Gov.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/07/26/texas-phone-tracking-border-surveillance/",
+    "publication_date": "2023-07-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "face recognition",
+      "Clearview AI",
+      "exploit*",
+      "surveil*",
+      "misus*",
+      "scandal*",
+      "controvers*",
+      "lawsuit*",
+      "suicid*",
+      "targeting of activist*",
+      "location data",
+      "arrest*",
+      "immigration enforcement",
+      "deportation",
+      "scrap*",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R070",
+    "source_language": "en",
+    "original_text": "Rob Delaney said, “My melodious voice? My broad shoulders and dancer’s undulating buttocks? I decide how those are used!” As Hollywood executives insist it is “just not realistic” to pay actors — 87 percent of whom earn less than $26,000 — more, they are spending lavishly on AI programs.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/07/25/strike-hollywood-ai-disney-netflix/",
+    "publication_date": "2023-07-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "deepfake*",
+      "training data",
+      "artificial intelligen*",
+      "generative model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "ai generat*",
+      "recommendation algorithm*",
+      "openai",
+      "chatgpt",
+      "LAION",
+      "discriminat*",
+      "surveil*",
+      "manipulat*",
+      "working condition*",
+      "strike*",
+      "copyright*",
+      "replaced by AI",
+      "journalist*",
+      "deportation",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R071",
+    "source_language": "en",
+    "original_text": "ICE uses LexisNexis to track people’s cars, gather information on people, and make arrests for its deportation machine, according to a contract. The legal research and public records data broker LexisNexis is providing U.S.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/06/20/lexisnexis-ice-surveillance-license-plates/",
+    "publication_date": "2023-06-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "predictive polic*",
+      "automated system*",
+      "license plate reader*",
+      "harm*",
+      "bias*",
+      "fraud*",
+      "surveil*",
+      "violat*",
+      "wrongdoing",
+      "controvers*",
+      "allegation*",
+      "lawsuit*",
+      "mass surveillance",
+      "indiscriminate",
+      "subordinat*",
+      "subsid*",
+      "arrest*",
+      "journalist*",
+      "watchlist*",
+      "immigration enforcement",
+      "deportation",
+      "data broker*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R072",
+    "source_language": "en",
+    "original_text": "The algorithm used for the cash relief program is broken, a Human Rights Watch report found. A program spearheaded by the World Bank that uses algorithmic decision-making to means-test poverty relief money is failing the very people it’s intended to protect, according to a new report by Human Rights Watch.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/06/13/jordan-world-bank-poverty-algorithm/",
+    "publication_date": "2023-06-13",
+    "country": "Jordan",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "chatbot*",
+      "automated decision*",
+      "chatgpt",
+      "harm*",
+      "stereotyp*",
+      "vulnerable",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R073",
+    "source_language": "en",
+    "original_text": "Amid aggressive marketing to schools, Evolv announced it had doubled its first-quarter earnings compared to last year. “If you are serious about our systems, then let’s jump on a quick call this week,” Anthony Geraci, a sales representative of Evolv Technology, wrote in an email to New Mexico’s Clovis Municipal Schools last November.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/05/19/ai-gun-detector-evolv-stock/",
+    "publication_date": "2023-05-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "harm*",
+      "misinformation",
+      "misidentif*",
+      "surveil*",
+      "anxiet*",
+      "casualt*",
+      "checkpoint*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R074",
+    "source_language": "en",
+    "original_text": "Companies like Evolv sell multimillion-dollar AI-powered gun detection systems to schools nationwide, but weapons still slip through. O n Halloween day last year, a 17-year-old-student walked straight through an artificial intelligence weapons detection system at Proctor High School in Utica, New York. No alert went off.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/05/07/ai-gun-weapons-detection-schools-evolv/",
+    "publication_date": "2023-05-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "ai power*",
+      "human in the loop",
+      "ShotSpotter",
+      "harm*",
+      "bias*",
+      "fraud*",
+      "surveil*",
+      "violat*",
+      "accus*",
+      "misleading",
+      "kill*",
+      "false positive*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R075",
+    "source_language": "en",
+    "original_text": "“Why are they censoring something that is clearly under attack?” Two of the hottest new artificial intelligence programs for people who aren’t tech savvy, DALL-E 2 and Midjourney , create stunning visual images using only written prompts.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/04/22/ai-art-abortion-censorship/",
+    "publication_date": "2023-04-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "training data",
+      "artificial intelligen*",
+      "ai system*",
+      "ai model*",
+      "ai generat*",
+      "automated system*",
+      "openai",
+      "midjourney",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "injur*",
+      "censor*",
+      "abus*",
+      "violat*",
+      "banned",
+      "racis*",
+      "sexis*",
+      "stereotyp*",
+      "marginaliz*",
+      "kill*",
+      "protest",
+      "denigrat*",
+      "homophob*",
+      "false positive*",
+      "false negative*",
+      "disturbing content",
+      "deportation",
+      "scrap*",
+      "in the style of",
+      "trade secret*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R076",
+    "source_language": "en",
+    "original_text": "Converus is pitching EyeDetect to defense and intelligence agencies. But experts say eye movements are not reliable indicators of deception.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/04/07/lie-detector-dod-cia-converus/",
+    "publication_date": "2023-04-07",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "algorithm*",
+      "content moderat*",
+      "lie detection",
+      "bias*",
+      "misconduct",
+      "anxiet*",
+      "addict*",
+      "death*",
+      "false positive*",
+      "counsel*",
+      "border control",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R077",
+    "source_language": "en",
+    "original_text": "Flock Safety works with police to market scanners to hundreds of private community groups — which have no privacy safeguards. At a city council meeting in June 2021, Mayor Thomas Kilgore, of Lakeway, Texas, made an announcement that confused his community.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/03/22/hoa-surveillance-license-plate-police-flock/",
+    "publication_date": "2023-03-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "license plate reader*",
+      "Palantir",
+      "harm*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "allegedly",
+      "racis*",
+      "data protection",
+      "mass surveillance",
+      "without permission",
+      "arrest*",
+      "detained",
+      "watchlist*",
+      "deportation",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R078",
+    "source_language": "en",
+    "original_text": "With migrant deaths at record highs, researchers say intensified border militarization is making a deadly problem much worse. The precise locations of the U.S. government’s high-tech surveillance towers along the U.S-Mexico border are being made public for the first time as part of a mapping project by the Electronic Frontier Foundation.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/03/20/border-surveillance-map/",
+    "publication_date": "2023-03-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "Anduril",
+      "surveil*",
+      "dehumaniz*",
+      "manipulat*",
+      "death*",
+      "died",
+      "arrest*",
+      "racial profiling",
+      "deportation",
+      "repurpos*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R079",
+    "source_language": "en",
+    "original_text": "The U.S. government spent years warning deepfakes could destabilize democratic societies. U.S. Special Operations Command, responsible for some of the country’s most secretive military endeavors, is gearing up to conduct internet propaganda and deception campaigns online using deepfake videos, according to federal contracting documents re…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/03/06/pentagon-socom-deepfake-propaganda/",
+    "publication_date": "2023-03-06",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "machine learning",
+      "deepfake*",
+      "artificial intelligen*",
+      "harm*",
+      "disinformation",
+      "exploit*",
+      "violat*",
+      "controvers*",
+      "fabricated",
+      "propaganda",
+      "manipulated media",
+      "hacking",
+      "anxiet*",
+      "manipulat*",
+      "kill*",
+      "spying",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R080",
+    "source_language": "en",
+    "original_text": "Musk has said Tesla’s problematic autopilot features are “really the difference between Tesla being worth a lot of money or worth basically zero.” Highway surveillance footage from Thanksgiving Day shows a Tesla Model S vehicle changing lanes and then abruptly braking in the far-left lane of the San Francisco Bay Bridge, resulting in an e…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2023/01/10/tesla-crash-footage-autopilot/",
+    "publication_date": "2023-01-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "self driving",
+      "autonomous vehicle*",
+      "autopilot",
+      "driver assist*",
+      "injur*",
+      "surveil*",
+      "controvers*",
+      "complaint*",
+      "misleading",
+      "kill*",
+      "fatalities",
+      "crash*",
+      "NHTSA",
+      "phantom braking",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R081",
+    "source_language": "en",
+    "original_text": "ChatGPT, the latest novelty from OpenAI, replicates the ugliest war on terror-style racism. A DALL-E generation of “an oil painting of America’s war on terror if conducted by an artificial intelligence.” Image: Elise Swain/The Intercept; DALL-E Sensational new machine learning breakthroughs seem to sweep our Twitter feeds every day.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/12/08/openai-chatgpt-ai-bias-ethics/",
+    "publication_date": "2022-12-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "risk assessment",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai generat*",
+      "risk score*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "fraud*",
+      "impersonat*",
+      "surveil*",
+      "censor*",
+      "violat*",
+      "racis*",
+      "prejudic*",
+      "hate speech",
+      "racial profiling",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R082",
+    "source_language": "en",
+    "original_text": "Trust Lab, founded by a former Google exec for content moderation, will identify “online harmful content, including toxicity and misinformation.” Trust Lab was founded by a team of well-credentialed Big Tech alumni who came together in 2021 with a mission: Make online content moderation more transparent, accountable, and trustworthy.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/12/02/cia-google-content-moderation-trust-lab/",
+    "publication_date": "2022-12-02",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "content moderat*",
+      "harm*",
+      "misinformation",
+      "accountab*",
+      "racis*",
+      "toxicity",
+      "outsourc*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R083",
+    "source_language": "en",
+    "original_text": "The report, due out tomorrow, said Facebook and Instagram showed bias against Palestinians during a brutal Israeli assault on the Gaza Strip last May.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/09/21/facebook-censorship-palestine-israel-algorithm/",
+    "publication_date": "2022-09-21",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "training data",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "injur*",
+      "evict*",
+      "censor*",
+      "airstrike*",
+      "violat*",
+      "wrongdoing",
+      "allegation*",
+      "complaint*",
+      "penalt*",
+      "disproportionat*",
+      "wrongful*",
+      "vulnerable",
+      "kill*",
+      "protest",
+      "protests",
+      "protesters",
+      "strike*",
+      "lack of oversight",
+      "dialect*",
+      "outsourc*",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R084",
+    "source_language": "en",
+    "original_text": "The company behind the mics, ShotSpotter, is going all out to guide police stations across the country on how to use relief money for the controversial technology.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/09/17/police-surveillance-shotspotter-detroit/",
+    "publication_date": "2022-09-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "gunshot detection",
+      "ShotSpotter",
+      "bias*",
+      "discriminat*",
+      "surveil*",
+      "controvers*",
+      "misleading",
+      "kill*",
+      "arrest*",
+      "deportation",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R085",
+    "source_language": "en",
+    "original_text": "Google employees, who have been kept in the dark about the “Nimbus” AI project, have concerns about Israeli human rights abuses.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/07/24/google-israel-artificial-intelligence-project-nimbus/",
+    "publication_date": "2022-07-24",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "facial recognition",
+      "data label*",
+      "data cent*",
+      "artificial intelligen*",
+      "ai tool*",
+      "Project Maven",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "controvers*",
+      "accus*",
+      "vulnerable",
+      "protest",
+      "protests",
+      "retaliat*",
+      "repress*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R086",
+    "source_language": "en",
+    "original_text": "PimEyes makes sensitive images of children available to anyone with an internet connection. Abusive parents searching for kids who have fled to shelters. Governments targeting the sons and daughters of political dissidents. Pedophiles stalking the victims they encounter in illicit child sexual abuse material.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/07/16/facial-recognition-search-children-photos-privacy-pimeyes/",
+    "publication_date": "2022-07-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "ai generat*",
+      "guardrail*",
+      "Clearview AI",
+      "harm*",
+      "regulator*",
+      "harass*",
+      "exploit*",
+      "surveil*",
+      "victim*",
+      "abus*",
+      "controvers*",
+      "banned",
+      "vulnerable",
+      "kill*",
+      "stalk*",
+      "revenge porn*",
+      "CSAM",
+      "child sexual abuse material",
+      "arrest*",
+      "dissident*",
+      "deportation",
+      "scrap*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R087",
+    "source_language": "en",
+    "original_text": "Recently revealed documents provide a first-of-its-kind look into the invasive eye Washington police keeps on everyone from protesters to everyday residents. It was the early days of the Black Lives Matter movement.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/06/18/dc-police-surveillance-network-protests/",
+    "publication_date": "2022-06-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "artificial intelligen*",
+      "face recognition",
+      "license plate reader*",
+      "surveil*",
+      "controvers*",
+      "accus*",
+      "hacked",
+      "ransomware",
+      "kill*",
+      "protest",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "chilling effect*",
+      "mine*",
+      "watchlist*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R088",
+    "source_language": "en",
+    "original_text": "“Project Nimbus” would insulate the Israeli government’s cloud computing from political pressures stemming from the military occupation of Palestine.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/05/18/google-amazon-israel-military-nimbus/",
+    "publication_date": "2022-05-18",
+    "country": "Israel",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "ai tool*",
+      "Project Maven",
+      "harm*",
+      "regulator*",
+      "surveil*",
+      "misus*",
+      "violat*",
+      "controvers*",
+      "accus*",
+      "sanction*",
+      "liab*",
+      "anxiet*",
+      "protest",
+      "protests",
+      "retaliat*",
+      "repress*",
+      "war crime*",
+      "antisemit*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R089",
+    "source_language": "en",
+    "original_text": "Clearview and its right-wing founder have become emblematic of the threat posed by powerful and typically unsupervised software.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/05/04/clearview-face-recognition-staten-island/",
+    "publication_date": "2022-05-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "face recognition",
+      "social media monitoring",
+      "Clearview AI",
+      "surveil*",
+      "without consent",
+      "victim*",
+      "abus*",
+      "controvers*",
+      "alleged",
+      "deportation",
+      "scrap*",
+      "rubber stamp*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R090",
+    "source_language": "en",
+    "original_text": "Anomaly Six, a secretive government contractor, claims to monitor the movements of billions of phones around the world and unmask spies with the press of a button.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/04/22/anomaly-six-phone-tracking-zignal-surveillance-cia-nsa/",
+    "publication_date": "2022-04-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "social media monitoring",
+      "Project Maven",
+      "exploit*",
+      "surveil*",
+      "violat*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "sanction*",
+      "vulnerable",
+      "blackmail*",
+      "privacy violation*",
+      "spying",
+      "war crime*",
+      "subcontract*",
+      "location data",
+      "spyware",
+      "Pegasus",
+      "deportation",
+      "data broker*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R091",
+    "source_language": "en",
+    "original_text": "A platform run by the Bosch-owned startup Azena has the potential to transform the surveillance camera industry. Experts worry it is ripe for abuse. Bosch, the German multinational most famous for its toasters, drills, and refrigerators, is also one of the world’s leading developers of surveillance cameras.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/02/11/surveillance-video-ai-bosch-azena/",
+    "publication_date": "2022-02-11",
+    "country": "Germany",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "ai system*",
+      "face recognition",
+      "harm*",
+      "regulator*",
+      "discriminat*",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "breach*",
+      "allegedly",
+      "accus*",
+      "scam*",
+      "hacked",
+      "hacking",
+      "hacker*",
+      "stalk*",
+      "chilling effect*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R092",
+    "source_language": "en",
+    "original_text": "On a color-coded map, land belonging to Native tribes that opposed the Line 3 pipeline were marked in red — areas of “threat” to the bottom line. As part of its efforts to build and operate pipelines, the oil transport company Enbridge used a tracking system that identified Indigenous-led groups as key threats.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2022/01/23/enbridge-pipeline-line-3-tracking-indigenous-protesters/",
+    "publication_date": "2022-01-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "risk assessment",
+      "risk score*",
+      "chip*",
+      "harm*",
+      "trauma*",
+      "surveil*",
+      "damag*",
+      "controvers*",
+      "litigat*",
+      "protest",
+      "protests",
+      "protesters",
+      "protestors",
+      "fossil fuel*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R093",
+    "source_language": "en",
+    "original_text": "Surveilling drivers under the guise of safety is a common thread in Uber’s patents. Experts warn the systems described could reinforce existing inequalities. Safety issues have dogged Uber since its early days as a black car-hailing service.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/10/30/uber-patent-driver-risk-algorithms/",
+    "publication_date": "2021-10-30",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "risk assessment",
+      "automated decision*",
+      "bias*",
+      "surveil*",
+      "misus*",
+      "backlash",
+      "class action*",
+      "complaint*",
+      "racis*",
+      "fatalities",
+      "safety incident*",
+      "accent*",
+      "mine*",
+      "gig work*",
+      "counsel*",
+      "deactivat*",
+      "arrest*",
+      "deportation",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R094",
+    "source_language": "en",
+    "original_text": "Some workers logged as many as 90 hours per week and complained that the subcontractors they worked for didn’t make promised payments. It was a remote work opportunity, with no fixed hours, and it paid in dollars. In a moment of extreme economic crisis playing out in Brazil, the offer seemed irresistible.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/10/02/tiktok-bytedance-transcription-brazil/",
+    "publication_date": "2021-10-02",
+    "country": "Brazil",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "voice recognition",
+      "damag*",
+      "complaint*",
+      "accent*",
+      "outsourc*",
+      "subcontract*",
+      "gig work*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R095",
+    "source_language": "en",
+    "original_text": "The tool is the product of a growing industry whose work is usually kept from the public and utilized by police. A Michigan State Police contract , obtained by The Intercept, sheds new light on the growing use of little-known surveillance software that helps law enforcement agencies and corporations watch people’s social media and other w…",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/09/21/surveillance-social-media-police-microsoft-shadowdragon-kaseware/",
+    "publication_date": "2021-09-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "predictive polic*",
+      "artificial intelligen*",
+      "worker surveillance",
+      "command and control",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "harass*",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "wrongdoing",
+      "controvers*",
+      "racis*",
+      "disproportionat*",
+      "marginaliz*",
+      "malware",
+      "protests",
+      "accent*",
+      "detention",
+      "scrap*",
+      "trade secret*",
+      "no transparency"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R096",
+    "source_language": "en",
+    "original_text": "Records from an ongoing FOIA lawsuit shed new light on the operations of CBP’s Tactical Terrorism Response Teams. More than four years have passed since Aaron Gach, a sculptor and installation artist, was detained at San Francisco International Airport. He was interrogated by U.S. border agents, and his cellphone was searched.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/09/04/cbp-border-tactical-terrorism-response-teams/",
+    "publication_date": "2021-09-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "biometric*",
+      "risk assessment",
+      "targeting system*",
+      "mining",
+      "surveil*",
+      "accountab*",
+      "violat*",
+      "controvers*",
+      "lawsuit*",
+      "litigat*",
+      "complaint*",
+      "vulnerable",
+      "protests",
+      "spying",
+      "chilling effect*",
+      "detained",
+      "detention",
+      "journalist*",
+      "watchlist*",
+      "no fly list",
+      "racial profiling",
+      "immigration enforcement",
+      "black box",
+      "no redress"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R097",
+    "source_language": "en",
+    "original_text": "The Israeli company purportedly left China last year. The subsequent sales of its products there could cloud its impending IPO.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/08/26/cellebrite-china-cellphone-hack/",
+    "publication_date": "2021-08-26",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "predictive polic*",
+      "chip*",
+      "regulator*",
+      "surveil*",
+      "abus*",
+      "misus*",
+      "controvers*",
+      "outcry",
+      "sanction*",
+      "hacked",
+      "hacking",
+      "protest",
+      "protests",
+      "protesters",
+      "repress*",
+      "subsid*",
+      "counsel*",
+      "deactivat*",
+      "spyware",
+      "Pegasus",
+      "dissident*",
+      "journalist*",
+      "checkpoint*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R098",
+    "source_language": "en",
+    "original_text": "Known as ATLAS, the software mines various federal databases for derogatory information. It runs autonomously on Amazon servers.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/08/25/atlas-citizenship-denaturalization-homeland-security/",
+    "publication_date": "2021-08-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "biometric*",
+      "predictive analytic*",
+      "harm*",
+      "discriminat*",
+      "fraud*",
+      "harass*",
+      "controvers*",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "litigat*",
+      "racis*",
+      "sexis*",
+      "disparate impact",
+      "disproportionat*",
+      "marginaliz*",
+      "protests",
+      "mine*",
+      "counsel*",
+      "arrest*",
+      "watchlist*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R099",
+    "source_language": "en",
+    "original_text": "To sell the CIA-backed Endeca software for use by Chinese authorities, Oracle touted its use in Chicago for predictive policing. As he helped plan massive demonstrations in Chicago to protest the 2012 NATO summit, Matt McLoughlin knew he was up against a formidable police force.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/05/25/oracle-social-media-surveillance-protests-endeca/",
+    "publication_date": "2021-05-25",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "predictive polic*",
+      "artificial intelligen*",
+      "Palantir",
+      "Clearview AI",
+      "The Pile",
+      "bias*",
+      "discriminat*",
+      "mining",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "controvers*",
+      "racis*",
+      "kill*",
+      "protest",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "repress*",
+      "mine*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R100",
+    "source_language": "en",
+    "original_text": "The military has previously balked at surveilling service members for extremist political views due to First Amendment protections.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/05/17/military-pentagon-extremism-social-media/",
+    "publication_date": "2021-05-17",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "algorithm*",
+      "machine learning",
+      "artificial intelligen*",
+      "natural language process*",
+      "social media monitoring",
+      "harm*",
+      "regulator*",
+      "discriminat*",
+      "surveil*",
+      "misconduct",
+      "racis*",
+      "disparate impact",
+      "false positive*",
+      "counsel*",
+      "location data"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R101",
+    "source_language": "en",
+    "original_text": "After the police killing of Adam Toledo in Chicago, the ShotSpotter gunfire detection system deserves serious scrutiny. The city of Chicago is on edge, haunted by its past and fearful of what lies ahead, for once again a police officer has killed a child on its streets.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/04/13/chicago-police-killing-boy-adam-toledo-shotspotter/",
+    "publication_date": "2021-04-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "predictive polic*",
+      "gunshot detection",
+      "ShotSpotter",
+      "harm*",
+      "bias*",
+      "trauma*",
+      "surveil*",
+      "racis*",
+      "death*",
+      "kill*",
+      "protests",
+      "false positive*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R102",
+    "source_language": "en",
+    "original_text": "The company signed a contract with an ICE division that plays a key role in deportations. The popular legal research and data brokerage firm LexisNexis signed a $16.8 million contract to sell information to U.S. Immigration and Customs Enforcement, according to documents shared with The Intercept.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/04/02/ice-database-surveillance-lexisnexis/",
+    "publication_date": "2021-04-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "license plate reader*",
+      "Palantir",
+      "harm*",
+      "misinformation",
+      "fraud*",
+      "mining",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "controvers*",
+      "accus*",
+      "racis*",
+      "death*",
+      "made up",
+      "arrest*",
+      "detained",
+      "immigration enforcement",
+      "deportation",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R103",
+    "source_language": "en",
+    "original_text": "In its bid for TikTok, Oracle was supposed to prevent data from being passed to Chinese police. Instead, it’s been marketing its own software for their surveillance work.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/02/18/oracle-china-police-surveillance/",
+    "publication_date": "2021-02-18",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "predictive polic*",
+      "data cent*",
+      "artificial intelligen*",
+      "license plate reader*",
+      "Palantir",
+      "regulator*",
+      "bias*",
+      "discriminat*",
+      "surveil*",
+      "censor*",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "controvers*",
+      "sanction*",
+      "repress*",
+      "mine*",
+      "health data",
+      "arrest*",
+      "detention",
+      "dissident*",
+      "social credit",
+      "Uyghur",
+      "checkpoint*",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R104",
+    "source_language": "en",
+    "original_text": "In a new book, a sociologist who spent months embedded with the LAPD details how data-driven policing techwashes bias. The killing of George Floyd last May sparked renewed scrutiny of data-driven policing.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/01/30/lapd-palantir-data-driven-policing/",
+    "publication_date": "2021-01-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "predictive polic*",
+      "predictive analytic*",
+      "license plate reader*",
+      "voice recognition",
+      "Palantir",
+      "harm*",
+      "bias*",
+      "injur*",
+      "surveil*",
+      "accountab*",
+      "victim*",
+      "violat*",
+      "scandal*",
+      "banned",
+      "racis*",
+      "kill*",
+      "protests",
+      "spying",
+      "false positive*",
+      "arrest*",
+      "consent decree"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R105",
+    "source_language": "en",
+    "original_text": "Reformers typically propose predictive algorithms and electronic monitoring as alternatives to money bail. Illinois is different. Some organizers in Illinois recall getting “laughed out of the room” for supporting the abolition of money bail five years ago.",
+    "translated_text": null,
+    "source_url": "https://theintercept.com/2021/01/17/illinois-cash-bail-reform/",
+    "publication_date": "2021-01-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "risk assessment",
+      "risk assessment tool*",
+      "chip*",
+      "surveil*",
+      "violat*",
+      "accus*",
+      "banned",
+      "racis*",
+      "gig work*",
+      "arrest*",
+      "detained",
+      "detention",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

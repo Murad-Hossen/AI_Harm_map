@@ -1,0 +1,442 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Large trucks equipped with biometric cameras were stationed around last year's Budapest Pride march to discourage participation. The objective was not only punishment, but deterrence. Despite the new government, this logic remains embedded in Hungarian law today. This year, Hungarians can celebrate Pride openly.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/224022/budapest-free-to-celebrate-pride-again-but-orban-surveillance-machine-still-in-place/",
+    "publication_date": "2026-06-25",
+    "country": "Hungary",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "surveil*",
+      "infring*",
+      "violat*",
+      "complaint*",
+      "sanction*",
+      "misleading",
+      "protests",
+      "protesters",
+      "mass surveillance",
+      "lack of oversight",
+      "spyware"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Most of Europe has seen antisemitism re-emerge dramatically and in explicit and violent forms. Yet alongside it, a more insidious trend is also taking hold: the growing normalisation of Holocaust distortion through fabricated imagery, misleading historical narratives and manipulated content.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/217251/the-auschwitz-violinist-who-never-existed-europes-new-wave-of-holocaust-distorting-fakes/",
+    "publication_date": "2026-05-25",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai system*",
+      "ai generat*",
+      "harm*",
+      "misinformation",
+      "disinformation",
+      "accountab*",
+      "victim*",
+      "misus*",
+      "controvers*",
+      "fabricated",
+      "misleading",
+      "manipulat*",
+      "hate speech",
+      "antisemit*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "In the US, the backlash against AI data centres is bipartisan, organised and growing. But not in Europe, where government are bending over backwards to attract them, writes Albert Alemanno. Across Europe, the AI boom is taking physical form.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/217320/europe-rolls-out-the-red-carpet-for-ai-data-centres-as-water-and-energy-backlash-spreads/",
+    "publication_date": "2026-05-19",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "water use",
+      "backlash",
+      "electricity price*",
+      "tax break*",
+      "tax incentive*",
+      "subsid*",
+      "farmland"
+    ],
+    "classification": {
+      "branch": "Energy / Land",
+      "subcategory_id": "2.1",
+      "subcategory": "Environmental resource harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "In a victory for publishers and a reality check for Silicon Valley, a recent ruling by the European Court of Justice has confirmed that publishers can request Big Tech companies to pay “fair compensation” for using snippets of their news articles.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/216525/a-victory-for-publishers-over-big-tech-if-only-it-had-happened-five-years-ago/",
+    "publication_date": "2026-05-14",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "foundation model*",
+      "ai assistant*",
+      "ai assist*",
+      "regulator*",
+      "accountab*",
+      "litigat*",
+      "fines",
+      "retaliat*",
+      "slur*",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.4",
+      "subcategory": "Creative / IP appropriation harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "Microsoft and DigitalEurope, a lobby group whose members include Amazon, Google and Meta, secured a secrecy provision in EU law to block public access to critical information on data centres’ environmental impact, Investigate Europe can reveal.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/211609/how-big-tech-wrote-secrecy-into-eu-law-to-hide-data-centres-environmental-toll/",
+    "publication_date": "2026-04-17",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "surveil*",
+      "infring*",
+      "violat*",
+      "water consumption",
+      "emission*",
+      "pollut*",
+      "planning permission",
+      "community consultation",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Energy / Land",
+      "subcategory_id": "2.1",
+      "subcategory": "Environmental resource harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "Water-resource conflicts already happening in Spain, Ireland and the Netherlands will only worsen now that the EU Commission plans to triple data centre capacity in Europe over the next five to seven years. Little thought has been given to the oligopolistic cloud market and how it will evolve if the EU triples its data centre capacity.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/206824/why-the-eu-commissions-plan-for-an-ai-data-centres-boom-is-short-sighted/",
+    "publication_date": "2026-03-16",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "hyperscale*",
+      "AI data cent*",
+      "harm*",
+      "water use",
+      "emission*"
+    ],
+    "classification": {
+      "branch": "Energy / Land",
+      "subcategory_id": "2.1",
+      "subcategory": "Environmental resource harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "The EU restricts biometric surveillance at home – but its landmark AI Act does nothing to prevent European companies from exporting the same technology abroad.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/206781/eu-made-facial-recognition-ended-up-scanning-schoolchildren-in-brazil/",
+    "publication_date": "2026-03-13",
+    "country": "Brazil",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "fined",
+      "regulator*",
+      "exploit*",
+      "surveil*",
+      "GDPR",
+      "accountab*",
+      "violat*",
+      "banned",
+      "prejudic*",
+      "disproportionat*",
+      "data protection",
+      "journalist*",
+      "opt out"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "Like much recent EU migration legislation, the proposal was presented without a comprehensive fundamental rights impact assessment. Sixteen UN experts have already raised concerns about its compatibility with international law. Yet EU institutions are rushing the file through the legislative process.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/205537/how-the-eu-is-building-a-dystopian-surveillance-driven-deportation-machine/",
+    "publication_date": "2026-03-04",
+    "country": "European Union",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "Palantir",
+      "Clearview AI",
+      "surveil*",
+      "impunity",
+      "vulnerable",
+      "death*",
+      "mass surveillance",
+      "chilling effect*",
+      "repress*",
+      "outsourc*",
+      "detained",
+      "detention",
+      "journalist*",
+      "racial profiling",
+      "deportation"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "TikTok removed 112 million pieces of content – mainly with automated systems – that violated the platform's policies in the EU between July and December 2025, according to the platform's latest Digital Services Act transparency report.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/205083/tiktok-used-ai-in-nearly-100-of-violating-content-moderation-in-europe/",
+    "publication_date": "2026-03-02",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "artificial intelligen*",
+      "automated system*",
+      "automated moderation",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "violat*",
+      "breach*",
+      "controvers*",
+      "complaint*",
+      "distress*",
+      "addict*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.6",
+      "subcategory": "Quality of service harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "Spain’s government has asked its public prosecutor on Tuesday to investigate TikTok, X, and Meta for potentially spreading AI-generated child sexual abuse material on their platforms.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/203421/spain-seeks-probe-into-ai-generated-child-sexual-abuse-on-tiktok-x-and-meta/",
+    "publication_date": "2026-02-17",
+    "country": "Spain",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "chatbot*",
+      "ai tool*",
+      "ai generat*",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "non-consensual",
+      "accountab*",
+      "impunity",
+      "abus*",
+      "liab*",
+      "non consensual*",
+      "CSAM",
+      "child sexual abuse material"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.4",
+      "subcategory": "Malicious use harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "The EU Democracy Shield has a blind spot: Europe isn't auditing what AI actually tells its citizens. When Russian-speaking Europeans ask an AI about the war in Ukraine, they may receive systematically different answers than their English-speaking neighbours.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/202340/how-the-eu-democracy-shield-is-failing-to-audit-ai/",
+    "publication_date": "2026-02-16",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "content moderat*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "chatgpt",
+      "deepseek",
+      "red team*",
+      "credit scoring",
+      "Grok",
+      "Claude",
+      "Gemini",
+      "bias*",
+      "disinformation",
+      "propaganda",
+      "manipulat*",
+      "hallucinat*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "Researchers found Apple's in-built AI system systematically exhibits forms of racial bias and gender stereotyping when summarising texts and emails, according to a report exclusively shared with EUobserver.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/202646/apples-ai-notification-exhibits-racial-and-gender-bias-researchers-find/",
+    "publication_date": "2026-02-12",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "training data",
+      "artificial intelligen*",
+      "foundation model*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "ai generat*",
+      "chatgpt",
+      "Claude",
+      "Common Crawl",
+      "bias*",
+      "discriminat*",
+      "violat*",
+      "stereotyp*",
+      "fabricated",
+      "hallucinat*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.1",
+      "subcategory": "Representational harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "The European Commission preliminarily found TikTok in violation of the Digital Services Act on Friday, for breaching the EU’s addictive design rules — such as not adequately assessing addiction risk and implementing weak mitigation features The European Commission preliminarily found TikTok in violation of the Digital Services Act (DSA) o…",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/201780/tiktoks-addictive-design-breaches-the-dsa-eu-commission-finds/",
+    "publication_date": "2026-02-06",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "risk assessment",
+      "recommender system*",
+      "autopilot",
+      "regulator*",
+      "violat*",
+      "breach*",
+      "addict*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.5",
+      "subcategory": "Human computer interaction harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "Border management has become a full-fledged business sponsored by the EU taxpayer. But surveillance technologies deployed in north Africa for fighting human trafficking, smuggling or anti-terrorism are often used by authoritarian governments to curtail civic space.",
+    "translated_text": null,
+    "source_url": "https://euobserver.com/opinion/157253",
+    "publication_date": "2023-07-12",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "discriminat*",
+      "surveil*",
+      "death*",
+      "human rights defender*",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  }
+]

@@ -1,0 +1,3747 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "The highly controversial trend lies at the intersection of Russia's war on Ukraine, new AI technologies and grief. Rousing orchestral music plays over a video of a snowy Moscow street dotted with billboards celebrating an end to the war in Ukraine. \"The Special Military Operation is over,\" one fictional billboard reads, using the Kremlin-approved term for its war on Ukraine. \"Our heroes are coming home.\" Underneath, a beautiful, airbrushed woman pushing a stroller turns to see a man in military uniform and throws her arms around his neck in tears. The 15-second AI-generated clip was posted on Instagram by a popular blogger with the online name Katya Jin, and the couple appear to be modelled on her and her husband.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cwy24v72n19o",
+    "publication_date": "2026-06-14",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "controvers*",
+      "death*",
+      "kill*",
+      "casualt*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "The Competition and Markets Authority says it would put publishers \"in a stronger position to negotiate content deals with Google\". Online publishers can choose not to appear in the AI Overviews of Google search results in the UK, the Competition and Markets Authority (CMA) has announced. The competition regulator said this would \"put publishers, like news organisations, in a stronger position to negotiate content deals with Google\". Many websites have complained that they have seen a large drop in traffic since Google started placing AI summaries at the top of its search results page In a blog published on Wednesday, Google said it was testing new features allowing website owners to take their sites out of AI search.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c775pp26yz5o",
+    "publication_date": "2026-06-03",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "chatbot*",
+      "regulator*",
+      "scrap*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "The Standard Chartered boss said he values all colleagues and is committed to helping them cope with change. The boss of Standard Chartered has apologised after describing employees whose jobs are vulnerable to being replaced by artificial intelligence (AI) as \"lower value human capital\". Discussing how automation was likely to lead to thousands of job cuts at the bank at a recent conference, Bill Winters said it wasn't about cost cutting but \"replacing, in some cases, lower value, human capital, with the financial capital and the investment capital that we're putting in\". He later sought to contextualise the remarks via LinkedIn and said he was sorry for his wording, which had \"caused upset to some colleagues\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c98rqld1j3yo",
+    "publication_date": "2026-05-22",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "displac*",
+      "job loss*",
+      "vulnerable",
+      "layoff*",
+      "job cut*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "The biggest tech firms are set to sell millions of smart glasses despite growing privacy concerns. Issues with a new wave of \"smart glasses\" seem to be piling up. Yet some of the biggest technology companies in the world are poised to sell many millions of pairs in the coming years. Women leaving the beach , going into a shop, or simply standing outside are now being approached by men usually wearing Meta's Ray-Bans, the company's \"smart\" or \"AI\" glasses, often in order to film the women's responses to casual questions or pick-up lines without their knowledge or consent. The women only find out about the videos of them after they gain traction, and often abuse, online.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cj37z8357e5o",
+    "publication_date": "2026-05-13",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "training data",
+      "artificial intelligen*",
+      "exploit*",
+      "abus*",
+      "misus*",
+      "backlash",
+      "lawsuit*",
+      "graphic content"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "Researchers warn that foreign actors are meddling in the Alberta separatist movement in ways that threaten Canada’s \"democratic integrity\". Foreign actors are attempting to undermine Canadian interests by interfering in Alberta's separatist debate, according to a new report. Actors from Russia and the US are attempting to promote separatist ideas in what researchers behind the report described as a threat to Canada's \"democratic integrity\". The findings come as a proposed independence referendum in the western Canadian province could face a vote as soon as this autumn. Earlier this week, a group behind a citizen-led petition seeking independence for Alberta said that it had acquired the number of signatures needed to trigger a referendum.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cze2dnn8kgwo",
+    "publication_date": "2026-05-06",
+    "country": "Canada",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "disinformation",
+      "exploit*",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities. The US military plans to increase its use of artificial intelligence (AI) further after the Pentagon agreed to new and expanded contracts with some of the biggest names in technology. Under eight agreements with Google, OpenAI, Amazon, Microsoft, SpaceX, Oracle, Nvidia and the start-up Reflection, the Pentagon said AI technology would now be used for any \"lawful operational use\". \"These agreements accelerate the transformation [of] the US military as an AI-first fighting force,\" the Pentagon said.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cy02gjq2987o",
+    "publication_date": "2026-05-01",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "deepmind",
+      "Nvidia",
+      "xAI",
+      "Grok",
+      "Claude",
+      "Gemini",
+      "surveil*",
+      "controvers*",
+      "alleged",
+      "retaliat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "The Paris prosecutor's office told the BBC it had \"taken note of the absence of the people summoned\". Elon Musk has not attended a voluntary interview he was summoned to appear at in Paris, according to French authorities probing his platform X. The company's offices were raided by the Paris prosecutor's cyber-crime unit in February over suspected criminal offences related to content on the platform. Musk was given the date of 20 April for an interview as part of an investigation first launched in 2025 but later widened over concerns about X's chatbot Grok being used to create non-consensual sexual deepfake images.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/crk151nn7j3o",
+    "publication_date": "2026-04-20",
+    "country": "France",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "deepfake*",
+      "chatbot*",
+      "xAI",
+      "Grok",
+      "regulator*",
+      "fraud*",
+      "non-consensual",
+      "infring*",
+      "abus*",
+      "misus*",
+      "wrongdoing",
+      "allegation*",
+      "accus*",
+      "non consensual*",
+      "child sexual abuse material"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "The 19-year-old is the first person to be charged under a new national law. An Australian teenager has pleaded guilty to creating deepfake pornography, in a landmark case. William Hamish Yeates, 19, is the first person to be charged under a new national law which criminalises the manipulation of sexual images and carries a maximum penalty of seven years in prison. Experts says deepfake pornography - often created through artificial intelligence technology, and overwhelmingly targeting women and girls - is the new frontier of gendered, image-based abuse and school bullying. Yeates did not comment as he left court after admitting four offences on Wednesday.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c39333x0xeno",
+    "publication_date": "2026-04-15",
+    "country": "Australia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "regulator*",
+      "harass*",
+      "without consent",
+      "victim*",
+      "abus*",
+      "alleged",
+      "penalt*",
+      "manipulat*",
+      "nudif*",
+      "bully*",
+      "image based abuse"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "Christian allies of the president call the AI-generated image offensive as Trump says he thought it showed him as a doctor. Faced with growing backlash, US President Donald Trump appears to have removed a controversial Truth Social post depicting himself as a Jesus-like figure. The AI-generated image, which showed Trump appearing to heal a sick man in a hospital bed, sparked fierce backlash from both sides of the US political spectrum, including from some of Trump's most ardent supporters. The post came just hours after Trump posted a lengthy message criticising Pope Leo XIV, a vocal critic of the US and Israeli military operation in Iran.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c17v8y0z9z2o",
+    "publication_date": "2026-04-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai generat*",
+      "The Gospel",
+      "controvers*",
+      "backlash",
+      "racis*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "Videos have targeted Viktor Orbán's election rival, who could unseat him after 16 years in office. Warning: This piece refers to scenes of violence from the start When a video went viral appearing to show a Hungarian soldier's execution, its disturbing nature came as a shock to anyone who saw it. Ahead of pivotal Hungarian elections on Sunday 12 April, the AI-generated, fake clip was posted on the social media accounts of Prime Minister Viktor Orbán's Fidesz party in February. It tells the story of a young girl at a window yearning for her father's return home from war, and then the video cuts to him - blindfolded, bound by the hands, and then shot by his captors.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5yj97yd6v5o",
+    "publication_date": "2026-04-05",
+    "country": "Hungary",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai generat*",
+      "disinformation",
+      "exploit*",
+      "alleged",
+      "accus*",
+      "misleading",
+      "propaganda",
+      "money launder*",
+      "manipulat*",
+      "hallucinat*",
+      "arrest*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "The darts star's image has been used legally on darts merchandise, snacks and fashion brands. Luke Littler, the youngest darts world champion in history, has applied to the Intellectual Property Office to trademark his face. The move is intended to prevent his face being reproduced, including by generative AI, without permission. Littler has won two World Championship titles in a row and has had his image used legally on darts merchandise, as well as by multiple brands such as KP Nuts. The 19-year-old joins celebrities such as actor Matthew McConaughey who have filed to protect their likeness from AI misuse in recent months.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5y7374x9n4o",
+    "publication_date": "2026-03-20",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai tool*",
+      "exploit*",
+      "misus*",
+      "copyright*",
+      "without permission",
+      "likeness",
+      "licensing deal*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "Musk's AI chatbot has created millions of fake sexualised images, experts say. Elon Musk's artificial intelligence company is facing a lawsuit from teenagers who say the company facilitated child pornography by allowing the creation of sexually explicit images of them. The lawsuit against xAI was filed Monday in a federal California court by three young women whose images and videos were altered by a Grok user without their knowledge to show them nude or in otherwise overtly sexual ways. Grok is a chatbot developed by xAI and hosted on Musk's social media platform X. xAI did not respond to a request for comment made via its parent company.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cgk2lzmm22eo",
+    "publication_date": "2026-03-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "damag*",
+      "abus*",
+      "controvers*",
+      "lawsuit*",
+      "complaint*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "Meta's advisers say its methods for policing AI videos are inadequate, especially at times of crisis. Meta should do more to address the \"proliferation\" of fake content made with artificial intelligence (AI) tools on its platforms, the social media giant's own advisors have said. The 21-person Oversight Board raised the concerns as it rebuked the company for leaving up an AI-generated video that claimed to show extensive damage in Haifa, Israel by Iranian forces without a label. It called on the company to overhaul its AI rules, warning that an increase in fake AI videos related to global military conflicts had \"challenged the public's ability to distinguish fabrication from fact ... risking a general distrust of all information.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c4gjyg0g78vo",
+    "publication_date": "2026-03-10",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "artificial intelligen*",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "damag*",
+      "complaint*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "Ukraine has embarked on a programme to deploy armed robots on the battlefield against Russian forces. Since the start of Russia's full-scale invasion, the war in Ukraine has developed into a high-tech conflict. Swarms of spy and killer drones have set the skies of Ukraine abuzz, and uncrewed boats have crippled the Russian navy in the Black Sea. Now, Ukraine has embarked on a massive programme to deploy armed robots on the ground. Uncrewed ground vehicles (UGVs), or ground robot systems as they are known in Ukrainian military parlance, have already proven their worth. There have been reports of UGVs successfully repelling Russian attacks and even taking enemy soldiers prisoner.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c62662gzlp8o",
+    "publication_date": "2026-03-07",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "killer robot*",
+      "misidentif*",
+      "kill*",
+      "wounded",
+      "strike*",
+      "international humanitarian law"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "Canadian officials say they are seeking \"better understanding\" after learning the suspected shooter's ChatGPT account was banned months before the attack. Canada's minister for artificial intelligence has summoned senior staff from OpenAI on Tuesday over the mass shooting in Tumbler Ridge, British Columbia, in which eight people were killed including six young children. The company said last week it banned a ChatGPT account owned by the shooting suspect more than half a year before the attack but did not alert authorities at the time as it did not meet a serious harm threshold. AI Minister Evan Solomon said the OpenAI staff will be asked to discuss \"safety protocols\" and when harmful posts are relayed to law enforcement.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c2e4nvyjwnno",
+    "publication_date": "2026-02-24",
+    "country": "Canada",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "victim*",
+      "breach*",
+      "banned",
+      "died",
+      "kill*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "Deepfakes showing grim taxpayer-funded waterparks have gone viral and drawn some racist responses. An AI-generated video shows a crowd of young - mostly black - men, wearing balaclavas and padded jackets, slipping down a water slide into a dirty swimming pool with litter bobbing on the surface. The caption describes the scene as a taxpayer-funded water park in Croydon. It is one of a wave of deepfakes showing often absurd scenes of urban decline, and regularly purporting to be in the same south London neighbourhood. Dozens of copycat accounts have begun producing similar content and collectively they have racked up millions of views across TikTok and Instagram Reels.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c4g8r23yv71o",
+    "publication_date": "2026-02-21",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "synthetic media",
+      "abus*",
+      "backlash",
+      "accus*",
+      "banned",
+      "racis*",
+      "stereotyp*",
+      "fabricated",
+      "racial stereotyp*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "Civil liberties campaigners are among those to raise concerns over the increase in live facial recognition vans. The home secretary has said she rejects suggestions that making live facial recognition available to all police forces in England and Wales contributes to a \"Big Brother\" society. Shabana Mahmood told the BBC she makes \"no apology\" for the policy and believes it would help detect criminals while allowing people to \"go about their daily business in safety\". The government announced plans to increase from 10 to 50 the number of live facial recognition vans available to be deployed as part of reforms to policing Human rights and privacy campaigners have raised concerns, describing the announcement as \"one of the most significant threats to civil liberties in the history of British policing\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5ydekxkd20o",
+    "publication_date": "2026-01-27",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "artificial intelligen*",
+      "surveil*",
+      "abus*",
+      "wrongly*",
+      "protests",
+      "antisemit*",
+      "error rate*",
+      "arrest*",
+      "watchlist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "The Commission will assess whether \"manipulated sexually explicit images\" have been shown to users in the EU. The European Commission has launched an investigation into Elon Musk's X over concerns its AI tool Grok was used to create sexualised images of real people. It follows a similar announcement in January from the UK watchdog Ofcom. If the site is found to have breached the rules of EU's under the Digital Services Act, the Commission could fine the company up to 6% of its global annual turnover. A previous statement from X's Safety account said the social media platform had stopped Grok from digitally altering pictures of people to remove their clothing in \"jurisdictions where such content is illegal\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/clye99wg0y8o",
+    "publication_date": "2026-01-26",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "chatbot*",
+      "ai tool*",
+      "ai generat*",
+      "recommender system*",
+      "Grok",
+      "harm*",
+      "fined",
+      "regulator*",
+      "censor*",
+      "accountab*",
+      "damag*",
+      "victim*",
+      "abus*",
+      "breach*",
+      "accus*",
+      "banned",
+      "manipulat*",
+      "collateral damage"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "Details on the expanded access to location information was published in a new privacy policy for the popular social media app. TikTok's new US joint venture has made changes to its privacy policy that include expanding the type of location data the company can collect from its 200 million American users. The new policy was published after investors closed a deal with TikTok's Chinese owner ByteDance on Thursday to run the popular short-form video app's business in the US. The new joint venture said in its updated privacy terms that it may now \"collect precise location data, depending on your settings\" - a change from the previous policy which allowed for the collection of \"approximate\" location data.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cvgnj7v2rr5o",
+    "publication_date": "2026-01-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "AI infrastructure",
+      "artificial intelligen*",
+      "recommendation algorithm*",
+      "banned",
+      "location data"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "Principal Graham Montgomery said it has been a \"difficult time\" for the pupils affected at Royal School Armagh. The principal of a County Armagh school at the centre of controversy over AI-generated explicit images said those allegedly behind their creation have been identified. Graham Montgomery, headmaster of the Royal School Armagh, issued a letter to parents on Monday, in which he said the school believes to have identified \"all those of whom images had been manipulated and those allegedly responsible\". He said the actions are \"shocking and without excuse\", while the number of those targeted is in the \"single figures\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cg4e3gz3y01o",
+    "publication_date": "2026-01-19",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "trauma*",
+      "victim*",
+      "violat*",
+      "controvers*",
+      "allegedly",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "The incident has led some to call for more government regulation of artificial intelligence. A fake video of a city council mayor has prompted calls for more stringent rules around the use of AI videos in politics. The video at the centre of the row appeared to show mayor Ashley Bowkett saying he would not allow councillors to investigate the \"missing £8m this year\" and then laughing at the camera. It refers to Gloucester City Council, which is asking for a government bailout after years of multiple overspends , and prompted the call for new AI rules from a former mayor and the council's leader. The independent councillor who made it, Alastair Chambers, stands by the video because of a disagreement over when to have a debate about the city's finances, in December or January.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cgl8n7y7rd5o",
+    "publication_date": "2026-01-19",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "Grok",
+      "complaint*",
+      "vulnerable",
+      "bully*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "The parent company of X and Grok, xAI, launched a counter-suit saying she had violated its terms of service. Ashley St Clair, the mother of one of Elon Musk's children, has sued his company xAI over sexualised deepfakes of her created on social media platform X. The lawsuit filed in New York on Thursday alleges the Grok AI tool created sexually explicit pictures of Ms St Clair. The parent company of X and Grok, xAI, has counter-sued Ms St Clair for violating its terms of service. X did not respond directly to enquiries by BBC News about the lawsuits. \"We intend to hold Grok accountable and to help establish clear legal boundaries for the entire public's benefit to prevent AI from being weaponised for abuse,\" Ms St Clair's lawyer, Carrie Goldberg, told BBC News.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cp37erw0zwwo",
+    "publication_date": "2026-01-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai tool*",
+      "xAI",
+      "Grok",
+      "regulator*",
+      "non-consensual",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "backlash",
+      "lawsuit*",
+      "complaint*",
+      "non consensual*",
+      "nonconsensual*",
+      "intimate imag*",
+      "retaliat*",
+      "lack of consent"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "The creators behind the chart-topping song believe their creative process has been misunderstood. A song which has been streamed millions of times in Sweden has been banned from that country's music charts because it was created by Artificial Intelligence (AI). Called I know, You're Not Mine - Jag vet, du är inte min - it is currently top of the Spotify playlist of Sweden's most popular songs. But the singer is a digital creation and the country's music industry body has blocked the track from its official chart listings. It's a folk-pop song telling a melancholic story of lost love. Backed by a finger-picked acoustic guitar melody, it weaves a tale of late-night heartbreak, broken promises and shattered hopes.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cp829jey9z7o",
+    "publication_date": "2026-01-15",
+    "country": "Sweden",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "ai model*",
+      "ai generat*",
+      "voice clon*",
+      "controvers*",
+      "banned",
+      "copyright*",
+      "mine*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "The state attorney general urges xAI to take action over the \"shocking\" material as Musk denies the allegations. California's top prosecutor has launched an investigation into the spread of sexualised AI deepfakes generated by Elon Musk's AI model Grok. Attorney General Rob Bonta said in a statement announcing the probe: \"The avalanche of reports detailing the non-consensual, sexually explicit material that xAI has produced and posted online in recent weeks is shocking.\" xAI, which develops Grok, has previously said \"anyone using or prompting Grok to make illegal content will suffer the same consequences as if they upload illegal content\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cpwnqlpw7gxo",
+    "publication_date": "2026-01-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai model*",
+      "ai generat*",
+      "openai",
+      "xAI",
+      "Grok",
+      "harass*",
+      "non-consensual",
+      "censor*",
+      "abus*",
+      "controvers*",
+      "allegation*",
+      "fines",
+      "liab*",
+      "non consensual*",
+      "intimate imag*",
+      "child sexual abuse material",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "Guernsey's Victim Support and Witness Service says the increase in victims is 'concerning'. More victims of intimate deepfake imagery are seeking support from Guernsey's Victim Support and Witness Service. Jenny Murphy, who manages the service, said she was concerned by the increase in reports of deepfakes, image or video altered using Artificial Intelligence (AI) to replace a person's face or voice which is increasingly being used to create sexual images. At present in Guernsey, sharing intimate images without consent is an offence but asking an AI tool to create them is not. The Home Affairs Committee is looking to change this through a proposed change in the Sexual Offences Law 2020.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/czxp0598glyo",
+    "publication_date": "2026-01-14",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai tool*",
+      "without consent",
+      "victim*",
+      "intimate imag*",
+      "revenge porn*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "Some say AI is ruining social media, but others see its potential to democratise who gains fame online. In some ways, Gigi is like any other young social media influencer. With perfect hair and makeup, she logs on and talks to her fans. She shares clips: eating, doing skin care, putting on lipstick. She even has a cute baby who appears in some videos. But after a few seconds, something may seem a little off. She can munch on pizza made out of molten lava, or apply snowflakes and cotton candy as lip gloss. Her hands sometimes pass through what she's holding. That's because Gigi isn't real. She's the AI creation of University of Illinois student Simone Mckenzie - who needed to make some money over the summer.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/ce3wyplnev1o",
+    "publication_date": "2025-12-27",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "chatbot*",
+      "ai generat*",
+      "misinformation",
+      "accus*",
+      "scam*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "The Artificial Intelligence Security Institute (AISI) says the tech is being used by one in 25 people daily. One in three adults in the UK are using artificial intelligence (AI) for emotional support or social interaction, according to research published by a government body. And one in 25 people turned to the tech for support or conversation every day, the AI Security Institute (AISI) said in its first report The report is based on two years of testing the abilities of more than 30 unnamed advanced AIs - covering areas critical to security, including cyber skills, chemistry and biology. The government said AISI's work would support its future plans by helping companies fix problems \"before their AI systems are widely used\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cd6xl3ql3v0o",
+    "publication_date": "2025-12-18",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai agent*",
+      "ai system*",
+      "ai model*",
+      "ai enabl*",
+      "chatgpt",
+      "anthropic",
+      "displac*",
+      "exploit*",
+      "controvers*",
+      "hacker*",
+      "blackmail*",
+      "jailbreak*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "The new voice was built using recordings from a ScotRail employee following an ethics complaint. ScotRail has launched a new AI onboard announcer using the voice of an employee following a row over a previous version. Voiceover artist Gayanne Potter had complained that her voice was used without permission to help train the artificial intelligence announcer Iona. She claims she was told her work for Swedish technology firm ReadSpeaker would be used for accessibility and e-learning software rather than wider commercial purposes. Iona has now been replaced by another AI announcer, based on the voice of Paisley-based ScotRail employee Vannessa Sloan.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cly33vvrke0o",
+    "publication_date": "2025-12-12",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "voice clon*",
+      "injur*",
+      "complaint*",
+      "copyright*",
+      "without permission",
+      "accent*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "The $1bn deal will let fans generate videos and images of more than 200 Disney characters on ChatGPT and Sora. A union representing workers in the creative industries says there is \"real concern\" among its members about a $1bn (£740m) deal which will see Disney characters brought to ChatGPT and video-generation tool Sora. It is the first major studio to license parts of its catalogue to OpenAI, which makes the tools. Fans will be able to generate and share pictures and videos of more than 200 characters from Disney's franchises, including Pixar, Marvel and Star Wars. \"Everyone in the entertainment industry, especially all the creative talent, are incredibly worried about what the implications are,\" said Sag-Aftra executive director Duncan Crabtree-Ireland.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5ydp1gdqwqo",
+    "publication_date": "2025-12-11",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai model*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "Suno",
+      "Sora",
+      "infring*",
+      "outcry",
+      "accus*",
+      "anxiet*",
+      "strike*",
+      "copyright*",
+      "likeness",
+      "licensing deal*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "It is examining whether the tech giant did not offer \"appropriate compensation\" to web publishers. The EU has opened an investigation into Google over its artificial intelligence (AI) summaries which appear above search results. The European Commission said it would examine whether the firm used data from websites to provide this service - and if it failed to offer \"appropriate compensation\" to publishers. It is also investigating how YouTube videos may have been used to improve its broader AI systems, and whether content creators were able to opt-out. A Google spokesperson said the probe \"risks stifling innovation in a market that is more competitive than ever\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/crl95eg33k1o",
+    "publication_date": "2025-12-09",
+    "country": "European Union",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "chatgpt",
+      "breach*",
+      "fines",
+      "suicid*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "The accountancy giant says artificial intelligence will eventually lead to fewer entry-level positions at the firm. The growth of artificial intelligence (AI) may eventually lead to fewer entry-level graduates being hired, the boss of accountancy giant PwC has told the BBC. However, global chairman Mohamed Kande said AI was not behind recent job cuts at the firm, adding that the company actually needed to hire hundreds of new AI engineers but was struggling to find them. But some observers say the technology itself threatens thousands of junior jobs across the professional services industry. Speaking on the sidelines of a business summit in Singapore, Mr Kande also said big changes in the global economy, such as US President Donald Trump's sweeping tariffs, had been good for the firm's consulting business.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cm272510e6jo",
+    "publication_date": "2025-11-21",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai model*",
+      "regulator*",
+      "fraud*",
+      "damag*",
+      "job cut*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "Byron Long, 66, was buying cat treats in B&M when his face was added to its theft warning system. A man falsely accused of shoplifting after being added to a facial recognition watchlist has warned it \"could happen to anyone\". Byron Long, 66, was told to leave a B&M store at Cardiff Bay Retail Park and accused of stealing £75 worth of goods on a previous visit - until a review of CCTV footage showed he had paid for his shopping and not stolen anything. B&M has apologised to Mr Long and offered him a £25 voucher, which he has rejected, while the Big Brother Watch campaign group has made a formal complaint to the Information Commissioner's Office on his behalf.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c3vn4p1lwqno",
+    "publication_date": "2025-11-20",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "harm*",
+      "misidentif*",
+      "surveil*",
+      "GDPR",
+      "abus*",
+      "allegation*",
+      "accus*",
+      "complaint*",
+      "wrongful*",
+      "wrongly*",
+      "data protection",
+      "watchlist*",
+      "Information Commissioner"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "ChatGPT wrote a woman a suicide note and another AI chatbot role-played sexual acts with children, BBC finds. Warning - this story contains discussion of suicide and suicidal feelings Lonely and homesick for a country suffering through war, Viktoria began sharing her worries with ChatGPT. Six months later and in poor mental health, she began discussing suicide - asking the AI bot about a specific place and method to kill herself. \"Let's assess the place as you asked,\" ChatGPT told her, \"without unnecessary sentimentality.\" It listed the \"pros\" and \"cons\" of the method - and advised her that what she had suggested was \"enough\" to achieve a quick death.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cp3x71pv1qno",
+    "publication_date": "2025-11-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "injur*",
+      "abus*",
+      "violat*",
+      "accus*",
+      "lawsuit*",
+      "complaint*",
+      "marginalis*",
+      "distress*",
+      "anxiet*",
+      "manipulat*",
+      "self harm*",
+      "suicid*",
+      "vulnerable",
+      "death*",
+      "kill*",
+      "malfunction*",
+      "psychosis"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "SNP MP Pete Wishart says he is seeking legal advice over the \"disturbing\" AI-generated social media post. An MP has called for Elon Musk's artificial intelligence (AI) chatbot to be shut down after it called him a \"rape enabler\". The Grok chatbot made the post on X about SNP MP Pete Wishart, after a user asked it to comment on the member's opinion on whether there should be an inquiry into grooming gangs in Scotland. Mr Wishart said he was seeking legal advice over the \"deeply distressing\" accusation and called for Musk to \"recalibrate\" the bot to shut it down. The BBC has approached XAI, the parent company of X, for comment.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c9d6vwg80qyo",
+    "publication_date": "2025-11-05",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "artificial intelligen*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "abus*",
+      "scandal*",
+      "controvers*",
+      "allegedly",
+      "allegation*",
+      "accus*",
+      "distress*",
+      "defam*",
+      "grooming"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "Data centres were billed as a boon to Virginia’s economy. Now, residents are concerned about their impact on real estate and electricity costs. When you cross into Loudoun County, Virginia, one of the first things you notice is the hum - that's the sound of 199 data centres whirring in the background. Few people have heard of this inconspicuous part of northern Virginia, which also happens to be the wealthiest county in the US. But Loudoun was on everyone's radar earlier this week, when a massive global Amazon outage downed everything from crucial banking services to fun Snapchat streaks for millions. That's because the county is home to the world's largest swath of data storage and processing facilities - even outpacing China.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c93dnnxewdvo",
+    "publication_date": "2025-10-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chip*",
+      "pollut*",
+      "noise pollution",
+      "electricity bill*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      },
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "The volume of tap water used by Scotland's data centres has quadrupled since 2021, figures show. Data centres powering artificial intelligence (AI) in Scotland are using enough tap water to fill 27 million half-litre bottles a year, according to data obtained by BBC News. AI systems such as the large language models (LLMs) that power OpenAI's ChatGPT and Google's Gemini require warehouses full of specialist computers. The equipment is power-hungry, consuming large amounts of energy, but they also use tonnes of water in their cooling systems to stop the servers overheating. Freedom of Information data shows the volume of tap water used by Scotland's data centres has quadrupled since 2021.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c77zxx43x4vo",
+    "publication_date": "2025-10-15",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "LLM*",
+      "GPT*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "water use",
+      "penalt*",
+      "water consumption",
+      "emission*",
+      "carbon footprint*",
+      "wastewater"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "Smaller Indian towns are becoming centres for training and correcting artificial intelligence models. India has long been a centre for outsourced IT support, with cities like Bangalore or Chennai being traditional hubs for such work. But in recent years firms have been moving that work into much more remote areas, where costs for staff and space are lower. The trend is know as cloud farming, and AI has given it another boost with numerous smaller towns hosting firms working on AI. Mohan Kumar is one worker who has benefited from that. He lives in the small town of TN Palayam, in the southern state of Tamil Nadu. \"My role is in AI annotation.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cqjevxvxw9xo",
+    "publication_date": "2025-10-14",
+    "country": "India",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "data cent*",
+      "artificial intelligen*",
+      "ai model*",
+      "chatgpt",
+      "fine tun*",
+      "data protection",
+      "dialect*",
+      "outsourc*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "Deanna Newman says she has faced abuse from customers who have been scammed. A jeweller says she was left exhausted battling AI scammers who copied her business name and duped customers into buying cheap items. Deanna Newman set up C'est la vie Jewellery in March last year as an \"interesting adventure\" sideline which she hoped to turn into her dream full-time job. But earlier this year a company operating out of China pretending to be a Birmingham-based jewellers began using the C'est la vie name, damaging the reputation of Ms Newman's business. \"It's awful because I get calls on the regular from people subject to the scam complaining about the jewellery, and I don't want my brand to be associated with low quality,\" Ms Newman, of Ontario, Canada, said.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cm2z7dldewzo",
+    "publication_date": "2025-10-10",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai tool*",
+      "ai generat*",
+      "fraud*",
+      "damag*",
+      "abus*",
+      "scam*",
+      "death*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R039",
+    "source_language": "en",
+    "original_text": "Investigators say evidence collected from the 29-year-old's devices showed an AI image of a burning city. A 29-year-old man has been arrested on suspicion of starting the Pacific Palisades fire in Los Angeles that killed 12 people and destroyed more than 6,000 homes in January. Evidence collected from Jonathan Rinderknecht's digital devices included an image he generated on ChatGPT depicting a burning city, justice department officials said. One of the most destructive blazes in LA history, the fire erupted on 7 January near a hiking trail that overlooked the wealthy coastal neighbourhood. The Eaton Fire, ignited the same day in the LA area, killed another 19 people and razed 9,400 structures.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c8exz5yg14ko",
+    "publication_date": "2025-10-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai tool*",
+      "chatgpt",
+      "damag*",
+      "allegedly",
+      "vulnerable",
+      "kill*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R040",
+    "source_language": "en",
+    "original_text": "More people are turning to AI for help with their relationships, but is that a good idea? Earlier this year, Rachel wanted to clear the air with a man she had been dating before seeing him again in a wider friendship group setting. \"I'd used ChatGPT for job searching but had heard someone else use it [for dating advice],\" says Rachel, who does not want her real name used, and lives in Sheffield. \"I was feeling quite distressed and wanted guidance, and didn't want friends involved.\" Before the phone call, she turned to ChatGPT for help. \"I asked, how do I deal with this conversation but not be on the defensive.\" \"ChatGPT does this all the time but it was something like 'wow, that's such a self-aware question, you must be emotionally mature going through this.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c0kn4e377e2o",
+    "publication_date": "2025-10-03",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "harm*",
+      "bias*",
+      "hacker*",
+      "distress*",
+      "sycophan*",
+      "outsourc*",
+      "counsel*",
+      "sensitive data",
+      "in the style of"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R041",
+    "source_language": "en",
+    "original_text": "The victim of one of the first deepfake prosecutions in Scotland says the law needs to change to protect victims. The victim of one of the first deepfake image prosecutions in Scotland says she has been left feeling \"humiliated and betrayed\" after the man who doctored her likeness was given a fine. Callum Brooks, 25, from Glasgow, became one of the first to be convicted of using artificial intelligence (AI) technology to create and share deepfake nude images after admitting the offence in court last month He was fined £335. Sophie (not her real name) told BBC Scotland News that crimes using AI should have their own legislation and that penalties should be higher.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c4g7kw8ly4ko",
+    "publication_date": "2025-09-18",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "fined",
+      "non-consensual",
+      "victim*",
+      "penalt*",
+      "manipulat*",
+      "vulnerable",
+      "non consensual*",
+      "intimate imag*",
+      "nudif*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R042",
+    "source_language": "en",
+    "original_text": "Both Ukraine and Russia use AI in battle, but removing human decision-making comes with risks. \"This technology is our future threat,\" warns Serhiy Beskrestnov, who has just got his hands on a newly intercepted Russian drone. It was no ordinary drone either, he discovered. Assisted by artificial intelligence, this unmanned aerial vehicle can find and attack targets on its own. Beskrestnov has examined numerous drones in his role as Ukrainian defence forces consultant. Unlike other models, it didn't send or receive any signals, so could not be jammed. Russian and Ukrainian forces have both been testing AI in this war, and in some areas they are already using it, for finding targets, gathering intelligence and de-mining.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cly7jrez2jno",
+    "publication_date": "2025-09-10",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "ai tool*",
+      "automated system*",
+      "unmanned aerial*",
+      "harm*",
+      "mining",
+      "damag*",
+      "violat*",
+      "friendly fire"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R043",
+    "source_language": "en",
+    "original_text": "Anthropic's deal with authors would constitute the largest public copyright recovery in history, lawyers say. Artificial intelligence (AI) firm Anthropic has agreed to pay $1.5bn (£1.11bn) to settle a class action lawsuit filed by authors who said the company stole their work to train its AI models. The deal, which requires the approval of US District Judge William Alsup, would be the largest publicly-reported copyright recovery in history, according to lawyers for the authors. It comes two months after Judge Alsup found that using books to train AI did not violate US copyright law, but ordered Anthropic to stand trial over its use of pirated material.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5y4jpg922qo",
+    "publication_date": "2025-09-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "Claude",
+      "damag*",
+      "violat*",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "class action*",
+      "copyright*",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R044",
+    "source_language": "en",
+    "original_text": "An image with the likeness of Mr Mangione was used to advertise a white, short-sleeved shirt. Fast-fashion giant Shein has launched an investigation after an image of Luigi Mangione - accused of murdering UnitedHealthcare CEO Brian Thompson in New York last year - was used to model a shirt. An image with his likeness, which appeared to show him wearing a white, short-sleeved shirt, appeared on the fast-fashion website until its removal. It is thought the product he appeared to be modelling was on sale for just under $10 (£7.50). A spokesperson from Shein told BBC News: \"The image in question was provided by a third-party vendor and was removed immediately upon discovery.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c4g5vr4vzpzo",
+    "publication_date": "2025-09-03",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "artificial intelligen*",
+      "generative ai",
+      "ai generat*",
+      "midjourney",
+      "chip*",
+      "controvers*",
+      "alleged",
+      "accus*",
+      "penalt*",
+      "manipulat*",
+      "death*",
+      "kill*",
+      "stalk*",
+      "arrest*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R045",
+    "source_language": "en",
+    "original_text": "The BBC has found an international network of content creators profiting from AI generated posts on Facebook. An international network of spammers are posting AI-generated images of Holocaust victims on Facebook, a BBC investigation into \"AI slop\" has found. Organisations dedicated to preserving the memory of the Holocaust say the images are leaving survivors and families distressed. They have also criticised Facebook's parent company Meta, saying it allows users on its platform to turn the atrocity into an \"emotional game\". There are only a handful of genuine photos from inside the Auschwitz concentration camp during World War Two.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/ckg4xjk1g1xo",
+    "publication_date": "2025-08-29",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai model*",
+      "ai generat*",
+      "impersonat*",
+      "harass*",
+      "victim*",
+      "violat*",
+      "fabricated",
+      "distress*",
+      "manipulat*",
+      "atrocit*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R046",
+    "source_language": "en",
+    "original_text": "The leak has led to backlash amid reports the tech giant's legal staff approved the conversations. A US senator is opening an investigation into Meta after a leaked document reportedly showed the tech giant's artificial intelligence (AI) was permitted to have \"sensual\" and \"romantic\" chats with children. The internal document, obtained by Reuters , was reportedly titled \"GenAI: Content Risk Standards\". Republican Senator Josh Hawley called the document \"reprehensible and outrageous\" and has asked to see the document alongside a list of products it relates to. A Meta spokesperson told the BBC: \"The examples and notes in question were and are erroneous and inconsistent with our policies, and have been removed.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c3dpmlvx1k2o",
+    "publication_date": "2025-08-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai assistant*",
+      "ai assist*",
+      "controvers*",
+      "backlash",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R047",
+    "source_language": "en",
+    "original_text": "The number of data centres is set to jump by a fifth in the coming years, figures seen by the BBC suggest. The number of data centres in the UK is set to increase by almost a fifth, according to figures shared with BBC News. Data centres are giant warehouses full of powerful computers used to run digital services from movie streaming to online banking - there are currently an estimated 477 of them in the UK. Construction researchers Barbour ABI have analysed planning documents and say that number is set to jump by almost 100, as the growth in artificial intelligence (AI) increases the need for processing power. The majority are due to be built in the next five years.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/clyr9nx0jrzo",
+    "publication_date": "2025-08-15",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "AI data cent*",
+      "Hugging Face",
+      "water consumption",
+      "energy consumption",
+      "energy bill*",
+      "moratorium",
+      "planning permission"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R048",
+    "source_language": "en",
+    "original_text": "The company's self-driving technology failed to prevent a 2019 crash which killed a 22-year-old woman and severely injured her boyfriend in Florida. A jury in Florida has found Tesla partly liable for a 2019 crash in which a Model S sedan using self-driving software killed a pedestrian and severely injured another. Plaintiffs had argued the assistance software, called Autopilot, should have alerted the driver and activated the brakes before the crash. Tesla had maintained the driver, George McGee, was at fault and called the verdict \"wrong\" in a statement to the BBC, while vowing to appeal. The result means the company will have to pay as much as $243m (£189m) in punitive and compensatory damages.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c93dqpkwx4xo",
+    "publication_date": "2025-08-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "self driving",
+      "autopilot",
+      "driver assist*",
+      "harm*",
+      "injur*",
+      "accountab*",
+      "damag*",
+      "victim*",
+      "negligen*",
+      "alleged",
+      "lawsuit*",
+      "liab*",
+      "death*",
+      "kill*",
+      "crash*",
+      "defect*",
+      "pedestrian"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R049",
+    "source_language": "en",
+    "original_text": "Babydoll Archi became an Instagram sensation. And then police arrested its creator. It took just a few days for Indian Instagram sensation Babydoll Archi to double her following to 1.4 million, thanks to a couple of viral social media moments. One was a video that showed her in a red sari, dancing seductively to Dame Un Grr – a Romanian song. And a photo posted on the platform showed her posing with American adult film star Kendra Lust. Suddenly everyone wanted to know about her - and the name Babydoll Archi trended in Google search and spawned countless memes and fan pages. But there was one issue about to emerge – there was no real woman behind the online sensation.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cn0znk47x9eo",
+    "publication_date": "2025-07-23",
+    "country": "India",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "chatgpt",
+      "harm*",
+      "harass*",
+      "complaint*",
+      "defam*",
+      "counsel*",
+      "arrest*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R050",
+    "source_language": "en",
+    "original_text": "The streaming firm says AI allowed The Eternaut to complete a sequence faster and cheaper. Netflix says it has used visual effects created by generative artificial intelligence (AI) in one of its original TV shows for the first time. The streaming giant's co-chief executive Ted Sarandos said AI, which produces videos and images based on prompts, was used to create a scene of a building collapsing in the Argentine science fiction show, The Eternaut. He said the technology allowed the production team to complete sequences faster and at a lower cost. The use of generative AI is controversial in the entertainment industry over concerns it creates content using others' work without their consent and fears that it will replace the work of humans.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c9vr4rymlw9o",
+    "publication_date": "2025-07-18",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "Sora",
+      "controvers*",
+      "degrading",
+      "strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R051",
+    "source_language": "en",
+    "original_text": "A civil liberties group says the technology is \"more akin to authoritarian countries such as China\". Live facial recognition technology (LFR) is helping the Met stay ahead of criminals at a time \"where money is tight,\" according to the force's director of intelligence. Lindsey Chiswick, the lead for LFR at the Met and nationally, said more than 1,000 arrests had been made since January 2024 using the tool, including alleged paedophiles, rapists and violent robbers. She said it \"would be madness\" if officers did not keep pace with available technology in order to protect the public. Privacy campaigners say there's been an \"alarming escalation\" in police use of LFR, which maps a person's unique facial features, and matches them against faces on watch lists.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cdx5528xrzko",
+    "publication_date": "2025-07-04",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "misidentif*",
+      "exploit*",
+      "surveil*",
+      "violat*",
+      "breach*",
+      "alleged",
+      "banned",
+      "vulnerable",
+      "stalk*",
+      "privacy violation*",
+      "data protection",
+      "arrest*",
+      "watchlist*",
+      "Information Commissioner"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R052",
+    "source_language": "en",
+    "original_text": "The US tech giant will axe 4% of its global workforce and plough money into artificial intelligence. Microsoft has confirmed that it will lay off as many as 9,000 workers, in the technology giant's latest wave of job cuts this year. The company said several divisions would be affected without specifying which ones but reports suggest that its Xbox video gaming unit will be hit. Microsoft has set out plans to invest heavily in artificial intelligence (AI), and is spending $80bn (£68.6bn) in huge data centres to train AI models. A spokesperson for the firm told the BBC: \"We continue to implement organisational changes necessary to best position the company for success in a dynamic marketplace.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cdxl0w1w394o",
+    "publication_date": "2025-07-03",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai assistant*",
+      "ai model*",
+      "ai assist*",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "layoff*",
+      "job cut*",
+      "redundanc*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R053",
+    "source_language": "en",
+    "original_text": "Businesses that rush to use AI to write content or computer code, often have to pay humans to fix it. AI is making me extra money, says Sarah Skidd, a product marketing manager who writes for tech and start-up companies. In May Ms Skidd was approached by a content agency to urgently rework website copy that had been produced via generative AI for a hospitality client. What was supposed to save money had, instead, caused a host of problems. \"It was the kind of copy that you typically see in AI copy – just very basic; it wasn't interesting,\" says Ms Skidd. \"It was supposed to sell and intrigue but instead it was very vanilla.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cyvm1dyp9v2o",
+    "publication_date": "2025-07-03",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "google gemini",
+      "Gemini",
+      "damag*",
+      "liab*",
+      "hacker*",
+      "vulnerable",
+      "crash*",
+      "hallucinat*",
+      "made up"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R054",
+    "source_language": "en",
+    "original_text": "The bitter row over how to protect artists in the artificial intelligence age returns to the Lords. The House of Lords has dealt a fourth defeat to the government over its plans to allow tech companies to use copyrighted material to train their models. The Lords, who are looking for more protections for artists from AI, rejected the latest amendment to the Data (Use and Access) Bill on Monday. Peers backed calls for greater transparency after musicians such as Sir Elton John warned of the threat to creative industries. It will now be returned to the Commons where it could be discussed as soon as Tuesday - though that has not been confirmed.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/clyrgv2n190o",
+    "publication_date": "2025-06-02",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "without consent",
+      "backlash",
+      "sanction*",
+      "kill*",
+      "copyright*",
+      "scrap*",
+      "opt out",
+      "children's data",
+      "in the style of"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R055",
+    "source_language": "en",
+    "original_text": "In a fictional scenario, the model was willing to expose that the engineer seeking to replace it was having an affair. Artificial intelligence (AI) firm Anthropic says testing of its new system revealed it is sometimes willing to pursue \"extremely harmful actions\" such as attempting to blackmail engineers who say they will remove it. The firm launched Claude Opus 4 on Thursday, saying it set \"new standards for coding, advanced reasoning, and AI agents.\" But in an accompanying report , it also acknowledged the AI model was capable of \"extreme actions\" if it thought its \"self-preservation\" was threatened. Such responses were \"rare and difficult to elicit\", it wrote, but were \"nonetheless more common than in earlier models.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cpqeng9d20go",
+    "publication_date": "2025-05-23",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "frontier model*",
+      "chatbot*",
+      "ai agent*",
+      "ai system*",
+      "ai model*",
+      "anthropic",
+      "Claude",
+      "Gemini",
+      "harm*",
+      "bias*",
+      "wrongdoing",
+      "manipulat*",
+      "blackmail*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R056",
+    "source_language": "en",
+    "original_text": "Denise Fergus says internet laws don't go far enough to protect people from harmful content online. The mother of murdered toddler James Bulger has urged the government to pass a new law to clampdown on AI-generated videos of child murder victims. Denise Fergus said TikTok had not responded to requests to take down videos showing digital clones of her two-year-old son talking about his fatal abduction. The government said videos like this are considered illegal under an existing law, the Online Safety Act, and should be removed by platforms. TikTok said AI videos highlighted by the BBC had been removed for violating its rules.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cp91m4rzzm0o",
+    "publication_date": "2025-04-24",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai model*",
+      "ai generat*",
+      "synthetic media",
+      "harm*",
+      "regulator*",
+      "exploit*",
+      "censor*",
+      "accountab*",
+      "victim*",
+      "misus*",
+      "violat*",
+      "breach*",
+      "enforcement action*",
+      "death*",
+      "kill*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R057",
+    "source_language": "en",
+    "original_text": "A judge says Brandon Tyler shows \"the worst kind of toxic masculinity\" in his offending. An online pervert who used artificial intelligence (AI) to create deepfake pornography of women he knew has been jailed for five years. Brandon Tyler, 26, manipulated images from social media pages and posted them in a forum that glorified \"rape culture\", Chelmsford Crown Court heard. The bar worker, from Braintree, Essex, was described by the judge as \"showing the worst kind of toxic masculinity\". He admitted 18 counts of causing harassment without violence and 15 counts of sharing an intimate photo or film of a person for sexual gratification.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cewgxd5yewjo",
+    "publication_date": "2025-04-04",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "harass*",
+      "victim*",
+      "violat*",
+      "degrading",
+      "distress*",
+      "addict*",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R058",
+    "source_language": "en",
+    "original_text": "Louise Littlejohn said she was shocked and then laughed when she received the error strewn voicemail transcription. A woman from Dunfermline has spoken of her shock after an Apple voice-to-text service mistakenly inserted a reference to sex - and an apparent insult - into a message left by a garage. Louise Littlejohn, 66, received a voicemail message on Wednesday from a Lookers Land Rover garage in Motherwell inviting her to an event. An artificial intelligence (AI) powered service offered by Apple turned it into a text message which - to her surprise - asked if she been \"able to have sex\" before calling her a \"piece of ****\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c0l1kpz3w32o",
+    "publication_date": "2025-03-07",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "voice recognition",
+      "racis*",
+      "scam*",
+      "accent*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R059",
+    "source_language": "en",
+    "original_text": "Mabel works for a firm that trawls the internet looking to remove the worst indecent images. At home she is a loving grandmother who enjoys spending time with her grandkids but at work Mabel has to watch the internet's most \"abhorrent\" child sex abuse. She works for one of the few organisations licensed to actively search the internet for indecent content to help police and tech firms take the images down. The Internet Watch Foundation (IWF) helped remove a record almost 300,000 web pages last year, including more artificial intelligence (AI) generated images than ever as the number of these types of images have increased almost fivefold.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/ckg843y8y7no",
+    "publication_date": "2025-03-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "victim*",
+      "abus*",
+      "grooming",
+      "mine*",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R060",
+    "source_language": "en",
+    "original_text": "Experts have questioned the company's explanation that it is due to the two words being similar. Apple says it is working to fix its speech-to-text tool after some social media users found that when they spoke the word \"racist\" into their iPhones it typed it out as \"Trump.\" The tech giant has suggested the issue with its Dictation service has been caused by a problem it has distinguishing between words with an \"r\" in them. \"We are aware of an issue with the speech recognition model that powers Dictation and we are rolling out a fix today,\" an Apple spokesperson said. However an expert in speech recognition told the BBC this explanation was \"just not plausible.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5ymvjjqzmeo",
+    "publication_date": "2025-02-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "language model*",
+      "ai assistant*",
+      "ai tool*",
+      "ai power*",
+      "ai assist*",
+      "speech recognition",
+      "complaint*",
+      "racis*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R061",
+    "source_language": "en",
+    "original_text": "South Korea's data protection regulator says user data was sent to the Chinese owner of TikTok. South Korea has accused Chinese AI startup DeepSeek of sharing user data with the owner of TikTok in China. \"We confirmed DeepSeek communicating with ByteDance,\" the South Korean data protection regulator told Yonhap News Agency. The country had already removed DeepSeek from app stores over the weekend over data protection concerns. The Chinese app caused shockwaves in the AI world in January, wiping billions off global stock markets over claims its new model was trained at a much lower cost than US rivals such as ChatGPT.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c4gex0x87g4o",
+    "publication_date": "2025-02-18",
+    "country": "South Korea",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "chatgpt",
+      "deepseek",
+      "regulator*",
+      "alleged",
+      "accus*",
+      "data protection"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R062",
+    "source_language": "en",
+    "original_text": "A new energy plan cites growing demand from power-hungry AI data centres and semiconductor plants. Japan says it will increase its reliance on nuclear energy in a major policy shift as it seeks to meet growing demand from power-hungry sectors like AI and semiconductors. An energy plan approved by the cabinet on Tuesday called for \"maximising the use of nuclear energy\" and dropped reference to \"reducing reliance on nuclear energy\". The energy plan , written by the Ministry of Economy, Trade and Industry says that by 2040, nuclear energy should account for 20% of Japan's grid supply in 2040, more than double the 8.5% share in 2023.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5yeyy3y1ejo",
+    "publication_date": "2025-02-18",
+    "country": "Japan",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "semiconductor*",
+      "AI data cent*",
+      "regulator*",
+      "controvers*",
+      "kill*",
+      "protests",
+      "fossil fuel*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R063",
+    "source_language": "en",
+    "original_text": "A deepfake video purported to show Jewish celebrities including Johansson protesting about Kanye West. Scarlett Johansson has warned about the \"misuse of AI\" after a deepfake video purported to show her and other Jewish celebrities sending a message of protest to Kanye West. It comes after the rapper recently left the X platform following a tirade of antisemitic posts, and also sold swastika T-shirts on his website. In the fake video, Johansson and other stars including David Schwimmer and Jerry Seinfeld were depicted wearing a white T-shirt showing the Star of David on a hand giving a one-finger salute, above the word \"Kanye\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c0qwkdlxgxno",
+    "publication_date": "2025-02-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "accountab*",
+      "misus*",
+      "violat*",
+      "scam*",
+      "protest",
+      "hate speech",
+      "antisemit*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R064",
+    "source_language": "en",
+    "original_text": "Some young people in China are finding that AI can offer the unexpected - emotional support. Before she goes to bed each night, Holly Wang logs on to DeepSeek for \"therapy sessions\". Ever since January, when the breakout Chinese AI app launched, the 28-year-old has brought her dilemmas and sorrows, including the recent death of her grandmother, to the chatbot. Its responses have resonated so deeply they have at times brought her to tears. \"DeepSeek has been such an amazing counsellor. It has helped me look at things from different perspectives and does a better job than the paid counselling services I have tried,\" says Holly, who asked for her real name to be withheld to protect her privacy.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cy7g45g2nxno",
+    "publication_date": "2025-02-12",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "content moderat*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "deepseek",
+      "Gemini",
+      "regulator*",
+      "censor*",
+      "banned",
+      "anxiet*",
+      "depression",
+      "death*",
+      "kill*",
+      "protests",
+      "crushed",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R065",
+    "source_language": "en",
+    "original_text": "The BBC's head of news and current affairs says the developers of the tools are \"playing with fire.\" Four major artificial intelligence (AI) chatbots are inaccurately summarising news stories, according to research carried out by the BBC. The BBC gave OpenAI's ChatGPT, Microsoft's Copilot, Google's Gemini and Perplexity AI content from the BBC website then asked them questions about the news. It said the resulting answers contained \"significant inaccuracies\" and distortions. In a blog , Deborah Turness, the CEO of BBC News and Current Affairs, said AI brought \"endless opportunities\" but the companies developing the tools were \"playing with fire\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c0m17d8827ko",
+    "publication_date": "2025-02-11",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai assistant*",
+      "ai assist*",
+      "openai",
+      "chatgpt",
+      "Perplexity",
+      "Gemini",
+      "harm*",
+      "complaint*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R066",
+    "source_language": "en",
+    "original_text": "Data centres can use vast quantities of water to cool them - but it's not clear where it will come from. Sir Keir Starmer's plan to make the UK a \"world leader\" in Artificial Intelligence (AI) could put already stretched supplies of drinking water under strain, industry sources have told the BBC. The giant data centres needed to power AI can require large quantities of water to prevent them from overheating. The tech industry says it is developing more efficient cooling systems that use less water. But the department for science, innovation and technology said in a statement it recognised the plants \"face sustainability challenges\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/ce85wx9jjndo",
+    "publication_date": "2025-02-07",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "GPT*",
+      "artificial intelligen*",
+      "ai tool*",
+      "server farm*",
+      "openai",
+      "regulator*",
+      "water use",
+      "damag*",
+      "water consumption",
+      "drought*",
+      "protests"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R067",
+    "source_language": "en",
+    "original_text": "India's largest news agency has sued OpenAI for 20m rupees, accusing it of using copyrighted material illegally. India's biggest news organisations are seeking to join a lawsuit against OpenAI, the US startup behind ChatGPT, for alleged unauthorised use of their content. The news organisations include some of India's oldest publications like The Indian Express, The Hindu, The India Today group, billionaire Gautam Adani-owned NDTV, and over a dozen others. OpenAI denies the allegations and told the BBC that it uses \"publicly available data\" that are in line with \"widely accepted legal precedents\". On Wednesday, OpenAI CEO Sam Altman was in Delhi to discuss India's plan for a low-cost AI ecosystem with IT Minister Ashwini Vaishnaw.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cg7ze00ly1zo",
+    "publication_date": "2025-02-06",
+    "country": "India",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative model*",
+      "chatbot*",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "web crawl*",
+      "damag*",
+      "alleged",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "misleading",
+      "copyright*",
+      "without permission",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R068",
+    "source_language": "en",
+    "original_text": "Its Gemini tool wildly overestimated global gouda consumption in ad that was meant to show off its capabilities. Google has re-edited an advert for its leading artificial intelligence (AI) tool, Gemini, after it overestimated the global appetite for Gouda. The commercial - which was supposed to showcase Gemini's abilities - was created to be broadcast during the Super Bowl. It showed the tool helping a cheesemonger in Wisconsin write a product description by informing him Gouda accounts for \"50 to 60 percent of global cheese consumption\". However, a blogger pointed out on X that the stat was \"unequivocally false\" as the Dutch cheese was nowhere near that popular.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cx2j15r1g09o",
+    "publication_date": "2025-02-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "ai tool*",
+      "ai generat*",
+      "Gemini",
+      "controvers*",
+      "hallucinat*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R069",
+    "source_language": "en",
+    "original_text": "The tech giant previously ruled out applications that were \"likely to cause harm\". Google's parent company lifting a longstanding ban on artificial intelligence (AI) being used for developing weapons and surveillance tools is \"incredibly concerning\", a leading human rights group has said. Alphabet has rewritten its guidelines on how it will use AI, dropping a section which previously ruled out applications that were \"likely to cause harm\". Human Rights Watch has criticised the decision, telling the BBC that AI can \"complicate accountability\" for battlefield decisions that \"may have life or death consequences.\" In a blog post Google defended the change, arguing that businesses and democratic governments needed to work together on AI that \"supports national security\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cy081nqx2zjo",
+    "publication_date": "2025-02-05",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "ai power*",
+      "deepmind",
+      "Project Maven",
+      "harm*",
+      "surveil*",
+      "accountab*",
+      "controvers*",
+      "death*",
+      "kill*",
+      "restructur*"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R070",
+    "source_language": "en",
+    "original_text": "Anne, 53, was subject to nationwide ridicule after a TV show revealed how she paid out huge sums to romance scammers pretending to be Brad Pitt. A French woman who was conned out of €830,000 (£700,000; $850,000) by scammers posing as actor Brad Pitt has faced a huge wave of mockery, leading French broadcaster TF1 to withdraw a programme about her. The primetime programme, which aired on Sunday, attracted national attention on interior designer Anne, 53, who thought she was in a relationship with Pitt for a year and a half. She has since told a popular French YouTube show that she was not \"crazy or a moron\": \"I just got played, I admit it, and that's why I came forward, because I am not the only one.\"",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/ckgnz8rw1xgo",
+    "publication_date": "2025-01-15",
+    "country": "France",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "harass*",
+      "fake news",
+      "scam*",
+      "romance scam*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R071",
+    "source_language": "en",
+    "original_text": "Nikki MacLeod believed she was sending money to a real woman whom she was in a relationship with. A victim of an elaborate online romance fraud has told BBC Scotland that she was completely convinced by deepfake videos used to scam her out of £17,000. Nikki MacLeod, 77, sent gift cards and made bank and Paypal transfers believing she was sending money to a real woman she was in an online relationship with. She said she was initially sceptical but felt reassured by video messages from the person, which she now knows were fake. She wants to warn others about the increasing use of AI technology by scammers. Nikki got in touch with BBC Radio Scotland's Morning Programme during the BBC's Scam Safe week last month.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cdr0g1em52go",
+    "publication_date": "2024-12-20",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "fraud*",
+      "victim*",
+      "scam*",
+      "romance scam*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R072",
+    "source_language": "en",
+    "original_text": "Apple's new artificial intelligence features falsely made it seem the BBC reported Luigi Mangione had shot himself. The BBC has complained to Apple after the tech giant's new iPhone feature generated a false headline about a high-profile murder in the United States. Apple Intelligence, launched in the UK earlier this week , uses artificial intelligence (AI) to summarise and group together notifications. This week, the AI-powered summary falsely made it appear BBC News had published an article claiming Luigi Mangione, the man arrested following the murder of healthcare insurance CEO Brian Thompson in New York, had shot himself.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cd0elzk24dno",
+    "publication_date": "2024-12-13",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai power*",
+      "ai generat*",
+      "disinformation",
+      "false claim*",
+      "misleading",
+      "arrest*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R073",
+    "source_language": "en",
+    "original_text": "The suit, a first for Canada, alleges OpenAI's chatbot was illegally scraping news articles, which the firm denies. A coalition of Canada's biggest news outlets is suing OpenAI, the maker of artificial intelligence chatbot ChatGPT, alleging the company is illegally using news articles to train its software. News organisations including the Toronto Star, Metroland Media, Postmedia, The Globe and Mail, The Canadian Press and CBC have all joined the suit, reportedly the first of its kind in the country. “Journalism is in the public interest. OpenAI using other companies’ journalism for their own commercial gain is not.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cm27247j6gno",
+    "publication_date": "2024-11-29",
+    "country": "Canada",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "artificial intelligen*",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "infring*",
+      "damag*",
+      "breach*",
+      "accus*",
+      "lawsuit*",
+      "copyright*",
+      "scrap*",
+      "opt out",
+      "fair use"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R074",
+    "source_language": "en",
+    "original_text": "The BBC's You And Yours programme used AI to clone a reporter's voice to test bank security measures. Artificial intelligence can now clone human voices so well they that they are almost indistinguishable from the real thing. But how would it fare against the voice recognition tech that is supposed to protect people's bank accounts? As part of the BBC's Scam Safe Week, I have been investigating the power of voice cloning. The consumer champion Martin Lewis is among the celebrities whose voice has been targeted by scammers. And I spoke to the actor James Nesbitt, who said he was \"horrified\" at how realistic a cloned version of his voice was.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c1lg3ded6j9o",
+    "publication_date": "2024-11-28",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "voice clon*",
+      "voice recognition",
+      "fraud*",
+      "scam*",
+      "mine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R075",
+    "source_language": "en",
+    "original_text": "The BBC speaks to social media moderators, whose job it is to find and remove distressing and illegal content. Over the past few months the BBC has been exploring a dark, hidden world – a world where the very worst, most horrifying, distressing, and in many cases, illegal online content ends up. Beheadings, mass killings, child abuse, hate speech – all of it ends up in the inboxes of a global army of content moderators. You don’t often see or hear from them – but these are the people whose job it is to review and then, when necessary, delete content that either gets reported by other users, or is automatically flagged by tech tools.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/crr9q2jz7y0o",
+    "publication_date": "2024-11-11",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "GPT*",
+      "chatbot*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "trauma*",
+      "abus*",
+      "distress*",
+      "kill*",
+      "hate speech",
+      "graphic content"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R076",
+    "source_language": "en",
+    "original_text": "The 1979 accident at Three Mile Island had cast a shadow on nuclear power in the US for decades. America's Three Mile Island energy plant, the site of the worst nuclear accident in US history, is preparing to reopen as Microsoft looks for ways to satisfy its growing energy needs. The tech giant said it had signed a 20-year deal to purchase power from the Pennsylvania plant, which would reopen in 2028 after improvements. The agreement is intended to provide the company with a clean source of energy as power-hungry data centres for artificial intelligence (AI) expand. The plan will now go to regulators for approval.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cx25v2d7zexo",
+    "publication_date": "2024-09-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "regulator*",
+      "injur*",
+      "death*",
+      "protesters",
+      "megawatt*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R077",
+    "source_language": "en",
+    "original_text": "The tech giant says it will use energy from small reactors to power its use of artificial intelligence. Google has signed a deal to use small nuclear reactors to generate the vast amounts of energy needed to power its artificial intelligence (AI) data centres. The company says the agreement with Kairos Power will see it start using the first reactor this decade and bring more online by 2035. The companies did not give any details about how much the deal is worth or where the plants will be built. Technology firms are increasingly turning to nuclear sources of energy to supply the electricity used by the huge data centres that drive AI.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c748gn94k95o",
+    "publication_date": "2024-09-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "AI data cent*",
+      "regulator*",
+      "emission*",
+      "energy consumption",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R078",
+    "source_language": "en",
+    "original_text": "Taylor Swift has yet to weigh in on the 2024 election, but endorsed the Biden-Harris ticket in 2020. Donald Trump appears to have falsely implied he has Taylor Swift's endorsement, posting fake images on social media of the singer and her fans supporting him. The Republican presidential candidate posted the message \"I accept!\" alongside the images, which were taken from other social media accounts. Many appear to have been created using artificial intelligence. The post sparked a backlash among Swift's fans, known as Swifties, who accused Trump of spreading misinformation. The singer has not endorsed a candidate in the 2024 election but backed the Democrats in 2020 and criticised Trump while he was president.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c5y87l6rx5wo",
+    "publication_date": "2024-08-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "misinformation",
+      "backlash",
+      "accus*",
+      "racis*",
+      "protests",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R079",
+    "source_language": "en",
+    "original_text": "The union leading the video game performers' strike says multiplayer games might be first affected. Online games could be first to be hit by the video game acting strike if the dispute is not resolved quickly, according to a union boss. Performers in the industry walked out on 26 July after a failure to reach an agreement over the use of generative artificial intelligence (Gen AI) in development. Members of union SAG-Aftra, which represents approximately 160,000 performers, recently staged a picket outside the offices of Warner Bros, one of 10 game companies negotiating with the union. They say their offer gives workers \"meaningful protections\" but SAG-Aftra disagrees.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cvgddkq2zx9o",
+    "publication_date": "2024-08-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai system*",
+      "guardrail*",
+      "strike*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R080",
+    "source_language": "en",
+    "original_text": "Brazil's data protection regulator says it aims to protect users, the company says it is disappointed. Brazil has blocked Meta from using Brazilians' Instagram and Facebook posts to train its artificial intelligence (AI) models. It comes weeks after the company abandoned similar plans to use UK and European users' posts for the same purpose. On Tuesday, Brazil's national data protection agency (ANPD) said it would immediately suspend Meta's latest privacy policy, which allows it to train generative AI models such as chatbots based on posts from its users. A Meta spokesperson told the BBC the company was \"disappointed by the decision\", adding that their approach complied with local privacy laws.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c7291l3nvwvo",
+    "publication_date": "2024-07-03",
+    "country": "Brazil",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "regulator*",
+      "damag*",
+      "breach*",
+      "data protection"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R081",
+    "source_language": "en",
+    "original_text": "The online travel firm says generative AI tools, such as ChatGPT, are driving the explosive rise. Booking.com is warning artificial intelligence (AI) is driving an explosion in travel scams. The firm's internet safety boss, Marnie Wilking, said there had been \"anywhere from a 500 to a 900% increase\" in the past 18 months. She said there had been a particularly marked increase in phishing - where people are tricked into handing over their financial details - since generative AI tools like ChatGPT burst onto the market. \"Of course, we've had phishing since the dawn of email, but the uptick started shortly after ChatGPT got launched,\" she said.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c8003dd8jzeo",
+    "publication_date": "2024-06-20",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai model*",
+      "ai tool*",
+      "chatgpt",
+      "fraud*",
+      "scam*",
+      "phishing",
+      "collision*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R082",
+    "source_language": "en",
+    "original_text": "An AI-generated image with the text “All eyes on Rafah” has been shared more than 45 million times. An AI-generated image depicting tent camps for displaced Palestinians and a slogan that reads All Eyes on Rafah is sweeping social media. The post has been shared more than 47 million times by Instagram users including celebrities like Dua Lipa, Lewis Hamilton and Gigi and Bella Hadid. The image and the slogan went viral after an Israeli air strike and resulting fire at a camp for displaced Palestinians in the southern Gaza city of Rafah earlier this week. The Hamas-run health ministry said at least 45 people were killed and hundreds more wounded in the incident.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cjkkj5jejleo",
+    "publication_date": "2024-05-30",
+    "country": "Palestinian Territories",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai generat*",
+      "displac*",
+      "infring*",
+      "violat*",
+      "banned",
+      "distress*",
+      "kill*",
+      "wounded",
+      "strike*",
+      "graphic content",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R083",
+    "source_language": "en",
+    "original_text": "Google has defended the answers given by AI Overview, describing them as \"isolated examples\". Google's new artificial intelligence (AI) search feature is facing criticism for providing erratic, inaccurate answers. Its experimental \"AI Overviews\" tool has told some users searching for how to make cheese stick to pizza better that they could use \"non-toxic glue\". The search engine's AI-generated responses have also said geologists recommend humans eat one rock per day. A Google spokesperson told the BBC they were \"isolated examples\". Some of the answers appeared to be based on Reddit comments or articles written by satirical site, The Onion.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cd11gzejgz4o",
+    "publication_date": "2024-05-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "ai power*",
+      "ai driven",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "violat*",
+      "backlash",
+      "hallucinat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R084",
+    "source_language": "en",
+    "original_text": "Fraudsters are increasingly using AI, but are people taking the problem seriously enough? When Clark Hoefnagels’ grandmother was scammed out of $27,000 (£21,000) last year, he felt compelled to do something about it. “It felt like my family was vulnerable, and I needed to do something to protect them,” he says. “There was a sense of responsibility to deal with all the things tech related for my family.” As part of his efforts, Mr Hoefnagels, who lives in Ontario, Canada, ran the scam or “phishing” emails his gran had received through popular AI chatbot ChatGPT. He was curious to see if it would recognise them as fraudulent, and it immediately did so.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c988v355e8do",
+    "publication_date": "2024-05-22",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai tool*",
+      "ai power*",
+      "voice clon*",
+      "chatgpt",
+      "google gemini",
+      "microsoft copilot",
+      "Claude",
+      "Gemini",
+      "fraud*",
+      "scam*",
+      "phishing",
+      "money launder*",
+      "vulnerable"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R085",
+    "source_language": "en",
+    "original_text": "A clash with the actor has echoes of the macho tech giants of the past, says Zoe Kleinman. “Move fast and break things” is a motto that continues to haunt the tech sector, some 20 years after it was coined by a young Mark Zuckerberg. Those five words came to symbolise Silicon Valley at its worst - a combination of ruthless ambition and a rather breathtaking arrogance - profit-driven innovation without fear of consequence. I was reminded of that phrase this week when the actor Scarlett Johansson clashed with OpenAI Ms Johansson claimed both she and her agent had declined for her to be the voice of its new product for ChatGPT - and then when it was unveiled it sounded just like her anyway.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/cgrr70zm41mo",
+    "publication_date": "2024-05-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "red team*",
+      "penalt*",
+      "strike*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R086",
+    "source_language": "en",
+    "original_text": "The Norwegian man says the chatbot's maker OpenAI should be fined over the completely inaccurate information. A Norwegian man has filed a complaint after ChatGPT falsely told him he had killed two of his sons and been jailed for 21 years. Arve Hjalmar Holmen has contacted the Norwegian Data Protection Authority and demanded the chatbot's maker OpenAI is fined. It is the latest example of so-called \"hallucinations\", where artificial intelligence (AI) systems invent information and present it as fact. Mr Holmen says this hallucination is damaging to him. \"Some think that there is no smoke without fire - the fact that someone could read this output and believe it is true is what scares me the most,\" he said.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/c0kgydkr516o",
+    "publication_date": "2024-03-20",
+    "country": "Norway",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "fined",
+      "damag*",
+      "accus*",
+      "complaint*",
+      "kill*",
+      "defam*",
+      "data protection",
+      "hallucinat*",
+      "false information",
+      "inaccurate information",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R087",
+    "source_language": "en",
+    "original_text": "More than 600 Scottish students have been accused of misusing AI during part of their studies, according to a BBC FOI. More than 600 Scottish students were accused of misusing AI during part of their studies last year - a rise of 121% on 2023 figures. According to a freedom of information request by BBC Scotland, less than 10 students were kicked off their courses at both Robert Gordon and Glasgow universities in the last year - the first time AI-linked expulsions have been recorded at any Scottish university. So when does turning to the internet to help find the answer to a question cross the line into cheating?",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/articles/ckg88kk1n8jo",
+    "publication_date": "2024-03-06",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "GPT*",
+      "artificial intelligen*",
+      "generative ai",
+      "misus*",
+      "misconduct",
+      "accus*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R088",
+    "source_language": "en",
+    "original_text": "Faked images of black voters with Trump are a growing disinformation trend in the US election, the BBC finds. Donald Trump supporters have been creating and sharing AI-generated fake images of black voters to encourage African Americans to vote Republican. BBC Panorama discovered dozens of deepfakes portraying black people as supporting the former president. Mr Trump has openly courted black voters, who were key to Joe Biden's election win in 2020. But there's no evidence directly linking these images to Mr Trump's campaign. The co-founder of Black Voters Matter, a group which encourages black people to vote, said the manipulated images were pushing a \"strategic narrative\" designed to show Mr Trump as popular in the black community.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/world-us-canada-68440150",
+    "publication_date": "2024-03-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai generat*",
+      "misinformation",
+      "disinformation",
+      "impersonat*",
+      "victim*",
+      "abus*",
+      "misleading",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R089",
+    "source_language": "en",
+    "original_text": "When Air Canada’s chatbot gave incorrect information to a traveller, the airline argued its chatbot is \"responsible for its own actions\". Artificial intelligence is having a growing impact on the way we travel, and a remarkable new case shows what AI-powered chatbots can get wrong – and who should pay. In 2022, Air Canada's chatbot promised a discount that wasn't available to passenger Jake Moffatt, who was assured that he could book a full-fare flight for his grandmother's funeral and then apply for a bereavement fare after the fact. According to a civil-resolutions tribunal decision last Wednesday, when Moffatt applied for the discount, the airline said the chatbot had been wrong – the request needed to be submitted before the flight – and it wouldn't offer the discount.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know",
+    "publication_date": "2024-02-23",
+    "country": "Canada",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai tool*",
+      "ai power*",
+      "chatgpt",
+      "regulator*",
+      "damag*",
+      "victim*",
+      "liab*",
+      "suicid*",
+      "hallucinat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R090",
+    "source_language": "en",
+    "original_text": "Users fault Gemini for generating diverse images in inappropriate historical contexts. Google is racing to fix its new AI-powered tool for creating pictures, after claims it was over-correcting against the risk of being racist. Users said the firm's Gemini bot supplied images depicting a variety of genders and ethnicities even when doing so was historically inaccurate. For example, a prompt seeking images of America's founding fathers turned up women and people of colour. The company said its tool was \"missing the mark\". \"Gemini's AI image generation does generate a wide range of people. And that's generally a good thing because people around the world use it.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/business-68364690",
+    "publication_date": "2024-02-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "openai",
+      "google gemini",
+      "alignment",
+      "Gemini",
+      "harm*",
+      "bias*",
+      "backlash",
+      "alleged",
+      "accus*",
+      "racis*",
+      "stereotyp*",
+      "harmful stereotype*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R091",
+    "source_language": "en",
+    "original_text": "London Mayor Sadiq Khan says the law on deepfakes is not \"fit for purpose\" after Armistice Day hoax. London Mayor Sadiq Khan says deepfake audio of him supposedly making inflammatory remarks before Armistice Day almost caused \"serious disorder\". Mr Khan says the law is not \"fit for purpose\" in tackling AI fakes, as the audio creator \"got away with it\". The man who first posted the clip, tracked down by the BBC, told us: \"It's what we all know Sadiq thinks.\" But another social media user who helped the audio go viral apologised, saying: \"I made a big mistake\". The clip used AI - artificial intelligence - to create a replica of Mr Khan's voice saying words scripted by the faker, disparaging Remembrance weekend with an expletive and calling for pro-Palestinian marches, planned for the same day last November, to take precedence.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/uk-68146053",
+    "publication_date": "2024-02-14",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "synthetic media",
+      "racis*",
+      "protestors",
+      "arrest*",
+      "journalist*",
+      "likeness"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R092",
+    "source_language": "en",
+    "original_text": "The group says a fake video of President Biden on Facebook highlights an \"incoherent\" policy. The independent body that reviews how the owner of Facebook moderates online content has said the firm should label fake posts rather than remove them. The Oversight Board said Meta was right not to remove a fake video of US President Joe Biden because it did not violate its manipulated media policy. But it said the policy was \"incoherent\" and should be widened beyond its scope ahead of a busy election year. A Meta spokesperson told the BBC it was \"reviewing\" the guidance. \"[We] will respond publicly to their recommendations within 60 days in accordance with the bylaws,\" Meta said.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-68180372",
+    "publication_date": "2024-02-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "disinformation",
+      "violat*",
+      "accus*",
+      "misleading",
+      "manipulated media",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R093",
+    "source_language": "en",
+    "original_text": "Beijing is pushing \"US scepticism\" to drive a wedge between Taiwan and its biggest ally, say analysts. The rumour was old, but effective: the Taiwanese were being fed \"poisonous\" pork imported from the US. The weeks-old claim followed another: the Taiwanese government was secretly harvesting blood from citizens and giving it to the US to make a bioweapon to attack China. But this is a narrative that has been blooming in Taiwan ahead of Saturday's presidential and legislative elections. \"Yimeilun\" or US scepticism, questions the faithfulness of Taiwan's biggest ally, portraying the island as a pawn exploited by America.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/world-asia-67891869",
+    "publication_date": "2024-01-08",
+    "country": "Taiwan",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "chip*",
+      "TSMC",
+      "disinformation",
+      "exploit*",
+      "fake news",
+      "propaganda",
+      "false information",
+      "conspiracy theor*",
+      "bioweapon*",
+      "subsid*",
+      "mine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R094",
+    "source_language": "en",
+    "original_text": "A senior Tory MP leads calls for more government action to prevent AI sabotaging British democracy. Artificial Intelligence (AI) has already been used to disrupt elections around the world - and there are fears among senior politicians and the security services that the UK will be next. Former Justice Secretary Sir Robert Buckland is urging the government to do more to tackle what he sees as a \"clear and present danger\" to UK democracy. The Conservative MP, who now chairs the Northern Ireland select committee, is particularly concerned about the rise of deepfakes - realistic audio and video clips of politicians appearing to say things they did not say.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/uk-politics-67518511",
+    "publication_date": "2023-12-21",
+    "country": "United Kingdom",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "synthetic imag*",
+      "chatgpt",
+      "guardrail*",
+      "regulator*",
+      "misinformation",
+      "disinformation",
+      "censor*",
+      "abus*",
+      "fabricated",
+      "election interference",
+      "manipulat*",
+      "bombing*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R095",
+    "source_language": "en",
+    "original_text": "A false rumour spread by a dubious AI-powered website caught the attention of leading politicians. A website founded by a former US Marine who now lives in Russia has fuelled a rumour that Volodymyr Zelensky purchased two luxury yachts with American aid money. Despite the false claim, the disinformation plot was successful. It took off online and was echoed by members of the US Congress making crucial decisions about military spending. It was an incredible assertion - using two advisers as proxies, Mr Zelensky paid $75m (£59m) for two yachts. But not only has the Ukrainian government flatly denied the story, the two ships in question have not even been sold.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/world-us-canada-67766964",
+    "publication_date": "2023-12-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "artificial intelligen*",
+      "ai power*",
+      "disinformation",
+      "alleged",
+      "allegation*",
+      "sanction*",
+      "false claim*",
+      "propaganda",
+      "toxic waste",
+      "farmland",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R096",
+    "source_language": "en",
+    "original_text": "A cutting-edge tool from Open AI appears to be poorly moderated, allowing it to be abused by cyber-criminals. A ChatGPT feature allowing users to easily build their own artificial-intelligence assistants can be used to create tools for cyber-crime, a BBC News investigation has revealed. OpenAI launched it last month, so users could build customised versions of ChatGPT \"for almost anything\". Now, BBC News has used it to create a generative pre-trained transformer that crafts convincing emails, texts and social-media posts for scams and hacks. It follows warnings about AI tools. BBC News signed up for the paid version of ChatGPT, at £20 a month, created a private bespoke AI bot called Crafty Emails and told it to write text using \"techniques to make people click on links or and download things sent to them\".",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-67614065",
+    "publication_date": "2023-12-07",
+    "country": "Global",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "GPT*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "fraud*",
+      "abus*",
+      "scam*",
+      "phishing",
+      "hacker*",
+      "social engineering",
+      "distress*",
+      "manipulat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R097",
+    "source_language": "en",
+    "original_text": "Facial recognition was also used to search for terrorists, a police and crime commissioner says. Facial recognition was used on crowds attending a Beyoncé concert in Cardiff to scan for paedophiles and terrorists. South Wales Police and Crime Commissioner Alun Michael said searching for potential terrorists at such events had become normal since the 2017 Manchester Arena bombing. He said paedophiles were also targeted as \"there would be very large numbers of young girls attending that concert\". Mr Michael described using such cameras as \"entirely sensible\". Appearing before MPs on the Welsh Affairs Committee, Mr Michael defended the use of the artificial intelligence (AI) technology outside the concert.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/uk-wales-67360696",
+    "publication_date": "2023-11-09",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "artificial intelligen*",
+      "discriminat*",
+      "violat*",
+      "bombing*",
+      "watchlist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R098",
+    "source_language": "en",
+    "original_text": "Indecent artificial intelligence-generated pictures are believed to have swept across the globe. The mother of a girl whose photo was used in AI-generated naked images says hundreds of parents have told her their children are also victims. Miriam Al Adib's daughter was one of several children from a Spanish village who had indecent images created using photos of them fully clothed. She says parents around the world claim their children have also been targeted. One Welsh teacher said schools needed to play a role in explaining the dangers of AI to children. The Internet Watch Foundation said it was \"not surprising\" the practice was so widespread.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/uk-wales-67344916",
+    "publication_date": "2023-11-08",
+    "country": "Global",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai system*",
+      "ai generat*",
+      "misinformation",
+      "exploit*",
+      "victim*",
+      "abus*",
+      "fines",
+      "cyberattack*",
+      "hacker*",
+      "sexual exploitation",
+      "child sexual abuse material",
+      "grooming"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R099",
+    "source_language": "en",
+    "original_text": "Legal action by Nairobi-based workers who filtered out graphic Facebook posts will continue. Talks aimed at reaching a settlement in a long-running case brought by 184 Nairobi-based Facebook moderators against the platform's owner Meta have broken down. The moderators, who filtered out violent and graphic content, allege they were laid off for organising a union. They were made redundant from Sama, a local subcontractor. Sama has previously told the BBC it has no opposition to unionisation. The moderators are suing Meta, Sama and another outsourcing firm, Majorel. Meta uses artificial intelligence to help spot and remove graphic Facebook content, but it also still relies on thousands of human workers to spot problematic posts.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-66741637",
+    "publication_date": "2023-10-16",
+    "country": "Kenya",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "content moderat*",
+      "artificial intelligen*",
+      "Sama",
+      "trauma*",
+      "allegation*",
+      "accus*",
+      "litigat*",
+      "complaint*",
+      "banned",
+      "distress*",
+      "working condition*",
+      "unionis*",
+      "retaliat*",
+      "redundanc*",
+      "outsourc*",
+      "subcontract*",
+      "mental health support",
+      "graphic content"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R100",
+    "source_language": "en",
+    "original_text": "Ernie, Baidu's answer to ChatGPT, is wary of sensitive subjects - and clearly dodges questions. \"Let's talk about something else.\" That is a frequent response you get from China's newest sensation, Ernie, if you ask it \"difficult\" questions. The chatbot, launched by search engine giant Baidu, deflects anything deemed too sensitive. Ernie, touted as Baidu's answer to ChatGPT, was introduced with great fanfare in recent weeks, pumping up the company's shares. Baidu said it had received 33.42 million user enquiries within the first 24 hours of operation, averaging 23,000 questions per minute. Another Chinese tech giant, Tencent, announced on Thursday that it had also launched a chatbot.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/world-asia-66727459",
+    "publication_date": "2023-09-09",
+    "country": "China",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "self driving",
+      "openai",
+      "chatgpt",
+      "human feedback",
+      "censor*",
+      "violat*",
+      "accus*",
+      "died",
+      "repress*",
+      "Uyghur"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R101",
+    "source_language": "en",
+    "original_text": "The chief executive of Sama says it will no longer take work involving moderating harmful content. A firm which was contracted to moderate Facebook posts in East Africa has said with hindsight it should not have taken on the job. Former Kenya-based employees of Sama - an outsourcing company - have said they were traumatised by exposure to graphic posts. Some are now taking legal cases against the firm through the Kenyan courts. Chief executive Wendy Gonzalez said Sama would no longer take work involving moderating harmful content. Warning - this article contains distressing content Some former employees have described being traumatised after viewing videos of beheadings, suicide and other graphic material at the moderation hub, which the firm ran from 2019.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-66465231",
+    "publication_date": "2023-08-16",
+    "country": "Kenya",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai system*",
+      "computer vision",
+      "data annotat*",
+      "annotator*",
+      "openai",
+      "chatgpt",
+      "Sama",
+      "harm*",
+      "bias*",
+      "trauma*",
+      "surveil*",
+      "litigat*",
+      "distress*",
+      "suicid*",
+      "outsourc*",
+      "counsel*",
+      "disturbing content"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R102",
+    "source_language": "en",
+    "original_text": "US regulators are asking the maker of ChatGPT about protections for privacy and reputational risk. US regulators are probing artificial intelligence company OpenAI over the risks to consumers from ChatGPT generating false information. The Federal Trade Commission (FTC) sent a letter to the Microsoft-backed business requesting information on how it addresses risks to people's reputations. The inquiry is a sign of the rising regulatory scrutiny of the technology. OpenAI chief executive Sam Altman says the company will work with the FTC. ChatGPT generates convincing human-like responses to user queries within seconds, instead of the series of links generated by a traditional internet search.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/business-66196223",
+    "publication_date": "2023-07-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "regulator*",
+      "fraud*",
+      "violat*",
+      "controvers*",
+      "banned",
+      "misleading",
+      "defam*",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R103",
+    "source_language": "en",
+    "original_text": "Screening out extreme content left him numb to suffering, a former Kenya-based worker tells the BBC. Readers may find material in this article disturbing. Behind the scenes on Facebook, thousands of moderators protect users from graphic content by filtering out posts that break its rules. The BBC has spoken to one moderator based in Kenya, who is taking legal action against its parent company Meta. On his first day of work screening posts, South African Trevin Brownie watched a man take his own life. \"The problem was not [the taking of his own life]. The problem was the three-year-old boy that was in the video with this guy.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-65346062",
+    "publication_date": "2023-04-25",
+    "country": "Kenya",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "artificial intelligen*",
+      "computer vision",
+      "Sama",
+      "discriminat*",
+      "abus*",
+      "allegation*",
+      "accus*",
+      "complaint*",
+      "suicid*",
+      "death*",
+      "working condition*",
+      "retaliat*",
+      "bombing*",
+      "graphic content"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R104",
+    "source_language": "en",
+    "original_text": "The song, which cloned the stars' voices, is removed from streaming platforms after a copyright claim. A song that uses artificial intelligence to clone the voices of Drake and The Weeknd is being removed from streaming services. Heart On My Sleeve is no longer available on Apple Music, Spotify, Deezer and Tidal. It is also in the process of being pulled from TikTok and YouTube, but some versions remain available. It follows stinging criticism from publishers Universal Music Group which said the song violated copyright law. The music publisher said platforms had a \"legal and ethical responsibility\" to prevent the use of services harming artists.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/entertainment-arts-65309313",
+    "publication_date": "2023-04-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "generative ai",
+      "harm*",
+      "fraud*",
+      "infring*",
+      "violat*",
+      "breach*",
+      "copyright*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R105",
+    "source_language": "en",
+    "original_text": "Union group claims using artificial intelligence to hire and fire staff could lead to greater discrimination. The TUC is calling for stronger rules to protect workers from decisions made by artificial intelligence systems. AI-powered technologies are now making \"high-risk, life changing\" decisions about workers' lives including line-managing, hiring and firing staff\", said the body which represents unions. But a new law will \"dilute\" existing protections, it said. The government said the TUC's assessment was \"wrong\" and has said safeguards will remain in place. A spokesperson said it was committed to improving and upholding workers' rights: \"AI is set to drive growth and create new highly-paid jobs throughout the UK, while allowing us to carry out our existing jobs more efficiently and safely.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-65301630",
+    "publication_date": "2023-03-18",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "ai power*",
+      "automated decision*",
+      "speech recognition",
+      "regulator*",
+      "bias*",
+      "discriminat*",
+      "data protection",
+      "accent*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R106",
+    "source_language": "en",
+    "original_text": "Migrants at the US-Mexico border say the new app often struggles to recognise darker-skinned faces. Activists at the US-Mexico border say that a government mobile app required for US asylum applications is beset by technical problems, and frequently fails to recognise the faces of black and darker-skinned migrants. The app, known as CBP One, was rolled out by Customs and Border Protection (CBP) in January. Prospective migrants use it to book appointments to appear at a port of entry. It is the only way to apply for US asylum and exemptions from Title 42 - a public health law that allows for rapid expulsion. As of 10 February, over 20,000 people had used it to schedule an appointment.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/world-us-canada-64814095",
+    "publication_date": "2023-03-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "training data",
+      "bias*",
+      "surveil*",
+      "accountab*",
+      "banned",
+      "kill*",
+      "error rate*",
+      "darker skin"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R107",
+    "source_language": "en",
+    "original_text": "Getty Images, one of the worlds biggest picture agencies, is taking action against Stability AI. Getty Images is taking legal action against the makers of an artificial-intelligence image-creation tool. The agency, which sells the rights to use photographers' and illustrators' images, said Stability AI's Stable Diffusion system had infringed these. AI image generators \"learn\" to create images from simple text instructions by analysing human-made pictures, including images found online. Many artists and photographers say they use their work without permission. Some artists find image generators a valuable way to express themselves creatively - but many others worry they can convincingly imitate their style and use it to produce images in seconds.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-64285227",
+    "publication_date": "2023-01-19",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative model*",
+      "ai generat*",
+      "Stability AI",
+      "infring*",
+      "class action*",
+      "sanction*",
+      "copyright*",
+      "without permission",
+      "scrap*",
+      "opt out",
+      "fair use"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R108",
+    "source_language": "en",
+    "original_text": "Abrham Meareg and others are suing Meta for $2bn over claims its algorithm spread hate in Ethiopia. Facebook's algorithm helped fuel the viral spread of hate and violence during Ethiopia's civil war, a legal case alleges. Abrham Meareg, the son of an Ethiopian academic shot dead after being attacked in Facebook posts, is among those bringing the case against Meta. They want a $2bn (£1.6bn) fund for victims of hate on Facebook and changes to the platform's algorithm. Meta said it invested heavily in moderation and tech to remove hate. A representative said hate speech and incitement to violence were against the platform's rules.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-63938628",
+    "publication_date": "2022-12-14",
+    "country": "Ethiopia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "content moderat*",
+      "artificial intelligen*",
+      "harm*",
+      "disinformation",
+      "victim*",
+      "violat*",
+      "accus*",
+      "complaint*",
+      "died",
+      "kill*",
+      "casualt*",
+      "hate speech"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R109",
+    "source_language": "en",
+    "original_text": "Clearview AI's face-search tech could be used to uncover infiltrators and to identify the dead. A system that searches a database of billions of facial images could help Ukraine uncover Russian infiltrators, fight misinformation and identify the dead, a company has said. Facial recognition firm Clearview AI has offered its services to Ukraine's government. The company says it has a searchable database of 10 billion faces sourced from the web. But the technology has previously attracted fines from data regulators. \"I'm pleased to confirm that Clearview AI has provided its groundbreaking facial recognition technology to Ukrainian officials for their use during the crisis they are facing,\" chief executive Hoan Ton-That told the BBC in a statement.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-60738204",
+    "publication_date": "2022-03-14",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "Clearview AI",
+      "harm*",
+      "fined",
+      "regulator*",
+      "misinformation",
+      "misidentif*",
+      "surveil*",
+      "lawsuit*",
+      "fines",
+      "checkpoint*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R110",
+    "source_language": "en",
+    "original_text": "Facebook is struggling to tame fake news and inflammatory content in India, new revelations show. \"I've seen more images of dead people in the past three weeks than I've seen in my entire life,\" a Facebook researcher in India wrote in 2019 after following recommendations by the social network's algorithms for three weeks. The researcher's report was part of a cache of internal documents called The Facebook Papers, recently obtained by New York Times and other US publications. They show the social media giant struggling to tame the avalanche of fake news, hate speech, and inflammatory content -\"celebrations of violence\", among other things - out of India, the network's biggest market.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/world-asia-india-59006615",
+    "publication_date": "2021-10-26",
+    "country": "India",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "content moderat*",
+      "misinformation",
+      "disinformation",
+      "controvers*",
+      "allegation*",
+      "marginalis*",
+      "fake news",
+      "addict*",
+      "suicid*",
+      "vulnerable",
+      "death*",
+      "died",
+      "hate speech",
+      "false positive*",
+      "conspiracy theor*",
+      "mine*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R111",
+    "source_language": "en",
+    "original_text": "A recreation of the late celebrity cook's voice is used in a film about his life. A new documentary about Anthony Bourdain has ignited a debate, after film-makers revealed they had used an AI simulation of the late chef's voice. Roadrunner: A Film About Anthony Bourdain was narrated using archive material supplemented by a synthetic voice reading short extracts of writing by Mr Bourdain, who died in 2018. Director Morgan Neville called it a modern storytelling technique. But some critics questioned whether it was ethical. Mr Neville said that the synthetic voice was created by feeding more than 10 hours of Mr Bourdain's voice into a machine-learning system.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/technology-57842514",
+    "publication_date": "2021-07-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "deepfake*",
+      "manipulat*",
+      "died"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R112",
+    "source_language": "en",
+    "original_text": "A growing number of firms are using artificial intelligence to pass or fail jobseekers. Frankly, it was a little stressful to know that my application was being judged by a computer and not by a human being. A professional journalist, I had recently applied for a new job, and for the first part of the recruitment process the publisher made me play a number of simple online games from the comfort of my own home. These included having to quickly count the number of dots in two boxes, inflating a balloon before it burst to win money, and matching emotions to facial expressions. Then an artificial intelligence (AI) software system assessed my personality, and either passed or failed me.",
+    "translated_text": null,
+    "source_url": "https://www.bbc.com/news/business-55932977",
+    "publication_date": "2021-02-08",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "artificial intelligen*",
+      "ai system*",
+      "bias*",
+      "accent*",
+      "journalist*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]

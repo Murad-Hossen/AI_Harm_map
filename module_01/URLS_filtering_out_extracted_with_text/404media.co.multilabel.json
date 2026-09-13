@@ -1,0 +1,265 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Cops and drone companies seem increasingly eager to put weapons on their drones. The New Orleans Police Department (NOPD) looked at ways to arm quadcopter drones with weapons, according to a draft version of its drone manual shared with 404 Media. A draft version of the manual, which was live on the NOPD website in June, said that the department’s drones could only be equipped with weapons with written approval from the Superintendent of Police. The current version, live as of July 1, has different language : “The sUAS shall not be equipped with weapons or hazardous materials of any kind,” referring to small Unmanned Aerial Systems, or drones.",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/new-orleans-cops-published-policy-document-allowing-weaponized-drones/",
+    "publication_date": "2026-07-20",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "facial recognition",
+      "armed drone*",
+      "unmanned aerial*",
+      "surveil*",
+      "misus*",
+      "controvers*",
+      "banned",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.1",
+        "subcategory": "Autonomous weapons / lethal targeting harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "A Florida police officer met a woman on a TV set, surveilled her for weeks, stalked her, and nearly caused a head-on collision while chasing her to pull her over. A police officer speeds 70 MPH down a two-lane highway running over a bridge in the Florida Keys. He passes a dump truck in a no-passing zone, then immediately does it again, crossing over a double-yellow line to pass another truck. He passes a third vehicle, nearly causing a head-on collision with a white pickup truck that veers away from him in the oncoming traffic. The cop keeps driving, and sees the SUV he’s been in pursuit of. He flicks his sirens and lights on and pulls it over.",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/footage-shows-cop-stalking-woman-he-met-on-a-tv-set-after-surveilling-her-with-a-license-plate-reader/",
+    "publication_date": "2026-07-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "license plate reader*",
+      "harass*",
+      "surveil*",
+      "abus*",
+      "collision*",
+      "stalk*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "The model is a massive part of the AI-ecosystem, used by Stable Diffusion and other major generative AI products. The removal follows discoveries made by Stanford researchers, who found thousands instances of suspected child sexual abuse material in the dataset. This piece is published with support from The Capitol Forum The LAION-5B machine learning dataset used by Stable Diffusion and other major AI products has been removed by the organization that created it after a Stanford study found that it contained 3,226 suspected instances of child sexual abuse material, 1,008 of which were externally validated. LAION told 404 Media on Tuesday that out of “an abundance of caution,” it was taking down its datasets, including LAION-5B and another called LAION-400M temporarily “to ensure they are safe before republishing them.\"",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/laion-datasets-removed-stanford-csam-child-abuse/",
+    "publication_date": "2023-12-20",
+    "country": "Germany",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "generative ai",
+      "ai generat*",
+      "Stability AI",
+      "LAION",
+      "victim*",
+      "abus*",
+      "intimate imag*",
+      "indiscriminate",
+      "made up",
+      "CSAM",
+      "child sexual abuse material",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "Hundreds of documents obtained by 404 Media show how Fusus, a system for linking a town’s security cameras into one central hub and adding AI to them, has spread across the country. Spread across four computer monitors arranged in a grid, a blue and green interface shows the location of more than 50 different surveillance cameras. Ordinarily, these cameras and others like them might be disparate, their feeds only available to their respective owners: a business, a government building, a resident and their doorbell camera. But the screens, overlooking a pair of long conference tables, bring them all together at once, allowing law enforcement to tap into cameras owned by different entities around the entire town all at once.",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/fusus-ai-cameras-took-over-town-america/",
+    "publication_date": "2023-11-03",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "artificial intelligen*",
+      "ai power*",
+      "license plate reader*",
+      "surveil*",
+      "abus*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "Microsoft's Bing Image Creator lets beloved characters fly planes toward tall buildings, illustrating the struggles of generative AI models have with copyright and filtering. Subscribe I generated a bunch of AI images of beloved fictional characters doing 9/11, and I’m not the only one. Microsoft’s Bing Image Creator, produced by one of the most brand-conscious companies in the world, is heavily filtered: images of real humans aren’t allowed, along with a long list of scenarios and themes like violence, terrorism, and hate speech. It launched in March, and since then, users have been putting it through its paces.",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/bing-is-generating-images-of-spongebob-doing-9-11/",
+    "publication_date": "2023-10-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "generative ai",
+      "ai model*",
+      "copyright*",
+      "hate speech"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "ShadowDragon tracks BabyCenter, a website for people expecting children, as well as social media sites specifically for Black people, bodybuilders, and the fetish community. Daniel Clemens sits in a darkened room and speaks about why he thinks people should not protest. This applies to “pretty much every different group that’s out there protesting right now. There’s probably a better way to do it,” the bearded Clemens says into his microphone. Whether its people on the left or the right, protestors are “probably not moving the needle at all,” he says. “Nobody is going to listen. It’s a bunch of noise. And don’t be surprised when people are going to investigate you because you made their life difficult.”",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/inside-shadowdragon-ice-babycenter-pregnancy-fortnite-black-planet/",
+    "publication_date": "2023-09-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "harm*",
+      "fraud*",
+      "exploit*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "protest",
+      "protests",
+      "protestors",
+      "mass surveillance",
+      "chilling effect*",
+      "counsel*",
+      "scrap*",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "Internal DHS and corporate documents detail the agency’s relationship with Fivecast, a company that promises to scan for “risk terms and phrases” online. Customs and Border Protection (CBP), part of the Department of Homeland Security, has bought millions of dollars worth of software from a company that uses artificial intelligence to detect “sentiment and emotion” in online posts, according to a cache of documents obtained by 404 Media. CBP told 404 Media it is using technology to analyze open source information related to inbound and outbound travelers who the agency believes may threaten public safety, national security, or lawful trade and travel.",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/ai-surveillance-tool-dhs-cbp-sentiment-emotion-fivecast/",
+    "publication_date": "2023-08-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai tool*",
+      "ai power*",
+      "ai enabl*",
+      "surveil*",
+      "abus*",
+      "propaganda",
+      "location data",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "Serve Robotics, which delivers food for Uber Eats, provided footage filmed by at least one of its robots to the LAPD as evidence in a criminal case. The emails show the robots, which are a constant sight in the city, can be used for surveillance. Subscribe A food delivery robot company that delivers for Uber Eats in Los Angeles provided video filmed by one of its robots to the Los Angeles Police Department as part of a criminal investigation, 404 Media has learned. The incident highlights the fact that delivery robots that are being deployed to sidewalks all around the country are essentially always filming, and that their footage can and has been used as evidence in criminal trials.",
+    "translated_text": null,
+    "source_url": "https://www.404media.co/serve-food-delivery-robots-are-feeding-camera-footage-to-the-lapd-internal-emails-show/",
+    "publication_date": "2022-09-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "computer vision",
+      "autonomous vehicle*",
+      "surveil*",
+      "victim*",
+      "violat*",
+      "complaint*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  }
+]

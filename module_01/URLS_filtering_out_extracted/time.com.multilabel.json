@@ -1,0 +1,211 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "As a recent high school graduate, I've seen firsthand how my peers use AI. But what happens when we can't think for ourselves? It was past midnight, and I was staring at a blank Google Doc. I had a history essay due. My notes were a mess, I was tired, and the deadline loomed over me like a storm cloud.",
+    "translated_text": null,
+    "source_url": "https://time.com/7318668/chatgpt-ai-education-high-school/",
+    "publication_date": "2025-09-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "chatgpt",
+      "banned",
+      "plagiaris*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "Google’s Veo 3 lets users make hyper-realistic deepfakes—sparking fears about AI’s role in misinformation online. Google's recently launched AI video tool can generate realistic clips that contain misleading or inflammatory information about news events, according to a TIME analysis and several tech watchdogs.",
+    "translated_text": null,
+    "source_url": "https://time.com/7290050/veo-3-google-misinformation-deepfake/",
+    "publication_date": "2025-06-03",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "AGI",
+      "ai tool*",
+      "ai generat*",
+      "synthetic media",
+      "synthetic imag*",
+      "openai",
+      "deepmind",
+      "red team*",
+      "Hugging Face",
+      "Sora",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "misinformation",
+      "fraud*",
+      "impersonat*",
+      "injur*",
+      "non-consensual",
+      "victim*",
+      "misus*",
+      "scandal*",
+      "allegedly",
+      "accus*",
+      "racis*",
+      "fake news",
+      "fabricated",
+      "misleading",
+      "propaganda",
+      "election interference",
+      "manipulat*",
+      "death*",
+      "crash*",
+      "non consensual*",
+      "nonconsensual*",
+      "copyright*",
+      "hallucinat*",
+      "arrest*",
+      "journalist*",
+      "right of publicity"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "Bitcoin miners are increasingly swapping out their mining equipment to jump on the AI gold rush. As AI companies work furiously to improve the intelligence and usefulness of their products, their demand for cheap, plentiful energy has skyrocketed. This gold rush has been extremely profitable for an unlikely beneficiary: Bitcoin miners.",
+    "translated_text": null,
+    "source_url": "https://time.com/6993603/ai-bitcoin-mining-artificial-intelligence-energy-use/",
+    "publication_date": "2024-06-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai system*",
+      "ai model*",
+      "server farm*",
+      "openai",
+      "chatgpt",
+      "GPU*",
+      "mining",
+      "crash*",
+      "megawatt*",
+      "fossil fuel*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "As AI evolves, data annotation—or the work done by humans to train AI—has emerged as a potential way to make money. On TikTok , Reddit , and elsewhere, posts are popping up from users claiming they’re making $20 per hour—or more—completing small tasks in their spare time on sites such as DataAnnotation.tech, Taskup.ai, Remotasks, and Amaz…",
+    "translated_text": null,
+    "source_url": "https://time.com/6962608/data-annotation-legit-tech-jobs-ai/",
+    "publication_date": "2024-04-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "data label*",
+      "algorithmic management",
+      "artificial intelligen*",
+      "ai system*",
+      "ai model*",
+      "data annotat*",
+      "data worker*",
+      "openai",
+      "anthropic",
+      "Scale AI",
+      "Remotasks",
+      "Mechanical Turk",
+      "Surge AI",
+      "exploit*",
+      "trauma*",
+      "scam*",
+      "subsid*",
+      "deactivat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "The country has come to rely on Clearview AI for a range of wartime tasks, many of which have not been reported: Leonid Tymchenko spent the first month of Russia’s invasion sitting in his dark government office after curfew.",
+    "translated_text": null,
+    "source_url": "https://time.com/6334176/ukraine-clearview-ai-russia/",
+    "publication_date": "2023-11-14",
+    "country": "Ukraine",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "Clearview AI",
+      "harm*",
+      "surveil*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "breach*",
+      "controvers*",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "fines",
+      "propaganda",
+      "casualt*",
+      "mass surveillance",
+      "war crime*",
+      "made up",
+      "mine*",
+      "counsel*",
+      "arrest*",
+      "checkpoint*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  }
+]

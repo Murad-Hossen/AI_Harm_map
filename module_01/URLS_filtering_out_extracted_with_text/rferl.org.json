@@ -1,0 +1,127 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "The conflict involving Iran is revealing new lessons about how artificial intelligence is being weaponized in modern warfare and statecraft. WASHINGTON -- From viral Lego-style videos and AI-generated hip-hop tracks to fabricated battlefield imagery, the war in Iran is revealing how artificial intelligence (AI) is being weaponized in modern warfare and statecraft. To discuss this rapid shift, RFE/RL spoke with Max Lesser, senior analyst on emerging threats at the Foundation for Defense of Democracies (FDD) Center on Cyber and Technology Innovation. RFE/RL: You have tracked Iranian influence operations closely. How sophisticated has Iran become online?",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/lego-hip-hop-deepfakes-iran-ai-propaganda/33756098.html",
+    "publication_date": "2026-05-13",
+    "country": "Iran",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai power*",
+      "ai generat*",
+      "exploit*",
+      "fake news",
+      "fabricated",
+      "propaganda",
+      "cyberattack*",
+      "manipulat*",
+      "protests",
+      "strike*",
+      "repress*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "The Serbian government is facing renewed scrutiny after RFE/RL reviewed documents revealing a significant expansion of its controversial surveillance program in collaboration with Chinese tech giant Huawei despite public protests and legal challenges. BELGRADE -- The Serbian government is substantially expanding its advanced Chinese-made surveillance system, leaked documents reviewed by RFE/RL show, despite years of protests and backlash from the public over its use. The documents seen by RFE/RL contain contracts with the Chinese technology giant Huawei. They show large purchases of software and services necessary to increase the scale of a program called Safe City, a project first sold by Huawei in 2017 through a strategic partnership deal with Serbia's Interior Ministry.",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/exclusive-safe-city-china-surveillance-huawei-facial-recognition/33501155.html",
+    "publication_date": "2025-08-12",
+    "country": "Serbia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "misus*",
+      "controvers*",
+      "backlash",
+      "protests",
+      "protesters"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "Before Moldova held a dual presidential vote and EU referendum, Kremlin-linked actors were busy sowing disinformation, explains Felix Kartte, a disinformation expert. Authoritarian regimes are also using new tactics to \"confuse\" and \"deflect blame.\" With a deep background as a disinformation expert, Felix Kartte is a senior fellow at the German-based Mercator Foundation and a senior adviser at Reset, an NGO that researches social media's impact on democracy. In the past, Kartte worked at StratCom, the EU diplomatic service's strategic communications division. While there, he helped craft EU policy on countering digital threats In an interview with RFE/RL's Tatar-Bashkir Service, Kartte talks about the tactics authoritarian regimes such as Russia use to spread disinformation globally, highlighting recent malign efforts in Moldova during its presidential election and referendum on…",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/deepfakes-disinformation-russia-moldova/33205600.html",
+    "publication_date": "2024-11-18",
+    "country": "Moldova",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "ai tool*",
+      "chatgpt",
+      "harm*",
+      "disinformation",
+      "exploit*",
+      "allegedly",
+      "accus*",
+      "sanction*",
+      "propaganda",
+      "anxiet*",
+      "manipulat*",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Compute / Model Behavior",
+      "subcategory_id": "1.3",
+      "subcategory": "Misinformation / information hazard harm",
+      "event_type": "Acute"
+    }
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "Russia is expanding the use of a facial-recognition payment system for subway rides, with initial launches in Kazan and Nizhny Novgorod. Some rights advocates warn that the system facilitates government surveillance of citizens and have advised strict safeguards for civil rights. In a move that human rights advocates warn carries potential risks for civil rights, Russia has begun expanding its facial-recognition payment system for subways to six cities outside of Moscow. Kazan, seat of the Volga River region of Tatarstan, and one subway station in Nizhny Novgorod, another major Volga city, started using the system, called Face Pay, in August, according to Russian media and government reports.",
+    "translated_text": null,
+    "source_url": "https://www.rferl.org/a/facial-recognition-security-civil-rights-subways/33109725.html",
+    "publication_date": "2024-09-13",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "surveil*",
+      "censor*",
+      "alleged",
+      "banned",
+      "protests",
+      "unlawful processing",
+      "arrest*",
+      "detention",
+      "journalist*"
+    ],
+    "classification": {
+      "branch": "Data",
+      "subcategory_id": "4.2",
+      "subcategory": "Surveillance harm",
+      "event_type": "Chronic"
+    }
+  }
+]

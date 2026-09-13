@@ -1,0 +1,3719 @@
+[
+  {
+    "report_id": "R001",
+    "source_language": "en",
+    "original_text": "Over the past year, ICE agents have scanned the faces of protesters, photographed their license plates, and collected samples of their DNA. But the agency hasn’t said how or where it’s storing that information.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/dhs-ice-surveillance-database-protest-public-records-spokane-hsi/",
+    "publication_date": "2026-07-27",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "ai generat*",
+      "exploit*",
+      "surveil*",
+      "victim*",
+      "violat*",
+      "wrongdoing",
+      "alleged",
+      "lawsuit*",
+      "protest",
+      "protests",
+      "protesters",
+      "retaliat*",
+      "chilling effect*",
+      "war crime*",
+      "arrest*",
+      "watchlist*",
+      "immigration enforcement"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R002",
+    "source_language": "en",
+    "original_text": "If you live near a military base, there’s a chance you’ll soon find that a privately owned data center has moved into your area. A year ago, President Donald Trump issued an executive order directing the Department of Defense to lease land to private developers for this purpose.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/data-centers-us-military-bases-public-lands/",
+    "publication_date": "2026-07-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "hyperscale*",
+      "AI data cent*",
+      "xAI",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "backlash",
+      "death*",
+      "pollut*",
+      "mine*",
+      "munition*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R003",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. The Trump administration is quietly considering a rule change that could make it easier for polluters to build facilities—including certain gas plants and diesel generators that power data centers—with little to no notice to the…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/trumps-epa-wants-fewer-people-asking-questions-about-data-center-pollution/",
+    "publication_date": "2026-07-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "AI data cent*",
+      "xAI",
+      "regulator*",
+      "emission*",
+      "pollut*",
+      "diesel generator*",
+      "fossil fuel*",
+      "public hearing*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R004",
+    "source_language": "en",
+    "original_text": "The incident sounded straight out of a science fiction movie: OpenAI’s super-advanced tool hacked another AI company’s systems in an attempt to pass its own developers’ cybersecurity test. Just replace the AI tech with a newly engineered virus and you have an entire existing subgenre.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/open-ai-hacking-scandal-hugging-face/",
+    "publication_date": "2026-07-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai model*",
+      "openai",
+      "anthropic",
+      "Hugging Face",
+      "harm*",
+      "regulator*",
+      "exploit*",
+      "violat*",
+      "breach*",
+      "allegation*",
+      "hacked",
+      "hacking",
+      "copyright*",
+      "made up"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.4",
+        "subcategory": "Malicious use harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R005",
+    "source_language": "en",
+    "original_text": "A group of 26 current and former Meta employees filed a lawsuit Monday evening accusing the tech company of using AI software to target employees with disabilities and those who took medical or family leave in its mass layoffs in May.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/meta-lawsuit-ai-layoffs-medical-leave-disability-tech-termination/",
+    "publication_date": "2026-07-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai model*",
+      "ai tool*",
+      "discriminat*",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "layoff*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R006",
+    "source_language": "en",
+    "original_text": "This story was originally published by Inside Climate News and is reproduced here as part of the Climate Desk collaboration.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/07/donald-trump-epa-lee-zeldin-fast-track-private-gas-fired-power-plants-ai-data-centers/",
+    "publication_date": "2026-07-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "openai",
+      "AI data cent*",
+      "supercomputer*",
+      "accountab*",
+      "damag*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "protests",
+      "smog",
+      "gigawatt*",
+      "fossil fuel*",
+      "moratorium",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R007",
+    "source_language": "en",
+    "original_text": "The federal government intervened Monday in a Clean Air Act lawsuit in which people in Memphis, Tennessee, and Southaven, Mississippi, are suing Elon Musk’s xAI over the health risks posed by the company’s unpermitted gas turbines.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/06/grok-doj-justice-naacp-clean-air-act-gas-turbine-pollution-national-security-ai/",
+    "publication_date": "2026-06-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "chatbot*",
+      "xAI",
+      "Grok",
+      "violat*",
+      "lawsuit*",
+      "penalt*",
+      "pollut*",
+      "gas turbine*",
+      "air quality",
+      "smog",
+      "fossil fuel*",
+      "munition*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R008",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. The Trump administration is coming to the defense of Elon Musk in a lawsuit over claims that his artificial intelligence company, xAI, is polluting residential neighborhoods in north Mississippi.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/06/trump-departement-justice-elon-musk-xai-grok-naacp-data-center-pollution-lawsuit-mississippi/",
+    "publication_date": "2026-06-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "data cent*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai model*",
+      "chatgpt",
+      "anthropic",
+      "xAI",
+      "Grok",
+      "harm*",
+      "accountab*",
+      "violat*",
+      "controvers*",
+      "backlash",
+      "allegation*",
+      "lawsuit*",
+      "nonconsensual*",
+      "pollut*",
+      "protests",
+      "gas turbine*",
+      "particulate*",
+      "asthma",
+      "respiratory",
+      "subsid*",
+      "munition*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R009",
+    "source_language": "en",
+    "original_text": "This story was originally published by WIRED and is reproduced here as part of the Climate Desk collaboration. SpaceX, Elon Musk’s behemoth company that launches rockets and runs data centers, went public on Friday with a target valuation above $1.75 trillion.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/06/xai-data-center-neighbors-angry-spacex-ipo-gas-turbines-colossus-pm2-5-elon-musk-trillionaire-pollution-asthma/",
+    "publication_date": "2026-06-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "anthropic",
+      "xAI",
+      "harm*",
+      "regulator*",
+      "water use",
+      "exploit*",
+      "accountab*",
+      "damag*",
+      "outcry",
+      "lawsuit*",
+      "class action*",
+      "marginaliz*",
+      "death*",
+      "died",
+      "pollut*",
+      "environmental justice",
+      "gas turbine*",
+      "particulate*",
+      "PM2.5",
+      "asthma"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R010",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. A record-shattering drought has racked much of the United States.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/06/data-centers-site-location-drought-stricken-areas-water-usage/",
+    "publication_date": "2026-06-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatgpt",
+      "semiconductor*",
+      "water use",
+      "controvers*",
+      "backlash",
+      "accus*",
+      "lawsuit*",
+      "death*",
+      "wounded",
+      "drought*",
+      "emission*",
+      "protest",
+      "protesters",
+      "energy bill*",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax break*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R011",
+    "source_language": "en",
+    "original_text": "Utah political consultant Gabi Finlayson was driving out of a canyon last week when she got the news that she had been accused of being a Chinese government operative. She was driving to a speaking engagement in central Utah with her colleague, Jackie Morgan.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/kevin-oleary-mr-wonderful-data-center-utah-chinese-ccp-spy-ai/",
+    "publication_date": "2026-05-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "hyperscale*",
+      "controvers*",
+      "backlash",
+      "accus*",
+      "drought*",
+      "emission*",
+      "greenhouse gas*",
+      "protest",
+      "protests",
+      "water rights"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R012",
+    "source_language": "en",
+    "original_text": "This week, Meta laid off 8,000 employees—10 percent of the company’s staff—and reassigned another 7,000 to train AI models.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/meta-video-ai-training-layoffs-video-exclusive-mci-bosworth-frenk/",
+    "publication_date": "2026-05-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai agent*",
+      "ai model*",
+      "abus*",
+      "layoff*",
+      "deactivat*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R013",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. As the United States prepares for hurricane season and a summer of record-breaking heat, experts fear the Trump administration’s cuts to climate and weather data programming could make the federal government’s weather fore…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/trump-cuts-noaa-weather-data-incomplete-forecasts-reliability-extreme-weather-climate-change/",
+    "publication_date": "2026-05-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai power*",
+      "misinformation",
+      "death*",
+      "underperform*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R014",
+    "source_language": "en",
+    "original_text": "A popular social media conspiracy theory about a recent cluster of hantavirus cases claims that the word “hanta” means “scam,” “fraud,” or “nonsense” in “Hebrew slang.” That’s more or less where the theory ends and dark suggestion takes over.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/hantavirus-hebrew/",
+    "publication_date": "2026-05-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "misinformation",
+      "fraud*",
+      "violat*",
+      "false claim*",
+      "misleading",
+      "scam*",
+      "died",
+      "hate speech",
+      "antisemit*",
+      "false information",
+      "conspiracy theor*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R015",
+    "source_language": "en",
+    "original_text": "A new Gallup poll has found that most Americans would really prefer not to live next door to a data center. For the first time, the polling organization asked people what they think of data centers, the massive computer-warehouses required to operate (among other things) large AI models.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/ai-data-center-gallup-opposition-american/",
+    "publication_date": "2026-05-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "ai model*",
+      "hyperscale*",
+      "protesters",
+      "gas turbine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R016",
+    "source_language": "en",
+    "original_text": "This story was originally published by WIRED and is reproduced here as part of the Climate Desk collaboration. A major oil company is seeking a state tax break in Texas worth hundreds of millions of dollars to build a massive power plant. The energy won’t be going to residential customers, though.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/chevron-energy-forge-one-texas-tax-break-power-plant-microsoft-data-center/",
+    "publication_date": "2026-05-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "guardrail*",
+      "greenhouse gas*",
+      "air quality",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax abatement*",
+      "tax break*",
+      "tax incentive*",
+      "subsid*",
+      "counsel*",
+      "restructur*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R017",
+    "source_language": "en",
+    "original_text": "The seventh American killed in President Donald Trump’s ill-defined war on Iran was from Kentucky. Army Sergeant Benjamin N. Pennington, 26, died a week after he was injured during Iran’s March 1 missile attack on a US air base in Saudi Arabia. When his body arrived at Dover Air Force Base, Trump was not there.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/thomas-massie-has-always-been-a-pain-in-the-ass/",
+    "publication_date": "2026-05-12",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "injur*",
+      "surveil*",
+      "damag*",
+      "victim*",
+      "abus*",
+      "scandal*",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "banned",
+      "sexis*",
+      "suicid*",
+      "death*",
+      "died",
+      "kill*",
+      "crash*",
+      "defam*",
+      "blackout*",
+      "protesters",
+      "antisemit*",
+      "made up",
+      "conspiracy theor*",
+      "sycophan*",
+      "run over",
+      "utility bill*",
+      "respiratory",
+      "mine*",
+      "arrest*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R018",
+    "source_language": "en",
+    "original_text": "Kevin O’Leary is best known as “Mr. Wonderful” on Shark Tank, or maybe as the bad guy from Marty Supreme. On Shark Tank, he invests in—or crushes the spirits of—small business owners.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/05/mr-wonderful-utah-stratos-data-center-shark-tank/",
+    "publication_date": "2026-05-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "openai",
+      "hyperscale*",
+      "water use",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "noise pollution",
+      "protest",
+      "protests",
+      "protesters",
+      "tax break*",
+      "water rights"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R019",
+    "source_language": "en",
+    "original_text": "On April 14, I created a free account on ChatGPT and asked for some help. It resisted me at first, but after some pushing the responses turned shocking. During a conversation lasting about 20 minutes, OpenAI’s chatbot gave me extensive advice on weapons and tactics as I simulated planning a mass shooting.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2026/05/openai-chatgpt-mass-shooting-guardrails-fail/",
+    "publication_date": "2026-05-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "guardrail*",
+      "harm*",
+      "victim*",
+      "misus*",
+      "violat*",
+      "wrongdoing",
+      "allegedly",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "banned",
+      "distress*",
+      "suicid*",
+      "vulnerable",
+      "died",
+      "kill*",
+      "copyright*",
+      "bombing*",
+      "delusion*",
+      "chat log*",
+      "journalist*",
+      "black box"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R020",
+    "source_language": "en",
+    "original_text": "Victims of the Tumbler Ridge mass shooting and their families sued OpenAI and its CEO, Sam Altman, in US district court in San Francisco on Wednesday, claiming various negligence, product liability, and other violations.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/criminal-justice/2026/04/lawsuit-openai-chatgpt-tumbler-ridge-mass-shooting-victims/",
+    "publication_date": "2026-04-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "harm*",
+      "injur*",
+      "trauma*",
+      "victim*",
+      "misus*",
+      "violat*",
+      "negligen*",
+      "wrongdoing",
+      "allegedly",
+      "allegation*",
+      "lawsuit*",
+      "litigat*",
+      "complaint*",
+      "banned",
+      "liab*",
+      "suicid*",
+      "death*",
+      "died",
+      "kill*",
+      "collision*",
+      "wounded",
+      "stalk*",
+      "copyright*",
+      "unlicensed",
+      "bombing*",
+      "delusion*",
+      "deactivat*",
+      "chat log*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R021",
+    "source_language": "en",
+    "original_text": "This story was originally published by Slate and is reproduced here as part of the Climate Desk collaboration. Quiet fell over the room, which was neither full nor very loud to begin with, and the 2026 Florida Citrus Show began. “It should be a great day,” began the event’s first speaker.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/04/florida-orange-juice-industy-decline-death/",
+    "publication_date": "2026-04-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "hyperscale*",
+      "Runway",
+      "regulator*",
+      "mining",
+      "trauma*",
+      "damag*",
+      "vulnerable",
+      "kill*",
+      "drought*",
+      "retaliat*",
+      "public hearing*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R022",
+    "source_language": "en",
+    "original_text": "The AI infrastructure reckoning has until recently stayed local, its battles fought in the relatively puny arenas of town council and zoning commission meetings.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/04/maine-ai-data-center-moratorium-ban-energy-grid/",
+    "publication_date": "2026-04-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "ai model*",
+      "hyperscale*",
+      "xAI",
+      "regulator*",
+      "accountab*",
+      "violat*",
+      "allegedly",
+      "pollut*",
+      "ratepayer*",
+      "electricity bill*",
+      "megawatt*",
+      "tax break*",
+      "zoning",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R023",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Grist and is reproduced here as part of the Climate Desk collaboration. Minnesota’s Boundary Waters comprise a vast stretch of wilderness bordering Canada, with over a million acres of untouched forest and thousands of lakes and streams.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/senate-republicans-vote-minnesota-boundary-waters-mining-pristine-wilderness-congressional-review-act/",
+    "publication_date": "2026-04-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "artificial intelligen*",
+      "chip*",
+      "harm*",
+      "regulator*",
+      "mining",
+      "exploit*",
+      "subsid*",
+      "moratorium",
+      "mine*",
+      "miner*",
+      "nickel",
+      "tailings",
+      "smelter*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.3",
+        "subcategory": "Resource extraction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R024",
+    "source_language": "en",
+    "original_text": "Two years ago, we devoted an entire issue to the rise of the American oligarchy. Since then, our oligarchic system has become more entrenched and pervasive, revolving around a small crew of tech titans whose quest for wealth and power—in all of its forms—is destabilizing our democracy and reshaping our society.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/american-oligarchy-hyperscale-data-centers-meta-openai-oracle-x-musk-altman-zuckerberg-bezos/",
+    "publication_date": "2026-04-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "data cent*",
+      "autonomous weapon*",
+      "AGI",
+      "chatbot*",
+      "agentic*",
+      "ai system*",
+      "ai model*",
+      "server farm*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "chip*",
+      "semiconductor*",
+      "GPU*",
+      "Nvidia",
+      "hyperscale*",
+      "AI data cent*",
+      "supercomputer*",
+      "guardrail*",
+      "Lavender",
+      "xAI",
+      "Grok",
+      "Claude",
+      "regulator*",
+      "non-consensual",
+      "displac*",
+      "community opposition",
+      "mining",
+      "exploit*",
+      "surveil*",
+      "infring*",
+      "damag*",
+      "abus*",
+      "controvers*",
+      "backlash",
+      "alleged",
+      "banned",
+      "racis*",
+      "anxiet*",
+      "suicid*",
+      "death*",
+      "kill*",
+      "crash*",
+      "stalk*",
+      "non consensual*",
+      "sexual exploitation",
+      "emission*",
+      "pollut*",
+      "protesters",
+      "copyright*",
+      "hallucinat*",
+      "sycophan*",
+      "accent*",
+      "ratepayer*",
+      "gas turbine*",
+      "asthma",
+      "gigawatt*",
+      "power demand",
+      "transmission line*",
+      "fossil fuel*",
+      "coal plant*",
+      "climate target*",
+      "tax break*",
+      "subsid*",
+      "farmland",
+      "mine*",
+      "miner*",
+      "lithium",
+      "rare earth*",
+      "detention"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R025",
+    "source_language": "en",
+    "original_text": "Editor’s note: This story was first published online on April 10, 2026. In June 2025, a safety team at OpenAI grew alarmed. The company’s automated review system had flagged extensive activity by a ChatGPT user describing scenarios that involved gun violence.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2026/04/chatgpt-tumbler-ridge-fsu-openai-chatbots-mass-shootings/",
+    "publication_date": "2026-04-10",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai system*",
+      "ai model*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "guardrail*",
+      "Claude",
+      "Gemini",
+      "harm*",
+      "regulator*",
+      "bias*",
+      "injur*",
+      "harass*",
+      "exploit*",
+      "trauma*",
+      "surveil*",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "alleged",
+      "allegedly",
+      "allegation*",
+      "lawsuit*",
+      "banned",
+      "liab*",
+      "wrongful*",
+      "marginaliz*",
+      "distress*",
+      "self harm*",
+      "suicid*",
+      "vulnerable",
+      "death*",
+      "kill*",
+      "casualt*",
+      "hospitaliz*",
+      "wounded",
+      "stalk*",
+      "copyright*",
+      "sycophan*",
+      "delusion*",
+      "psychosis",
+      "chat log*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.7",
+        "subcategory": "Physical safety harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R026",
+    "source_language": "en",
+    "original_text": "In the past 24 hours, I’ve checked Google Maps for directions, logged a sunset run on Strava, booked a yoga class with ClassPass, swiped into the New York City subway using a card linked to a digital profile, and sent and received hundreds of emails, texts, Slack messages, and phone calls.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/how-your-data-is-powering-trumps-surveillance-state/",
+    "publication_date": "2026-04-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "predictive polic*",
+      "artificial intelligen*",
+      "license plate reader*",
+      "bias*",
+      "surveil*",
+      "misus*",
+      "vulnerable",
+      "protest",
+      "wiretap*",
+      "immigration enforcement",
+      "deportation",
+      "data broker*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R027",
+    "source_language": "en",
+    "original_text": "Last August, citizens of the Muscogee (Creek) Nation began hearing whispers of an AI data center coming to their reservation. Kenzie Roberts and Jordan Harmon, both Muscogee citizens, were immediately worried. It “didn’t seem like something that should align with our values as Indigenous people,” Roberts said.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/04/data-centers-indian-country/",
+    "publication_date": "2026-04-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "generative ai",
+      "hyperscale*",
+      "AI data cent*",
+      "harm*",
+      "regulator*",
+      "displac*",
+      "mining",
+      "exploit*",
+      "controvers*",
+      "litigat*",
+      "pollut*",
+      "protests",
+      "protesters",
+      "rezoning",
+      "moratorium",
+      "sacred site*",
+      "water rights",
+      "mine*",
+      "lithium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R028",
+    "source_language": "en",
+    "original_text": "This article first appeared on The War Horse, an award-winning nonprofit news organization educating the public on military service, and The Border Chronicle, which produces independent, investigative journalism on the US-Mexico border. On a warm, winter Sunday, the Playas de Tijuana in Mexico is filled with families picnicking.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/trump-says-the-border-is-sealed-the-reality-is-messier/",
+    "publication_date": "2026-03-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "unmanned aerial*",
+      "license plate reader*",
+      "Palantir",
+      "surveil*",
+      "kill*",
+      "protesters",
+      "strike*",
+      "mine*",
+      "arrest*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R029",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and Spotlight PA is reproduced here as part of the Climate Desk collaboration. “I don’t like to see anyone upset,” said Nick Farris of Provident Real Estate Advisors.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/archbald-pennsylvania-ai-boon-data-centers-opposition-consequences/",
+    "publication_date": "2026-03-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AGI",
+      "large language model*",
+      "language model*",
+      "driverless",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "guardrail*",
+      "fire control",
+      "harm*",
+      "water use",
+      "displac*",
+      "evict*",
+      "mining",
+      "victim*",
+      "outcry",
+      "alleged",
+      "accus*",
+      "lawsuit*",
+      "vulnerable",
+      "kill*",
+      "pollut*",
+      "contaminat*",
+      "electricity price*",
+      "ratepayer*",
+      "electricity bill*",
+      "backup generator*",
+      "particulate*",
+      "transmission line*",
+      "fossil fuel*",
+      "tax break*",
+      "subsid*",
+      "zoning",
+      "moratorium",
+      "public hearing*",
+      "mine*",
+      "counsel*",
+      "hiring freeze*",
+      "rate cut*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R030",
+    "source_language": "en",
+    "original_text": "This story was originally published by Bulletin of the Atomic Scientists and is reproduced here as part of the Climate Desk collaboration.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/climate-change-denial-science-journals-paper-misinformation-ai/",
+    "publication_date": "2026-03-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "large language model*",
+      "language model*",
+      "chatbot*",
+      "ai tool*",
+      "ai generat*",
+      "chatgpt",
+      "Grok",
+      "Claude",
+      "Gemini",
+      "harm*",
+      "discriminat*",
+      "misinformation",
+      "disinformation",
+      "prejudic*",
+      "emission*",
+      "greenhouse gas*",
+      "copyright*",
+      "hallucinat*",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R031",
+    "source_language": "en",
+    "original_text": "The Trump administration is scrambling to cover its tracks amid legislative pressure and a First Amendment lawsuit over its alleged “domestic terrorist” database, new legal filings and emails reviewed by Mother Jones reveal.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/dhs-ice-domestic-terrorism-database-lawsuit-first-amendment/",
+    "publication_date": "2026-03-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "ai power*",
+      "regulator*",
+      "discriminat*",
+      "harass*",
+      "surveil*",
+      "violat*",
+      "alleged",
+      "lawsuit*",
+      "litigat*",
+      "class action*",
+      "complaint*",
+      "protesters",
+      "protestors",
+      "mass surveillance",
+      "watchlist*",
+      "immigration enforcement"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R032",
+    "source_language": "en",
+    "original_text": "This story was co-published with The 74, a nonprofit, independent news organization focused on education in America. Sign up for their early learning Substack.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2026/03/this-is-your-kids-brain-on-ai-slop/",
+    "publication_date": "2026-03-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "large language model*",
+      "language model*",
+      "ai tool*",
+      "ai generat*",
+      "openai",
+      "anthropic",
+      "harm*",
+      "misinformation",
+      "accountab*",
+      "violat*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R033",
+    "source_language": "en",
+    "original_text": "Tennessee teenagers are suing Elon Musk’s company xAI over allegations that its artificial intelligence tool Grok undressed photos of them as minors—the latest challenge against the wealthiest living person’s chatbot.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/tennessee-teens-sue-elon-musks-xai-over-child-sexual-abuse-images/",
+    "publication_date": "2026-03-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "artificial intelligen*",
+      "chatbot*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "regulator*",
+      "damag*",
+      "abus*",
+      "violat*",
+      "backlash",
+      "allegation*",
+      "lawsuit*",
+      "complaint*",
+      "nonconsensual*",
+      "intimate imag*",
+      "CSAM",
+      "child sexual abuse material",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R034",
+    "source_language": "en",
+    "original_text": "A US aircraft carrier destroyed by Iranian missiles. American bombs leveling a nuclear power plant. The Burj Khalifa engulfed in fire. None of it happened, but that didn’t stop people from spreading fake videos online.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/ai-war-video-deepfake-x-israel-uae-iran/",
+    "publication_date": "2026-03-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai tool*",
+      "ai generat*",
+      "Grok",
+      "harm*",
+      "misidentif*",
+      "degrading",
+      "fabricated",
+      "misleading",
+      "protests",
+      "strike*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R035",
+    "source_language": "en",
+    "original_text": "Less than a day after President Donald Trump falsely suggested that Ilhan Omar had staged an attack on herself, the images started to circulate.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/artificial-intelligence-memes-disinformation/",
+    "publication_date": "2026-03-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai model*",
+      "ai tool*",
+      "ai generat*",
+      "Grok",
+      "harm*",
+      "disinformation",
+      "harass*",
+      "lawsuit*",
+      "fake news",
+      "propaganda",
+      "manipulat*",
+      "death*",
+      "protesters",
+      "demean*",
+      "conspiracy theor*",
+      "outsourc*",
+      "arrest*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R036",
+    "source_language": "en",
+    "original_text": "On Saturday, the United States and Israeli governments unleashed stealth bombers, drones, and missiles on Iran, citing a rationale of preventing Iran from developing and deploying catastrophic nuclear weapons.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/artificial-intelligence-quitters/",
+    "publication_date": "2026-03-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "autonomous weapon*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai system*",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "guardrail*",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "Claude",
+      "harm*",
+      "non-consensual",
+      "surveil*",
+      "scandal*",
+      "outcry",
+      "manipulat*",
+      "non consensual*",
+      "strike*",
+      "mass surveillance",
+      "bioweapon*",
+      "pedestrian"
+    ],
+    "classifications": [
+      {
+        "branch": "Deployment Context / Weapons",
+        "subcategory_id": "5.2",
+        "subcategory": "Military decision support harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R037",
+    "source_language": "en",
+    "original_text": "When agents came to his workplace armed with guns, gas canisters, and artificial intelligence, Abdikafi Abdurahman Abdullahi, known as Kafi, fought back with quick wit and street smarts.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/03/mobile-fortify-face-scan-dhs-kristi-noem-database-technology/",
+    "publication_date": "2026-03-04",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "face recognition",
+      "guardrail*",
+      "license plate reader*",
+      "social media monitoring",
+      "Palantir",
+      "Clearview AI",
+      "misidentif*",
+      "surveil*",
+      "lawsuit*",
+      "class action*",
+      "death*",
+      "kill*",
+      "protest",
+      "protesters",
+      "retaliat*",
+      "error rate*",
+      "accent*",
+      "location data",
+      "arrest*",
+      "journalist*",
+      "checkpoint*",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R038",
+    "source_language": "en",
+    "original_text": "Leaked documents reveal that Meta, the parent company of Facebook, WhatsApp, and Instagram, has blocked its AI chatbot from discussing topics including abortion with minors—a blanket policy that contrasts sharply with the firm’s handling of child sexual exploitation claims, and that may also inadvertently affect its content for adults.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/meta-abortion-ai-chatbot-leak-teen-info-ban/",
+    "publication_date": "2026-02-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "Gemini",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "exploit*",
+      "censor*",
+      "abus*",
+      "allegation*",
+      "accus*",
+      "lawsuit*",
+      "depression",
+      "self harm*",
+      "suicid*",
+      "sexual exploitation",
+      "bully*",
+      "chilling effect*",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R039",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. This coverage is made possible through a partnership between Grist and BPR, a public radio station serving western North Carolina.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/02/tva-how-trumps-appointees-derailed-a-clean-energy-future-at-the-nations-largest-public-utility/",
+    "publication_date": "2026-02-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "data cent*",
+      "artificial intelligen*",
+      "xAI",
+      "mining",
+      "death*",
+      "kill*",
+      "pollut*",
+      "ratepayer*",
+      "particulate*",
+      "power demand",
+      "fossil fuel*",
+      "coal plant*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R040",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. Tech companies are conflating traditional artificial intelligence with generative AI when claiming the energy-hungry technology could help avert climate breakdown, according to a report.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2026/02/tech-silicon-valley-ai-claims-help-fix-climate-crisis-greenwashing/",
+    "publication_date": "2026-02-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai model*",
+      "predictive model*",
+      "chatgpt",
+      "Hugging Face",
+      "Gemini",
+      "harm*",
+      "disinformation",
+      "emission*",
+      "carbon footprint*",
+      "greenhouse gas*",
+      "pollut*",
+      "energy consumption",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R041",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist in partnership with WABE, Atlanta’s NPR station, and is reproduced here as part of the Climate Desk collaboration. As more and more data centers crop up throughout Georgia and the Southeast, a recent study finds they may need less energy than the industry and utilities have been predicting.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/utilities-overestimating-ai-boom-data-centers-fossil-fuel-energy-usage-bills/",
+    "publication_date": "2026-02-16",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "generative ai",
+      "hyperscale*",
+      "emission*",
+      "ratepayer*",
+      "energy bill*",
+      "gas turbine*",
+      "gigawatt*",
+      "fossil fuel*",
+      "tax break*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R042",
+    "source_language": "en",
+    "original_text": "In the summer of 1956, Martin Luther King, Jr. took the stage at the NAACP’s 47th annual convention in San Francisco. Speaking at the precipice of the Civil Rights Movement, King cautioned that “the guardians of the status quo are always on hand with their oxygen tents to keep the old order alive.” Over the […] In the summer of 1956, Mart…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/naacp-derrick-johnson-abolish-ice-campaign/",
+    "publication_date": "2026-02-12",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "xAI",
+      "discriminat*",
+      "harass*",
+      "accountab*",
+      "violat*",
+      "lawsuit*",
+      "marginaliz*",
+      "kill*",
+      "pollut*",
+      "electricity bill*",
+      "gas turbine*",
+      "racial profiling"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R043",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. The US Department of Health and Human Services (HHS) is developing a generative artificial intelligence tool to find patterns across data reported to a national vaccine monitoring database and to generate hypotheses on the negati…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/02/health-department-rfk-jr-ai-unverified-vaccine-injury-claims-database-vaers/",
+    "publication_date": "2026-02-05",
+    "country": "United States",
+    "occurrence_status": "probable",
+    "taxonomy_hints": [
+      "AI",
+      "LLM*",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "ai model*",
+      "ai tool*",
+      "natural language process*",
+      "injur*",
+      "misus*",
+      "death*",
+      "hallucinat*",
+      "adverse event*",
+      "respiratory",
+      "mine*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R044",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. With community opposition growing, data center backers are going on a full-scale public relations blitz.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/data-centers-public-opposition-industry-advertising-rebranding-jobs-lower-energy-bills/",
+    "publication_date": "2026-01-28",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "hyperscale*",
+      "AI data cent*",
+      "regulator*",
+      "community opposition",
+      "damag*",
+      "backlash",
+      "pollut*",
+      "electricity price*",
+      "subsid*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R045",
+    "source_language": "en",
+    "original_text": "There’s a picture of myself that I had saved on my desktop for years; I suppose we could call it a caricature. A little more than a decade ago, someone on a Nazi messageboard pulled a photo of me from social media, then updated it with some antisemitic flair: a little cartoon rat sitting on […] There’s a picture of myself that I had saved…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/grok-ncii-elon-musk/",
+    "publication_date": "2026-01-21",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "generative ai",
+      "ai tool*",
+      "ai assist*",
+      "Grok",
+      "harm*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "scandal*",
+      "disproportionat*",
+      "hacked",
+      "manipulat*",
+      "kill*",
+      "stalk*",
+      "nonconsensual*",
+      "intimate imag*",
+      "revenge porn*",
+      "antisemit*",
+      "false information",
+      "gender based violence",
+      "counsel*",
+      "human rights defender*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R046",
+    "source_language": "en",
+    "original_text": "In much of the world, Grok and its parent company both appear to be in serious trouble. After Grok, X’s AI chatbot, has been used to generate sexualized and violent images of women and children, the social media company has faced a wave of backlash and censure, with new nationwide bans on accessing Grok in […] In much of the world , Grok…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/elon-musk-twitter-grok-ai/",
+    "publication_date": "2026-01-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "guardrail*",
+      "Grok",
+      "harm*",
+      "regulator*",
+      "abus*",
+      "violat*",
+      "backlash",
+      "accus*",
+      "banned",
+      "nonconsensual*",
+      "intimate imag*",
+      "made up",
+      "child sexual abuse material"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R047",
+    "source_language": "en",
+    "original_text": "Grok, the AI chatbot launched by Elon Musk after his takeover of X, unhesitatingly fulfilled a user’s request on Wednesday to generate an image of Renée Nicole Good in a bikini—the woman who was shot and killed by an ICE agent that morning in Minneapolis, as noted by CNN correspondent Hadas Gold and confirmed by […] Grok, the AI chatbot l…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2026/01/grok-x-musk-deepfake-renee-good-ice/",
+    "publication_date": "2026-01-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "chatbot*",
+      "ai generat*",
+      "xAI",
+      "Grok",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "violat*",
+      "kill*",
+      "malfunction*",
+      "nonconsensual*",
+      "intimate imag*",
+      "CSAM",
+      "child sexual abuse material"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R048",
+    "source_language": "en",
+    "original_text": "In the summer of 2019, a group of Dutch scientists conducted an experiment to collect “digital confessions.” At a music festival near Amsterdam, the researchers asked attendees to share a secret anonymously by chatting online with either a priest or a relatively basic chatbot, assigned at random.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/12/chatgpt-trust-ai-chatbots/",
+    "publication_date": "2025-12-02",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "chatbot*",
+      "openai",
+      "chatgpt",
+      "guardrail*",
+      "Grok",
+      "Perplexity",
+      "harm*",
+      "bias*",
+      "abus*",
+      "violat*",
+      "lawsuit*",
+      "kill*",
+      "copyright*",
+      "conspiracy theor*",
+      "sycophan*",
+      "delusion*",
+      "mental health support",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R049",
+    "source_language": "en",
+    "original_text": "I began this morning, as I do every morning, by reading my daughter a book. Today it was Arthur Dorros’ Abuela, illustrated by Elisa Kleven. Abuela is a sweet story about a girl who imagines that she and her grandmother leap into the sky and soar around New York City.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/11/ai-childrens-books/",
+    "publication_date": "2025-11-26",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "disproportionat*",
+      "manipulat*",
+      "vulnerable",
+      "strike*",
+      "copyright*",
+      "journalist*",
+      "scrap*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R050",
+    "source_language": "en",
+    "original_text": "Late last week, the X social media platform rolled out a new “location indicator” tool, plans for which had first been announced in October.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/11/twitters-foreign-influence-problem-is-nothing-new/",
+    "publication_date": "2025-11-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "ai generat*",
+      "chip*",
+      "misinformation",
+      "disinformation",
+      "complaint*",
+      "information operation*",
+      "hacking",
+      "manipulat*",
+      "hate speech",
+      "location data"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R051",
+    "source_language": "en",
+    "original_text": "This story was originally published by WIRED and is reproduced here as part of the Climate Desk collaboration. On Election Day, Peter Hubbard was one of two Democratic candidates who took a decisive—and surprising—victory in Georgia.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/11/report-growing-public-resistance-data-centers-ai-power-bills-water-land-use/",
+    "publication_date": "2025-11-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI infrastructure",
+      "community opposition",
+      "alleged",
+      "utility bill*",
+      "electricity bill*",
+      "energy bill*",
+      "tax break*",
+      "zoning",
+      "moratorium",
+      "nondisclosure agreement*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R052",
+    "source_language": "en",
+    "original_text": "In the 1970s, when researchers asked children to draw a scientist, 99 percent of them drew a man. As this experiment was repeated over 50 years, the number of women drawn increased, and within the past decade, more than half of girls will draw a woman when asked what a scientist looks like.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2025/10/nature-study-berkeley-haas-online-internet-images-gender-bias-workforce-false-reality-women/",
+    "publication_date": "2025-10-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "ai model*",
+      "chatgpt",
+      "guardrail*",
+      "bias*",
+      "racis*",
+      "sexis*",
+      "stereotyp*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R053",
+    "source_language": "en",
+    "original_text": "This story was originally published by Guardian and is reproduced here as part of the Climate Desk collaboration. The White House will open 13.1 million acres of public land to coal mining while providing $625 million for coal-fired power plants, the Trump administration has announced.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/10/trump-administration-625-million-public-lands-revive-coal-industry/",
+    "publication_date": "2025-10-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "displac*",
+      "mining",
+      "death*",
+      "emission*",
+      "pollut*",
+      "electricity bill*",
+      "asthma",
+      "wastewater",
+      "fossil fuel*",
+      "coal plant*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R054",
+    "source_language": "en",
+    "original_text": "The company’s biometric tech always sounded like it was ripped from the plot of a dystopian thriller, but recently, the iris-scanning system developed by the Massachusetts-based BI² Technologies has become part of the nation’s deportation dragnet.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/trump-ice-contracts-ballard-partners-lobbying-bi2-technologies-palantir-biometrics/",
+    "publication_date": "2025-09-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "Palantir",
+      "surveil*",
+      "victim*",
+      "controvers*",
+      "fatalities",
+      "mine*",
+      "immigration enforcement",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R055",
+    "source_language": "en",
+    "original_text": "This story was originally published by Canary Media and is reproduced here as part of the Climate Desk collaboration. Since 2021, the Sierra Club has been grading US utilities on their commitment to a clean-energy transition.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/utilities-sierra-club-report-card-climate-gas-coal-clean-energy/",
+    "publication_date": "2025-09-24",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "openai",
+      "anthropic",
+      "harm*",
+      "regulator*",
+      "pollut*",
+      "gigawatt*",
+      "power demand",
+      "fossil fuel*",
+      "coal plant*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R056",
+    "source_language": "en",
+    "original_text": "This story was originally published by the High Country News in partnership with the Puente News Collaborative and is reproduced here as part of the Climate Desk collaboration. Sunland Park, New Mexico, is not a notably online community.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/data-center-construction-ai-water-local-resistance/",
+    "publication_date": "2025-09-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "water use",
+      "violat*",
+      "backlash",
+      "outcry",
+      "pollut*",
+      "contaminat*",
+      "noise pollution",
+      "protests",
+      "wastewater",
+      "tax break*",
+      "property value*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R057",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. The Trump administration, citing an ongoing “energy emergency,” has once again saddled a community already overburdened by pollution with a dirty, obsolete power plant it doesn’t want or need.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/09/eddystone-gas-plant-trump-stay-open-order-data-centers-energy-emergency/",
+    "publication_date": "2025-09-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "misidentif*",
+      "abus*",
+      "violat*",
+      "pollut*",
+      "blackout*",
+      "environmental justice",
+      "ratepayer*",
+      "air quality",
+      "asthma",
+      "megawatt*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R058",
+    "source_language": "en",
+    "original_text": "In April 2024, the American police tech firm Axon, which leads the market for police body cameras, released a tool it billed as “revolutionary”: Draft One, an AI-powered software package that would turn body camera footage and audio into intelligible police reports.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia/",
+    "publication_date": "2025-08-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "generative ai",
+      "ai system*",
+      "ai model*",
+      "ai tool*",
+      "ai power*",
+      "ai driven",
+      "ai generat*",
+      "openai",
+      "chatgpt",
+      "fine tun*",
+      "bias*",
+      "discriminat*",
+      "surveil*",
+      "accountab*",
+      "alleged",
+      "accus*",
+      "defect*",
+      "hallucinat*",
+      "deactivat*",
+      "rubber stamp*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R059",
+    "source_language": "en",
+    "original_text": "In March, Immigration and Customs Enforcement (ICE) arrested a woman they accused of drug trafficking and entering the country illegally. Standing in a parking lot, they photographed her, weeping, eyes half-closed in anguish, her arms cuffed behind her back.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/08/trump-administration-propaganda/",
+    "publication_date": "2025-08-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "disinformation",
+      "victim*",
+      "scandal*",
+      "accus*",
+      "dehumaniz*",
+      "propaganda",
+      "anxiet*",
+      "manipulat*",
+      "slur*",
+      "demean*",
+      "xenophob*",
+      "counsel*",
+      "arrest*",
+      "detention",
+      "deportation",
+      "repurpos*",
+      "in the style of"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R060",
+    "source_language": "en",
+    "original_text": "In 2023, Peter Thiel, the billionaire tech titan and investor, issued a proclamation: He would not make political donations in 2024 to any candidate, including Donald Trump, whom he had backed in 2016. Now, after sitting out the 2024 election cycle, Thiel is back in the game.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/peter-thiel-republican-donations-palantir-federal-contracts-house-control-trump/",
+    "publication_date": "2025-07-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "Palantir",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "pedestrian",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R061",
+    "source_language": "en",
+    "original_text": "This story was originally published by Popular Information, a substack publication to which you can subscribe here. This past Thursday, the Wall Street Journal published a bombshell report about President Trump’s relationship with convicted child sex abuser Jeffrey Epstein.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/wall-street-journal-donald-trump-jeffrey-epstein-birthday-letter-lawsuit/",
+    "publication_date": "2025-07-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "ai tool*",
+      "xAI",
+      "Grok",
+      "abus*",
+      "controvers*",
+      "alleged"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R062",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. AI is “not my thing,” President Donald Trump admitted during a speech in Pittsburgh on Tuesday.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/fossil-fuel-polluters-lifeline-ai-data-centers-power-demand-donald-trump-pittsburgh-summit/",
+    "publication_date": "2025-07-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "openai",
+      "anthropic",
+      "AI data cent*",
+      "emission*",
+      "pollut*",
+      "fossil fuel*",
+      "tax incentive*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R063",
+    "source_language": "en",
+    "original_text": "On Tuesday, Grok, the AI-chatbot created by Elon Musk’s xAI, began generating vile, bigoted and antisemitic responses to X users’ questions, referring to itself as “MechaHitler,” praising Hitler and “the white man,” and, as a weird side-quest, making intensely critical remarks in both Turkish and English about Turkish President Recep Tayy…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/grok-ai-antisemitism/",
+    "publication_date": "2025-07-09",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "chatbot*",
+      "chatgpt",
+      "xAI",
+      "Grok",
+      "bias*",
+      "censor*",
+      "propaganda",
+      "scam*",
+      "hate speech",
+      "antisemit*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R064",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. Republicans are pushing to pass a major spending bill that includes provisions to prevent states from enacting regulations on artificial intelligence.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/07/big-beautiful-bill-ban-state-ai-regulations-environmental-energy-climate/",
+    "publication_date": "2025-07-01",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatgpt",
+      "hyperscale*",
+      "guardrail*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "fossil fuel*",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R065",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. Last Tuesday, President Donald Trump held a press conference to announce the signing of executive orders intended to shape American energy policy in favor of one particular source: coal, the most carbon-intense fossil fuel.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/04/donald-trump-wants-to-save-the-coal-industry-hes-too-late/",
+    "publication_date": "2025-04-14",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "generative ai",
+      "regulator*",
+      "liab*",
+      "scam*",
+      "death*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "fossil fuel*",
+      "coal plant*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R066",
+    "source_language": "en",
+    "original_text": "The judge demanded that White House Press Secretary Karoline Leavitt remove her cross necklace, but soon he was humiliated. A man tried to yell at Vice President JD Vance in a cafe, but soon, he too was brought low.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/04/ai-slop-donald-trump-youtube/",
+    "publication_date": "2025-04-11",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai tool*",
+      "ai generat*",
+      "harm*",
+      "fined",
+      "misinformation",
+      "censor*",
+      "violat*",
+      "misleading"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R067",
+    "source_language": "en",
+    "original_text": "One evening in March 2017, Hoan Ton-That, an Australian coder building a powerful facial recognition system, emailed his American business partners with a plan to deploy their fledgling technology. “Border patrol pitch,” the subject line read.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/04/clearview-ai-immigration-ice-fbi-surveillance-facial-recognition-hoan-ton-that-hal-lambert-trump/",
+    "publication_date": "2025-04-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "artificial intelligen*",
+      "tenant screening",
+      "guardrail*",
+      "Clearview AI",
+      "harm*",
+      "fined",
+      "bias*",
+      "misinformation",
+      "fraud*",
+      "harass*",
+      "surveil*",
+      "without consent",
+      "accountab*",
+      "victim*",
+      "abus*",
+      "misus*",
+      "violat*",
+      "controvers*",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "class action*",
+      "liab*",
+      "racis*",
+      "wrongful*",
+      "false claim*",
+      "propaganda",
+      "election interference",
+      "died",
+      "kill*",
+      "protest",
+      "protests",
+      "protesters",
+      "protestors",
+      "data protection",
+      "mass surveillance",
+      "chilling effect*",
+      "without permission",
+      "islamophob*",
+      "xenophob*",
+      "conspiracy theor*",
+      "mine*",
+      "wrongful arrest*",
+      "arrest*",
+      "journalist*",
+      "immigration enforcement",
+      "deportation",
+      "scrap*",
+      "no transparency"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R068",
+    "source_language": "en",
+    "original_text": "President Donald Trump has a new hobbyhorse: That his predecessor, President Joe Biden, didn’t legally grant pardons to people Trump wants to harass because the pardons were signed with an autopen, a device for replicating a signature, rather than by hand.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/03/autopen-donald-trump/",
+    "publication_date": "2025-03-17",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "chatbot*",
+      "injur*",
+      "harass*",
+      "wrongful*",
+      "outsourc*",
+      "deportation",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R069",
+    "source_language": "en",
+    "original_text": "This story was originally published on the author’s substack, Field Notes with Alexander C Kaufman, to which you can subscribe here. Artificial intelligence is driving up demand for electricity—the only question is how much, and what provides the power.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/02/new-duke-study-power-curtailment-ai-data-centers-nuclear-gas-plants/",
+    "publication_date": "2025-02-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "openai",
+      "deepseek",
+      "regulator*",
+      "gas turbine*",
+      "gigawatt*",
+      "power demand",
+      "fossil fuel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R070",
+    "source_language": "en",
+    "original_text": "On Thursday, the Washington Post reported that Elon Musk’s DOGE fed sensitive data into artificial intelligence software as a way to help decide which of the Department of Education’s programs were wasteful, to try and slash its budget.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/02/ai-artifical-intelligence-determine-cuts-department-education-disabled-students-disabiility-rights/",
+    "publication_date": "2025-02-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "ai model*",
+      "ai driven",
+      "chatgpt",
+      "harm*",
+      "bias*",
+      "disproportionat*",
+      "ableis*",
+      "sensitive data"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.2",
+        "subcategory": "Allocative harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R071",
+    "source_language": "en",
+    "original_text": "This story was originally published by High Country News and is reproduced here as part of the Climate Desk collaboration. On January 14, President Joe Biden issued an executive order directing the departments of Defense and Energy to make land available for private entities to construct gigawatt-scale “frontier” AI data centers.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2025/02/joe-biden-executive-order-ai-frontier-data-centers-public-land-giveaway-trump-interior-energy-oligarchy/",
+    "publication_date": "2025-02-03",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "AI data cent*",
+      "harm*",
+      "mining",
+      "exploit*",
+      "emission*",
+      "gigawatt*",
+      "transmission line*",
+      "mine*",
+      "miner*",
+      "lithium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.2",
+        "subcategory": "Land use and siting harm",
+        "event_type": "Acute and chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R072",
+    "source_language": "en",
+    "original_text": "“So where’s my German friends?” Donald Trump asked a fawning Mar-a-Lago crowd on Election Day, before flashing a grin and a thumbs up for a photo with a group of young men.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/12/donald-trump-elon-musk-alternative-fur-deutschlandafd-german-elections/",
+    "publication_date": "2024-12-21",
+    "country": "Germany",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "content moderat*",
+      "ai generat*",
+      "fraud*",
+      "censor*",
+      "victim*",
+      "allegation*",
+      "complaint*",
+      "banned",
+      "racis*",
+      "protests",
+      "conspiracy theor*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R073",
+    "source_language": "en",
+    "original_text": "Over the past few months, Elon Musk has seemingly done everything in his power to get former President Donald Trump reelected.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/10/elon-musk-voter-fraud-group-x-misinformation/",
+    "publication_date": "2024-10-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "ai power*",
+      "Grok",
+      "harm*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "allegation*",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R074",
+    "source_language": "en",
+    "original_text": "On Saturday, Elon Musk furthered an ongoing effort in support of Donald Trump: He went onstage to sow misinformation about the integrity of American elections.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/10/elon-musk-trump-rally-butler-voting-disinformation/",
+    "publication_date": "2024-10-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai power*",
+      "Grok",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "false claim*",
+      "misleading",
+      "vulnerable",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.8",
+        "subcategory": "Interpersonal / relational harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R075",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. For five years, reactor one at Three Mile Island nuclear power station in Pennsylvania has lain dormant.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/09/ai-microsoft-nuclear-comeback-three-mile-island/",
+    "publication_date": "2024-09-29",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "artificial intelligen*",
+      "ai model*",
+      "ai tool*",
+      "ai power*",
+      "openai",
+      "Hugging Face",
+      "emission*",
+      "energy consumption",
+      "megawatt*",
+      "gigawatt*",
+      "power demand"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R076",
+    "source_language": "en",
+    "original_text": "This story was originally published by Grist and is reproduced here as part of the Climate Desk collaboration. Earlier this year, the e-commerce corporation Amazon secured approval to open two new data centers in Santiago, Chile.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/amazon-water-positive-claim-criticism-data-centers-power-plants/",
+    "publication_date": "2024-08-31",
+    "country": "Chile",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "data cent*",
+      "artificial intelligen*",
+      "chatgpt",
+      "controvers*",
+      "water consumption",
+      "emission*",
+      "pollut*",
+      "power demand",
+      "fossil fuel*",
+      "farmland"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R077",
+    "source_language": "en",
+    "original_text": "A heavily publicized Twitter conversation between Elon Musk and Donald Trump on Monday night began with an immediate bed-shitting technical crash.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/elon-musk-donald-trump-twitter-space/",
+    "publication_date": "2024-08-13",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "disinformation",
+      "accus*",
+      "scam*",
+      "crash*",
+      "layoff*",
+      "slur*",
+      "journalist*",
+      "deportation"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R078",
+    "source_language": "en",
+    "original_text": "Elon Musk is not just the Trump-supporting owner of the social media platform X, formerly known as Twitter. It turns out he is also one of the platform’s biggest peddlers of election-related disinformation, according to a new report published Thursday by the Center for Countering Digital Hate.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/election-disinformation-elon-musk-x-trump-harris/",
+    "publication_date": "2024-08-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai power*",
+      "Grok",
+      "harm*",
+      "disinformation",
+      "fraud*",
+      "accountab*",
+      "abus*",
+      "violat*",
+      "degrading",
+      "false claim*",
+      "misleading",
+      "propaganda",
+      "manipulated media",
+      "manipulat*",
+      "vulnerable",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R079",
+    "source_language": "en",
+    "original_text": "For our September+October issue, we investigated the Border Patrol’s sharp growth, its troubling record on civil liberties, its culture of impunity, and its role in shaping the current political moment—one that echoes the anti-immigrant fever that led to the agency’s creation a century ago. Read the whole package here.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/border-patrol-wall-automated-surveillance-artificial-intelligence-security-expo/",
+    "publication_date": "2024-08-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "machine learning",
+      "artificial intelligen*",
+      "ai tool*",
+      "Anduril",
+      "surveil*",
+      "accountab*",
+      "impunity",
+      "death*",
+      "extrajudicial",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R080",
+    "source_language": "en",
+    "original_text": "Elon Musk has said he wants X, formerly known as Twitter, to be the “public square” of the internet, an essential place for discourse and democracy. But there’s a major problem: Disinformation is running rampant on X in the lead-up to the November election, including content targeting Democratic presidential candidate Kamala Harris.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/08/elon-musk-x-kamala-harris-election-disinformation-deepfake-grok/",
+    "publication_date": "2024-08-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai system*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "Grok",
+      "harm*",
+      "disinformation",
+      "violat*",
+      "wrongful*",
+      "degrading",
+      "manipulated media",
+      "manipulat*",
+      "false information"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R081",
+    "source_language": "en",
+    "original_text": "This story was originally published by Inside Climate News and is reproduced here as part of the Climate Desk collaboration. Cheryl Shadden cannot sleep.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/07/texas-bitcoin-mines-data-centers-power-grid-demand/",
+    "publication_date": "2024-07-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "data cent*",
+      "artificial intelligen*",
+      "power purchase agreement*",
+      "mining",
+      "manipulat*",
+      "crash*",
+      "emission*",
+      "greenhouse gas*",
+      "pollut*",
+      "noise pollution",
+      "blackout*",
+      "ratepayer*",
+      "utility bill*",
+      "megawatt*",
+      "power demand",
+      "public hearing*",
+      "mine*",
+      "miner*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R082",
+    "source_language": "en",
+    "original_text": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration. The artificial intelligence boom has driven Big Tech share prices to fresh highs, but at the cost of the sector’s climate aspirations.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2024/07/ai-data-centers-energy-use-tech-climate-goals-net-zero/",
+    "publication_date": "2024-07-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "training data",
+      "data cent*",
+      "AI infrastructure",
+      "AGI",
+      "GPT*",
+      "artificial intelligen*",
+      "ai system*",
+      "ai model*",
+      "training run*",
+      "model training",
+      "openai",
+      "chatgpt",
+      "anthropic",
+      "deepmind",
+      "AI data cent*",
+      "Claude",
+      "Gemini",
+      "water use",
+      "emission*",
+      "greenhouse gas*",
+      "energy consumption",
+      "power demand",
+      "fossil fuel*",
+      "climate target*"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R083",
+    "source_language": "en",
+    "original_text": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. Big Tech’s appetite for energy is just about visible from the east coast of Scotland.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/06/big-tech-ai-energy-electricity-use-growing-power-grid-restraints/",
+    "publication_date": "2024-06-17",
+    "country": "United Kingdom",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "data cent*",
+      "AI infrastructure",
+      "artificial intelligen*",
+      "server farm*",
+      "openai",
+      "chip*",
+      "power purchase agreement*",
+      "backlash",
+      "emission*",
+      "strike*",
+      "diesel generator*",
+      "megawatt*",
+      "gigawatt*",
+      "power demand",
+      "moratorium"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R084",
+    "source_language": "en",
+    "original_text": "Not long ago, I noticed a new term trending in social media wellness circles: “certified hormone specialist.” I could have investigated it the old-fashioned way: googling, calling up an expert or two, digging into the scientific literature.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/05/chatbots-chatgpt-health-misinformation/",
+    "publication_date": "2024-05-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "large language model*",
+      "language model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai generat*",
+      "chatgpt",
+      "Scale AI",
+      "misinformation",
+      "disinformation",
+      "accus*",
+      "fabricated",
+      "propaganda",
+      "hallucinat*",
+      "immunity"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R085",
+    "source_language": "en",
+    "original_text": "After gunmen on the outskirts of Moscow opened fire at a popular concert hall Friday night, in the deadliest attack that Russia’s capital has seen in more than a decade, claims and counterclaims are now mounting about who is responsible for the violence, and a deepfake video is already adding to the swirl of disinformation.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/03/deepfake-video-terror-moscow-putin-ukraine-claims/",
+    "publication_date": "2024-03-23",
+    "country": "Russia",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "deepfake*",
+      "ai generat*",
+      "disinformation",
+      "allegation*",
+      "accus*",
+      "kill*",
+      "arrest*",
+      "detained",
+      "who is responsible"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R086",
+    "source_language": "en",
+    "original_text": "This story was originally published by Yale E360 and is reproduced here as part of the Climate Desk collaboration. Two months after its release in November 2022, OpenAI’s ChatGPT had 100 million active users, and suddenly tech corporations were racing to offer the public more “generative AI” Pundits compared the new technology’s impact to…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/environment/2024/02/ai-artificial-intelligence-carbon-footprint-climate-change-data-centers-electricity-consumption/",
+    "publication_date": "2024-02-19",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "data cent*",
+      "GPT*",
+      "artificial intelligen*",
+      "foundation model*",
+      "generative ai",
+      "chatbot*",
+      "ai system*",
+      "ai tool*",
+      "openai",
+      "chatgpt",
+      "chip*",
+      "GPU*",
+      "hyperscale*",
+      "regulator*",
+      "water use",
+      "mining",
+      "lawsuit*",
+      "water consumption",
+      "drought*",
+      "emission*",
+      "carbon footprint*",
+      "greenhouse gas*",
+      "energy consumption",
+      "protests"
+    ],
+    "classifications": [
+      {
+        "branch": "Energy / Land",
+        "subcategory_id": "2.1",
+        "subcategory": "Environmental resource harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R087",
+    "source_language": "en",
+    "original_text": "When the US targeted Russia’s oligarchs after the invasion of Ukraine, the trail of assets kept leading to our own backyard. Not only had our nation become a haven for shady foreign money, but we were also incubating a familiar class of yacht-owning, industry-dominating, resource-extracting billionaires.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2024/01/american-oligarchy-introduction-essay-russia-ukraine-capitalism/",
+    "publication_date": "2024-01-22",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "machine learning",
+      "artificial intelligen*",
+      "chatbot*",
+      "self driving",
+      "server farm*",
+      "openai",
+      "mining",
+      "exploit*",
+      "surveil*",
+      "abus*",
+      "violat*",
+      "wrongdoing",
+      "alleged",
+      "allegedly",
+      "accus*",
+      "complaint*",
+      "sanction*",
+      "money launder*",
+      "manipulat*",
+      "died",
+      "precarious*",
+      "copyright*",
+      "tax break*",
+      "shell compan*",
+      "mine*",
+      "nickel",
+      "journalist*",
+      "fair use",
+      "unaccountable"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.1",
+        "subcategory": "Data labor exploitation",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R088",
+    "source_language": "en",
+    "original_text": "The New York Times is suing OpenAI and Microsoft for copyright infringement—a major development in the ongoing, nationwide legal struggle between content creators and artificial intelligence firms. The paper warns AI firms face “billions of dollars” in damages.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2023/12/new-york-times-artificial-intelligence-lawsuit/",
+    "publication_date": "2023-12-27",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "chatbot*",
+      "openai",
+      "infring*",
+      "accountab*",
+      "damag*",
+      "violat*",
+      "lawsuit*",
+      "complaint*",
+      "copyright*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.4",
+        "subcategory": "Creative / IP appropriation harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R089",
+    "source_language": "en",
+    "original_text": "By now you’ve seen the scenes of young and middle-aged Americans wearing cargo shorts and Patagonia Baggies Brimmers in front of movie studios holding ironic picket signs, such as “Chat GPT doesn’t have childhood trauma!” As the battle grinds into its 12th week, with no end in sight—and the actors’ union now part of the […] By now you’ve…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2023/07/im-a-striking-tv-writer-heres-why-were-doing-this/",
+    "publication_date": "2023-07-20",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "GPT*",
+      "artificial intelligen*",
+      "exploit*",
+      "trauma*",
+      "underpaid",
+      "strike*",
+      "plagiaris*",
+      "scrap*",
+      "residual*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.3",
+        "subcategory": "Employment displacement / quality harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R090",
+    "source_language": "en",
+    "original_text": "Thousands of Reddit communities went dark this week to protest the webforum giant’s money-making plans. Ahead of an expected IPO later this year, the company’s CEO announced it would start charging for access to its application programming interface.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/06/reddit-blackout/",
+    "publication_date": "2023-06-15",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "training data",
+      "artificial intelligen*",
+      "openai",
+      "mining",
+      "abus*",
+      "backlash",
+      "died",
+      "protest"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.3",
+        "subcategory": "Data rights / consent violation",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R091",
+    "source_language": "en",
+    "original_text": "Today President Biden announced his reelection bid. In response, the GOP announced its further descent into the uncanny valley, with a big assist from artificial intelligence.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/04/gop-video-biden-warning-artificial-intelligence-guide/",
+    "publication_date": "2023-04-25",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "artificial intelligen*",
+      "generative ai",
+      "ai generat*",
+      "midjourney",
+      "racis*",
+      "degrading",
+      "distress*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R092",
+    "source_language": "en",
+    "original_text": "“You’re in!” the email said. “Welcome to the new Bing!” Last Sunday, I joined a small wave of users granted early access to Microsoft’s new chatbot backed search engine, put forward as an “AI-powered copilot for the web.” Given that “multiple millions” across 169 countries were stuck on the waitlist, I felt like Charlie waving […] “You’re…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/02/bing-ai-chatbot-falsehoods-fact-checking-microsoft/",
+    "publication_date": "2023-02-18",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "chatbot*",
+      "ai power*",
+      "openai",
+      "chatgpt",
+      "harm*",
+      "abus*",
+      "made up",
+      "journalist*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.5",
+        "subcategory": "Human computer interaction harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R093",
+    "source_language": "en",
+    "original_text": "Whether you call it “tattleware,” “bossware,” or “surveillance capitalism,” Sen. Bob Casey (D-Pa.) has had enough of exploitative workplace monitoring technologies.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2023/02/workplace-surveillance-stop-spying-bosses-act/",
+    "publication_date": "2023-02-07",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "facial recognition",
+      "biometric*",
+      "bossware",
+      "emotion recognition",
+      "exploit*",
+      "surveil*",
+      "accountab*",
+      "abus*",
+      "unioniz*",
+      "spying",
+      "counsel*"
+    ],
+    "classifications": [
+      {
+        "branch": "Labor",
+        "subcategory_id": "3.2",
+        "subcategory": "Algorithmic management harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R094",
+    "source_language": "en",
+    "original_text": "Facing mounting bipartisan pressure, the Internal Revenue Service announced yesterday that it’s walking back plans to deploy facial recognition software to identify taxpayers.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/mojo-wire/2022/02/what-did-the-irs-want-with-your-selfies/",
+    "publication_date": "2022-02-08",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "harm*",
+      "bias*",
+      "discriminat*",
+      "wrongful*",
+      "manipulat*",
+      "protesters",
+      "wrongful arrest*",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R095",
+    "source_language": "en",
+    "original_text": "Have you ever fallen down a YouTube rabbit hole (of course, you have) and watched the latest Lil Nas X video, then took a look at the most recent instance of police abuse of Black folks caught on camera? And then did you say to yourself, “Seems like it’s time to watch primates hanging out with Jane […] Have you ever fallen down a YouTube…",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/mojo-wire/2021/09/facebooks-ai-seems-to-have-a-racism-problem/",
+    "publication_date": "2021-09-05",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "facial recognition",
+      "artificial intelligen*",
+      "bias*",
+      "abus*",
+      "penalt*",
+      "racis*",
+      "sexis*",
+      "disproportionat*",
+      "kill*",
+      "protests",
+      "arrest*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.1",
+        "subcategory": "Representational harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R096",
+    "source_language": "en",
+    "original_text": "Joyce Jones’ Facebook page is almost an archetype of what the social network is supposed to look like: Pictures of her kids, her kids’ friends, her sports teams, her kids’ friends’ sports teams. Videos of her husband’s sermons at New Mount Moriah Baptist Church.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2021/08/why-facebook-wont-stop-pushing-propaganda/",
+    "publication_date": "2021-08-30",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "artificial intelligen*",
+      "automated decision*",
+      "harm*",
+      "bias*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "exploit*",
+      "censor*",
+      "accountab*",
+      "allegedly",
+      "accus*",
+      "lawsuit*",
+      "complaint*",
+      "sanction*",
+      "banned",
+      "liab*",
+      "racis*",
+      "disproportionat*",
+      "false claim*",
+      "misleading",
+      "propaganda",
+      "manipulat*",
+      "protests",
+      "strike*",
+      "made up",
+      "conspiracy theor*",
+      "delusion*",
+      "crushed"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R097",
+    "source_language": "en",
+    "original_text": "In 2016, Facebook was caught flatfooted. Throughout that year’s election, Americans using the platform confronted a range of misinformation as Russian state-sponsored trolls, Eastern European teenagers, and others manipulated the company’s weak moderation practices.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2021/03/facebook-misinformation-avaaz/",
+    "publication_date": "2021-03-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "harm*",
+      "discriminat*",
+      "misinformation",
+      "disinformation",
+      "fraud*",
+      "accus*",
+      "liab*",
+      "false claim*",
+      "misleading",
+      "manipulat*",
+      "false information",
+      "conspiracy theor*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.3",
+        "subcategory": "Misinformation / information hazard harm",
+        "event_type": "Acute"
+      }
+    ]
+  },
+  {
+    "report_id": "R098",
+    "source_language": "en",
+    "original_text": "Every evening last summer, after I’d shut down my work laptop, my 3-year-old daughter and I would approach our Google Home smart speaker and yell, “Hey Google, can you play ‘Aankh Marey’ from the movie Simmba?” We’d hold our breaths and wait for a response.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/media/2021/02/digital-assistants-accents-english-race-google-siri-alexa/",
+    "publication_date": "2021-02-23",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "AI",
+      "algorithm*",
+      "artificial intelligen*",
+      "speech recognition",
+      "voice recognition",
+      "harm*",
+      "bias*",
+      "stereotyp*",
+      "marginaliz*",
+      "accent*",
+      "dialect*",
+      "private conversation*"
+    ],
+    "classifications": [
+      {
+        "branch": "Compute / Model Behavior",
+        "subcategory_id": "1.6",
+        "subcategory": "Quality of service harm",
+        "event_type": "Chronic"
+      }
+    ]
+  },
+  {
+    "report_id": "R099",
+    "source_language": "en",
+    "original_text": "In 2018, the federal government started scanning people’s faces as they drove into and out of the country at the Anzalduas International Bridge, which connects the Rio Grande Valley of Texas to Mexico.",
+    "translated_text": null,
+    "source_url": "https://www.motherjones.com/politics/2021/01/the-government-wants-to-scan-your-face-when-you-enter-the-us-it-hasnt-gone-well-so-far/",
+    "publication_date": "2021-01-06",
+    "country": "United States",
+    "occurrence_status": "occurred",
+    "taxonomy_hints": [
+      "algorithm*",
+      "facial recognition",
+      "biometric*",
+      "bias*",
+      "exploit*",
+      "surveil*",
+      "breach*",
+      "disproportionat*",
+      "ransomware",
+      "protests",
+      "data breach*",
+      "data leak*",
+      "false positive*",
+      "error rate*",
+      "moratorium",
+      "subcontract*",
+      "opt out"
+    ],
+    "classifications": [
+      {
+        "branch": "Data",
+        "subcategory_id": "4.2",
+        "subcategory": "Surveillance harm",
+        "event_type": "Chronic"
+      },
+      {
+        "branch": "Data",
+        "subcategory_id": "4.1",
+        "subcategory": "Privacy violation",
+        "event_type": "Acute"
+      }
+    ]
+  }
+]
