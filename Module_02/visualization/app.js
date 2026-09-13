@@ -185,14 +185,13 @@ function renderMarkers() {
 }
 function renderLegend() {
   const legend = $('map-legend'); legend.replaceChildren();
-  legend.append(element('div', 'legend-title', 'Country-level dots · hover for counts, click to explore'));
   const scale = element('div', 'legend-scale');
   const entries = Object.entries(colours).filter(([k]) => k !== '__neutral__');
   entries.forEach(([label, colour]) => {
     const item = element('span', 'legend-item'); const swatch = element('i'); swatch.style.background = colour;
     item.append(swatch, document.createTextNode(label)); scale.append(item);
   });
-  legend.append(scale, element('div', 'legend-location-note', 'Colour = most frequent harm category. Positions represent countries, not incident sites.'));
+  legend.append(scale);
 }
 function showCountryGroup(countries) {
   const container = $('report-content'); container.replaceChildren();

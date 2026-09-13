@@ -15,7 +15,10 @@
   <a class="skip-link" href="#main-content">Skip to map and reports</a>
   <header class="masthead">
     <div class="brand"><span class="brand-mark" aria-hidden="true">◉</span><div><h1>AI Harm Map</h1><p>Explore the geography of documented harms</p></div></div>
-    <div class="header-meta"><span class="prototype-badge">2021–2026</span><span>Explore reports and sources</span></div>
+    <div class="header-end">
+      <div class="header-meta"><span class="prototype-badge">2021–2026</span><span>Explore reports and sources</span></div>
+      <div id="map-legend" class="map-legend" aria-label="Harm category colour legend"></div>
+    </div>
   </header>
   <main class="workspace" id="main-content">
     <aside class="filters" aria-label="Filter reports">
@@ -37,10 +40,7 @@
         <div id="map" aria-label="Borderless world map with country-level report groups"></div>
         <div id="map-error" role="status" hidden>The map library could not load. Connect to the internet and reload. Report filters and the timeline remain available.</div>
       </div>
-      <div id="map-legend" class="map-legend"></div>
       <section class="timeline" aria-label="Report timeline">
-        <div class="timeline-heading"><div><span class="eyebrow">DOCUMENTED OVER TIME</span><h2 id="period-label">Jan 2021 — Dec 2026</h2></div></div>
-        <div class="range-presets" role="group" aria-label="Quick date ranges"><button data-years="1" aria-pressed="false">1Y</button><button data-years="3" aria-pressed="false">3Y</button><button data-years="5" aria-pressed="false">5Y</button><button data-years="all" aria-pressed="true">All</button><span>Ranges end at your selected end month.</span></div>
         <div class="range-labels"><label for="start">Start <output id="start-label" for="start">Jan 2021</output></label><label for="end">End <output id="end-label" for="end">Dec 2026</output></label></div>
         <div class="date-range" id="date-range" role="group" aria-label="Select start and end months">
           <div class="date-range-track" aria-hidden="true"><div class="date-range-fill"></div></div>
@@ -48,6 +48,8 @@
           <input type="range" id="end" min="24252" max="24323" value="24323" step="1" aria-describedby="range-help">
         </div>
         <p id="range-help" class="sr-only">Drag either handle or use the arrow keys to adjust its month. Start cannot move after end. When both handles select the same month, the start handle sits above the end handle.</p>
+        <div class="timeline-heading"><div><span class="eyebrow">DOCUMENTED OVER TIME</span><h2 id="period-label">Jan 2021 — Dec 2026</h2></div></div>
+        <div class="range-presets" role="group" aria-label="Quick date ranges"><button data-years="1" aria-pressed="false">1Y</button><button data-years="3" aria-pressed="false">3Y</button><button data-years="5" aria-pressed="false">5Y</button><button data-years="all" aria-pressed="true">All</button><span>Ranges end at your selected end month.</span></div>
         <details class="timeline-settings"><summary>More time options</summary><div class="timeline-options"><label for="resolution">Chart interval<select id="resolution"><option value="year">Yearly</option><option value="month">Monthly</option></select></label><label for="time-mode">Window<select id="time-mode"><option value="period">During this period</option><option value="cumulative">Up to this date</option></select></label><label class="checkbox-label"><input type="checkbox" id="undated">Include undated reports <span id="undated-count"></span></label><button id="play" class="play-button" aria-pressed="false">▶ Play</button></div></details>
         <div id="histogram" class="histogram" aria-label="Reports by period"></div>
         <p class="fine-print" id="date-note"></p>
