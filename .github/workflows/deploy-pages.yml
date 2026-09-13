@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "Module 2/visualization/**"
+      - "Module_02/visualization/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Test visualization
-        run: node --test "Module 2/visualization/checks.test.mjs"
+        run: node --test "Module_02/visualization/checks.test.mjs"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -35,7 +35,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "Module 2/visualization"
+          path: "Module_02/visualization"
 
   deploy:
     environment:
