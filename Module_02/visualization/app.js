@@ -468,38 +468,6 @@ $('clear-map-filters').addEventListener('click', () => {
   $('undated').checked = false; $('time-mode').value = 'period'; worldView(); render();
 });
 $('world-view').addEventListener('click', worldView);
-function syncMapExpansion() {
-  const wrap = $('map-wrap');
-  const expanded = document.fullscreenElement === wrap || wrap.classList.contains('map-expanded');
-  const label = expanded ? 'Exit full screen' : 'Expand map';
-  $('expand-map').textContent = expanded ? '✕' : '⛶';
-  $('expand-map').setAttribute('aria-label', label);
-  $('expand-map').title = label;
-  $('expand-map').setAttribute('aria-pressed', String(expanded));
-  document.body.classList.toggle('map-expanded', wrap.classList.contains('map-expanded'));
-  requestAnimationFrame(() => { map?.invalidateSize(); renderMarkers(); });
-}
-$('expand-map').addEventListener('click', async () => {
-  const wrap = $('map-wrap');
-  if (wrap.classList.contains('map-expanded')) {
-    wrap.classList.remove('map-expanded');
-    syncMapExpansion();
-    return;
-  }
-  try {
-    if (document.fullscreenElement === wrap) await document.exitFullscreen();
-    else if (wrap.requestFullscreen) await wrap.requestFullscreen();
-    else { wrap.classList.add('map-expanded'); syncMapExpansion(); }
-  } catch {
-    wrap.classList.add('map-expanded'); syncMapExpansion();
-  }
-});
-document.addEventListener('fullscreenchange', syncMapExpansion);
-document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && $('map-wrap').classList.contains('map-expanded')) {
-    $('map-wrap').classList.remove('map-expanded'); syncMapExpansion();
-  }
-});
 $('undated').addEventListener('change', () => { state.undated = $('undated').checked; render(); });
 $('time-mode').addEventListener('change', () => { pause(); state.mode = $('time-mode').value; render(); });
 document.querySelector('.timeline-settings').addEventListener('toggle', event => { if (!event.currentTarget.open) pause(); });
@@ -538,5 +506,4 @@ $('filter-sheet').addEventListener('close', () => {
 });
 mobileLayout.addEventListener('change', placeTaxonomy);
 placeTaxonomy();
-syncMapExpansion();
 setupMap(); render();

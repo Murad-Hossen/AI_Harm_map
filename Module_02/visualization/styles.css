@@ -77,9 +77,7 @@ a { color: var(--accent); }
 .map-wrap:fullscreen, .map-wrap.map-expanded { width: 100vw; height: 100dvh; max-width: none; border: 0; border-radius: 0; background: #1a1a1a; }
 .map-wrap.map-expanded { position: fixed; inset: 0; z-index: 3000; }
 body.map-expanded { overflow: hidden; }
-.map-expand { position: absolute; top: 12px; left: 12px; z-index: 700; width: 36px; min-height: 36px; padding: 0; border: 1px solid #ffffff66; border-radius: 8px; background: #1a1a1a99; color: #ffffff; font-size: 18px; line-height: 1; opacity: .78; box-shadow: 0 2px 7px #0005; backdrop-filter: blur(5px); }
-.map-expand:hover, .map-expand:focus-visible { background: #1a1a1add; border-color: #ffffffb3; opacity: 1; }
-.map-theme-toggle { display: none; position: absolute; top: 12px; left: 58px; z-index: 700; min-height: 36px; padding: 0 10px; border: 1px solid #ffffff4d; border-radius: 8px; background: #1a1a1ab8; color: #f8fafc; font-size: 11px; font-weight: 600; box-shadow: 0 2px 7px #0005; backdrop-filter: blur(5px); }
+.map-theme-toggle { display: none; position: absolute; top: 12px; left: 14px; z-index: 700; min-height: 36px; padding: 0 10px; border: 1px solid #ffffff4d; border-radius: 8px; background: #1a1a1ab8; color: #f8fafc; font-size: 11px; font-weight: 600; box-shadow: 0 2px 7px #0005; backdrop-filter: blur(5px); }
 .map-wrap:fullscreen .map-theme-toggle, .map-wrap.map-expanded .map-theme-toggle { display: block; }
 .map-theme-toggle:hover { background: #302d2dec; border-color: #ffffff80; }
 .map-wrap.map-light { background: #edf1f3; }
@@ -265,7 +263,7 @@ body.sheet-open { overflow: hidden; }
   .expanded-map-stats { top: 56px; gap: 8px; width: calc(100% - 28px); justify-content: center; }
   .expanded-map-legend { top: 12px; right: 14px; left: auto; width: min(220px, calc(100% - 76px)); overflow-x: auto; }
   .expanded-map-title { top: 60px; left: 14px; transform: none; font-size: 18px; }
-  .map-theme-toggle { left: 58px; padding: 0 8px; }
+  .map-theme-toggle { left: 14px; padding: 0 8px; }
   .expanded-map-stats > div { flex-direction: column; align-items: center; gap: 2px; }
   .map-filter-tray { flex-wrap: wrap; }
   .map-time-filter { order: 3; flex-basis: 100%; }

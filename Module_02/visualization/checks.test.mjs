@@ -101,6 +101,7 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /id="map-theme-toggle" class="map-theme-toggle"/);
   assert.match(html, /<body class="map-expanded">/);
   assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
+  assert.doesNotMatch(html, /id="expand-map"|class="map-expand"/);
   assert.match(source, /mapTheme: 'dark'/);
   assert.match(source, /landLayer\?\.setStyle\(\{fillColor: light/);
   assert.match(html, /id="expanded-report" class="expanded-report"[^>]*hidden/);
