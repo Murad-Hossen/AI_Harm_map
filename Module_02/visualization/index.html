@@ -11,7 +11,7 @@
   <script defer src="geography.js"></script>
   <script defer src="app.js"></script>
 </head>
-<body>
+<body class="map-expanded">
   <a class="skip-link" href="#main-content">Skip to map and reports</a>
   <header class="masthead">
     <div class="brand"><span class="brand-mark" aria-hidden="true">◉</span><div><h1>AI Harm Map</h1><p>Explore the geography of documented harms</p></div></div>
@@ -23,9 +23,6 @@
   <main class="workspace" id="main-content">
     <aside class="filters" aria-label="Filter reports">
       <div class="section-heading"><h2>Explore reports</h2><button class="text-button" id="reset">Reset</button></div>
-      <label for="search">Search reports</label>
-      <input id="search" type="search" placeholder="Title, description or category…">
-      <label for="country">Country</label><select id="country"><option value="">All countries</option></select>
       <div id="taxonomy-home"><section id="taxonomy-panel" aria-label="Harm categories">
         <div class="section-heading category-heading"><h3>Harm taxonomy</h3><span class="eyebrow">REPORTS</span></div>
         <div id="categories" class="categories" role="region" aria-label="Scrollable harm categories" tabindex="0"></div>
@@ -36,9 +33,40 @@
     <section class="central" aria-label="Geography and time">
       <div class="map-stats" aria-live="polite"><div><strong id="visible-count">—</strong><span>matching reports</span></div><div><strong id="country-count">—</strong><span>countries</span></div><div><strong>2021–2026</strong><span>coverage period</span></div></div>
       <div class="map-heading"><div><span class="eyebrow">GEOGRAPHIC DISTRIBUTION</span><h2 id="map-title">A world of documented harms</h2></div><button id="world-view" class="world-button">↗ World view</button></div>
-      <div class="map-wrap">
-        <div id="map" aria-label="Borderless world map with country-level report groups"></div>
+      <div class="map-wrap map-expanded" id="map-wrap">
+        <button id="expand-map" class="map-expand" type="button" aria-label="Exit full screen" title="Exit full screen" aria-pressed="true">✕</button>
+        <button id="map-theme-toggle" class="map-theme-toggle" type="button" aria-label="Use light map theme" aria-pressed="false">☀ Light</button>
+        <div class="expanded-map-title" aria-hidden="true"><span>◉</span> AI HARM MAP</div>
+        <div id="expanded-map-legend" class="expanded-map-legend" aria-label="Expanded map harm category colour legend"></div>
+        <div class="expanded-map-stats" aria-live="polite">
+          <div><strong id="expanded-visible-count">—</strong><span>matching reports</span></div>
+          <div><strong id="expanded-country-count">—</strong><span>countries</span></div>
+          <div><strong id="expanded-coverage-period">Jan 2021 — Dec 2026</strong><span>coverage period</span></div>
+        </div>
+        <div id="map" aria-label="Borderless world map with approximately positioned event dots"></div>
         <div id="map-error" role="status" hidden>The map library could not load. Connect to the internet and reload. Report filters and the timeline remain available.</div>
+        <section id="expanded-report" class="expanded-report" aria-live="polite" aria-label="Selected report summary" hidden>
+          <div id="expanded-report-content"></div>
+        </section>
+        <aside class="expanded-taxonomy" aria-labelledby="expanded-taxonomy-title">
+          <div class="expanded-taxonomy-heading">
+            <div><span class="eyebrow">FILTER EVENTS</span><h3 id="expanded-taxonomy-title">Harm taxonomy</h3></div>
+            <span>Reports</span>
+          </div>
+          <div id="expanded-categories" class="expanded-categories" role="region" aria-label="Scrollable expanded-map harm taxonomy" tabindex="0"></div>
+          <p>A report can have several categories.</p>
+        </aside>
+        <div class="map-filter-tray" aria-label="Expanded map filters">
+          <div class="map-time-filter">
+            <div><span>Time range</span><output id="map-period-label">Jan 2021 — Dec 2026</output></div>
+            <div class="map-date-range" id="map-date-range" role="group" aria-label="Select start and end months on expanded map">
+              <div class="map-date-range-track" aria-hidden="true"><div class="map-date-range-fill"></div></div>
+              <input type="range" id="map-start" min="24252" max="24323" value="24252" step="1" aria-label="Expanded map start month">
+              <input type="range" id="map-end" min="24252" max="24323" value="24323" step="1" aria-label="Expanded map end month">
+            </div>
+          </div>
+          <button id="clear-map-filters" type="button">Clear filters</button>
+        </div>
       </div>
       <section class="timeline" aria-label="Report timeline">
         <div class="range-labels"><label for="start">Start <output id="start-label" for="start">Jan 2021</output></label><label for="end">End <output id="end-label" for="end">Dec 2026</output></label></div>
@@ -50,12 +78,10 @@
         <p id="range-help" class="sr-only">Drag either handle or use the arrow keys to adjust its month. Start cannot move after end. When both handles select the same month, the start handle sits above the end handle.</p>
         <div class="timeline-heading"><div><span class="eyebrow">DOCUMENTED OVER TIME</span><h2 id="period-label">Jan 2021 — Dec 2026</h2></div></div>
         <div class="range-presets" role="group" aria-label="Quick date ranges"><button data-years="1" aria-pressed="false">1Y</button><button data-years="3" aria-pressed="false">3Y</button><button data-years="5" aria-pressed="false">5Y</button><button data-years="all" aria-pressed="true">All</button><span>Ranges end at your selected end month.</span></div>
-        <details class="timeline-settings"><summary>More time options</summary><div class="timeline-options"><label for="resolution">Chart interval<select id="resolution"><option value="year">Yearly</option><option value="month">Monthly</option></select></label><label for="time-mode">Window<select id="time-mode"><option value="period">During this period</option><option value="cumulative">Up to this date</option></select></label><label class="checkbox-label"><input type="checkbox" id="undated">Include undated reports <span id="undated-count"></span></label><button id="play" class="play-button" aria-pressed="false">▶ Play</button></div></details>
-        <div id="histogram" class="histogram" aria-label="Reports by period"></div>
-        <p class="fine-print" id="date-note"></p>
+        <details class="timeline-settings"><summary>More time options</summary><div class="timeline-options"><label for="time-mode">Window<select id="time-mode"><option value="period">During this period</option><option value="cumulative">Up to this date</option></select></label><label class="checkbox-label"><input type="checkbox" id="undated">Include undated reports <span id="undated-count"></span></label><button id="play" class="play-button" aria-pressed="false">▶ Play</button></div></details>
       </section>
     </section>
-    <aside class="inspector" aria-label="Reports and sources">
+    <aside class="inspector" aria-label="Reports and sources" hidden>
       <h2 class="inspector-heading" id="reports-heading">Reports & sources</h2>
       <section id="reports-panel" class="inspector-panel" aria-labelledby="reports-heading" tabindex="0"><div id="report-content"></div></section>
     </aside>

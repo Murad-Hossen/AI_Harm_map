@@ -9,7 +9,7 @@ const html = read('index.html');
 const context = vm.createContext({window: {MAP_GEOGRAPHY: {anchors: {}}}});
 vm.runInContext(read('data.js'), context);
 // Exercise the actual date/filter functions without pretending to render a browser.
-vm.runInContext(source.slice(0, source.indexOf('[...new Set(records.map')), context);
+vm.runInContext(source.slice(0, source.indexOf('function syncMapFilterControls()')), context);
 const evaluate = code => vm.runInContext(code, context);
 
 test('month values preserve the supported precision and date bounds', () => {
@@ -30,10 +30,30 @@ test('slider handles stay ordered and inside 2021–2026', () => {
   assert.equal(evaluate('moveRangeHandle("start", minMonth + 5, minMonth, maxMonth).end === maxMonth'), true);
 });
 
-test('clicking a selected country dot clears the selection', () => {
-  assert.equal(evaluate('toggleCountrySelection("Norway", "")'), 'Norway');
-  assert.equal(evaluate('toggleCountrySelection("Norway", "Norway")'), '');
-  assert.equal(evaluate('toggleCountrySelection("Norway", "Sweden")'), 'Norway');
+test('clicking a selected event dot clears the selection', () => {
+  assert.equal(evaluate('toggleEventSelection(42, null)'), 42);
+  assert.equal(evaluate('toggleEventSelection(42, 42)'), null);
+  assert.equal(evaluate('toggleEventSelection(42, 17)'), 42);
+});
+
+test('event hover summaries stay between 50 and 70 characters', () => {
+  assert.equal(evaluate('records.every(record => compactEventSummary(record).length >= 50 && compactEventSummary(record).length <= 70)'), true);
+  assert.equal(evaluate('records.every(record => !compactEventSummary(record).includes("…") && !compactEventSummary(record).includes("—") && !compactEventSummary(record).includes("\\n"))'), true);
+  assert.equal(evaluate(`compactEventSummary({t: 'Sarah silverman paul tremblay openai chatgpt copyright lawsuit', b: [], k: ''})`), 'Sarah silverman paul tremblay openai chatgpt copyright lawsuit');
+});
+
+test('every event receives a stable position inside its reported country', () => {
+  assert.equal(evaluate('eventPositions.size'), evaluate('records.length'));
+  assert.equal(evaluate(`records.every(record => {
+    const position = eventPositions.get(record.displayId);
+    const point = [position[1], position[0]];
+    return pointInPolygon(point, primaryPolygon(countryFeatures.get(record.k)));
+  })`), true);
+  assert.equal(evaluate(`(() => {
+    const positions = records.filter(record => record.k === 'United States of America').map(record => eventPositions.get(record.displayId));
+    return new Set(positions.map(point => point.join(','))).size === positions.length
+      && positions.every(([lat, lon]) => lat >= 25 && lat <= 50 && lon >= -125 && lon <= -66);
+  })()`), true);
 });
 
 test('quick ranges anchor to the end month and clamp to 2021', () => {
@@ -49,6 +69,7 @@ test('default view keeps 956 reports overlapping 2021–2026', () => {
   assert.equal(evaluate('records.length'), 988);
   assert.equal(evaluate('results().length'), 956);
   assert.equal(evaluate('results().every(r => r.date && r.date.end >= minMonth && r.date.start <= maxMonth)'), true);
+  assert.doesNotMatch(source, /state\.limit|list\.slice\(/);
 });
 
 test('date ranges overlap the window and undated records remain opt-in', () => {
@@ -72,8 +93,27 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /<input type="range" id="start"/);
   assert.match(html, /<input type="range" id="end"/);
   assert.match(html, /id="date-range" role="group"/);
-  assert.doesNotMatch(html, /type="month"|PHTKG|patterns-tab/);
+  assert.doesNotMatch(html, /type="month"|PHTKG|patterns-tab|map-category-filter/);
   assert.match(html, /<details class="timeline-settings">/);
+  assert.match(html, /<aside class="inspector"[^>]*hidden>/);
+  assert.match(html, /id="expanded-categories" class="expanded-categories"[^>]*tabindex="0"/);
+  assert.match(html, /id="expanded-map-legend" class="expanded-map-legend"/);
+  assert.match(html, /id="map-theme-toggle" class="map-theme-toggle"/);
+  assert.match(html, /<body class="map-expanded">/);
+  assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
+  assert.match(source, /mapTheme: 'dark'/);
+  assert.match(source, /landLayer\?\.setStyle\(\{fillColor: light/);
+  assert.match(html, /id="expanded-report" class="expanded-report"[^>]*hidden/);
+  assert.match(source, /Summary generated with LLM assistance/);
+  assert.match(source, /link\.href = url\.href; link\.target = '_blank'; link\.rel = 'noopener noreferrer'/);
+  assert.match(source, /more reports in this country/);
+  assert.match(html, /class="expanded-map-title"[^>]*>[^<]*<span>◉<\/span> AI HARM MAP<\/div>/);
+  assert.match(source, /\$\('expanded-coverage-period'\)\.textContent = periodText/);
+  assert.match(html, /class="expanded-map-stats"[\s\S]*?id="expanded-coverage-period"/);
+  assert.match(source, /\[\$\('categories'\), \$\('expanded-categories'\)\]/);
+  assert.match(read('styles.css'), /\.map-wrap:fullscreen #map, \.map-wrap\.map-expanded #map \{ right: 298px; width: auto; \}/);
+  assert.match(read('styles.css'), /\.expanded-taxonomy \{[^}]*height: calc\(66\.667dvh - 133\.333px\)/);
+  assert.match(source, /workspace\.classList\.add\('report-open'\)/);
 });
 
 function luminance(hex) {
@@ -91,4 +131,7 @@ test('specified text pairs exceed 4.5:1, and graph/focus colours exceed 3:1', ()
     assert.ok(contrast(text, background) >= 4.5, `${text} on ${background}`);
   }
   for (const colour of ['#2563eb', '#c85b50', '#64748b']) assert.ok(contrast(colour, '#ffffff') >= 3);
+  const reds = JSON.parse(evaluate('JSON.stringify(Object.values(colours).filter(colour => colour !== colours.__neutral__))'));
+  assert.equal(new Set(reds).size, 5);
+  for (const colour of reds) assert.ok(contrast(colour, '#1a1a1a') >= 3, `${colour} is unclear against the map`);
 });

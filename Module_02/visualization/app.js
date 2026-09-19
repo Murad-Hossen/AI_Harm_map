@@ -48,11 +48,86 @@ function moveRangeHandle(handle, value, start, end) {
   const month = Math.max(minMonth, Math.min(maxMonth, Math.round(value)));
   return handle === 'start' ? {start: Math.min(month, end), end} : {start, end: Math.max(month, start)};
 }
-const state = {category: null, country: '', query: '', start: minMonth, end: maxMonth, undated: false, mode: 'period', cluster: null, resolution: 'year', selected: null, limit: 30};
-const colours = Object.fromEntries(Object.entries(sample.ramps).map(([k, v]) => [k, v[4]]));
-let map, landLayer, markerLayer, animation = null, currentByCountry = new Map();
+const state = {category: null, start: minMonth, end: maxMonth, undated: false, mode: 'period', selected: null, mapTheme: 'dark'};
+const colours = {
+  'Compute / Model Behavior': '#C92A3E',
+  'Data': '#DC3A2F',
+  'Deployment Context / Weapons': '#E85D5D',
+  'Labor': '#F37A6B',
+  'Energy / Land': '#FFB3A7',
+  '__neutral__': '#A65A62'
+};
+let map, landLayer, markerLayer, animation = null, currentMapRecords = [];
 const worldBounds = [[-55, -170], [78, 180]];
 const anchors = window.MAP_GEOGRAPHY.anchors;
+const countryFeatures = new Map(sample.countries.features.map(feature => [feature.properties.Country, feature]));
+
+function halton(index, base) {
+  let result = 0, fraction = 1 / base;
+  while (index > 0) {
+    result += fraction * (index % base);
+    index = Math.floor(index / base);
+    fraction /= base;
+  }
+  return result;
+}
+function ringArea(ring) {
+  let area = 0;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) area += ring[j][0] * ring[i][1] - ring[i][0] * ring[j][1];
+  return Math.abs(area / 2);
+}
+function pointInRing(point, ring) {
+  const [x, y] = point;
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i], [xj, yj] = ring[j];
+    const crosses = (yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi;
+    if (crosses) inside = !inside;
+  }
+  return inside;
+}
+function pointInPolygon(point, polygon) {
+  return pointInRing(point, polygon[0]) && !polygon.slice(1).some(hole => pointInRing(point, hole));
+}
+function polygonsFor(feature) {
+  const geometry = feature?.geometry;
+  if (!geometry) return [];
+  return geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates;
+}
+function primaryPolygon(feature) {
+  return polygonsFor(feature).reduce((largest, polygon) => !largest || ringArea(polygon[0]) > ringArea(largest[0]) ? polygon : largest, null);
+}
+function pointHasClearance(point, polygon, xMargin, yMargin) {
+  return [
+    point,
+    [point[0] - xMargin, point[1]], [point[0] + xMargin, point[1]],
+    [point[0], point[1] - yMargin], [point[0], point[1] + yMargin],
+    [point[0] - xMargin, point[1] - yMargin], [point[0] + xMargin, point[1] - yMargin],
+    [point[0] - xMargin, point[1] + yMargin], [point[0] + xMargin, point[1] + yMargin]
+  ].every(candidate => pointInPolygon(candidate, polygon));
+}
+function approximateEventPosition(country, ordinal) {
+  const polygon = primaryPolygon(countryFeatures.get(country));
+  if (!polygon) return anchors[country];
+  const xs = polygon[0].map(point => point[0]);
+  const ys = polygon[0].map(point => point[1]);
+  const [minX, maxX, minY, maxY] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+  const xMargin = Math.min((maxX - minX) * 0.012, 0.35);
+  const yMargin = Math.min((maxY - minY) * 0.012, 0.25);
+  for (let attempt = 1; attempt <= 4096; attempt++) {
+    const sequence = ordinal * 4099 + attempt;
+    const point = [minX + halton(sequence, 2) * (maxX - minX), minY + halton(sequence, 3) * (maxY - minY)];
+    if (pointHasClearance(point, polygon, xMargin, yMargin)) return [point[1], point[0]];
+  }
+  return anchors[country];
+}
+const eventPositions = new Map();
+const countryOrdinals = new Map();
+records.forEach(record => {
+  const ordinal = countryOrdinals.get(record.k) || 0;
+  countryOrdinals.set(record.k, ordinal + 1);
+  eventPositions.set(record.displayId, approximateEventPosition(record.k, ordinal));
+});
 
 function element(tag, className, content) {
   const el = document.createElement(tag);
@@ -65,22 +140,26 @@ function matchesCategory(r, category = state.category) {
   const f = sample.filters[category];
   return (f.k === 'b' ? r.b : r.h).includes(f.v);
 }
-function matchesSearch(r) {
-  return !state.query || [r.t, r.s, r.k, ...r.h].join(' ').toLowerCase().includes(state.query);
-}
 function matchesTime(r) {
   if (!r.date) return state.undated;
   const start = state.mode === 'cumulative' ? minMonth : state.start;
   return r.date.end >= start && r.date.start <= state.end;
 }
-function countryMatch(r) { return !state.country || r.k === state.country; }
-function results() { return records.filter(r => matchesSearch(r) && matchesTime(r) && matchesCategory(r) && countryMatch(r)); }
+function results() { return records.filter(r => matchesTime(r) && matchesCategory(r)); }
 function pause() {
   clearInterval(animation); animation = null;
   $('play').textContent = '▶ Play'; $('play').setAttribute('aria-pressed', 'false');
 }
 
 function worldView() { map?.stop(); map?.fitBounds(worldBounds, {animate: false}); }
+function applyMapTheme() {
+  const light = state.mapTheme === 'light';
+  $('map-wrap').classList.toggle('map-light', light);
+  $('map-theme-toggle').textContent = light ? '☾ Dark' : '☀ Light';
+  $('map-theme-toggle').setAttribute('aria-label', light ? 'Use dark map theme' : 'Use light map theme');
+  $('map-theme-toggle').setAttribute('aria-pressed', String(light));
+  landLayer?.setStyle({fillColor: light ? '#d5d9dc' : '#303030'});
+}
 function setupMap() {
   if (!window.L) { $('map-error').hidden = false; return; }
   map = L.map('map', {zoomControl: false, minZoom: 0, maxZoom: 7, zoomSnap: .25, preferCanvas: true});
@@ -90,17 +169,13 @@ function setupMap() {
     interactive: false,
     style: {stroke: false, weight: 0, fillColor: '#303030', fillOpacity: 1}
   }).addTo(map);
+  applyMapTheme();
   markerLayer = L.layerGroup().addTo(map);
   map.on('zoomend moveend resize', renderMarkers);
   new ResizeObserver(() => {
     map.invalidateSize();
-    if (!state.country && !state.cluster) worldView();
+    worldView();
   }).observe($('map'));
-}
-function dominant(rs) {
-  const counts = new Map();
-  rs.forEach(r => r.b.forEach(b => counts.set(b, (counts.get(b) || 0) + 1)));
-  return [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0];
 }
 function revealReports() {
   $('reports-panel').scrollTop = 0;
@@ -108,155 +183,162 @@ function revealReports() {
   $('reports-heading').focus({preventScroll: true});
   if (window.innerWidth <= 900) document.querySelector('.inspector').scrollIntoView({block: 'start'});
 }
-function selectCountry(country, zoom = false, reveal = false) {
-  pause(); state.country = country; state.cluster = null; state.selected = null; state.limit = 30;
-  $('country').value = country; render();
-  $('reports-panel').scrollTop = 0;
-  if (zoom && country && map) map.setView(anchors[country], Math.max(map.getZoom(), 4), {animate: false});
-  if (reveal) revealReports();
+function toggleEventSelection(eventId, selectedEvent) {
+  return selectedEvent === eventId ? null : eventId;
 }
-function toggleCountrySelection(country, selectedCountry) {
-  return selectedCountry === country ? '' : country;
+function isMapExpanded() {
+  const wrap = $('map-wrap');
+  return document.fullscreenElement === wrap || wrap.classList.contains('map-expanded');
 }
-// Groups are based on screen overlap, not model similarity or geographic spread.
-// Stable country anchors never move; only the aggregate display marker changes on zoom.
-function markerGroups() {
-  if (!map) return [];
-  const points = [...currentByCountry.keys()].sort().map(country => ({country, point: map.latLngToContainerPoint(anchors[country])}));
-  const groups = [];
-  const remaining = new Set(points);
-  while (remaining.size) {
-    const members = [remaining.values().next().value]; remaining.delete(members[0]);
-    for (const point of remaining) {
-      // Every member must be close: a chain of neighbours must not combine
-      // distant countries into a single continent-spanning display group.
-      if (members.every(member => member.point.distanceTo(point.point) < 20)) {
-        members.push(point); remaining.delete(point);
-      }
+function compactEventSummary(record, minimum = 50, maximum = 70) {
+  const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
+  const title = clean(record.t);
+  if (title.length >= minimum && title.length <= maximum) return title;
+
+  if (title.length > maximum) {
+    const filler = new Set(['a', 'an', 'and', 'as', 'at', 'by', 'for', 'from', 'in', 'of', 'on', 'or', 'the', 'to', 'with']);
+    const reduced = title.split(' ').filter(word => !filler.has(word.toLowerCase())).join(' ');
+    if (reduced.length >= minimum && reduced.length <= maximum) return reduced;
+    const words = (reduced.length >= minimum ? reduced : title).split(' ');
+    let headline = '';
+    for (const word of words) {
+      const candidate = headline ? `${headline} ${word}` : word;
+      if (candidate.length > maximum) break;
+      headline = candidate;
     }
-    const center = members.reduce((sum, member) => sum.add(member.point), L.point(0, 0)).divideBy(members.length);
-    groups.push({countries: members.map(member => member.country), latlng: map.containerPointToLatLng(center)});
+    return headline;
   }
-  return groups;
+
+  const categoryNames = {
+    'Compute / Model Behavior': 'compute and model harms',
+    'Data': 'data harms',
+    'Deployment Context / Weapons': 'deployment and weapons harms',
+    'Labor': 'labor harms',
+    'Energy / Land': 'energy and land harms'
+  };
+  const additions = [clean(record.k), categoryNames[record.b?.[0]], 'documented AI harm event', clean(record.d)].filter(Boolean);
+  let headline = title;
+  for (const addition of additions) {
+    const candidate = `${headline}: ${addition}`;
+    if (candidate.length <= maximum) headline = candidate;
+    if (headline.length >= minimum) break;
+  }
+  if (headline.length < minimum) {
+    const fallback = `${headline}: documented report`;
+    if (fallback.length <= maximum) headline = fallback;
+  }
+  return headline;
 }
 function renderMarkers() {
   if (!markerLayer) return;
-  const focused = document.activeElement?.dataset?.countryGroup;
   markerLayer.clearLayers();
-  markerGroups().forEach(group => {
-    const rs = group.countries.flatMap(country => currentByCountry.get(country));
-    const multiple = group.countries.length > 1;
-    const category = state.category === null ? dominant(rs) : sample.filters[state.category].b;
-    const colour = colours[category];
-    const label = multiple ? `${group.countries.length} countries` : group.countries[0];
-    const description = `${label} · ${rs.length} reports · ${multiple ? 'grouped for display' : 'country-level location'}`;
-    // Keep the visible dot small, with a larger transparent click target.
-    const size = 24;
-    const icon = element('div', `report-dot${state.country && group.countries.includes(state.country) ? ' selected' : ''}`);
-    icon.style.setProperty('--marker-colour', colour);
-    const marker = L.marker(group.latlng, {
-      icon: L.divIcon({className: 'report-marker', html: icon, iconSize: [size, size], iconAnchor: [size / 2, size / 2]}),
-      keyboard: true, title: description, alt: description,
-      opacity: state.country && !group.countries.includes(state.country) ? .4 : 1,
-      zIndexOffset: multiple ? 100 : 0
+  currentMapRecords.forEach(record => {
+    const selected = state.selected === record.displayId;
+    const dimmed = state.selected !== null && !selected;
+    const category = state.category === null ? record.b[0] : sample.filters[state.category].b;
+    const colour = colours[category] || colours.__neutral__ || '#64748b';
+    const description = `${record.t} · ${record.k} · ${record.d || 'Date not supplied'}`;
+    const marker = L.circleMarker(eventPositions.get(record.displayId), {
+      radius: selected ? 5 : 3.5,
+      color: selected ? '#ffffff' : colour,
+      weight: selected ? 2 : 1,
+      fillColor: colour,
+      fillOpacity: dimmed ? 0.16 : 0.88,
+      opacity: dimmed ? 0.24 : 1,
+      bubblingMouseEvents: false
     });
-    marker.bindTooltip(() => {
-      const tooltip = element('div');
-      tooltip.append(element('strong', '', label), element('div', '', `${rs.length.toLocaleString()} reports`), element('div', 'marker-note', multiple ? 'Grouped for display · click to choose a country' : 'Country-level location · not an incident coordinate'));
-      tooltip.append(element('div', 'marker-note', `Colour: ${category}`));
-      return tooltip;
-    }, {direction: 'top', offset: [0, -12]});
+    marker.bindTooltip(() => element('div', 'event-tooltip-summary', compactEventSummary(record)), {direction: 'top', offset: [0, -8]});
     marker.on('click', () => {
-      if (!multiple) {
-        const country = toggleCountrySelection(group.countries[0], state.country);
-        selectCountry(country, false, true);
-        return;
-      }
-      pause(); state.cluster = group.countries; state.selected = null; state.country = ''; $('country').value = '';
-      render(); $('reports-panel').scrollTop = 0;
-      map.fitBounds(L.latLngBounds(group.countries.map(country => anchors[country])), {padding: [65, 65], maxZoom: Math.min(7, map.getZoom() + 2), animate: false});
-      revealReports();
+      pause();
+      state.selected = toggleEventSelection(record.displayId, state.selected);
+      render();
+      if (state.selected !== null && !isMapExpanded()) revealReports();
     });
     marker.addTo(markerLayer);
-    const node = marker.getElement(); node.dataset.countryGroup = group.countries.join('|'); node.setAttribute('aria-label', description);
-    node.setAttribute('role', 'button'); node.tabIndex = 0;
-    if (node.dataset.countryGroup === focused) node.focus({preventScroll: true});
   });
 }
 function renderLegend() {
-  const legend = $('map-legend'); legend.replaceChildren();
-  const scale = element('div', 'legend-scale');
   const entries = Object.entries(colours).filter(([k]) => k !== '__neutral__');
-  entries.forEach(([label, colour]) => {
-    const item = element('span', 'legend-item'); const swatch = element('i'); swatch.style.background = colour;
-    item.append(swatch, document.createTextNode(label)); scale.append(item);
-  });
-  legend.append(scale);
-}
-function showCountryGroup(countries) {
-  const container = $('report-content'); container.replaceChildren();
-  const back = element('button', 'back-button', '← All matching reports');
-  back.addEventListener('click', () => { state.cluster = null; render(); });
-  const available = countries.filter(country => currentByCountry.has(country));
-  container.append(back, element('div', 'eyebrow', 'NEARBY COUNTRY GROUPS'), element('h2', '', `${available.length} countries`), element('p', 'group-explainer', 'Choose a country to read its reports. Nearby dots are grouped together to keep the map readable.'));
-  if (!available.length) container.append(element('div', 'pending-box', 'No reports in this group match the current filters.'));
-  available.forEach(country => {
-    const button = element('button', 'report-card');
-    button.append(element('span', 'report-title', country), element('div', 'report-meta', `${currentByCountry.get(country).length} reports · country-level location`));
-    button.addEventListener('click', () => selectCountry(country, true)); container.append(button);
+  [$('map-legend'), $('expanded-map-legend')].forEach(legend => {
+    legend.replaceChildren();
+    const scale = element('div', 'legend-scale');
+    entries.forEach(([label, colour]) => {
+      const item = element('span', 'legend-item'); const swatch = element('i'); swatch.style.background = colour;
+      item.append(swatch, document.createTextNode(label)); scale.append(item);
+    });
+    legend.append(scale);
   });
 }
 function renderCategories() {
-  const context = records.filter(r => matchesSearch(r) && matchesTime(r) && countryMatch(r));
-  const container = $('categories');
-  if (!container.children.length) {
-    [null, ...sample.filters.keys()].forEach(index => {
-      const f = index === null ? null : sample.filters[index];
-      const button = element('button', `category-button${f?.k === 's' ? ' child' : ''}`);
-      if (f?.k === 'b') { const swatch = element('i', 'swatch'); swatch.style.background = colours[f.b]; button.append(swatch); }
-      button.append(element('span', '', f ? f.v : 'All harm categories'), element('span', 'cat-count'));
-      button.addEventListener('click', () => { pause(); state.category = state.category === index ? null : index; state.selected = null; state.limit = 30; render(); });
-      container.append(button);
+  const context = records.filter(r => matchesTime(r));
+  [$('categories'), $('expanded-categories')].forEach(container => {
+    if (!container.children.length) {
+      [null, ...sample.filters.keys()].forEach(index => {
+        const f = index === null ? null : sample.filters[index];
+        const button = element('button', `category-button${f?.k === 's' ? ' child' : ''}`);
+        if (f?.k === 'b') { const swatch = element('i', 'swatch'); swatch.style.background = colours[f.b]; button.append(swatch); }
+        button.append(element('span', '', f ? f.v : 'All harm categories'), element('span', 'cat-count'));
+        button.addEventListener('click', () => { pause(); state.category = state.category === index ? null : index; state.selected = null; render(); });
+        container.append(button);
+      });
+    }
+    [...container.children].forEach((button, i) => {
+      const index = i === 0 ? null : i - 1;
+      button.classList.toggle('active', state.category === index);
+      button.setAttribute('aria-pressed', String(state.category === index));
+      button.querySelector('.cat-count').textContent = context.filter(r => matchesCategory(r, index)).length;
     });
-  }
-  [...container.children].forEach((button, i) => {
-    const index = i === 0 ? null : i - 1;
-    button.classList.toggle('active', state.category === index);
-    button.setAttribute('aria-pressed', String(state.category === index));
-    button.querySelector('.cat-count').textContent = context.filter(r => matchesCategory(r, index)).length;
   });
 }
 
-function renderHistogram() {
-  const context = records.filter(r => matchesSearch(r) && matchesCategory(r) && countryMatch(r) && (!r.date || r.date.end >= minMonth && r.date.start <= maxMonth));
-  const monthly = state.resolution === 'month';
-  const bins = [];
-  const first = monthly ? minMonth : Math.floor(minMonth / 12) * 12;
-  for (let start = first; start <= maxMonth; start += monthly ? 1 : 12) {
-    const end = monthly ? start : start + 11;
-    // Monthly bars exclude year-only/range dates to avoid invented monthly counts.
-    const count = context.filter(r => r.date && (!monthly || ['day', 'month'].includes(r.date.precision)) && r.date.start <= end && r.date.end >= start).length;
-    bins.push({start, end, count});
+function renderExpandedReport(selected, list) {
+  const panel = $('expanded-report');
+  const wrap = $('map-wrap');
+  wrap.classList.toggle('has-expanded-report', Boolean(selected));
+  panel.hidden = !selected;
+  if (!selected) { $('expanded-report-content').replaceChildren(); return; }
+
+  const container = $('expanded-report-content');
+  container.replaceChildren();
+  const heading = element('div', 'expanded-report-heading');
+  const harm = selected.h?.[0] || selected.b?.[0] || 'Category not supplied';
+  heading.append(element('h3', 'expanded-report-title', `${selected.t} | Harm: ${harm}`));
+  const close = element('button', 'expanded-report-close', 'Close');
+  close.type = 'button';
+  close.addEventListener('click', () => { state.selected = null; render(); });
+  heading.append(close);
+  container.append(heading, element('p', 'expanded-report-summary', selected.s || 'No summary supplied.'));
+
+  const meta = element('p', 'expanded-report-meta');
+  meta.append(document.createTextNode(`${selected.k} · ${selected.d || 'Date not supplied'} · ${selected.e || 'Duration not supplied'} · Source: `));
+  try {
+    const url = new URL(selected.u);
+    if (!['http:', 'https:'].includes(url.protocol)) throw new Error('Unsupported source protocol');
+    const link = element('a', '', url.hostname);
+    link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
+    meta.append(link);
+  } catch { meta.append(document.createTextNode('Source not supplied')); }
+  container.append(meta);
+  container.append(element('small', 'expanded-report-disclaimer', 'Summary generated with LLM assistance. Verify details against the original source.'));
+
+  const related = list.filter(record => record.k === selected.k && record.displayId !== selected.displayId);
+  if (related.length) {
+    const details = element('details', 'expanded-related');
+    details.append(element('summary', '', `${related.length.toLocaleString()} more reports in this country`));
+    const relatedList = element('div', 'expanded-related-list');
+    related.slice(0, 8).forEach(record => {
+      const button = element('button', '', record.t);
+      button.type = 'button';
+      button.addEventListener('click', () => { state.selected = record.displayId; render(); });
+      relatedList.append(button);
+    });
+    details.append(relatedList); container.append(details);
   }
-  const max = Math.max(1, ...bins.map(b => b.count));
-  const histogram = $('histogram'); const scroll = histogram.scrollLeft; histogram.replaceChildren();
-  const selectedStart = state.mode === 'cumulative' ? minMonth : state.start;
-  bins.forEach(b => {
-    const label = monthly ? monthLabel(b.start) : String(Math.floor(b.start / 12));
-    const button = element('button', `hist-bin${monthly ? ' month' : ''}${b.end >= selectedStart && b.start <= state.end ? ' selected' : ''}`);
-    const description = `${label}: ${b.count} reports${monthly ? '' : ' overlapping this year'}. Select this period.`;
-    button.title = description; button.setAttribute('aria-label', description);
-    const bar = element('span', 'hist-bar'); bar.style.height = `${b.count ? Math.max(2, b.count / max * 60) : 0}px`;
-    const showYear = monthly ? b.start % 12 === 0 : bins.length <= 12 || Math.floor(b.start / 12) % 5 === 0 || b === bins.at(-1);
-    button.append(bar, element('span', 'hist-year', showYear ? String(Math.floor(b.start / 12)) : ''));
-    button.addEventListener('click', () => { pause(); state.start = Math.max(minMonth, b.start); state.end = Math.min(maxMonth, b.end); state.selected = null; syncTimeControls(); render(); });
-    histogram.append(button);
-  }); histogram.scrollLeft = scroll;
+}
+
+function renderTimeSummary() {
+  const context = records.filter(r => matchesCategory(r));
   $('undated-count').textContent = `(${context.filter(r => !r.date).length})`;
-  const broad = context.filter(r => r.date && ['year', 'range'].includes(r.date.precision)).length;
-  $('date-note').textContent = monthly
-    ? `Monthly bars omit ${broad} reports with year-only or year-range dates. Map filtering includes overlapping date ranges; undated reports follow the checkbox.`
-    : 'Bars count reports overlapping each year. Reports with date ranges may appear in more than one bar. Undated reports are not charted.';
   $('period-label').textContent = state.mode === 'cumulative' ? `Up to ${monthLabel(state.end)}` : `${monthLabel(state.start)} — ${monthLabel(state.end)}`;
 }
 function syncTimeControls() {
@@ -281,34 +363,13 @@ function syncTimeControls() {
     button.setAttribute('aria-pressed', String(selected));
   });
 }
-function reportList(list) {
-  const container = $('report-content'); container.replaceChildren();
-  const heading = element('div', 'list-heading');
-  heading.append(element('span', 'eyebrow', 'FOLLOW THE EVIDENCE'), element('h2', '', state.country || 'All countries'), element('p', '', `${list.length.toLocaleString()} matching reports · select a report to inspect its evidence.`));
-  container.append(heading);
-  if (!list.length) { container.append(element('div', 'pending-box', 'No reports match these filters. Widen the date range, include undated reports, or reset the filters.')); return; }
-  list.slice(0, state.limit).forEach(r => {
-    const button = element('button', 'report-card');
-    button.append(element('div', 'report-meta', `${r.k} · ${r.d || 'Date not supplied'}`), element('span', 'report-title', r.t));
-    r.b.forEach(b => button.append(element('span', 'report-tag', b)));
-    button.addEventListener('click', () => {
-      state.selected = r.displayId; showReport(r);
-      revealReports();
-    });
-    container.append(button);
-  });
-  if (list.length > state.limit) {
-    const more = element('button', 'load-more', `Show more (${list.length - state.limit} remaining)`);
-    more.addEventListener('click', () => { state.limit += 30; reportList(list); }); container.append(more);
-  }
-}
 function detailSection(container, heading) {
   const section = element('section', 'detail-section'); section.append(element('h3', '', heading)); container.append(section); return section;
 }
 function showReport(r) {
   const container = $('report-content'); container.replaceChildren();
-  const back = element('button', 'back-button', '← Back to matching reports');
-  back.addEventListener('click', () => { state.selected = null; reportList(results()); revealReports(); });
+  const back = element('button', 'back-button', '✕ Close report');
+  back.addEventListener('click', () => { state.selected = null; render(); });
   container.append(back, element('div', 'eyebrow', r.k), element('h2', 'detail-title', r.t), element('div', 'report-meta', `${r.d || 'Date not supplied'} · ${r.e || 'Duration not supplied'}`));
   r.h.forEach(h => container.append(element('span', 'report-tag', h)));
   const summary = detailSection(container, 'What happened'); summary.append(element('p', 'detail-summary', r.s || 'No description supplied.'));
@@ -323,29 +384,57 @@ function showReport(r) {
   evidence.append(element('p', 'fine-print', 'Read the original source for context and supporting evidence.'));
 }
 function render() {
-  const mapRecords = records.filter(r => matchesSearch(r) && matchesTime(r) && matchesCategory(r));
-  currentByCountry = new Map();
-  mapRecords.forEach(r => { if (!currentByCountry.has(r.k)) currentByCountry.set(r.k, []); currentByCountry.get(r.k).push(r); });
+  const mapRecords = records.filter(r => matchesTime(r) && matchesCategory(r));
+  currentMapRecords = mapRecords;
   renderMarkers();
-  const list = mapRecords.filter(countryMatch);
-  $('visible-count').textContent = list.length.toLocaleString();
-  $('country-count').textContent = new Set(list.map(r => r.k)).size;
-  $('map-title').textContent = state.country || 'A world of documented harms';
+  const list = mapRecords;
+  const visibleCount = list.length.toLocaleString();
+  const countryCount = new Set(list.map(r => r.k)).size;
+  $('visible-count').textContent = visibleCount;
+  $('country-count').textContent = countryCount;
+  $('expanded-visible-count').textContent = visibleCount;
+  $('expanded-country-count').textContent = countryCount;
+  $('map-title').textContent = 'A world of documented harms';
   $('open-filters').textContent = state.category === null ? `Filter by category (${sample.filters.length})` : 'Filter by category · 1 selected';
   $('apply-filters').textContent = `Show ${list.length.toLocaleString()} reports`;
-  renderLegend(); renderCategories(); syncTimeControls(); renderHistogram();
+  renderLegend(); renderCategories(); syncTimeControls(); renderTimeSummary(); syncMapFilterControls();
   const selected = list.find(r => r.displayId === state.selected);
-  if (selected) showReport(selected); else if (state.cluster) showCountryGroup(state.cluster); else { state.selected = null; reportList(list); }
+  renderExpandedReport(selected, list);
+  const inspector = document.querySelector('.inspector');
+  const workspace = $('main-content');
+  if (selected) {
+    inspector.hidden = false;
+    workspace.classList.add('report-open');
+    showReport(selected);
+  } else {
+    state.selected = null;
+    inspector.hidden = true;
+    workspace.classList.remove('report-open');
+  }
 }
 
-[...new Set(records.map(r => r.k))].sort().forEach(country => $('country').add(new Option(country, country)));
+function syncMapFilterControls() {
+  const start = state.mode === 'cumulative' ? minMonth : state.start;
+  $('map-start').value = start;
+  $('map-end').value = state.end;
+  $('map-start').disabled = state.mode === 'cumulative';
+  $('map-start').setAttribute('aria-valuetext', monthLabel(start));
+  $('map-end').setAttribute('aria-valuetext', monthLabel(state.end));
+  $('map-start').setAttribute('aria-valuemax', state.end);
+  $('map-end').setAttribute('aria-valuemin', start);
+  const periodText = state.mode === 'cumulative' ? `Up to ${monthLabel(state.end)}` : `${monthLabel(start)} — ${monthLabel(state.end)}`;
+  $('map-period-label').textContent = periodText;
+  $('expanded-coverage-period').textContent = periodText;
+  $('map-date-range').style.setProperty('--range-start', `${(start - minMonth) / (maxMonth - minMonth) * 100}%`);
+  $('map-date-range').style.setProperty('--range-end', `${(state.end - minMonth) / (maxMonth - minMonth) * 100}%`);
+}
 ['start', 'end'].forEach(id => {
   $(id).min = minMonth; $(id).max = maxMonth;
   $(id).addEventListener('input', () => {
     pause();
     const start = state.mode === 'cumulative' ? minMonth : state.start;
     Object.assign(state, moveRangeHandle(id, +$(id).value, start, state.end));
-    state.limit = 30; render();
+    render();
   });
 });
 $('date-range').addEventListener('pointerdown', event => {
@@ -359,23 +448,69 @@ $('date-range').addEventListener('pointerdown', event => {
 document.querySelectorAll('[data-years]').forEach(button => button.addEventListener('click', () => {
   pause(); state.mode = 'period'; $('time-mode').value = 'period';
   Object.assign(state, presetRange(button.dataset.years, state.end));
-  state.selected = null; state.limit = 30; render();
+  state.selected = null; render();
 }));
-$('search').addEventListener('input', () => { state.query = $('search').value.toLowerCase().trim(); state.limit = 30; render(); });
-$('country').addEventListener('change', () => selectCountry($('country').value, true));
+['map-start', 'map-end'].forEach(id => {
+  $(id).addEventListener('input', () => {
+    pause();
+    const handle = id === 'map-start' ? 'start' : 'end';
+    const start = state.mode === 'cumulative' ? minMonth : state.start;
+    Object.assign(state, moveRangeHandle(handle, +$(id).value, start, state.end));
+    state.selected = null; render();
+  });
+});
+$('map-theme-toggle').addEventListener('click', () => {
+  state.mapTheme = state.mapTheme === 'dark' ? 'light' : 'dark';
+  applyMapTheme();
+});
+$('clear-map-filters').addEventListener('click', () => {
+  pause(); Object.assign(state, {category: null, start: minMonth, end: maxMonth, undated: false, mode: 'period', selected: null});
+  $('undated').checked = false; $('time-mode').value = 'period'; worldView(); render();
+});
 $('world-view').addEventListener('click', worldView);
-$('resolution').addEventListener('change', () => { pause(); state.resolution = $('resolution').value; render(); });
+function syncMapExpansion() {
+  const wrap = $('map-wrap');
+  const expanded = document.fullscreenElement === wrap || wrap.classList.contains('map-expanded');
+  const label = expanded ? 'Exit full screen' : 'Expand map';
+  $('expand-map').textContent = expanded ? '✕' : '⛶';
+  $('expand-map').setAttribute('aria-label', label);
+  $('expand-map').title = label;
+  $('expand-map').setAttribute('aria-pressed', String(expanded));
+  document.body.classList.toggle('map-expanded', wrap.classList.contains('map-expanded'));
+  requestAnimationFrame(() => { map?.invalidateSize(); renderMarkers(); });
+}
+$('expand-map').addEventListener('click', async () => {
+  const wrap = $('map-wrap');
+  if (wrap.classList.contains('map-expanded')) {
+    wrap.classList.remove('map-expanded');
+    syncMapExpansion();
+    return;
+  }
+  try {
+    if (document.fullscreenElement === wrap) await document.exitFullscreen();
+    else if (wrap.requestFullscreen) await wrap.requestFullscreen();
+    else { wrap.classList.add('map-expanded'); syncMapExpansion(); }
+  } catch {
+    wrap.classList.add('map-expanded'); syncMapExpansion();
+  }
+});
+document.addEventListener('fullscreenchange', syncMapExpansion);
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && $('map-wrap').classList.contains('map-expanded')) {
+    $('map-wrap').classList.remove('map-expanded'); syncMapExpansion();
+  }
+});
 $('undated').addEventListener('change', () => { state.undated = $('undated').checked; render(); });
 $('time-mode').addEventListener('change', () => { pause(); state.mode = $('time-mode').value; render(); });
 document.querySelector('.timeline-settings').addEventListener('toggle', event => { if (!event.currentTarget.open) pause(); });
 $('reset').addEventListener('click', () => {
-  pause(); Object.assign(state, {category: null, country: '', query: '', start: minMonth, end: maxMonth, undated: false, selected: null, limit: 30, mode: 'period', cluster: null, resolution: 'year'});
-  $('search').value = ''; $('country').value = ''; $('undated').checked = false; $('time-mode').value = 'period'; $('resolution').value = 'year';
+  pause(); Object.assign(state, {category: null, start: minMonth, end: maxMonth, undated: false, selected: null, mode: 'period'});
+  $('undated').checked = false; $('time-mode').value = 'period';
   worldView(); render();
 });
 $('play').addEventListener('click', () => {
   if (animation) { pause(); return; }
-  const span = state.resolution === 'year' ? 12 : 1;
+  const span = 12;
   if (state.end >= maxMonth || state.end - state.start >= span) {
     state.start = minMonth; state.end = Math.min(maxMonth, minMonth + span - 1);
   }
@@ -403,4 +538,5 @@ $('filter-sheet').addEventListener('close', () => {
 });
 mobileLayout.addEventListener('change', placeTaxonomy);
 placeTaxonomy();
+syncMapExpansion();
 setupMap(); render();
