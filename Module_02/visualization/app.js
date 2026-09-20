@@ -50,12 +50,12 @@ function moveRangeHandle(handle, value, start, end) {
 }
 const state = {category: null, start: minMonth, end: maxMonth, undated: false, mode: 'period', selected: null, mapTheme: 'dark'};
 const colours = {
-  'Compute / Model Behavior': '#C92A3E',
-  'Data': '#DC3A2F',
-  'Deployment Context / Weapons': '#E85D5D',
-  'Labor': '#F37A6B',
-  'Energy / Land': '#FFB3A7',
-  '__neutral__': '#A65A62'
+  'Compute / Model Behavior': '#4C72B0',
+  'Data': '#DD8452',
+  'Deployment Context / Weapons': '#8172B3',
+  'Labor': '#55A868',
+  'Energy / Land': '#C44E52',
+  '__neutral__': '#64748B'
 };
 let map, landLayer, markerLayer, animation = null, currentMapRecords = [];
 const worldBounds = [[-55, -170], [78, 180]];
