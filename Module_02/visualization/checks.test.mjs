@@ -42,15 +42,15 @@ test('event hover summaries stay between 50 and 70 characters', () => {
   assert.equal(evaluate(`compactEventSummary({t: 'Sarah silverman paul tremblay openai chatgpt copyright lawsuit', b: [], k: ''})`), 'Sarah silverman paul tremblay openai chatgpt copyright lawsuit');
 });
 
-test('every event receives a stable position inside its reported country', () => {
+test('every event receives a stable position inside its display-placement country', () => {
   assert.equal(evaluate('eventPositions.size'), evaluate('records.length'));
   assert.equal(evaluate(`records.every(record => {
     const position = eventPositions.get(record.displayId);
     const point = [position[1], position[0]];
-    return pointInPolygon(point, primaryPolygon(countryFeatures.get(record.k)));
+    return pointInPolygon(point, primaryPolygon(countryFeatures.get(record.p || record.k)));
   })`), true);
   assert.equal(evaluate(`(() => {
-    const positions = records.filter(record => record.k === 'United States of America').map(record => eventPositions.get(record.displayId));
+    const positions = records.filter(record => record.k === 'United States').map(record => eventPositions.get(record.displayId));
     return new Set(positions.map(point => point.join(','))).size === positions.length
       && positions.every(([lat, lon]) => lat >= 25 && lat <= 50 && lon >= -125 && lon <= -66);
   })()`), true);
@@ -65,9 +65,10 @@ test('quick ranges anchor to the end month and clamp to 2021', () => {
   assert.equal(evaluate('presetRange("all", readMonth("2022-06")).end === maxMonth'), true);
 });
 
-test('default view keeps 956 reports overlapping 2021–2026', () => {
-  assert.equal(evaluate('records.length'), 988);
-  assert.equal(evaluate('results().length'), 956);
+test('default view keeps all 3,041 release reports overlapping 2021–2026', () => {
+  assert.equal(evaluate('records.length'), 3041);
+  assert.equal(evaluate('new Set(records.map(record => record.i)).size'), 3041);
+  assert.equal(evaluate('results().length'), 3041);
   assert.equal(evaluate('results().every(r => r.date && r.date.end >= minMonth && r.date.start <= maxMonth)'), true);
   assert.doesNotMatch(source, /state\.limit|list\.slice\(/);
 });

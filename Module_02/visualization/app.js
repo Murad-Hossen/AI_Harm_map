@@ -124,9 +124,10 @@ function approximateEventPosition(country, ordinal) {
 const eventPositions = new Map();
 const countryOrdinals = new Map();
 records.forEach(record => {
-  const ordinal = countryOrdinals.get(record.k) || 0;
-  countryOrdinals.set(record.k, ordinal + 1);
-  eventPositions.set(record.displayId, approximateEventPosition(record.k, ordinal));
+  const placementCountry = record.p || record.k;
+  const ordinal = countryOrdinals.get(placementCountry) || 0;
+  countryOrdinals.set(placementCountry, ordinal + 1);
+  eventPositions.set(record.displayId, approximateEventPosition(placementCountry, ordinal));
 });
 
 function element(tag, className, content) {

@@ -3,10 +3,13 @@
 Open `index.html` in a browser. No build step or Python environment is needed.
 Leaflet loads from a CDN; an internet connection is needed for the geographic
 map. The optional web font falls back to the system font. Reports and country
-geometry are local in `data.js`, extracted from the supplied `predicted_map.html`.
+geometry are local in `data.js`. Run `python3 build_data.py` to regenerate the
+browser data from the frozen release corpus.
 
-The prototype preserves the 988 embedded reports and underlying country data. It
-does not connect to enriched inference outputs or run PHTKG.
+The prototype preserves all 3,041 unique release reports. Enriched action and
+consequence fields are used for the annotated 1,162-report partition; the
+remaining release records use browser-safe summaries derived from structured
+metadata. The browser does not run PHTKG.
 
 Implemented interactions:
 
@@ -70,10 +73,11 @@ original geometry in `data.js`, run `python3 build_geography.py` with Shapely
 installed. This is only a preparation step; the browser does not need Python.
 
 Files: `index.html` defines the layout; `styles.css` provides responsive
-styling; `app.js` handles interactions; `data.js` contains the original sample.
-`displayId` is only an in-memory row index for UI selection, not a source
-`report_id`. A future enriched-data adapter must preserve actual report IDs,
-source evidence, verification audits, and `learned_representation` fields.
+styling; `app.js` handles interactions; `build_data.py` adapts the frozen releases; and
+`data.js` contains the generated browser dataset. `displayId` is only an
+in-memory row index for UI selection; each record also preserves its stable
+source `report_id`. Learned-representation and verification fields can be added
+when the final enriched artifact is released.
 
 Run `node --test checks.test.mjs` for date-policy, dataset-filter, markup wiring,
 and palette contrast checks. These checks do not replace visual browser or
