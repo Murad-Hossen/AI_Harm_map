@@ -155,8 +155,11 @@ def harm_label(event):
         if isinstance(category, dict):
             label = clean(category.get("subcategory"))
             if label:
+                label = re.sub(r"\s*/\s*", " and ", label)
+                label = re.sub(r"\s+harm$", "", label, flags=re.IGNORECASE)
+                label = re.sub(r"information hazard$", "information hazards", label, flags=re.IGNORECASE)
                 return label
-    return "Mixed AI harm classifications"
+    return "Mixed AI harms"
 
 
 def display_attribute(value):
