@@ -151,7 +151,12 @@ function pause() {
   $('play').textContent = '▶ Play'; $('play').setAttribute('aria-pressed', 'false');
 }
 
-function worldView() { map?.stop(); map?.fitBounds(worldBounds, {animate: false}); }
+function worldView() {
+  if (!map) return;
+  map.stop();
+  map.fitBounds(worldBounds, {animate: false});
+  map.setZoom(map.getZoom() + .31, {animate: false});
+}
 function applyMapTheme() {
   const light = state.mapTheme === 'light';
   $('map-wrap').classList.toggle('map-light', light);
@@ -162,7 +167,7 @@ function applyMapTheme() {
 }
 function setupMap() {
   if (!window.L) { $('map-error').hidden = false; return; }
-  map = L.map('map', {zoomControl: false, minZoom: 0, maxZoom: 7, zoomSnap: .25, preferCanvas: true});
+  map = L.map('map', {zoomControl: false, minZoom: 0, maxZoom: 7, zoomSnap: .01, preferCanvas: true});
   L.control.zoom({position: 'topright'}).addTo(map);
   worldView();
   landLayer = L.geoJSON(window.MAP_GEOGRAPHY.land, {
@@ -239,7 +244,7 @@ function renderMarkers() {
     const colour = colours[category] || colours.__neutral__ || '#64748b';
     const description = `${record.t} · ${record.k} · ${record.d || 'Date not supplied'}`;
     const marker = L.circleMarker(eventPositions.get(record.displayId), {
-      radius: selected ? 5 : 3.5,
+      radius: selected ? 2.5 : 1.75,
       color: selected ? '#ffffff' : colour,
       weight: selected ? 2 : 1,
       fillColor: colour,

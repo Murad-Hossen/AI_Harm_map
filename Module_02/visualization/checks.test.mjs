@@ -115,6 +115,9 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(read('styles.css'), /\.map-wrap:fullscreen #map, \.map-wrap\.map-expanded #map \{ right: 298px; width: auto; \}/);
   assert.match(read('styles.css'), /\.expanded-taxonomy \{[^}]*height: calc\(66\.667dvh - 133\.333px\)/);
   assert.match(source, /workspace\.classList\.add\('report-open'\)/);
+  assert.match(source, /radius: selected \? 2\.5 : 1\.75/);
+  assert.match(source, /map\.setZoom\(map\.getZoom\(\) \+ \.31/);
+  assert.match(source, /zoomSnap: \.01/);
 });
 
 function luminance(hex) {
