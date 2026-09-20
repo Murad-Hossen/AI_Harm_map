@@ -16,8 +16,8 @@ test('month values preserve the supported precision and date bounds', () => {
   assert.equal(evaluate('readMonth("2021-01")'), 2021 * 12);
   assert.equal(evaluate('readMonth("2026-13")'), null);
   assert.equal(evaluate('readMonth("")'), null);
-  assert.equal(evaluate('isValidRange(readMonth("2021-01"), readMonth("2026-12"))'), true);
-  for (const [start, end] of [['2020-12', '2026-12'], ['2021-01', '2027-01'], ['2026-12', '2021-01'], ['', '2022-01']]) {
+  assert.equal(evaluate('isValidRange(readMonth("2021-01"), readMonth("2026-07"))'), true);
+  for (const [start, end] of [['2020-12', '2026-07'], ['2021-01', '2027-01'], ['2026-08', '2021-01'], ['', '2022-01']]) {
     assert.equal(evaluate(`isValidRange(readMonth(${JSON.stringify(start)}), readMonth(${JSON.stringify(end)}))`), false);
   }
 });
@@ -57,7 +57,7 @@ test('every event receives a stable position inside its display-placement countr
 });
 
 test('quick ranges anchor to the end month and clamp to 2021', () => {
-  for (const [years, start] of [['1', '2026-01'], ['3', '2024-01'], ['5', '2022-01'], ['all', '2021-01']]) {
+  for (const [years, start] of [['1', '2025-08'], ['3', '2023-08'], ['5', '2021-08'], ['all', '2021-01']]) {
     assert.equal(evaluate(`presetRange('${years}', maxMonth).start === readMonth('${start}')`), true);
     assert.equal(evaluate(`presetRange('${years}', maxMonth).end === maxMonth`), true);
   }
@@ -94,7 +94,7 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /<input type="range" id="start"/);
   assert.match(html, /<input type="range" id="end"/);
   assert.match(html, /id="date-range" role="group"/);
-  assert.doesNotMatch(html, /type="month"|PHTKG|patterns-tab|map-category-filter/);
+  assert.doesNotMatch(html, /type="month"|patterns-tab|map-category-filter/);
   assert.match(html, /<details class="timeline-settings">/);
   assert.match(html, /<aside class="inspector"[^>]*hidden>/);
   assert.match(html, /id="expanded-categories" class="expanded-categories"[^>]*tabindex="0"/);
@@ -102,9 +102,10 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /id="map-theme-toggle" class="map-theme-toggle"/);
   assert.match(html, /<body class="map-expanded">/);
   assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
-  assert.match(html, /styles\.css\?v=20260920-1/);
+  assert.match(html, /styles\.css\?v=20260920-7/);
   assert.match(html, /data\.js\?v=20260920-1/);
-  assert.match(html, /app\.js\?v=20260920-1/);
+  assert.match(html, /app\.js\?v=20260920-6/);
+  assert.match(html, /phtkg_patterns\.js\?v=20260920-4/);
   assert.doesNotMatch(html, /id="expand-map"|class="map-expand"/);
   assert.match(source, /mapTheme: 'dark'/);
   assert.match(source, /landLayer\?\.setStyle\(\{fillColor: light/);
@@ -118,6 +119,7 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(source, /\[\$\('categories'\), \$\('expanded-categories'\)\]/);
   assert.match(read('styles.css'), /\.map-wrap:fullscreen #map, \.map-wrap\.map-expanded #map \{ right: 298px; width: auto; \}/);
   assert.match(read('styles.css'), /\.expanded-taxonomy \{[^}]*height: calc\(66\.667dvh - 133\.333px\)/);
+  assert.match(read('styles.css'), /\.expanded-categories \.all-categories \{[^}]*position: sticky/);
   assert.match(source, /workspace\.classList\.add\('report-open'\)/);
   assert.match(source, /radius: selected \? 2\.5 : 1\.75/);
   assert.match(source, /map\.setZoom\(map\.getZoom\(\) \+ \.31/);

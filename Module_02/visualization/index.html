@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Harm Map · Explore documented harms</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=20260920-1">
+  <link rel="stylesheet" href="styles.css?v=20260920-7">
   <script defer src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
   <script defer src="data.js?v=20260920-1"></script>
+  <script defer src="phtkg_patterns.js?v=20260920-4"></script>
   <script defer src="geography.js?v=20260920-1"></script>
-  <script defer src="app.js?v=20260920-1"></script>
+  <script defer src="app.js?v=20260920-6"></script>
 </head>
 <body class="map-expanded">
   <a class="skip-link" href="#main-content">Skip to map and reports</a>
@@ -40,7 +41,7 @@
         <div class="expanded-map-stats" aria-live="polite">
           <div><strong id="expanded-visible-count">—</strong><span>matching reports</span></div>
           <div><strong id="expanded-country-count">—</strong><span>countries</span></div>
-          <div><strong id="expanded-coverage-period">Jan 2021 — Dec 2026</strong><span>coverage period</span></div>
+          <div><strong id="expanded-coverage-period">Jan 2021 — Jul 2026</strong><span>coverage period</span></div>
         </div>
         <div id="map" aria-label="Borderless world map with approximately positioned event dots"></div>
         <div id="map-error" role="status" hidden>The map library could not load. Connect to the internet and reload. Report filters and the timeline remain available.</div>
@@ -57,25 +58,25 @@
         </aside>
         <div class="map-filter-tray" aria-label="Expanded map filters">
           <div class="map-time-filter">
-            <div><span>Time range</span><output id="map-period-label">Jan 2021 — Dec 2026</output></div>
+            <div><span>Time range</span><output id="map-period-label">Jan 2021 — Jul 2026</output></div>
             <div class="map-date-range" id="map-date-range" role="group" aria-label="Select start and end months on expanded map">
               <div class="map-date-range-track" aria-hidden="true"><div class="map-date-range-fill"></div></div>
-              <input type="range" id="map-start" min="24252" max="24323" value="24252" step="1" aria-label="Expanded map start month">
-              <input type="range" id="map-end" min="24252" max="24323" value="24323" step="1" aria-label="Expanded map end month">
+              <input type="range" id="map-start" min="24252" max="24318" value="24252" step="1" aria-label="Expanded map start month">
+              <input type="range" id="map-end" min="24252" max="24318" value="24318" step="1" aria-label="Expanded map end month">
             </div>
           </div>
           <button id="clear-map-filters" type="button">Clear filters</button>
         </div>
       </div>
       <section class="timeline" aria-label="Report timeline">
-        <div class="range-labels"><label for="start">Start <output id="start-label" for="start">Jan 2021</output></label><label for="end">End <output id="end-label" for="end">Dec 2026</output></label></div>
+        <div class="range-labels"><label for="start">Start <output id="start-label" for="start">Jan 2021</output></label><label for="end">End <output id="end-label" for="end">Jul 2026</output></label></div>
         <div class="date-range" id="date-range" role="group" aria-label="Select start and end months">
           <div class="date-range-track" aria-hidden="true"><div class="date-range-fill"></div></div>
-          <input type="range" id="start" min="24252" max="24323" value="24252" step="1" aria-describedby="range-help">
-          <input type="range" id="end" min="24252" max="24323" value="24323" step="1" aria-describedby="range-help">
+          <input type="range" id="start" min="24252" max="24318" value="24252" step="1" aria-describedby="range-help">
+          <input type="range" id="end" min="24252" max="24318" value="24318" step="1" aria-describedby="range-help">
         </div>
         <p id="range-help" class="sr-only">Drag either handle or use the arrow keys to adjust its month. Start cannot move after end. When both handles select the same month, the start handle sits above the end handle.</p>
-        <div class="timeline-heading"><div><span class="eyebrow">DOCUMENTED OVER TIME</span><h2 id="period-label">Jan 2021 — Dec 2026</h2></div></div>
+        <div class="timeline-heading"><div><span class="eyebrow">DOCUMENTED OVER TIME</span><h2 id="period-label">Jan 2021 — Jul 2026</h2></div></div>
         <div class="range-presets" role="group" aria-label="Quick date ranges"><button data-years="1" aria-pressed="false">1Y</button><button data-years="3" aria-pressed="false">3Y</button><button data-years="5" aria-pressed="false">5Y</button><button data-years="all" aria-pressed="true">All</button><span>Ranges end at your selected end month.</span></div>
         <details class="timeline-settings"><summary>More time options</summary><div class="timeline-options"><label for="time-mode">Window<select id="time-mode"><option value="period">During this period</option><option value="cumulative">Up to this date</option></select></label><label class="checkbox-label"><input type="checkbox" id="undated">Include undated reports <span id="undated-count"></span></label><button id="play" class="play-button" aria-pressed="false">▶ Play</button></div></details>
       </section>

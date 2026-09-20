@@ -76,8 +76,16 @@ Files: `index.html` defines the layout; `styles.css` provides responsive
 styling; `app.js` handles interactions; `build_data.py` adapts the frozen releases; and
 `data.js` contains the generated browser dataset. `displayId` is only an
 in-memory row index for UI selection; each record also preserves its stable
-source `report_id`. Learned-representation and verification fields can be added
-when the final enriched artifact is released.
+source `report_id`.
+
+`build_phtkg_patterns.py` runs fixed-checkpoint inference with
+`checkpoints/gold_phtkg.pt` on the 1,162 reports that contain all seven PHTKG
+roles. It writes the auditable 128-dimensional representations to
+`results/phtkg/phtkg_learned_representations.json` and the compact browser index
+to `phtkg_patterns.js`. Regenerate both with
+`python3 build_phtkg_patterns.py`. The selected-report panel shows a **Related
+pattern** section only when its stable `report_id` is present in that index; the
+remaining reports stay visible on the map without a fabricated pattern.
 
 Run `node --test checks.test.mjs` for date-policy, dataset-filter, markup wiring,
 and palette contrast checks. These checks do not replace visual browser or

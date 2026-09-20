@@ -37,7 +37,7 @@ function parseDate(value) {
 
 const records = sample.records.map((r, index) => ({...r, displayId: index, date: parseDate(r.d)}));
 const minMonth = monthIndex(2021, 1);
-const maxMonth = monthIndex(2026, 12);
+const maxMonth = monthIndex(2026, 7);
 function isValidRange(start, end) {
   return start !== null && end !== null && start >= minMonth && end <= maxMonth && start <= end;
 }
@@ -281,7 +281,7 @@ function renderCategories() {
     if (!container.children.length) {
       [null, ...sample.filters.keys()].forEach(index => {
         const f = index === null ? null : sample.filters[index];
-        const button = element('button', `category-button${f?.k === 's' ? ' child' : ''}`);
+        const button = element('button', `category-button${index === null ? ' all-categories' : ''}${f?.k === 's' ? ' child' : ''}`);
         if (f?.k === 'b') { const swatch = element('i', 'swatch'); swatch.style.background = colours[f.b]; button.append(swatch); }
         button.append(element('span', '', f ? f.v : 'All harm categories'), element('span', 'cat-count'));
         button.addEventListener('click', () => { pause(); state.category = state.category === index ? null : index; state.selected = null; render(); });
@@ -326,6 +326,29 @@ function renderExpandedReport(selected, list) {
   } catch { meta.append(document.createTextNode('Source not supplied')); }
   container.append(meta);
   container.append(element('small', 'expanded-report-disclaimer', 'Summary generated with LLM assistance. Verify details against the original source.'));
+
+  const learnedPattern = window.PHTKG_PATTERNS?.[selected.i];
+  if (learnedPattern) {
+    const pattern = element('section', 'related-pattern');
+    pattern.append(element('h4', 'related-pattern-label', 'Related structural pattern'));
+    pattern.append(element(
+      'p',
+      'related-pattern-stats',
+      `${learnedPattern.reports.toLocaleString()} reports share recurring combinations of AI systems, affected groups, actions, consequences, locations, dates, and harm classifications.`
+    ));
+    if (learnedPattern.common?.length) {
+      const attributes = element('p', 'related-pattern-common');
+      attributes.append(document.createTextNode('Frequent attributes: '));
+      attributes.append(element('strong', '', learnedPattern.common.join(' · ')));
+      pattern.append(attributes);
+    }
+    const classification = element('p', 'related-pattern-classification');
+    classification.append(document.createTextNode('Most frequent existing classification: '));
+    classification.append(element('strong', '', learnedPattern.label));
+    pattern.append(classification);
+    pattern.append(element('small', 'related-pattern-note', "Based on similarities between structured report attributes. This does not assess report reliability or establish causation."));
+    container.append(pattern);
+  }
 
   const related = list.filter(record => record.k === selected.k && record.displayId !== selected.displayId);
   if (related.length) {
