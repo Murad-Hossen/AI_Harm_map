@@ -127,7 +127,7 @@ records.forEach(record => {
   const placementCountry = record.p || record.k;
   const ordinal = countryOrdinals.get(placementCountry) || 0;
   countryOrdinals.set(placementCountry, ordinal + 1);
-  eventPositions.set(record.displayId, approximateEventPosition(placementCountry, ordinal));
+  eventPositions.set(record.displayId, record.c || approximateEventPosition(placementCountry, ordinal));
 });
 
 function element(tag, className, content) {
@@ -197,7 +197,7 @@ function isMapExpanded() {
   return document.fullscreenElement === wrap || wrap.classList.contains('map-expanded');
 }
 function compactEventSummary(record, minimum = 50, maximum = 70) {
-  const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
+  const clean = value => String(value || '').replace(/[—–]/g, ' ').replace(/…/g, '').replace(/\s+/g, ' ').trim();
   const title = clean(record.t);
   if (title.length >= minimum && title.length <= maximum) return title;
 
@@ -240,7 +240,6 @@ function renderMarkers() {
   markerLayer.clearLayers();
   currentMapRecords.forEach(record => {
     const selected = state.selected === record.displayId;
-    const dimmed = state.selected !== null && !selected;
     const category = state.category === null ? record.b[0] : sample.filters[state.category].b;
     const colour = colours[category] || colours.__neutral__ || '#64748b';
     const description = `${record.t} · ${record.k} · ${record.d || 'Date not supplied'}`;
@@ -249,8 +248,8 @@ function renderMarkers() {
       color: selected ? '#ffffff' : colour,
       weight: selected ? 2 : 1,
       fillColor: colour,
-      fillOpacity: dimmed ? 0.16 : 0.88,
-      opacity: dimmed ? 0.24 : 1,
+      fillOpacity: 0.88,
+      opacity: 1,
       bubblingMouseEvents: false
     });
     marker.bindTooltip(() => element('div', 'event-tooltip-summary', compactEventSummary(record)), {direction: 'top', offset: [0, -8]});
@@ -306,17 +305,29 @@ function renderExpandedReport(selected, list) {
 
   const container = $('expanded-report-content');
   container.replaceChildren();
+  const context = selected.x || {};
   const heading = element('div', 'expanded-report-heading');
-  const harm = selected.h?.[0] || selected.b?.[0] || 'Category not supplied';
-  heading.append(element('h3', 'expanded-report-title', `${selected.t} | Harm: ${harm}`));
+  const title = element('h3', 'expanded-report-title');
+  title.append(document.createTextNode(`${selected.t} | Harm: `));
+  const harmLabels = selected.h?.length ? selected.h : [selected.b?.[0] || 'Category not supplied'];
+  harmLabels.forEach((harm, index) => {
+    if (index) title.append(document.createTextNode(' · '));
+    const branch = sample.filters.find(filter => filter.k === 's' && filter.v === harm)?.b || selected.b?.[index] || selected.b?.[0];
+    const label = element('span', 'expanded-report-harm', harm);
+    label.style.color = colours[branch] || colours.__neutral__;
+    title.append(label);
+  });
+  heading.append(title);
   const close = element('button', 'expanded-report-close', 'Close');
   close.type = 'button';
   close.addEventListener('click', () => { state.selected = null; render(); });
   heading.append(close);
-  container.append(heading, element('p', 'expanded-report-summary', selected.s || 'No summary supplied.'));
+  container.append(heading);
+
+  container.append(element('p', 'expanded-report-summary', selected.s || 'No report text supplied.'));
 
   const meta = element('p', 'expanded-report-meta');
-  meta.append(document.createTextNode(`${selected.k} · ${selected.d || 'Date not supplied'} · ${selected.e || 'Duration not supplied'} · Source: `));
+  meta.append(document.createTextNode(`${selected.l || selected.k} · ${selected.d || 'Date not supplied'} · ${selected.e || 'Duration not supplied'} · Source: `));
   try {
     const url = new URL(selected.u);
     if (!['http:', 'https:'].includes(url.protocol)) throw new Error('Unsupported source protocol');
@@ -326,6 +337,7 @@ function renderExpandedReport(selected, list) {
   } catch { meta.append(document.createTextNode('Source not supplied')); }
   container.append(meta);
   container.append(element('small', 'expanded-report-disclaimer', 'Summary generated with LLM assistance. Verify details against the original source.'));
+
 
   const learnedPattern = window.PHTKG_PATTERNS?.[selected.i];
   if (learnedPattern) {
@@ -350,19 +362,6 @@ function renderExpandedReport(selected, list) {
     container.append(pattern);
   }
 
-  const related = list.filter(record => record.k === selected.k && record.displayId !== selected.displayId);
-  if (related.length) {
-    const details = element('details', 'expanded-related');
-    details.append(element('summary', '', `${related.length.toLocaleString()} more reports in this country`));
-    const relatedList = element('div', 'expanded-related-list');
-    related.slice(0, 8).forEach(record => {
-      const button = element('button', '', record.t);
-      button.type = 'button';
-      button.addEventListener('click', () => { state.selected = record.displayId; render(); });
-      relatedList.append(button);
-    });
-    details.append(relatedList); container.append(details);
-  }
 }
 
 function renderTimeSummary() {

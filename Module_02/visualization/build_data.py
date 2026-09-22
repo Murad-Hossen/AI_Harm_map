@@ -1,116 +1,177 @@
 #!/usr/bin/env python3
-"""Build browser-safe map data from the frozen 3,041-report release corpus."""
+"""Build browser map data from the notebook's final 2,845 placed-event corpus."""
 
 from __future__ import annotations
 
-import hashlib
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
-from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parent
+REPO_ROOT = ROOT.parents[1]
 RELEASES = ROOT.parent / "data" / "releases"
+PREDICTED = REPO_ROOT / "module_03" / "predicted_v2.json"
+REFERENCE_MAP = REPO_ROOT / "module_03" / "2dot_map.html"
 TARGET = ROOT / "data.js"
 
-ALIASES = {
+GEOGRAPHIC_OVERRIDES = {
+    # Approximate Ambler Road corridor placement, not an incident coordinate.
+    "R847": {"coordinates": [67.5, -156.0], "display_location": "Alaska, United States"},
+}
+
+DATE_OVERRIDES = {
+    # The stored evidence says the Replicator initiative was unveiled in August 2023.
+    "R873": {"date": "2023-08", "basis": "reported month in source"},
+}
+
+COUNTRY_ALIASES = {
     "United States": "United States of America",
     "Palestinian Territories": "Palestine",
     "Hong Kong": "Hong Kong S.A.R.",
     "Serbia": "Republic of Serbia",
 }
-EU_PLACEMENTS = ["Austria", "Belgium", "Czechia", "Denmark", "Estonia", "France", "Germany", "Hungary", "Ireland", "Italy", "Netherlands", "Poland", "Slovakia", "Spain", "Sweden"]
-GLOBAL_PLACEMENTS = ["Argentina", "Australia", "Brazil", "Canada", "China", "France", "Germany", "India", "Indonesia", "Japan", "Kenya", "Mexico", "Nigeria", "Philippines", "South Africa", "South Korea", "United Kingdom", "United States of America"]
 
 
-def load(name: str):
-    return json.loads((RELEASES / name).read_text())
+def load_json(path: Path):
+    return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
 def clean(value) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def choose(report_id: str, values: list[str]) -> str:
-    digest = hashlib.sha256(report_id.encode()).digest()
-    return values[int.from_bytes(digest[:4], "big") % len(values)]
+def extract_reference_data() -> tuple[list[dict], list[dict]]:
+    html = REFERENCE_MAP.read_text(encoding="utf-8")
+    records_match = re.search(r"var RECORDS = (\[.*?\]), FILTERS = ", html, re.S)
+    filters_match = re.search(r", FILTERS = (\[.*?\]);\n  var TOTAL", html, re.S)
+    if not records_match or not filters_match:
+        raise ValueError("Could not read RECORDS/FILTERS from 2dot_map.html")
+    return json.loads(records_match.group(1)), json.loads(filters_match.group(1))
 
 
-def placement(country: str, report_id: str) -> str:
-    if country == "Global":
-        return choose(report_id, GLOBAL_PLACEMENTS)
-    if country == "European Union":
-        return choose(report_id, EU_PLACEMENTS)
-    return ALIASES.get(country, country)
+def harm_labels(event: dict) -> tuple[str, ...]:
+    labels = []
+    for harm in event.get("harm_category") or []:
+        code = clean(harm.get("subcategory_id"))
+        name = clean(harm.get("subcategory"))
+        labels.append(f"{code}  {name}".strip())
+    return tuple(labels)
 
 
-def classifications(row: dict) -> list[dict]:
-    value = row.get("classification") or row.get("classifications") or []
-    return [value] if isinstance(value, dict) else value
+def exact_key(event: dict) -> tuple:
+    return (
+        clean(event.get("source")),
+        clean(event.get("original_evidence_span")),
+        clean(event.get("event_date")),
+        harm_labels(event),
+    )
 
 
-def title_from_url(url: str) -> str:
-    slug = unquote(urlparse(url).path).rstrip("/").rsplit("/", 1)[-1]
-    slug = re.sub(r"\.(?:html?|php)$", "", slug, flags=re.I)
-    slug = clean(re.sub(r"[-_]+", " ", slug))
-    return (slug[:1].upper() + slug[1:]) if slug else "Documented AI harm report"
+def reference_key(record: dict) -> tuple:
+    return (clean(record.get("u")), clean(record.get("s")), clean(record.get("d")), tuple(record.get("h") or []))
 
 
-def metadata_summary(row: dict, annotation: dict | None, harms: list[str], country: str, date: str) -> str:
-    if annotation:
-        statements = [clean(annotation.get("action")), clean(annotation.get("consequence"))]
-        summary = ". ".join(value.rstrip(".") for value in statements if value)
-        if summary:
-            return summary + "."
-    status = clean(row.get("occurrence_status")) or "documented"
-    labels = ", ".join(harms) or "an unmapped AI harm category"
-    host = urlparse(clean(row.get("source_url"))).hostname or "the linked source"
-    return f"A {status} AI harm report in {country}, classified as {labels}. Published {date or 'on an unspecified date'} by {host}."
+def loose_key(event: dict) -> tuple:
+    return (clean(event.get("source")), clean(event.get("original_evidence_span")), clean(event.get("event_date")))
 
 
-def build_record(row: dict, annotation: dict | None) -> dict:
-    report_id = clean(row.get("report_id"))
-    cats = classifications(row)
-    branches = list(dict.fromkeys(clean(c.get("branch")) for c in cats if clean(c.get("branch")) != "UNMAPPED"))
-    harms = []
-    for category in cats:
-        name = clean(category.get("subcategory"))
-        code = clean(category.get("subcategory_id"))
-        if name:
-            harms.append(f"{code}  {name}" if code else name)
-    durations = list(dict.fromkeys(clean(c.get("event_type")) for c in cats if clean(c.get("event_type"))))
-    country = clean(row.get("country")) or clean((annotation or {}).get("location")) or "Global"
-    date = clean((annotation or {}).get("event_date")) or clean(row.get("publication_date"))
-    return {
-        "i": report_id,
-        "k": country,
-        "p": placement(country, report_id),
-        "b": branches,
-        "h": harms,
-        "t": clean((annotation or {}).get("event_type")) or title_from_url(clean(row.get("source_url"))),
-        "s": metadata_summary(row, annotation, harms, country, date),
-        "u": clean(row.get("source_url")),
-        "d": date,
-        "e": ", ".join(durations) or "Not specified",
-    }
+def choose_candidate(candidates: list[dict], map_country: str, raw_by_id: dict[str, dict]) -> dict:
+    for candidate in candidates:
+        raw_country = clean(raw_by_id.get(candidate["report_id"], {}).get("country"))
+        if COUNTRY_ALIASES.get(raw_country, raw_country) == map_country:
+            return candidate
+    return candidates[0]
+
+
+def browser_filters(reference_filters: list[dict]) -> list[dict]:
+    current_branch = None
+    filters = []
+    for item in reference_filters:
+        if item["k"] == "b":
+            current_branch = item["v"]
+        filters.append({"k": item["k"], "v": item["v"], "b": current_branch})
+    return filters
 
 
 def main() -> None:
     existing = json.loads(TARGET.read_text().removeprefix("window.MAP_SAMPLE = ").strip().removesuffix(";"))
-    raw = load("ground_truth_raw.json")
-    annotations = {row["report_id"]: row for row in load("ground_truth_annotated.json")}
-    rows = raw + load("validation_data.json")
-    ids = [clean(row.get("report_id")) for row in rows]
-    if len(rows) != 3041 or len(set(ids)) != 3041 or any(not value for value in ids):
-        raise ValueError("Expected exactly 3,041 unique report IDs")
-    records = [build_record(row, annotations.get(row.get("report_id"))) for row in rows]
+    predicted = load_json(PREDICTED)
+    reference_records, reference_filters = extract_reference_data()
+    release_rows = load_json(RELEASES / "ground_truth_raw.json") + load_json(RELEASES / "validation_data.json")
+    raw_by_id = {row["report_id"]: row for row in release_rows}
+
+    exact = defaultdict(list)
+    loose = defaultdict(list)
+    for event in predicted:
+        exact[exact_key(event)].append(event)
+        loose[loose_key(event)].append(event)
+
+    used_ids = set()
+    records = []
+    for reference in reference_records:
+        candidates = [event for event in exact.get(reference_key(reference), []) if event["report_id"] not in used_ids]
+        if not candidates:
+            key = (clean(reference.get("u")), clean(reference.get("s")), clean(reference.get("d")))
+            candidates = [event for event in loose.get(key, []) if event["report_id"] not in used_ids]
+        if not candidates:
+            raise ValueError(f"Could not recover stable report ID for {reference.get('u')}")
+        event = choose_candidate(candidates, reference["k"], raw_by_id)
+        report_id = event["report_id"]
+        used_ids.add(report_id)
+        raw = raw_by_id.get(report_id, {})
+        date_override = DATE_OVERRIDES.get(report_id)
+        publication_date = clean(raw.get("publication_date"))
+        display_date = date_override["date"] if date_override else publication_date or clean(event.get("event_date"))
+        context = {
+            "occurrenceStatus": clean(raw.get("occurrence_status")),
+            "publicationDate": publication_date,
+            "sourceLanguage": clean(raw.get("source_language")),
+            "dateBasis": date_override["basis"] if date_override else "publication date",
+            "extractedEventDate": clean(event.get("event_date")),
+            "organization": clean(event.get("organization")),
+            "aiSystem": clean(event.get("ai_system")),
+            "affectedGroup": clean(event.get("affected_group")),
+            "action": clean(event.get("action")),
+            "consequence": clean(event.get("consequence")),
+        }
+        record = {
+            "i": report_id,
+            "k": reference["k"],
+            "p": reference["k"],
+            "b": reference["b"],
+            "h": reference["h"],
+            "t": reference["t"],
+            "s": reference["s"],
+            "u": reference["u"],
+            "d": display_date,
+            "e": reference["e"],
+            "x": {key: value for key, value in context.items() if value},
+        }
+        override = GEOGRAPHIC_OVERRIDES.get(report_id)
+        if override:
+            record["c"] = override["coordinates"]
+            record["l"] = override["display_location"]
+        records.append(record)
+
+    if len(records) != 2845 or len(used_ids) != 2845:
+        raise ValueError(f"Expected 2,845 unique placed reports, found {len(records)} records and {len(used_ids)} IDs")
+    countries = {record["k"] for record in records}
+    if len(countries) != 81:
+        raise ValueError(f"Expected 81 countries, found {len(countries)}")
     geometry_names = {feature["properties"]["Country"] for feature in existing["countries"]["features"]}
-    missing = sorted({record["p"] for record in records} - geometry_names)
-    if missing:
-        raise ValueError(f"Missing map geometry: {missing}")
-    output = {"records": records, "filters": existing["filters"], "ramps": existing["ramps"], "countries": existing["countries"]}
+    missing_geometry = sorted(countries - geometry_names)
+    if missing_geometry:
+        raise ValueError(f"Missing map geometry: {missing_geometry}")
+
+    output = {
+        "records": records,
+        "filters": browser_filters(reference_filters),
+        "ramps": existing["ramps"],
+        "countries": existing["countries"],
+    }
     TARGET.write_text("window.MAP_SAMPLE = " + json.dumps(output, ensure_ascii=False, separators=(",", ":")) + ";\n")
-    print(f"Wrote {len(records):,} reports to {TARGET}")
+    print(f"Wrote {len(records):,} reports across {len(countries)} countries to {TARGET}")
 
 
 if __name__ == "__main__":

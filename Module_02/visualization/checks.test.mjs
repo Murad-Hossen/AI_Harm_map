@@ -34,6 +34,8 @@ test('clicking a selected event dot clears the selection', () => {
   assert.equal(evaluate('toggleEventSelection(42, null)'), 42);
   assert.equal(evaluate('toggleEventSelection(42, 42)'), null);
   assert.equal(evaluate('toggleEventSelection(42, 17)'), 42);
+  assert.doesNotMatch(source, /dimmed|fillOpacity: dimmed|opacity: dimmed/);
+  assert.match(source, /fillOpacity: 0\.88,[\s\S]*?opacity: 1/);
 });
 
 test('event hover summaries stay between 50 and 70 characters', () => {
@@ -46,11 +48,18 @@ test('every event receives a stable position inside its display-placement countr
   assert.equal(evaluate('eventPositions.size'), evaluate('records.length'));
   assert.equal(evaluate(`records.every(record => {
     const position = eventPositions.get(record.displayId);
+    if (record.c) return position[0] === record.c[0] && position[1] === record.c[1];
     const point = [position[1], position[0]];
     return pointInPolygon(point, primaryPolygon(countryFeatures.get(record.p || record.k)));
   })`), true);
   assert.equal(evaluate(`(() => {
-    const positions = records.filter(record => record.k === 'United States').map(record => eventPositions.get(record.displayId));
+    const alaska = records.find(record => record.i === 'R847');
+    return alaska.l === 'Alaska, United States'
+      && alaska.c[0] === 67.5 && alaska.c[1] === -156
+      && eventPositions.get(alaska.displayId).join(',') === '67.5,-156';
+  })()`), true);
+  assert.equal(evaluate(`(() => {
+    const positions = records.filter(record => record.k === 'United States' && !record.c).map(record => eventPositions.get(record.displayId));
     return new Set(positions.map(point => point.join(','))).size === positions.length
       && positions.every(([lat, lon]) => lat >= 25 && lat <= 50 && lon >= -125 && lon <= -66);
   })()`), true);
@@ -65,11 +74,12 @@ test('quick ranges anchor to the end month and clamp to 2021', () => {
   assert.equal(evaluate('presetRange("all", readMonth("2022-06")).end === maxMonth'), true);
 });
 
-test('default view keeps all 3,041 release reports overlapping 2021–2026', () => {
-  assert.equal(evaluate('records.length'), 3041);
-  assert.equal(evaluate('new Set(records.map(record => record.i)).size'), 3041);
-  assert.equal(evaluate('results().length'), 3041);
+test('default view keeps all 2,845 notebook-placed reports across 81 countries', () => {
+  assert.equal(evaluate('records.length'), 2845);
+  assert.equal(evaluate('new Set(records.map(record => record.i)).size'), 2845);
+  assert.equal(evaluate('results().length'), 2845);
   assert.equal(evaluate('results().every(r => r.date && r.date.end >= minMonth && r.date.start <= maxMonth)'), true);
+  assert.equal(evaluate('new Set(records.map(record => record.k)).size'), 81);
   assert.doesNotMatch(source, /state\.limit|list\.slice\(/);
 });
 
@@ -102,23 +112,33 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /id="map-theme-toggle" class="map-theme-toggle"/);
   assert.match(html, /<body class="map-expanded">/);
   assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
-  assert.match(html, /styles\.css\?v=20260920-7/);
-  assert.match(html, /data\.js\?v=20260920-1/);
-  assert.match(html, /app\.js\?v=20260920-6/);
+  assert.match(html, /styles\.css\?v=20260922-10/);
+  assert.match(html, /data\.js\?v=20260922-11/);
+  assert.match(html, /app\.js\?v=20260922-11/);
   assert.match(html, /phtkg_patterns\.js\?v=20260920-4/);
   assert.doesNotMatch(html, /id="expand-map"|class="map-expand"/);
   assert.match(source, /mapTheme: 'dark'/);
   assert.match(source, /landLayer\?\.setStyle\(\{fillColor: light/);
   assert.match(html, /id="expanded-report" class="expanded-report"[^>]*hidden/);
-  assert.match(source, /Summary generated with LLM assistance/);
+  assert.match(source, /Summary generated with LLM assistance\. Verify details against the original source\./);
   assert.match(source, /link\.href = url\.href; link\.target = '_blank'; link\.rel = 'noopener noreferrer'/);
-  assert.match(source, /more reports in this country/);
+  assert.doesNotMatch(source, /more reports in this country/);
+  assert.match(source, /Related structural pattern/);
+  assert.doesNotMatch(source, /Structured event context|Documented action:|Reported consequence:/);
+  assert.match(source, /expanded-report-harm/);
+  assert.match(source, /label\.style\.color = colours\[branch\]/);
+  assert.equal(evaluate("records.filter(record => record.x?.action && record.x?.consequence).length"), 2845);
+  assert.equal(evaluate("records.find(record => record.i === 'R1517').s.length"), 621);
+  assert.equal(evaluate("records.find(record => record.i === 'R873').d"), '2023-08');
+  assert.equal(evaluate("records.find(record => record.i === 'R873').x.dateBasis"), 'reported month in source');
   assert.match(html, /class="expanded-map-title"[^>]*>[^<]*<span>◉<\/span> AI HARM MAP<\/div>/);
   assert.match(source, /\$\('expanded-coverage-period'\)\.textContent = periodText/);
   assert.match(html, /class="expanded-map-stats"[\s\S]*?id="expanded-coverage-period"/);
   assert.match(source, /\[\$\('categories'\), \$\('expanded-categories'\)\]/);
   assert.match(read('styles.css'), /\.map-wrap:fullscreen #map, \.map-wrap\.map-expanded #map \{ right: 298px; width: auto; \}/);
   assert.match(read('styles.css'), /\.expanded-taxonomy \{[^}]*height: calc\(66\.667dvh - 133\.333px\)/);
+  assert.match(read('styles.css'), /\.expanded-report \{[^}]*right: 378px/);
+  assert.match(read('styles.css'), /\.map-filter-tray \{[^}]*width: min\(350px/);
   assert.match(read('styles.css'), /\.expanded-categories \.all-categories \{[^}]*position: sticky/);
   assert.match(source, /workspace\.classList\.add\('report-open'\)/);
   assert.match(source, /radius: selected \? 2\.5 : 1\.75/);
