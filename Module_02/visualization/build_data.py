@@ -14,6 +14,8 @@ RELEASES = ROOT.parent / "data" / "releases"
 PREDICTED = REPO_ROOT / "module_03" / "predicted_v2.json"
 REFERENCE_MAP = REPO_ROOT / "module_03" / "2dot_map.html"
 TARGET = ROOT / "data.js"
+RECORD_CHUNK_SIZE = 400
+COUNTRY_CHUNK_SIZE = 20
 
 GEOGRAPHIC_OVERRIDES = {
     # Approximate Ambler Road corridor placement, not an incident coordinate.
@@ -94,6 +96,49 @@ def browser_filters(reference_filters: list[dict]) -> list[dict]:
     return filters
 
 
+def write_browser_chunks(output: dict) -> None:
+    """Write small script assets for proxies that time out on the full data.js."""
+    for old_chunk in ROOT.glob("data-records-*.js"):
+        old_chunk.unlink()
+    for old_chunk in ROOT.glob("data-countries-*.js"):
+        old_chunk.unlink()
+
+    (ROOT / "data-bootstrap.js").write_text(
+        "window.MAP_DATA_RECORDS=[];window.MAP_DATA_COUNTRIES=[];\n",
+        encoding="utf-8",
+    )
+    for index, start in enumerate(range(0, len(output["records"]), RECORD_CHUNK_SIZE), 1):
+        chunk = output["records"][start : start + RECORD_CHUNK_SIZE]
+        (ROOT / f"data-records-{index:02d}.js").write_text(
+            "window.MAP_DATA_RECORDS.push(..."
+            + json.dumps(chunk, ensure_ascii=False, separators=(",", ":"))
+            + ");\n",
+            encoding="utf-8",
+        )
+
+    country_features = output["countries"]["features"]
+    for index, start in enumerate(range(0, len(country_features), COUNTRY_CHUNK_SIZE), 1):
+        chunk = country_features[start : start + COUNTRY_CHUNK_SIZE]
+        (ROOT / f"data-countries-{index:02d}.js").write_text(
+            "window.MAP_DATA_COUNTRIES.push(..."
+            + json.dumps(chunk, ensure_ascii=False, separators=(",", ":"))
+            + ");\n",
+            encoding="utf-8",
+        )
+
+    (ROOT / "data-finalize.js").write_text(
+        "window.MAP_SAMPLE={records:window.MAP_DATA_RECORDS,filters:"
+        + json.dumps(output["filters"], ensure_ascii=False, separators=(",", ":"))
+        + ",ramps:"
+        + json.dumps(output["ramps"], ensure_ascii=False, separators=(",", ":"))
+        + ",countries:{type:"
+        + json.dumps(output["countries"].get("type", "FeatureCollection"))
+        + ",features:window.MAP_DATA_COUNTRIES}};"
+        + "delete window.MAP_DATA_RECORDS;delete window.MAP_DATA_COUNTRIES;\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     existing = json.loads(TARGET.read_text().removeprefix("window.MAP_SAMPLE = ").strip().removesuffix(";"))
     predicted = load_json(PREDICTED)
@@ -171,6 +216,7 @@ def main() -> None:
         "countries": existing["countries"],
     }
     TARGET.write_text("window.MAP_SAMPLE = " + json.dumps(output, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    write_browser_chunks(output)
     print(f"Wrote {len(records):,} reports across {len(countries)} countries to {TARGET}")
 
 

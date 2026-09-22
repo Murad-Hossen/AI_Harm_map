@@ -1,0 +1,1 @@
+window.MAP_DATA_RECORDS=[];window.MAP_DATA_COUNTRIES=[];

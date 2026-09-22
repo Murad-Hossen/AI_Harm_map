@@ -113,8 +113,9 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /<body class="map-expanded">/);
   assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
   assert.match(html, /styles\.css\?v=20260922-10/);
-  assert.match(html, /data\.js\?v=20260922-11/);
-  assert.match(html, /app\.js\?v=20260922-11/);
+  assert.match(html, /data-bootstrap\.js\?v=20260922-12/);
+  assert.match(html, /data-finalize\.js\?v=20260922-12/);
+  assert.match(html, /app\.js\?v=20260922-12/);
   assert.match(html, /phtkg_patterns\.js\?v=20260920-4/);
   assert.doesNotMatch(html, /id="expand-map"|class="map-expand"/);
   assert.match(source, /mapTheme: 'dark'/);
