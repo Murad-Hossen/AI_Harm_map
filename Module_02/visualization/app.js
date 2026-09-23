@@ -242,7 +242,30 @@ function renderMarkers() {
     const selected = state.selected === record.displayId;
     const category = state.category === null ? record.b[0] : sample.filters[state.category].b;
     const colour = colours[category] || colours.__neutral__ || '#64748b';
-    const description = `${record.t} · ${record.k} · ${record.d || 'Date not supplied'}`;
+    const selectRecord = () => {
+      pause();
+      state.selected = toggleEventSelection(record.displayId, state.selected);
+      render();
+      if (state.selected !== null && !isMapExpanded()) revealReports();
+    };
+    const tooltip = () => element('div', 'event-tooltip-summary', compactEventSummary(record));
+
+    // Keep visual marks compact, while giving each event an 8px invisible
+    // target for mouse and touch selection.
+    const hitTarget = L.circleMarker(eventPositions.get(record.displayId), {
+      radius: 8,
+      stroke: false,
+      fill: true,
+      fillOpacity: 0,
+      opacity: 0,
+      bubblingMouseEvents: false
+    });
+    hitTarget.bindTooltip(tooltip, {direction: 'top', offset: [0, -8]});
+    hitTarget.on('click', selectRecord);
+    hitTarget.on('mouseover', () => { map.getContainer().style.cursor = 'pointer'; });
+    hitTarget.on('mouseout', () => { map.getContainer().style.cursor = ''; });
+    hitTarget.addTo(markerLayer);
+
     const marker = L.circleMarker(eventPositions.get(record.displayId), {
       radius: selected ? 2.5 : 1.75,
       color: selected ? '#ffffff' : colour,
@@ -252,13 +275,8 @@ function renderMarkers() {
       opacity: 1,
       bubblingMouseEvents: false
     });
-    marker.bindTooltip(() => element('div', 'event-tooltip-summary', compactEventSummary(record)), {direction: 'top', offset: [0, -8]});
-    marker.on('click', () => {
-      pause();
-      state.selected = toggleEventSelection(record.displayId, state.selected);
-      render();
-      if (state.selected !== null && !isMapExpanded()) revealReports();
-    });
+    marker.bindTooltip(tooltip, {direction: 'top', offset: [0, -8]});
+    marker.on('click', selectRecord);
     marker.addTo(markerLayer);
   });
 }
