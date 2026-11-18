@@ -6,7 +6,7 @@ map. The optional web font falls back to the system font. Reports and country
 geometry are local in `data.js`. Run `python3 build_data.py` to regenerate the
 browser data from the frozen release corpus.
 
-The prototype preserves all 3,041 unique release reports. Enriched action and
+The prototype shows the 2,527 placed reports of the deduplicated 2,686-case release. Enriched action and
 consequence fields are used for the annotated 1,162-report partition; the
 remaining release records use browser-safe summaries derived from structured
 metadata. The browser does not run PHTKG.

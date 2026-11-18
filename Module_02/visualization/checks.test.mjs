@@ -74,10 +74,10 @@ test('quick ranges anchor to the end month and clamp to 2021', () => {
   assert.equal(evaluate('presetRange("all", readMonth("2022-06")).end === maxMonth'), true);
 });
 
-test('default view keeps all 2,845 notebook-placed reports across 81 countries', () => {
-  assert.equal(evaluate('records.length'), 2845);
-  assert.equal(evaluate('new Set(records.map(record => record.i)).size'), 2845);
-  assert.equal(evaluate('results().length'), 2845);
+test('default view keeps all 2,527 notebook-placed reports across 81 countries', () => {
+  assert.equal(evaluate('records.length'), 2527);
+  assert.equal(evaluate('new Set(records.map(record => record.i)).size'), 2527);
+  assert.equal(evaluate('results().length'), 2527);
   assert.equal(evaluate('results().every(r => r.date && r.date.end >= minMonth && r.date.start <= maxMonth)'), true);
   assert.equal(evaluate('new Set(records.map(record => record.k)).size'), 81);
   assert.doesNotMatch(source, /state\.limit|list\.slice\(/);
@@ -113,8 +113,8 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /<body class="map-expanded">/);
   assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
   assert.match(html, /styles\.css\?v=20260922-10/);
-  assert.match(html, /data-bootstrap\.js\?v=20260922-12/);
-  assert.match(html, /data-finalize\.js\?v=20260922-12/);
+  assert.match(html, /data-bootstrap\.js\?v=20261118-dedup/);
+  assert.match(html, /data-finalize\.js\?v=20261118-dedup/);
   assert.match(html, /app\.js\?v=20260923-13/);
   assert.match(html, /phtkg_patterns\.js\?v=20260920-4/);
   assert.doesNotMatch(html, /id="expand-map"|class="map-expand"/);
@@ -128,7 +128,7 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.doesNotMatch(source, /Structured event context|Documented action:|Reported consequence:/);
   assert.match(source, /expanded-report-harm/);
   assert.match(source, /label\.style\.color = colours\[branch\]/);
-  assert.equal(evaluate("records.filter(record => record.x?.action && record.x?.consequence).length"), 2845);
+  assert.equal(evaluate("records.filter(record => record.x?.action && record.x?.consequence).length"), 2527);
   assert.equal(evaluate("records.find(record => record.i === 'R1517').s.length"), 621);
   assert.equal(evaluate("records.find(record => record.i === 'R873').d"), '2023-08');
   assert.equal(evaluate("records.find(record => record.i === 'R873').x.dateBasis"), 'reported month in source');

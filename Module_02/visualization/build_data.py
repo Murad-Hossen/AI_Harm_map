@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build browser map data from the notebook's final 2,845 placed-event corpus."""
+"""Build browser map data from the deduplicated 2,527 placed-event corpus."""
 
 from __future__ import annotations
 
@@ -15,6 +15,9 @@ PREDICTED = REPO_ROOT / "module_03" / "predicted_v2.json"
 REFERENCE_MAP = REPO_ROOT / "module_03" / "2dot_map.html"
 TARGET = ROOT / "data.js"
 RECORD_CHUNK_SIZE = 400
+# After removing the 352 duplicated Guardian records (R2195-R2546).
+EXPECTED_PLACED = 2527
+EXPECTED_COUNTRIES = 81
 COUNTRY_CHUNK_SIZE = 20
 
 GEOGRAPHIC_OVERRIDES = {
@@ -199,10 +202,10 @@ def main() -> None:
             record["l"] = override["display_location"]
         records.append(record)
 
-    if len(records) != 2845 or len(used_ids) != 2845:
-        raise ValueError(f"Expected 2,845 unique placed reports, found {len(records)} records and {len(used_ids)} IDs")
+    if len(records) != EXPECTED_PLACED or len(used_ids) != EXPECTED_PLACED:
+        raise ValueError(f"Expected {EXPECTED_PLACED:,} unique placed reports, found {len(records)} records and {len(used_ids)} IDs")
     countries = {record["k"] for record in records}
-    if len(countries) != 81:
+    if len(countries) != EXPECTED_COUNTRIES:
         raise ValueError(f"Expected 81 countries, found {len(countries)}")
     geometry_names = {feature["properties"]["Country"] for feature in existing["countries"]["features"]}
     missing_geometry = sorted(countries - geometry_names)
