@@ -5,33 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Harm Map · Explore documented harms</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=20260922-10">
+  <link rel="stylesheet" href="styles.css?v=20261118-ui">
   <script defer src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-  <script defer src="data-bootstrap.js?v=20261118-dedup"></script>
-  <script defer src="data-records-01.js?v=20261118-dedup"></script>
-  <script defer src="data-records-02.js?v=20261118-dedup"></script>
-  <script defer src="data-records-03.js?v=20261118-dedup"></script>
-  <script defer src="data-records-04.js?v=20261118-dedup"></script>
-  <script defer src="data-records-05.js?v=20261118-dedup"></script>
-  <script defer src="data-records-06.js?v=20261118-dedup"></script>
-  <script defer src="data-records-07.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-01.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-02.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-03.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-04.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-05.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-06.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-07.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-08.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-09.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-10.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-11.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-12.js?v=20261118-dedup"></script>
-  <script defer src="data-countries-13.js?v=20261118-dedup"></script>
-  <script defer src="data-finalize.js?v=20261118-dedup"></script>
+  <script defer src="data-bootstrap.js?v=20261118-ui"></script>
+  <script defer src="data-records-01.js?v=20261118-ui"></script>
+  <script defer src="data-records-02.js?v=20261118-ui"></script>
+  <script defer src="data-records-03.js?v=20261118-ui"></script>
+  <script defer src="data-records-04.js?v=20261118-ui"></script>
+  <script defer src="data-records-05.js?v=20261118-ui"></script>
+  <script defer src="data-records-06.js?v=20261118-ui"></script>
+  <script defer src="data-records-07.js?v=20261118-ui"></script>
+  <script defer src="data-countries-01.js?v=20261118-ui"></script>
+  <script defer src="data-countries-02.js?v=20261118-ui"></script>
+  <script defer src="data-countries-03.js?v=20261118-ui"></script>
+  <script defer src="data-countries-04.js?v=20261118-ui"></script>
+  <script defer src="data-countries-05.js?v=20261118-ui"></script>
+  <script defer src="data-countries-06.js?v=20261118-ui"></script>
+  <script defer src="data-countries-07.js?v=20261118-ui"></script>
+  <script defer src="data-countries-08.js?v=20261118-ui"></script>
+  <script defer src="data-countries-09.js?v=20261118-ui"></script>
+  <script defer src="data-countries-10.js?v=20261118-ui"></script>
+  <script defer src="data-countries-11.js?v=20261118-ui"></script>
+  <script defer src="data-countries-12.js?v=20261118-ui"></script>
+  <script defer src="data-countries-13.js?v=20261118-ui"></script>
+  <script defer src="data-finalize.js?v=20261118-ui"></script>
   <script defer src="phtkg_patterns.js?v=20260920-4"></script>
   <script defer src="geography.js?v=20260920-1"></script>
-  <script defer src="app.js?v=20260923-13"></script>
+  <script defer src="app.js?v=20261118-ui"></script>
 </head>
 <body class="map-expanded">
   <a class="skip-link" href="#main-content">Skip to map and reports</a>
@@ -50,7 +50,18 @@
         <div id="categories" class="categories" role="region" aria-label="Scrollable harm categories" tabindex="0"></div>
         <p class="fine-print">A report can have several harm categories. Category counts may overlap.</p>
       </section></div>
-      <div class="coverage-note"><span class="eyebrow">ABOUT THIS VIEW</span><p>Explore documented reports from 2021 to 2026.</p><p>Counts describe this collection of reports, not the prevalence or severity of harm.</p></div>
+      <section class="year-view" aria-labelledby="year-view-title">
+        <div class="section-heading"><h3 id="year-view-title">Categories by year</h3><span class="eyebrow">REPORTS</span></div>
+        <div id="year-view-chart" class="year-view-chart"></div>
+        <p id="year-view-caption" class="fine-print"></p>
+        <p class="fine-print">Shares reflect what was reported, not how often harm occurs. *2026 covers January to July.</p>
+      </section>
+      <details class="unplaced-panel">
+        <summary>Reports without a single country <span id="unplaced-count"></span></summary>
+        <p class="fine-print">Global, online or platform-wide harms are kept in the dataset but not drawn on the map.</p>
+        <ul id="unplaced-list" class="unplaced-list"></ul>
+      </details>
+      <div class="coverage-note"><span class="eyebrow">ABOUT THIS VIEW</span><p id="coverage-sources">27 English-language news domains, January 2021 to July 2026.</p><p id="coverage-placement"></p><p id="coverage-updated"></p><p>Counts describe this collection of reports, not the prevalence or severity of harm. Empty regions are gaps in reporting.</p></div>
     </aside>
     <section class="central" aria-label="Geography and time">
       <div class="map-stats" aria-live="polite"><div><strong id="visible-count">—</strong><span>matching reports</span></div><div><strong id="country-count">—</strong><span>countries</span></div><div><strong>2021–2026</strong><span>coverage period</span></div></div>

@@ -15,6 +15,11 @@ PREDICTED = REPO_ROOT / "module_03" / "predicted_v2.json"
 REFERENCE_MAP = REPO_ROOT / "module_03" / "2dot_map.html"
 TARGET = ROOT / "data.js"
 RECORD_CHUNK_SIZE = 400
+MODULE_01 = REPO_ROOT / "module_01"
+# Optional {source_url: original headline}. Without it, hover titles fall back to the cleaned URL slug.
+HEADLINES = ROOT / "headlines.json"
+SOURCE_DOMAINS = 27
+LAST_UPDATED = __import__("datetime").date.today().isoformat()
 # After removing the 352 duplicated Guardian records (R2195-R2546).
 EXPECTED_PLACED = 2527
 EXPECTED_COUNTRIES = 81
@@ -53,6 +58,36 @@ def extract_reference_data() -> tuple[list[dict], list[dict]]:
     if not records_match or not filters_match:
         raise ValueError("Could not read RECORDS/FILTERS from 2dot_map.html")
     return json.loads(records_match.group(1)), json.loads(filters_match.group(1))
+
+
+def publication_dates() -> dict[str, str]:
+    """source_url -> publication date, from the classifier outputs in module_01."""
+    dates = {}
+    for path in sorted(MODULE_01.rglob("*.json")):
+        try:
+            rows = load_json(path)
+        except (ValueError, UnicodeDecodeError):
+            continue
+        if not isinstance(rows, list):
+            continue
+        for row in rows:
+            if isinstance(row, dict) and row.get("source_url") and row.get("publication_date"):
+                dates.setdefault(clean(row["source_url"]), clean(row["publication_date"]))
+    return dates
+
+
+ACRONYMS = {"ai", "us", "uk", "eu", "un", "nhs", "idf", "gps", "llm", "llms", "gpt", "fbi", "ice", "dhs", "cbp", "nyc", "bbc", "abc", "nsa", "cia", "faa", "ftc", "sec", "lapd", "nypd"}
+
+
+def slug_headline(url: str, fallback: str) -> str:
+    """Readable headline from the article URL slug (used when no stored headline exists)."""
+    slug = re.sub(r"\.(html?|php|aspx?)$", "", url.rstrip("/").rsplit("/", 1)[-1])
+    words = [w for w in re.split(r"[-_+]+", slug) if w and not re.fullmatch(r"[0-9a-f]{6,}|\d{5,}", w)]
+    if len(words) < 3:
+        return fallback
+    words = [w.upper() if w.lower() in ACRONYMS else w for w in words]
+    text = " ".join(words)
+    return text[:1].upper() + text[1:]
 
 
 def harm_labels(event: dict) -> tuple[str, ...]:
@@ -132,6 +167,10 @@ def write_browser_chunks(output: dict) -> None:
     (ROOT / "data-finalize.js").write_text(
         "window.MAP_SAMPLE={records:window.MAP_DATA_RECORDS,filters:"
         + json.dumps(output["filters"], ensure_ascii=False, separators=(",", ":"))
+        + ",meta:"
+        + json.dumps(output["meta"], ensure_ascii=False, separators=(",", ":"))
+        + ",unplaced:"
+        + json.dumps(output["unplaced"], ensure_ascii=False, separators=(",", ":"))
         + ",ramps:"
         + json.dumps(output["ramps"], ensure_ascii=False, separators=(",", ":"))
         + ",countries:{type:"
@@ -149,6 +188,8 @@ def main() -> None:
     release_rows = load_json(RELEASES / "ground_truth_raw.json") + load_json(RELEASES / "validation_data.json")
     raw_by_id = {row["report_id"]: row for row in release_rows}
 
+    pub_dates = publication_dates()
+    stored_headlines = load_json(HEADLINES) if HEADLINES.exists() else {}
     exact = defaultdict(list)
     loose = defaultdict(list)
     for event in predicted:
@@ -183,8 +224,12 @@ def main() -> None:
             "action": clean(event.get("action")),
             "consequence": clean(event.get("consequence")),
         }
+        url = clean(reference["u"])
+        headline = clean(stored_headlines.get(url)) or slug_headline(url, reference["t"])
         record = {
             "i": report_id,
+            "hd": headline,
+            "pd": pub_dates.get(url, ""),
             "k": reference["k"],
             "p": reference["k"],
             "b": reference["b"],
@@ -212,7 +257,35 @@ def main() -> None:
     if missing_geometry:
         raise ValueError(f"Missing map geometry: {missing_geometry}")
 
+    placed_urls = {clean(record["u"]) for record in records}
+    unplaced = []
+    for event in predicted:
+        url = clean(event.get("source"))
+        if url in placed_urls:
+            continue
+        labels = list(harm_labels(event))
+        unplaced.append({
+            "i": event["report_id"],
+            "hd": slug_headline(url, clean(event.get("event_type")) or url),
+            "u": url,
+            "h": labels,
+            "b": sorted({clean(h.get("branch")) for h in event.get("harm_category") or []}),
+            "l": clean(event.get("location")),
+            "pd": pub_dates.get(url, ""),
+        })
+    us = sum(record["k"] == "United States of America" for record in records)
+    meta = {
+        "sourceDomains": SOURCE_DOMAINS,
+        "lastUpdated": LAST_UPDATED,
+        "cases": len(records) + len(unplaced),
+        "placed": len(records),
+        "unplaced": len(unplaced),
+        "countries": len(countries),
+        "usShare": round(100 * us / len(records)),
+    }
     output = {
+        "meta": meta,
+        "unplaced": unplaced,
         "records": records,
         "filters": browser_filters(reference_filters),
         "ramps": existing["ramps"],
@@ -220,7 +293,8 @@ def main() -> None:
     }
     TARGET.write_text("window.MAP_SAMPLE = " + json.dumps(output, ensure_ascii=False, separators=(",", ":")) + ";\n")
     write_browser_chunks(output)
-    print(f"Wrote {len(records):,} reports across {len(countries)} countries to {TARGET}")
+    print(f"Wrote {len(records):,} reports across {len(countries)} countries to {TARGET}; "
+          f"{len(unplaced)} unplaced reports listed separately; meta={meta}")
 
 
 if __name__ == "__main__":

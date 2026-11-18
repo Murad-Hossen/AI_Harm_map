@@ -235,6 +235,30 @@ function compactEventSummary(record, minimum = 50, maximum = 70) {
   }
   return headline;
 }
+// Hover title: the article headline, then one line naming the AI system,
+// the first harm subcategory and the affected group.
+function clip(value, maximum) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (text.length <= maximum) return text;
+  const cut = text.slice(0, maximum - 1);
+  return `${cut.slice(0, Math.max(cut.lastIndexOf(' '), maximum * 0.6))}…`;
+}
+function known(value) {
+  const text = String(value || '').trim();
+  return text && !/^not specified/i.test(text) ? text : '';
+}
+function hoverSummary(record) {
+  const context = record.x || {};
+  const harm = (record.h?.[0] || '').replace(/^\d\.\d\s+/, '');
+  return [clip(known(context.aiSystem), 38), clip(harm, 40), clip(known(context.affectedGroup), 38)].filter(Boolean).join(' · ');
+}
+function hoverTitle(record) {
+  const box = element('div', 'event-tooltip-summary');
+  box.append(element('strong', 'event-tooltip-headline', clip(record.hd || record.t, 90)));
+  const summary = hoverSummary(record);
+  if (summary) box.append(element('span', 'event-tooltip-line', summary));
+  return box;
+}
 function renderMarkers() {
   if (!markerLayer) return;
   markerLayer.clearLayers();
@@ -248,7 +272,7 @@ function renderMarkers() {
       render();
       if (state.selected !== null && !isMapExpanded()) revealReports();
     };
-    const tooltip = () => element('div', 'event-tooltip-summary', compactEventSummary(record));
+    const tooltip = () => hoverTitle(record);
 
     // Keep visual marks compact, while giving each event an 8px invisible
     // target for mouse and touch selection.
@@ -382,6 +406,73 @@ function renderExpandedReport(selected, list) {
 
 }
 
+const meta = sample.meta || {};
+const unplacedRecords = sample.unplaced || [];
+const branchOrder = ['Compute / Model Behavior', 'Data', 'Energy / Land', 'Labor', 'Deployment Context / Weapons'];
+const shortBranch = {'Compute / Model Behavior': 'Compute', 'Data': 'Data', 'Energy / Land': 'Energy', 'Labor': 'Labor', 'Deployment Context / Weapons': 'Weapons'};
+function yearCounts(category = state.category) {
+  const years = [2021, 2022, 2023, 2024, 2025, 2026];
+  const all = [...records, ...unplacedRecords];
+  return years.map(year => {
+    const inYear = all.filter(r => String(r.pd || '').startsWith(String(year)));
+    const tags = Object.fromEntries(branchOrder.map(b => [b, inYear.filter(r => (r.b || []).includes(b)).length]));
+    const selected = category === null ? null : inYear.filter(r => matchesCategory(r, category)).length;
+    return {year, cases: inYear.length, tags, selected};
+  });
+}
+function renderYearView() {
+  const container = $('year-view-chart');
+  if (!container) return;
+  container.replaceChildren();
+  const rows = yearCounts();
+  const filter = state.category === null ? null : sample.filters[state.category];
+  rows.forEach(row => {
+    const line = element('div', 'year-row');
+    line.append(element('span', 'year-label', row.year === 2026 ? '2026*' : String(row.year)));
+    const bar = element('div', 'year-bar');
+    const total = branchOrder.reduce((sum, b) => sum + row.tags[b], 0) || 1;
+    branchOrder.forEach(b => {
+      const part = element('i');
+      part.style.width = `${100 * row.tags[b] / total}%`;
+      part.style.background = colours[b];
+      if (filter && filter.b !== b) part.style.opacity = '0.25';
+      part.title = `${b}: ${row.tags[b]} of ${row.cases} reports (${Math.round(100 * row.tags[b] / row.cases || 0)}%)`;
+      bar.append(part);
+    });
+    line.append(bar);
+    const share = filter ? `${Math.round(100 * row.selected / (row.cases || 1))}%` : row.cases.toLocaleString();
+    line.append(element('span', 'year-count', share));
+    container.append(line);
+  });
+  $('year-view-caption').textContent = filter
+    ? `Share of each year's reports labeled “${filter.v}”.`
+    : 'Reports per publication year, split by category tag.';
+}
+function renderCoverage() {
+  if (!$('coverage-sources')) return;
+  $('coverage-sources').textContent = `${meta.sourceDomains || 27} English-language news domains, January 2021 to July 2026.`;
+  $('coverage-updated').textContent = meta.lastUpdated ? `Last updated ${new Date(`${meta.lastUpdated}T00:00:00Z`).toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'})}.` : '';
+  $('coverage-placement').textContent = `${(meta.placed || records.length).toLocaleString()} of ${(meta.cases || records.length).toLocaleString()} reports are placed in ${meta.countries || ''} countries; the United States holds ${meta.usShare ?? '—'}% of placed reports.`;
+}
+function renderUnplaced() {
+  const list = $('unplaced-list');
+  if (!list) return;
+  const shown = unplacedRecords.filter(r => matchesCategory(r));
+  $('unplaced-count').textContent = `(${shown.length})`;
+  list.replaceChildren();
+  shown.forEach(r => {
+    const item = element('li');
+    try {
+      const url = new URL(r.u);
+      if (!['http:', 'https:'].includes(url.protocol)) throw new Error('Unsupported source protocol');
+      const link = element('a', '', clip(r.hd, 90));
+      link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      item.append(link);
+    } catch { item.append(document.createTextNode(clip(r.hd, 90))); }
+    item.append(element('span', 'unplaced-meta', [r.l, (r.h || [])[0]].filter(Boolean).join(' · ')));
+    list.append(item);
+  });
+}
 function renderTimeSummary() {
   const context = records.filter(r => matchesCategory(r));
   $('undated-count').textContent = `(${context.filter(r => !r.date).length})`;
@@ -444,6 +535,7 @@ function render() {
   $('open-filters').textContent = state.category === null ? `Filter by category (${sample.filters.length})` : 'Filter by category · 1 selected';
   $('apply-filters').textContent = `Show ${list.length.toLocaleString()} reports`;
   renderLegend(); renderCategories(); syncTimeControls(); renderTimeSummary(); syncMapFilterControls();
+  renderYearView(); renderCoverage(); renderUnplaced();
   const selected = list.find(r => r.displayId === state.selected);
   renderExpandedReport(selected, list);
   const inspector = document.querySelector('.inspector');

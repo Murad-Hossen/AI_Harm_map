@@ -44,6 +44,30 @@ test('event hover summaries stay between 50 and 70 characters', () => {
   assert.equal(evaluate(`compactEventSummary({t: 'Sarah silverman paul tremblay openai chatgpt copyright lawsuit', b: [], k: ''})`), 'Sarah silverman paul tremblay openai chatgpt copyright lawsuit');
 });
 
+test('hover titles show the headline plus AI system, subcategory and affected group', () => {
+  assert.match(source, /const tooltip = \(\) => hoverTitle\(record\);/);
+  assert.equal(evaluate('records.every(record => (record.hd || record.t).length > 0)'), true);
+  assert.equal(evaluate('records.every(record => hoverSummary(record).length <= 130 && !hoverSummary(record).includes("Not specified"))'), true);
+  assert.equal(evaluate("hoverSummary({h: ['1.3  Misinformation / information hazard harm'], x: {aiSystem: 'Deepfake video', affectedGroup: 'Voters'}})"), 'Deepfake video · Misinformation / information hazard harm · Voters');
+  assert.equal(evaluate("hoverSummary({h: [], x: {aiSystem: 'Not specified in report', affectedGroup: 'Voters'}})"), 'Voters');
+});
+
+test('category-by-year view, coverage and unplaced list use the released counts', () => {
+  assert.equal(evaluate('meta.placed'), 2527);
+  assert.equal(evaluate('meta.unplaced'), 159);
+  assert.equal(evaluate('meta.cases'), 2686);
+  assert.equal(evaluate('meta.sourceDomains'), 27);
+  assert.match(evaluate('meta.lastUpdated'), /^\d{4}-\d{2}-\d{2}$/);
+  assert.equal(evaluate('unplacedRecords.length'), 159);
+  assert.equal(evaluate('records.every(record => /^\\d{4}-\\d{2}/.test(record.pd))'), true);
+  const rows = JSON.parse(evaluate('JSON.stringify(yearCounts(null))'));
+  assert.deepEqual(rows.map(r => r.cases), [113, 107, 375, 560, 776, 755]);
+  assert.equal(rows[5].tags['Energy / Land'], 94);
+  assert.equal(rows[4].tags['Energy / Land'], 54);
+  assert.match(html, /id="year-view-chart"/);
+  assert.match(html, /Shares reflect what was reported, not how often harm occurs/);
+});
+
 test('every event receives a stable position inside its display-placement country', () => {
   assert.equal(evaluate('eventPositions.size'), evaluate('records.length'));
   assert.equal(evaluate(`records.every(record => {
@@ -112,10 +136,10 @@ test('controls have unique targets and correctly associated labels', () => {
   assert.match(html, /id="map-theme-toggle" class="map-theme-toggle"/);
   assert.match(html, /<body class="map-expanded">/);
   assert.match(html, /class="map-wrap map-expanded" id="map-wrap"/);
-  assert.match(html, /styles\.css\?v=20260922-10/);
-  assert.match(html, /data-bootstrap\.js\?v=20261118-dedup/);
-  assert.match(html, /data-finalize\.js\?v=20261118-dedup/);
-  assert.match(html, /app\.js\?v=20260923-13/);
+  assert.match(html, /styles\.css\?v=20261118-ui/);
+  assert.match(html, /data-bootstrap\.js\?v=20261118-ui/);
+  assert.match(html, /data-finalize\.js\?v=20261118-ui/);
+  assert.match(html, /app\.js\?v=20261118-ui/);
   assert.match(html, /phtkg_patterns\.js\?v=20260920-4/);
   assert.doesNotMatch(html, /id="expand-map"|class="map-expand"/);
   assert.match(source, /mapTheme: 'dark'/);
